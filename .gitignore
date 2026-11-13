@@ -1,0 +1,19 @@
+.research/
+.private/
+dist/
+node_modules/
+*.log
+.DS_Store
+
+# Owner handoff notes and historical migration utility are not public site source.
+docs/
+scripts/seed.mjs
+
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+credentials*.json
+*_OWNER_REVIEW.zip
+*_PUBLIC_SOURCE.zip
