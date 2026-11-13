@@ -1,0 +1,35 @@
+{
+  "version": "0.4.0",
+  "reviewed_at": "2026-11-13",
+  "archive_snapshot": "2026-11-13",
+  "riddle": "To find out which comes next, the body is not enough. Assemble that which remains when it is gone.",
+  "progress_note": "The linked sources document R1–R5. They do not establish an R6 completion.",
+  "archive_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit",
+  "source_scope": "Routes and interpretation notes were updated from the 13 November spreadsheet: 115 route records and 26 readings. The older checklist was cross-checked for additional angles. These are source summaries and personal assessments; historical tests have not all been independently verified.",
+  "statuses": [
+    "Active",
+    "Watchlist",
+    "Parked",
+    "Needs verification",
+    "Retired",
+    "Resolved",
+    "Merged / Superseded"
+  ],
+  "evidence_labels": [
+    "Confirmed",
+    "Observed",
+    "Reported",
+    "Interpretation",
+    "Unverified"
+  ],
+  "testing_labels": [
+    "Not tested",
+    "Partially tested",
+    "Tested negative under specified conditions",
+    "Inconclusive",
+    "Verified positive result"
+  ],
+  "disclosure": "I used AI to help organize my research notes and draft this hub. It can make mistakes, so please check the linked sources and flag anything inaccurate. The theories are working interpretations, not confirmed answers.",
+  "interpretations_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113",
+  "site_name": "Dead Man's Hunt Research Archive"
+}

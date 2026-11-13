@@ -1,0 +1,870 @@
+[
+  {
+    "id": "R6I001",
+    "source_id": "I001",
+    "source_group": "Literal body",
+    "source_row": 2,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A2:L2",
+    "group_id": "literal",
+    "title": "Corpse or creature",
+    "meaning": "'Body' is a dead or dying entity; 'remains' means bones, drops, fragments or loot after death.",
+    "pros": "Natural wording and Frozen Corpse setting; mob death produces material.",
+    "cons": "Almost every mob fits. No named creature or recipe is identified.",
+    "check": "Find a clue selecting one entity and a distinct remaining drop.",
+    "assessment": "I think it's a sensible literal reading, but too broad for another random drop test.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R011",
+      "R014",
+      "R021",
+      "R040",
+      "R045"
+    ],
+    "theory_ids": [
+      "T007",
+      "T009",
+      "T014",
+      "T020"
+    ],
+    "experiment_ids": [
+      "E007",
+      "E013"
+    ],
+    "question_ids": [
+      "Q005"
+    ]
+  },
+  {
+    "id": "R6I002",
+    "source_id": "I002",
+    "source_group": "Literal body",
+    "source_row": 3,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A3:L3",
+    "group_id": "literal",
+    "title": "Soul, ghost or surviving effect",
+    "meaning": "The physical creature disappears, but a soul, spirit, buff or temporary effect remains.",
+    "pros": "'Body is not enough' contrasts physical and intangible survival.",
+    "cons": "Most soul-related items have broad negative tests; no assembly target.",
+    "check": "Identify one named effect surviving a specific disappearance.",
+    "assessment": "I would reopen this only if we find an actual survivor and how to combine it.",
+    "status": "Parked",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R037",
+      "R062",
+      "R072",
+      "R075",
+      "R079"
+    ],
+    "theory_ids": [
+      "T022",
+      "T024"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q005"
+    ]
+  },
+  {
+    "id": "R6I003",
+    "source_id": "I003",
+    "source_group": "Literal body",
+    "source_row": 4,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A4:L4",
+    "group_id": "literal",
+    "title": "Corpse possessions and recovered loot",
+    "meaning": "What remains is the dead person's belongings, not their body.",
+    "pros": "R1's chestplate and journal are found through Frozen Corpse progression.",
+    "cons": "The dead person's identity and possessions aren't uniquely established.",
+    "check": "Check primary game lore for a named owner or reconstructable possession.",
+    "assessment": "I like the direct Hunt connection, but we still need a specific object.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R001",
+      "R011",
+      "R012",
+      "R014"
+    ],
+    "theory_ids": [
+      "T001",
+      "T007"
+    ],
+    "experiment_ids": [
+      "E001"
+    ],
+    "question_ids": [
+      "Q005"
+    ]
+  },
+  {
+    "id": "R6I004",
+    "source_id": "I004",
+    "source_group": "Object or structure",
+    "source_row": 5,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A5:L5",
+    "group_id": "body",
+    "title": "Incomplete item body / base",
+    "meaning": "The body is an item's shell, frame or base and needs components, upgrades or strings.",
+    "pros": "'Not enough' naturally implies missing parts; crafting and reforging exist.",
+    "cons": "No single base item is selected. Many native-assembly tests were negative.",
+    "check": "Find explicit item lore naming a body, missing parts and a recipe.",
+    "assessment": "I see this as plausible wording, not a reason to test every craft.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R018",
+      "R022",
+      "R085",
+      "N010"
+    ],
+    "theory_ids": [
+      "T018",
+      "T019",
+      "T029"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q004",
+      "Q005"
+    ]
+  },
+  {
+    "id": "R6I005",
+    "source_id": "I005",
+    "source_group": "Object or structure",
+    "source_row": 6,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A6:L6",
+    "group_id": "body",
+    "title": "Armor torso absent, other pieces remain",
+    "meaning": "The chestplate is the 'body' armor. The helmet, leggings and boots are what remain of a set.",
+    "pros": "The Hunt begins with a Dead Man's Chestplate; armor sets have other slots.",
+    "cons": "No confirmed Dead Man armor set. Other armor pieces have been thrown already.",
+    "check": "Look for a real set or a clue selecting three specific armor pieces.",
+    "assessment": "Without a named set, I don't think we should keep guessing armor.",
+    "status": "Parked",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R001",
+      "R020",
+      "R022",
+      "R040"
+    ],
+    "theory_ids": [
+      "T001",
+      "T017",
+      "T019",
+      "T020"
+    ],
+    "experiment_ids": [
+      "E001"
+    ],
+    "question_ids": []
+  },
+  {
+    "id": "R6I006",
+    "source_id": "I006",
+    "source_group": "Object or structure",
+    "source_row": 7,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A7:L7",
+    "group_id": "body",
+    "title": "Container disappears, contents revealed",
+    "meaning": "An outer object is removed while something previously hidden inside survives.",
+    "pros": "This is exactly what happens to the Chestplate and Journal in R1.",
+    "cons": "R1 is not proof of a general transformation mechanic; no R6 container identified.",
+    "check": "Find another explicit 'inside' or concealed-item source and a checkable action.",
+    "assessment": "This is the cleanest proven model of disappearance and survival so far.",
+    "status": "Watchlist",
+    "evidence_type": "Confirmed precedent",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R001",
+      "R010",
+      "R104"
+    ],
+    "theory_ids": [
+      "T001",
+      "T002",
+      "T003"
+    ],
+    "experiment_ids": [
+      "E001"
+    ],
+    "question_ids": [
+      "Q005"
+    ]
+  },
+  {
+    "id": "R6I007",
+    "source_id": "I007",
+    "source_group": "Object or structure",
+    "source_row": 8,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A8:L8",
+    "group_id": "body",
+    "title": "Destroyed item leaves salvage or essence",
+    "meaning": "Gone means broken/consumed; remains means usable scrap, essence or residue.",
+    "pros": "Salvaging and dismantling are real game processes.",
+    "cons": "Direct Chestplate salvage refused; no chosen salvage chain.",
+    "check": "Identify a specific destruction output that itself has an assembly recipe.",
+    "assessment": "I don't want to repeat salvage without an item-specific reason.",
+    "status": "Parked",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R080",
+      "R085",
+      "R086"
+    ],
+    "theory_ids": [
+      "T019",
+      "T018"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q004"
+    ]
+  },
+  {
+    "id": "R6I008",
+    "source_id": "I008",
+    "source_group": "Meaning of body",
+    "source_row": 9,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A9:L9",
+    "group_id": "body",
+    "title": "Body of text",
+    "meaning": "Body means the contents of the Journal or another written text; remains are selected letters or words.",
+    "pros": "R1 uses a real acrostic, so text extraction has precedent.",
+    "cons": "No reproducible extraction rule yields a credible R6 operation.",
+    "check": "Require one deterministic rule, applied consistently to the known lines.",
+    "assessment": "I think this deserves space in the hub, separate from music.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R002",
+      "R003",
+      "R097",
+      "R098"
+    ],
+    "theory_ids": [
+      "T003",
+      "T004",
+      "T006",
+      "T012"
+    ],
+    "experiment_ids": [
+      "E005"
+    ],
+    "question_ids": [
+      "Q001"
+    ]
+  },
+  {
+    "id": "R6I009",
+    "source_id": "I009",
+    "source_group": "Meaning of body",
+    "source_row": 10,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A10:L10",
+    "group_id": "body",
+    "title": "Body of water",
+    "meaning": "Body means the Great Glacite Lake or another water body; absence implies freeze, drainage or a vanished object within it.",
+    "pros": "The lake is central to every confirmed offering.",
+    "cons": "The lake has not been observed disappearing, and almost any ice clue fits.",
+    "check": "Identify a real change to a named water body and a surviving item.",
+    "assessment": "The location connection is obvious but the proposed disappearance isn't.",
+    "status": "Parked",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R024",
+      "R041"
+    ],
+    "theory_ids": [
+      "T020"
+    ],
+    "experiment_ids": [],
+    "question_ids": []
+  },
+  {
+    "id": "R6I010",
+    "source_id": "I010",
+    "source_group": "Meaning of body",
+    "source_row": 11,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A11:L11",
+    "group_id": "body",
+    "title": "Collective body or group",
+    "meaning": "Body means a group, cult or team, and 'assemble' means gather members.",
+    "pros": "Better Together, Cult and multi-player mechanics exist.",
+    "cons": "No specific group or number is selected by R6 wording.",
+    "check": "Look for NPC dialogue directly describing a dissolved group or surviving members.",
+    "assessment": "I prefer this as a group-mechanic branch rather than a generic four-player test.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R026",
+      "R027",
+      "R029",
+      "R036",
+      "R042"
+    ],
+    "theory_ids": [
+      "T005",
+      "T006",
+      "T021"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q003"
+    ]
+  },
+  {
+    "id": "R6I011",
+    "source_id": "I011",
+    "source_group": "Meaning of body",
+    "source_row": 12,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A12:L12",
+    "group_id": "body",
+    "title": "Main part versus supporting components",
+    "meaning": "Body may mean the main portion of a device or organism, while smaller non-body pieces survive.",
+    "pros": "Some native items have a frame, pegs, strings, plates or replaceable modules.",
+    "cons": "No named device, component list or causal 'gone' event.",
+    "check": "Find a preexisting base-and-pieces mechanic that uses the wording.",
+    "assessment": "This is broader than the harp analogy and should appear before it.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R018",
+      "R054",
+      "R085",
+      "N010"
+    ],
+    "theory_ids": [
+      "T018",
+      "T023",
+      "T029"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q005"
+    ]
+  },
+  {
+    "id": "R6I012",
+    "source_id": "I012",
+    "source_group": "Meaning of remains",
+    "source_row": 13,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A13:L13",
+    "group_id": "literal",
+    "title": "Pieces, fragments or drops",
+    "meaning": "'Remains' denotes tangible leftovers that must become one constructed item.",
+    "pros": "Fossil, shard and fragment reconstruction all exist.",
+    "cons": "This expands into too many candidates with no selector.",
+    "check": "Require a known fragment set and native result.",
+    "assessment": "I think assembly needs an actual resulting object to be persuasive.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R014",
+      "R018",
+      "R021",
+      "R070",
+      "N005"
+    ],
+    "theory_ids": [
+      "T007",
+      "T014",
+      "T018",
+      "T025"
+    ],
+    "experiment_ids": [
+      "E013"
+    ],
+    "question_ids": [
+      "Q004"
+    ]
+  },
+  {
+    "id": "R6I013",
+    "source_id": "I013",
+    "source_group": "Meaning of remains",
+    "source_row": 14,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A14:L14",
+    "group_id": "body",
+    "title": "Information, memory or recorded name",
+    "meaning": "When physical offerings vanish, their names, sequence or Journal entries remain.",
+    "pros": "The Journal records riddle progress and the R1 acrostic is established.",
+    "cons": "The puzzle text doesn't supply a unique operation or letter rule.",
+    "check": "Test a consistent rule on known answers with an independently meaningful output.",
+    "assessment": "I don't want to confuse a neat word pattern with a verified decoder.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R002",
+      "R003",
+      "R025",
+      "R077",
+      "R097"
+    ],
+    "theory_ids": [
+      "T003",
+      "T004",
+      "T006",
+      "T010",
+      "T012",
+      "T022"
+    ],
+    "experiment_ids": [
+      "E005"
+    ],
+    "question_ids": [
+      "Q001"
+    ]
+  },
+  {
+    "id": "R6I014",
+    "source_id": "I014",
+    "source_group": "Meaning of assemble",
+    "source_row": 15,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A15:L15",
+    "group_id": "assembly",
+    "title": "Craft or forge the survivor",
+    "meaning": "Assemble means actual crafting, forging, fusion or combination, possibly inside the lake.",
+    "pros": "The imperative 'assemble' sounds actionable; SkyBlock has native recipes.",
+    "cons": "The Hunt hasn't shown it detects arbitrary crafting; several attempts already happened.",
+    "check": "Find a selected recipe and separate crafting from item-offering tests.",
+    "assessment": "A concrete recipe would matter much more than the word 'craft' alone.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R018",
+      "R038",
+      "R044",
+      "R046",
+      "R080",
+      "R084"
+    ],
+    "theory_ids": [
+      "T002",
+      "T009",
+      "T018",
+      "T019"
+    ],
+    "experiment_ids": [
+      "E006"
+    ],
+    "question_ids": [
+      "Q004"
+    ]
+  },
+  {
+    "id": "R6I015",
+    "source_id": "I015",
+    "source_group": "Meaning of assemble",
+    "source_row": 16,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A16:L16",
+    "group_id": "assembly",
+    "title": "Arrange or co-locate several entities",
+    "meaning": "Assemble means place items together in the lake, not use a crafting grid.",
+    "pros": "R5 succeeds when three Calling units are present before Feather arrival.",
+    "cons": "R5 does not prove R6 works the same way or uses a set size.",
+    "check": "Find a specific set and test arrival order versus simultaneous presence.",
+    "assessment": "This has a real earlier-step precedent, but needs an identified set.",
+    "status": "Watchlist",
+    "evidence_type": "Confirmed precedent",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R004",
+      "R008",
+      "R009",
+      "R043",
+      "R050"
+    ],
+    "theory_ids": [
+      "T002",
+      "T009"
+    ],
+    "experiment_ids": [
+      "E002",
+      "E003",
+      "E004"
+    ],
+    "question_ids": [
+      "Q004",
+      "Q006"
+    ]
+  },
+  {
+    "id": "R6I016",
+    "source_id": "I016",
+    "source_group": "Meaning of assemble",
+    "source_row": 17,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A17:L17",
+    "group_id": "assembly",
+    "title": "Gather players in one area",
+    "meaning": "Assemble means bringing people together, perhaps at event end.",
+    "pros": "Better Together is a real same-zone multiplayer event.",
+    "cons": "No evidence that the hunt uses player count or event timing.",
+    "check": "Record exact player count, same-zone state and Journal before/after.",
+    "assessment": "Without a selected trigger, I'd avoid asking for a large group.",
+    "status": "Parked",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R027",
+      "R036",
+      "R039",
+      "R042"
+    ],
+    "theory_ids": [
+      "T002",
+      "T005",
+      "T006",
+      "T021"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q003"
+    ]
+  },
+  {
+    "id": "R6I017",
+    "source_id": "I017",
+    "source_group": "Meaning of gone",
+    "source_row": 18,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A18:L18",
+    "group_id": "gone",
+    "title": "Absence after an item despawns",
+    "meaning": "The requirement happens only once an item is no longer present.",
+    "pros": "R4 checks arrival and R5 checks presence; a change of state is plausible.",
+    "cons": "Pickup, despawn and server consumption differ; older tests wait in different ways.",
+    "check": "Compare a precise disappearance event against a controlled remaining item.",
+    "assessment": "This is still worth a controlled test, but only with a named item.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R004",
+      "R008",
+      "R038",
+      "R104"
+    ],
+    "theory_ids": [
+      "T002"
+    ],
+    "experiment_ids": [
+      "E002",
+      "E003",
+      "E004"
+    ],
+    "question_ids": [
+      "Q006"
+    ]
+  },
+  {
+    "id": "R6I018",
+    "source_id": "I018",
+    "source_group": "Meaning of gone",
+    "source_row": 19,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A19:L19",
+    "group_id": "gone",
+    "title": "Quest consumption rather than natural expiry",
+    "meaning": "'Gone' refers to a successfully consumed puzzle offering, not ordinary disappearance.",
+    "pros": "R1 and R5 show offerings consumed by the lake as the Journal advances.",
+    "cons": "No proof R6 builds on earlier consumed offerings or checks history.",
+    "check": "Look for a reproducible Journal-state or consumption-dependent reaction.",
+    "assessment": "I think this distinction is important for interpreting old failed tests.",
+    "status": "Watchlist",
+    "evidence_type": "Confirmed precedent",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R001",
+      "R004",
+      "R050",
+      "R099"
+    ],
+    "theory_ids": [
+      "T001",
+      "T002",
+      "T009",
+      "T011"
+    ],
+    "experiment_ids": [
+      "E001",
+      "E002",
+      "E003"
+    ],
+    "question_ids": [
+      "Q006"
+    ]
+  },
+  {
+    "id": "R6I019",
+    "source_id": "I019",
+    "source_group": "Grammar",
+    "source_row": 20,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A20:L20",
+    "group_id": "grammar",
+    "title": "Two clauses, possibly separate tasks",
+    "meaning": "'The body is not enough' specifies a condition; 'assemble ...' specifies another action.",
+    "pros": "The clue has two sentences with different grammatical roles.",
+    "cons": "Most natural 'it' still refers to body, and two steps aren't established.",
+    "check": "A candidate must explain both requirements without extra assumptions.",
+    "assessment": "I want to keep this grammatical reading open rather than force one story.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R009",
+      "R022",
+      "R023"
+    ],
+    "theory_ids": [
+      "T002",
+      "T019"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q006"
+    ]
+  },
+  {
+    "id": "R6I020",
+    "source_id": "I020",
+    "source_group": "Grammar",
+    "source_row": 21,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A21:L21",
+    "group_id": "grammar",
+    "title": "'It' refers to something else",
+    "meaning": "The pronoun may refer to a different object, event or group instead of 'the body'.",
+    "pros": "Riddle language sometimes hides the relevant object.",
+    "cons": "English grammar more naturally links 'it' to body; search space grows quickly.",
+    "check": "Find a second named referent from an earlier clue or game dialogue.",
+    "assessment": "This is possible but too unconstrained until another source narrows it.",
+    "status": "Parked",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R023",
+      "R038"
+    ],
+    "theory_ids": [
+      "T002",
+      "T019"
+    ],
+    "experiment_ids": [],
+    "question_ids": []
+  },
+  {
+    "id": "R6I021",
+    "source_id": "I021",
+    "source_group": "Story examples",
+    "source_row": 22,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A22:L22",
+    "group_id": "literary",
+    "title": "Echo: voice remains after body disappears",
+    "meaning": "Ovid's Echo loses her body, retaining a voice and bones that turn into stone; repetition could suggest a word mechanic.",
+    "pros": "The body/voice/remains language closely resembles the clue.",
+    "cons": "No in-game target or physical assembly. Voice and bones do not assemble in the poem.",
+    "check": "Look for an independently selected Echo-type action, not arbitrary chat spam.",
+    "assessment": "The wording is strong, but I still can't map 'assemble' to gameplay.",
+    "status": "Watchlist",
+    "evidence_type": "Literary parallel",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "N007",
+      "N008",
+      "R053"
+    ],
+    "theory_ids": [
+      "T010",
+      "T028"
+    ],
+    "experiment_ids": [
+      "E008"
+    ],
+    "question_ids": [
+      "Q005"
+    ]
+  },
+  {
+    "id": "R6I022",
+    "source_id": "I022",
+    "source_group": "Story examples",
+    "source_row": 23,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A23:L23",
+    "group_id": "literary",
+    "title": "Orpheus: lyre and voice surviving death",
+    "meaning": "In Ovid XI, Orpheus's head and lyre float to the sea while sound persists.",
+    "pros": "Music, water and survival overlap with several Hunt discussions.",
+    "cons": "The myth doesn't establish DEFAG as Orpheus's notes or a game recipe.",
+    "check": "Verify source quotations and distinguish myth from item/music tests.",
+    "assessment": "I don't think the lyre alone selects a R6 item.",
+    "status": "Parked",
+    "evidence_type": "Literary parallel",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "N009",
+      "R051",
+      "R055"
+    ],
+    "theory_ids": [
+      "T010",
+      "T012"
+    ],
+    "experiment_ids": [
+      "E008",
+      "E014",
+      "E015"
+    ],
+    "question_ids": [
+      "Q005"
+    ]
+  },
+  {
+    "id": "R6I023",
+    "source_id": "I023",
+    "source_group": "Story examples",
+    "source_row": 24,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A24:L24",
+    "group_id": "literary",
+    "title": "Kalevala's fish-bone kantele and lost harp",
+    "meaning": "A pike-bone instrument is assembled from remains; later a lost kantele is replaced by a birch one.",
+    "pros": "Explicit crafting from remains and lost-in-water story.",
+    "cons": "It is not a documented Hunt reference; no selected SkyBlock process.",
+    "check": "Find game lore tying Melody's harp reconstruction to lake mechanics.",
+    "assessment": "I enjoy the parallel, but I won't elevate it above literal readings.",
+    "status": "Watchlist",
+    "evidence_type": "Literary parallel",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R055",
+      "N010"
+    ],
+    "theory_ids": [
+      "T012",
+      "T029"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q005"
+    ]
+  },
+  {
+    "id": "R6I024",
+    "source_id": "I024",
+    "source_group": "Music / patterns",
+    "source_row": 25,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A25:L25",
+    "group_id": "grammar",
+    "title": "Five initials as D E F A G",
+    "meaning": "First letters of known answer items are musical notes.",
+    "pros": "All five initials genuinely belong to the natural-note alphabet.",
+    "cons": "Five matches do not prove a tune or a correct future answer.",
+    "check": "Judge whether R6 and R7 initials complete B/C as predicted.",
+    "assessment": "It's a falsifiable prediction, not proof of a melody.",
+    "status": "Watchlist",
+    "evidence_type": "Observed pattern",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R003",
+      "R097"
+    ],
+    "theory_ids": [
+      "T003",
+      "T004",
+      "T006",
+      "T012"
+    ],
+    "experiment_ids": [
+      "E005",
+      "E014",
+      "E015"
+    ],
+    "question_ids": [
+      "Q001",
+      "Q002"
+    ]
+  },
+  {
+    "id": "R6I025",
+    "source_id": "I025",
+    "source_group": "Music / patterns",
+    "source_row": 26,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A26:L26",
+    "group_id": "assembly",
+    "title": "Better Together supplies B / play DEFAGB",
+    "meaning": "Better Together starts with B and has 14 letters without spaces. Proposed performance uses DEFAGB during or after event.",
+    "pros": "The event's end text refers to an enduring cooperative spirit.",
+    "cons": "The note sequence and event timing are not implied by a verified clue; DEFAG active-event tests are partial.",
+    "check": "Only consider a controlled DEFAGB/event-end test with a fixed item/action and Journal check.",
+    "assessment": "I would not call the earlier mixed music test a full negative here.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R036",
+      "R097",
+      "N011"
+    ],
+    "theory_ids": [
+      "T003",
+      "T004",
+      "T005",
+      "T006",
+      "T012"
+    ],
+    "experiment_ids": [
+      "E014",
+      "E015"
+    ],
+    "question_ids": [
+      "Q002",
+      "Q003"
+    ]
+  },
+  {
+    "id": "R6I026",
+    "source_id": "I026",
+    "source_group": "Music / patterns",
+    "source_row": 27,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A27:L27",
+    "group_id": "grammar",
+    "title": "Seven known answers eventually give seven notes",
+    "meaning": "The first seven answers might cover C D E F G A B once each, rather than requiring a performance now.",
+    "pros": "The Journal has 14 slots in 2 rows of 7, and first five initials are distinct note names.",
+    "cons": "Seven-column UI could be ordinary layout; R6/R7 are unknown.",
+    "check": "Compare initials after genuinely verified R6 and R7 solves.",
+    "assessment": "This prediction needs no extra coins and might be wrong later.",
+    "status": "Watchlist",
+    "evidence_type": "Interpretation",
+    "last_reviewed": "2026-11-13",
+    "route_ids": [
+      "R003",
+      "R097"
+    ],
+    "theory_ids": [
+      "T003",
+      "T004",
+      "T006",
+      "T012"
+    ],
+    "experiment_ids": [
+      "E005"
+    ],
+    "question_ids": [
+      "Q001",
+      "Q002"
+    ]
+  }
+]

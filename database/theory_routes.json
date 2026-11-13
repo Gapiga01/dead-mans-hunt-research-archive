@@ -1,0 +1,622 @@
+[
+  {
+    "route_id": "R001",
+    "theory_id": "T001",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R004",
+    "theory_id": "T002",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R005",
+    "theory_id": "T002",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R008",
+    "theory_id": "T002",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R009",
+    "theory_id": "T002",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R038",
+    "theory_id": "T002",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R039",
+    "theory_id": "T002",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R104",
+    "theory_id": "T002",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R002",
+    "theory_id": "T003",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R003",
+    "theory_id": "T003",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R010",
+    "theory_id": "T003",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R097",
+    "theory_id": "T003",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R098",
+    "theory_id": "T003",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R003",
+    "theory_id": "T004",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R097",
+    "theory_id": "T004",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R036",
+    "theory_id": "T005",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R042",
+    "theory_id": "T005",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R003",
+    "theory_id": "T006",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R036",
+    "theory_id": "T006",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R097",
+    "theory_id": "T006",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R098",
+    "theory_id": "T006",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R011",
+    "theory_id": "T007",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R012",
+    "theory_id": "T007",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R014",
+    "theory_id": "T007",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R019",
+    "theory_id": "T007",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R013",
+    "theory_id": "T008",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R015",
+    "theory_id": "T008",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R016",
+    "theory_id": "T008",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R091",
+    "theory_id": "T008",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R043",
+    "theory_id": "T009",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R044",
+    "theory_id": "T009",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R045",
+    "theory_id": "T009",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R046",
+    "theory_id": "T009",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R047",
+    "theory_id": "T009",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R048",
+    "theory_id": "T009",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R049",
+    "theory_id": "T009",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R050",
+    "theory_id": "T009",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R069",
+    "theory_id": "T009",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R025",
+    "theory_id": "T010",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R047",
+    "theory_id": "T010",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R051",
+    "theory_id": "T010",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R052",
+    "theory_id": "T010",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R053",
+    "theory_id": "T010",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R056",
+    "theory_id": "T010",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R100",
+    "theory_id": "T010",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R101",
+    "theory_id": "T010",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R099",
+    "theory_id": "T011",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R055",
+    "theory_id": "T012",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R003",
+    "theory_id": "T012",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R097",
+    "theory_id": "T012",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R021",
+    "theory_id": "T014",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R074",
+    "theory_id": "T014",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R095",
+    "theory_id": "T014",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R103",
+    "theory_id": "T014",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R058",
+    "theory_id": "T015",
+    "relation": "reviewed link"
+  },
+  {
+    "route_id": "R006",
+    "theory_id": "T016",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R007",
+    "theory_id": "T009",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R017",
+    "theory_id": "T017",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R018",
+    "theory_id": "T018",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R020",
+    "theory_id": "T017",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R022",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R023",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R024",
+    "theory_id": "T020",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R026",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R027",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R028",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R029",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R030",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R031",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R032",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R033",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R034",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R035",
+    "theory_id": "T021",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R037",
+    "theory_id": "T022",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R040",
+    "theory_id": "T020",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R041",
+    "theory_id": "T020",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R054",
+    "theory_id": "T023",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R057",
+    "theory_id": "T024",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R059",
+    "theory_id": "T024",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R060",
+    "theory_id": "T024",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R061",
+    "theory_id": "T024",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R062",
+    "theory_id": "T024",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R063",
+    "theory_id": "T024",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R064",
+    "theory_id": "T025",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R065",
+    "theory_id": "T025",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R066",
+    "theory_id": "T025",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R067",
+    "theory_id": "T025",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R068",
+    "theory_id": "T025",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R070",
+    "theory_id": "T025",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R071",
+    "theory_id": "T025",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R072",
+    "theory_id": "T022",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R073",
+    "theory_id": "T022",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R075",
+    "theory_id": "T022",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R076",
+    "theory_id": "T022",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R077",
+    "theory_id": "T022",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R078",
+    "theory_id": "T022",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R079",
+    "theory_id": "T022",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R080",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R081",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R082",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R083",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R084",
+    "theory_id": "T018",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R085",
+    "theory_id": "T018",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R086",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R087",
+    "theory_id": "T022",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R088",
+    "theory_id": "T024",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R089",
+    "theory_id": "T024",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R090",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R092",
+    "theory_id": "T026",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R093",
+    "theory_id": "T027",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R094",
+    "theory_id": "T018",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R096",
+    "theory_id": "T020",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "R102",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "N001",
+    "theory_id": "T017",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "N002",
+    "theory_id": "T019",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "N003",
+    "theory_id": "T018",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "N004",
+    "theory_id": "T027",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "N005",
+    "theory_id": "T025",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "N006",
+    "theory_id": "T025",
+    "relation": "provisional grouping"
+  },
+  {
+    "route_id": "N007",
+    "theory_id": "T028",
+    "relation": "Source archive addition; grouped without creating a finished theory page"
+  },
+  {
+    "route_id": "N008",
+    "theory_id": "T028",
+    "relation": "Source archive addition; grouped without creating a finished theory page"
+  },
+  {
+    "route_id": "N009",
+    "theory_id": "T012",
+    "relation": "Source archive addition; grouped without creating a finished theory page"
+  },
+  {
+    "route_id": "N010",
+    "theory_id": "T029",
+    "relation": "Source archive addition; grouped without creating a finished theory page"
+  },
+  {
+    "route_id": "N011",
+    "theory_id": "T006",
+    "relation": "Source archive addition; grouped without creating a finished theory page"
+  }
+]

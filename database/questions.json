@@ -1,0 +1,166 @@
+[
+  {
+    "id": "Q001",
+    "title": "Can the authentic Journal text produce one justified instruction?",
+    "topic": "Text & patterns",
+    "state": "Open",
+    "why": "This separates a usable metapuzzle from patterns we can notice after knowing the answers.",
+    "known": "The earlier answer initials and letter counts can be reproduced; a decoder has not been established.",
+    "answer_needed": "A fixed rule supported by the clue or formatting, applied consistently to the original text.",
+    "how": "Compare the existing Journal captures and source text. Record exactly which characters and layout the rule uses.",
+    "would_change": "A unique result strengthens the Journal interpretation (I008/I013 and T003). A rule needing arbitrary choices does not.",
+    "interpretation_ids": [
+      "R6I008",
+      "R6I013",
+      "R6I024",
+      "R6I026"
+    ],
+    "theory_ids": [
+      "T003"
+    ],
+    "source_ids": [
+      "S001"
+    ],
+    "priority": "Start here"
+  },
+  {
+    "id": "Q002",
+    "title": "What exactly happened in the reported music attempts?",
+    "topic": "Test details",
+    "state": "Needs source check",
+    "why": "A note sequence with no outcome cannot settle whether playing music matters.",
+    "known": "E005 leaves its setup and outcome incomplete. The November 12–13 reports add tuning-fork and active-event procedures, but still lack isolated Journal results.",
+    "answer_needed": "The player’s actual sequence, instrument, event state, active riddle and before/after Journal result.",
+    "how": "Follow the linked original post and any existing recording or follow-up. Keep unstated details unknown.",
+    "would_change": "A documented procedure narrows T004/T006; it does not automatically test every event-ending variation.",
+    "interpretation_ids": [
+      "R6I024",
+      "R6I025",
+      "R6I026"
+    ],
+    "theory_ids": [
+      "T004",
+      "T006"
+    ],
+    "source_ids": [
+      "S008",
+      "S028",
+      "S029"
+    ],
+    "priority": "Start here"
+  },
+  {
+    "id": "Q003",
+    "title": "Has anyone recorded the Better Together ending itself?",
+    "topic": "Event ending",
+    "state": "Open",
+    "why": "Playing during the active event and assembling after it ends are different procedures.",
+    "known": "The ending message mentions surviving spirit. That does not establish a lasting effect or Hunt condition.",
+    "answer_needed": "A report showing the actual event end, group action and Journal checks immediately before and afterward.",
+    "how": "Look for an existing complete report first. If a free observation is made, log the event transition and separate any later music or item drops.",
+    "would_change": "A timed advance would select an action to reproduce. No change would cover only the recorded group/location setup.",
+    "interpretation_ids": [
+      "R6I010",
+      "R6I016",
+      "R6I025"
+    ],
+    "theory_ids": [
+      "T005",
+      "T006"
+    ],
+    "source_ids": [
+      "S006",
+      "S007"
+    ],
+    "priority": "Start here"
+  },
+  {
+    "id": "Q004",
+    "title": "Which old tests actually performed the assembly action?",
+    "topic": "Test details",
+    "state": "Partly answered",
+    "why": "A finished-item drop and a native filling or conversion interaction are not the same test.",
+    "known": "Chum filling and Shaggy acquisition in the lake are already reported. Physical fossil patterns are also recorded.",
+    "answer_needed": "For a specific candidate: action, ingredients, active stage and explicit Journal result.",
+    "how": "Compare E006, E011–E013 and their source posts before describing an action as untested.",
+    "would_change": "A matching documented failure lowers that procedure’s priority. A missing record alone does not make it new.",
+    "interpretation_ids": [
+      "R6I004",
+      "R6I007",
+      "R6I012",
+      "R6I014",
+      "R6I015"
+    ],
+    "theory_ids": [
+      "T009",
+      "T014",
+      "T015"
+    ],
+    "source_ids": [
+      "S010",
+      "S024",
+      "S025",
+      "S001"
+    ],
+    "priority": "Follow up"
+  },
+  {
+    "id": "Q005",
+    "title": "What source would identify the surviving thing?",
+    "topic": "Missing reference",
+    "state": "Open",
+    "why": "The spirit and instrument readings still lack a source selecting a real completion action.",
+    "known": "There are relevant stories and ordinary quest dialogue, but no demonstrated Hunt-specific link.",
+    "answer_needed": "A particular line, interaction or observation connecting the body, its loss and a collectible or reconstructable remainder.",
+    "how": "Check original dialogue and game text against the complete chain. A matching word by itself is not enough.",
+    "would_change": "A direct link can select a mechanic to investigate; without it, these readings stay on the watchlist or parked.",
+    "interpretation_ids": [
+      "R6I001",
+      "R6I002",
+      "R6I003",
+      "R6I004",
+      "R6I006",
+      "R6I011",
+      "R6I021",
+      "R6I022",
+      "R6I023"
+    ],
+    "theory_ids": [
+      "T007",
+      "T008",
+      "T010",
+      "T012"
+    ],
+    "source_ids": [
+      "S014",
+      "S018",
+      "S019",
+      "S020"
+    ],
+    "priority": "Follow up"
+  },
+  {
+    "id": "Q006",
+    "title": "What was the actual Journal result after the despawn procedure?",
+    "topic": "Test details",
+    "state": "Needs source check",
+    "why": "The procedure gets cited in absence theories, but it has no explicit result in the preserved report.",
+    "known": "Arbor described waiting for the Callings and Feather to despawn before further offerings.",
+    "answer_needed": "An existing follow-up identifying the active riddle, remaining objects, next offering and Journal outcome.",
+    "how": "Check the original thread and any already available follow-up. Do not turn silence into a negative result.",
+    "would_change": "An explicit outcome narrows that sequence. It still would not identify what R6 asks us to assemble.",
+    "interpretation_ids": [
+      "R6I015",
+      "R6I017",
+      "R6I018",
+      "R6I019"
+    ],
+    "theory_ids": [
+      "T002"
+    ],
+    "source_ids": [
+      "S013"
+    ],
+    "priority": "Follow up"
+  }
+]

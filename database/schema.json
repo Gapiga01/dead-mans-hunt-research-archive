@@ -1,0 +1,865 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dmh:database:1",
+  "title": "Dead Mans Hunt database tables",
+  "type": "object",
+  "required": [
+    "categories",
+    "config",
+    "experiments",
+    "observations",
+    "routes",
+    "sources",
+    "theories",
+    "theory_experiments",
+    "theory_routes",
+    "interpretations",
+    "questions",
+    "interpretation_groups",
+    "interpretation_angles",
+    "legacy_interpretations"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "categories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/categories"
+      }
+    },
+    "config": {
+      "type": "object",
+      "description": "Settings and allowed editorial/evidence/testing labels"
+    },
+    "experiments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/experiments"
+      }
+    },
+    "observations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/observations"
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/routes"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sources"
+      }
+    },
+    "theories": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/theories"
+      }
+    },
+    "theory_experiments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/theory_experiments"
+      }
+    },
+    "theory_routes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/theory_routes"
+      }
+    },
+    "interpretations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/interpretations"
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/questions"
+      }
+    },
+    "interpretation_groups": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/interpretation_groups"
+      }
+    },
+    "interpretation_angles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/interpretation_angles"
+      }
+    },
+    "legacy_interpretations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/legacy_interpretations"
+      }
+    }
+  },
+  "$defs": {
+    "categories": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "description"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "experiments": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "route_ids",
+        "source_ids",
+        "stage",
+        "procedure",
+        "conditions",
+        "result",
+        "testing_label",
+        "evidence_label",
+        "date",
+        "author",
+        "limitations"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^E[0-9]{3}$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "route_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "stage": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "procedure": {
+          "type": "string"
+        },
+        "conditions": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "result": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "testing_label": {
+          "type": "string",
+          "enum": [
+            "Not tested",
+            "Partially tested",
+            "Tested negative under specified conditions",
+            "Inconclusive",
+            "Verified positive result"
+          ]
+        },
+        "evidence_label": {
+          "type": "string",
+          "enum": [
+            "Confirmed",
+            "Observed",
+            "Reported",
+            "Interpretation",
+            "Unverified"
+          ]
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "limitations": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "observations": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "text",
+        "source_ids",
+        "limitation",
+        "last_reviewed"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^O[0-9]{3}$"
+        },
+        "label": {
+          "type": "string",
+          "enum": [
+            "Confirmed",
+            "Observed",
+            "Reported",
+            "Interpretation",
+            "Unverified"
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "limitation": {
+          "type": "string"
+        },
+        "last_reviewed": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "routes": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "category",
+        "source_row",
+        "source_url",
+        "original_description",
+        "original_evidence_label",
+        "original_testing_label",
+        "original_gap",
+        "original_source_text",
+        "original_group_hint"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^(R[0-9]{3}|N[0-9]{3})$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "source_row": {
+          "type": "integer"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "original_description": {
+          "type": "string"
+        },
+        "original_evidence_label": {
+          "type": "string"
+        },
+        "original_testing_label": {
+          "type": "string"
+        },
+        "original_gap": {
+          "type": "string"
+        },
+        "original_source_text": {
+          "type": "string"
+        },
+        "original_group_hint": {
+          "type": "string"
+        },
+        "website_note": {
+          "type": "string"
+        },
+        "website_source_url": {
+          "type": "string",
+          "format": "uri"
+        }
+      },
+      "additionalProperties": false
+    },
+    "sources": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "url",
+        "kind",
+        "author",
+        "date",
+        "limitation",
+        "visibility"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^S[0-9]{3}$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "author": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "limitation": {
+          "type": "string"
+        },
+        "visibility": {
+          "type": "string",
+          "enum": [
+            "public",
+            "private"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "theories": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "status",
+        "publication_state"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^T[0-9]{3}$"
+        },
+        "title": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": [
+            "Active",
+            "Watchlist",
+            "Parked",
+            "Needs verification",
+            "Retired",
+            "Resolved",
+            "Merged / Superseded"
+          ]
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "scope": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "origin": {
+          "type": "string"
+        },
+        "supports": {
+          "type": "array"
+        },
+        "against": {
+          "type": "array"
+        },
+        "assessment": {
+          "type": "string"
+        },
+        "change_my_mind": {
+          "type": "string"
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "last_reviewed": {
+          "type": "string"
+        },
+        "testing_label": {
+          "type": "string",
+          "enum": [
+            "Not tested",
+            "Partially tested",
+            "Tested negative under specified conditions",
+            "Inconclusive",
+            "Verified positive result"
+          ]
+        },
+        "next_experiment": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "parking": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "featured": {
+          "type": "boolean"
+        },
+        "publication_state": {
+          "type": "string",
+          "enum": [
+            "developed",
+            "planned"
+          ]
+        },
+        "retirement_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "superseded_by": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^T[0-9]{3}$"
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "publication_state": {
+                "const": "developed"
+              }
+            },
+            "required": [
+              "publication_state"
+            ]
+          },
+          "then": {
+            "required": [
+              "title",
+              "summary",
+              "origin",
+              "categories",
+              "scope",
+              "status",
+              "supports",
+              "against",
+              "assessment",
+              "change_my_mind",
+              "source_ids",
+              "last_reviewed",
+              "testing_label"
+            ]
+          }
+        }
+      ]
+    },
+    "theory_experiments": {
+      "type": "object",
+      "required": [
+        "theory_id",
+        "experiment_id"
+      ],
+      "properties": {
+        "theory_id": {
+          "type": "string"
+        },
+        "experiment_id": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "theory_routes": {
+      "type": "object",
+      "required": [
+        "route_id",
+        "theory_id",
+        "relation"
+      ],
+      "properties": {
+        "route_id": {
+          "type": "string"
+        },
+        "theory_id": {
+          "type": "string"
+        },
+        "relation": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "interpretations": {
+      "type": "object",
+      "required": [
+        "id",
+        "source_id",
+        "source_group",
+        "source_row",
+        "source_url",
+        "group_id",
+        "title",
+        "meaning",
+        "pros",
+        "cons",
+        "check",
+        "assessment",
+        "status",
+        "evidence_type",
+        "last_reviewed",
+        "route_ids",
+        "theory_ids",
+        "experiment_ids",
+        "question_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "source_group": {
+          "type": "string"
+        },
+        "source_row": {
+          "type": "integer"
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "group_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "meaning": {
+          "type": "string"
+        },
+        "pros": {
+          "type": "string"
+        },
+        "cons": {
+          "type": "string"
+        },
+        "check": {
+          "type": "string"
+        },
+        "assessment": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "evidence_type": {
+          "type": "string"
+        },
+        "last_reviewed": {
+          "type": "string"
+        },
+        "route_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "theory_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "experiment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "question_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "questions": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "topic",
+        "state",
+        "why",
+        "known",
+        "answer_needed",
+        "how",
+        "would_change",
+        "interpretation_ids",
+        "theory_ids",
+        "source_ids",
+        "priority"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "topic": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "why": {
+          "type": "string"
+        },
+        "known": {
+          "type": "string"
+        },
+        "answer_needed": {
+          "type": "string"
+        },
+        "how": {
+          "type": "string"
+        },
+        "would_change": {
+          "type": "string"
+        },
+        "interpretation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "theory_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "priority": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "interpretation_groups": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "description"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "interpretation_angles": {
+      "type": "object",
+      "required": [
+        "id",
+        "word",
+        "title",
+        "meaning",
+        "group_id",
+        "interpretation_ids",
+        "route_ids",
+        "theory_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "word": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "meaning": {
+          "type": "string"
+        },
+        "group_id": {
+          "type": "string"
+        },
+        "interpretation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "route_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "theory_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "legacy_interpretations": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "summary",
+        "chain",
+        "theory_ids",
+        "observation_ids",
+        "experiment_ids",
+        "question_ids",
+        "against",
+        "missing",
+        "last_reviewed",
+        "successor_ids"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "summary": {
+          "type": "string"
+        },
+        "chain": {
+          "type": "object"
+        },
+        "theory_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "observation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "experiment_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "question_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "against": {
+          "type": "array"
+        },
+        "missing": {
+          "type": "string"
+        },
+        "last_reviewed": {
+          "type": "string"
+        },
+        "successor_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

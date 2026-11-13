@@ -1,0 +1,32 @@
+[
+  {
+    "id": "literal",
+    "name": "Literal meanings",
+    "description": "Bodies, possessions and tangible remains."
+  },
+  {
+    "id": "body",
+    "name": "Alternative meanings of body",
+    "description": "An object, text, water, group or main component."
+  },
+  {
+    "id": "gone",
+    "name": "Disappearance",
+    "description": "What gone means, and which change of state matters."
+  },
+  {
+    "id": "assembly",
+    "name": "Assembly mechanics",
+    "description": "Making, arranging, combining or gathering."
+  },
+  {
+    "id": "grammar",
+    "name": "Grammar & patterns",
+    "description": "Pronouns, separate tasks and possible answer patterns."
+  },
+  {
+    "id": "literary",
+    "name": "Literary connections",
+    "description": "Story comparisons, with their gameplay gaps kept visible."
+  }
+]

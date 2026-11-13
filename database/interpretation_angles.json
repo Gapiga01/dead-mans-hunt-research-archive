@@ -1,0 +1,873 @@
+[
+  {
+    "id": "A001",
+    "word": "whole clue",
+    "title": "Body → spirit → collect",
+    "meaning": "A body goes away; an identifiable spirit stays and can be gathered or spent. Which one?",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I002"
+    ],
+    "route_ids": [
+      "R037",
+      "R075",
+      "R076"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A002",
+    "word": "whole clue",
+    "title": "Festival → ending → group",
+    "meaning": "The event ends, its cooperative spirit is described as surviving, and players remain together.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I010",
+      "R6I016",
+      "R6I025"
+    ],
+    "route_ids": [
+      "R036",
+      "R042"
+    ],
+    "theory_ids": [
+      "T006"
+    ]
+  },
+  {
+    "id": "A003",
+    "word": "whole clue",
+    "title": "Text → surviving letters → sequence",
+    "meaning": "The word bodies could be discarded while selected letters from earlier answers get assembled. No decoder is selected yet.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I008",
+      "R6I013",
+      "R6I024"
+    ],
+    "route_ids": [
+      "R002",
+      "R003",
+      "R097",
+      "R098"
+    ],
+    "theory_ids": [
+      "T004"
+    ]
+  },
+  {
+    "id": "A004",
+    "word": "whole clue",
+    "title": "Machine → parts → rebuild",
+    "meaning": "A complete object is gone, but its parts can form something else or restore it.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I004",
+      "R6I011",
+      "R6I014"
+    ],
+    "route_ids": [
+      "R018",
+      "R054",
+      "R085"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A005",
+    "word": "whole clue",
+    "title": "Corpse → artifacts → restoration",
+    "meaning": "A body leaves a particular artifact or set of pieces that can be restored.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I001",
+      "R6I003",
+      "R6I012"
+    ],
+    "route_ids": [
+      "R014",
+      "R019",
+      "R021"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A006",
+    "word": "whole clue",
+    "title": "Disappearance → secondary event",
+    "meaning": "The vanished thing causes an event, whose consequences leave something to assemble.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I019",
+      "R6I020"
+    ],
+    "route_ids": [
+      "R023",
+      "R031",
+      "R082",
+      "R090"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A007",
+    "word": "whole clue",
+    "title": "Object → resource → new object",
+    "meaning": "The body is consumed, a resource remains, and a native action turns that into a new object.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I007",
+      "R6I014"
+    ],
+    "route_ids": [
+      "R080",
+      "R081",
+      "R102",
+      "R103"
+    ],
+    "theory_ids": [
+      "T019"
+    ]
+  },
+  {
+    "id": "A008",
+    "word": "whole clue",
+    "title": "Offerings → records → next instruction",
+    "meaning": "The physical offerings are gone, but the Journal preserves their names or rules to combine.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I006",
+      "R6I013",
+      "R6I018"
+    ],
+    "route_ids": [
+      "R001",
+      "R002",
+      "R004"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A009",
+    "word": "condition",
+    "title": "Held vs worn vs carried",
+    "meaning": "These are different states. The clue still needs to tell us which object and state matter.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I005",
+      "R6I019"
+    ],
+    "route_ids": [
+      "R010",
+      "R022",
+      "R104"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A010",
+    "word": "condition",
+    "title": "Arrival order / quantity",
+    "meaning": "A stack, several arrivals and an already-present item need not exercise the same check.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I015",
+      "R6I017"
+    ],
+    "route_ids": [
+      "R004",
+      "R007",
+      "R008",
+      "R043"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A011",
+    "word": "condition",
+    "title": "Event boundary vs ordinary presence",
+    "meaning": "Remaining through an ending and gathering afterward are different histories, even with the same group.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I016",
+      "R6I017"
+    ],
+    "route_ids": [
+      "R036",
+      "R038",
+      "R042"
+    ],
+    "theory_ids": [
+      "T006"
+    ]
+  },
+  {
+    "id": "A012",
+    "word": "condition",
+    "title": "Native action vs finished result",
+    "meaning": "A trade, craft, fill, claim or fusion can be a separate gameplay event from the output existing.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I014"
+    ],
+    "route_ids": [
+      "R044",
+      "R058",
+      "R061",
+      "R084",
+      "R094"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A013",
+    "word": "condition",
+    "title": "Fresh origin / item history",
+    "meaning": "A newly obtained survivor may differ from a stored one, but no hidden history check is assumed.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I012",
+      "R6I018"
+    ],
+    "route_ids": [
+      "R045",
+      "R061",
+      "R090",
+      "R103"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A014",
+    "word": "condition",
+    "title": "Location / nearby objects",
+    "meaning": "Only compare locations or proximity when there is a specific reason. No detection radius is established here.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I009",
+      "R6I015"
+    ],
+    "route_ids": [
+      "R004",
+      "R024",
+      "R038",
+      "R096"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A015",
+    "word": "body",
+    "title": "A corpse",
+    "meaning": "Literal physical remains, but which creature or person?",
+    "group_id": "body",
+    "interpretation_ids": [
+      "R6I001"
+    ],
+    "route_ids": [
+      "R014",
+      "R017",
+      "R021",
+      "R045"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A016",
+    "word": "body",
+    "title": "A living creature",
+    "meaning": "Its death or transformation might cause the next event.",
+    "group_id": "body",
+    "interpretation_ids": [
+      "R6I001",
+      "R6I017"
+    ],
+    "route_ids": [
+      "R049",
+      "R057",
+      "R061",
+      "R088"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A017",
+    "word": "body",
+    "title": "Your own character",
+    "meaning": "Death, leaving or becoming a ghost could change what actions work.",
+    "group_id": "body",
+    "interpretation_ids": [
+      "R6I002",
+      "R6I017"
+    ],
+    "route_ids": [
+      "R039",
+      "R040",
+      "R078",
+      "R079"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A018",
+    "word": "body",
+    "title": "The Chestplate / armor",
+    "meaning": "A torso piece or worn loadout might be the physical body.",
+    "group_id": "body",
+    "interpretation_ids": [
+      "R6I005",
+      "R6I006"
+    ],
+    "route_ids": [
+      "R001",
+      "R020",
+      "R022",
+      "R104"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A019",
+    "word": "body",
+    "title": "A body of water",
+    "meaning": "The lake itself might be the object being described.",
+    "group_id": "body",
+    "interpretation_ids": [
+      "R6I009"
+    ],
+    "route_ids": [
+      "R024"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A020",
+    "word": "body",
+    "title": "The main part of an object",
+    "meaning": "A container, machine or structure could lose its main part.",
+    "group_id": "body",
+    "interpretation_ids": [
+      "R6I004",
+      "R6I011"
+    ],
+    "route_ids": [
+      "R018",
+      "R022",
+      "R054",
+      "R085"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A021",
+    "word": "body",
+    "title": "A body of text",
+    "meaning": "Maybe the useful information is in the Journal rather than its item form.",
+    "group_id": "body",
+    "interpretation_ids": [
+      "R6I008"
+    ],
+    "route_ids": [
+      "R002",
+      "R003",
+      "R097",
+      "R098"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A022",
+    "word": "body",
+    "title": "A body of people",
+    "meaning": "A group could disappear while its members or shared effect remain.",
+    "group_id": "body",
+    "interpretation_ids": [
+      "R6I010"
+    ],
+    "route_ids": [
+      "R029",
+      "R036",
+      "R042"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A023",
+    "word": "body",
+    "title": "The source, not the remains",
+    "meaning": "The thing that disappears may only cause a later event.",
+    "group_id": "body",
+    "interpretation_ids": [
+      "R6I019",
+      "R6I020"
+    ],
+    "route_ids": [
+      "R023",
+      "R031",
+      "R082",
+      "R103"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A024",
+    "word": "gone",
+    "title": "Killed or defeated",
+    "meaning": "A death event is different from just owning its drops.",
+    "group_id": "gone",
+    "interpretation_ids": [
+      "R6I001"
+    ],
+    "route_ids": [
+      "R045",
+      "R057",
+      "R073",
+      "R089"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A025",
+    "word": "gone",
+    "title": "Despawned",
+    "meaning": "An item or entity disappears naturally after waiting.",
+    "group_id": "gone",
+    "interpretation_ids": [
+      "R6I017"
+    ],
+    "route_ids": [
+      "R008",
+      "R038",
+      "R062"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A026",
+    "word": "gone",
+    "title": "Consumed by a recipe or trade",
+    "meaning": "Inputs vanish while an output is created.",
+    "group_id": "gone",
+    "interpretation_ids": [
+      "R6I007",
+      "R6I014"
+    ],
+    "route_ids": [
+      "R018",
+      "R044",
+      "R052",
+      "R094"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A027",
+    "word": "gone",
+    "title": "Event ended",
+    "meaning": "The event can be over while players or consequences remain.",
+    "group_id": "gone",
+    "interpretation_ids": [
+      "R6I010",
+      "R6I016"
+    ],
+    "route_ids": [
+      "R036",
+      "R042"
+    ],
+    "theory_ids": [
+      "T006"
+    ]
+  },
+  {
+    "id": "A028",
+    "word": "gone",
+    "title": "Left the area",
+    "meaning": "Departure might count without a death.",
+    "group_id": "gone",
+    "interpretation_ids": [
+      "R6I017",
+      "R6I020"
+    ],
+    "route_ids": [
+      "R039"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A029",
+    "word": "gone",
+    "title": "Broken or salvaged",
+    "meaning": "Destruction could leave pieces, essence or a damaged form.",
+    "group_id": "gone",
+    "interpretation_ids": [
+      "R6I007"
+    ],
+    "route_ids": [
+      "R080",
+      "R086"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A030",
+    "word": "gone",
+    "title": "Already absent",
+    "meaning": "Maybe we reconstruct something lost before the Hunt began.",
+    "group_id": "gone",
+    "interpretation_ids": [
+      "R6I003",
+      "R6I013"
+    ],
+    "route_ids": [
+      "R011",
+      "R016",
+      "R025",
+      "R054"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A031",
+    "word": "gone",
+    "title": "Transformed",
+    "meaning": "The old form stops existing but something new takes its place.",
+    "group_id": "gone",
+    "interpretation_ids": [
+      "R6I007",
+      "R6I012"
+    ],
+    "route_ids": [
+      "R049",
+      "R061",
+      "R082"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A032",
+    "word": "remains",
+    "title": "Physical drops or pieces",
+    "meaning": "Gathering them still needs a reason to select one exact set.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I012"
+    ],
+    "route_ids": [
+      "R014",
+      "R018",
+      "R021",
+      "R045"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A033",
+    "word": "remains",
+    "title": "Soul or spirit",
+    "meaning": "A survivor could be an active resource, stored soul or ghost.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I002"
+    ],
+    "route_ids": [
+      "R037",
+      "R075",
+      "R076"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A034",
+    "word": "remains",
+    "title": "Knowledge or memories",
+    "meaning": "A record may outlast its owner or the offering that revealed it.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I013"
+    ],
+    "route_ids": [
+      "R001",
+      "R002",
+      "R052",
+      "R077"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A035",
+    "word": "remains",
+    "title": "A lasting effect",
+    "meaning": "An event may leave an effect, but first confirm that it actually persists.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I002",
+      "R6I010"
+    ],
+    "route_ids": [
+      "R036",
+      "R062",
+      "R102"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A036",
+    "word": "remains",
+    "title": "People left behind",
+    "meaning": "The group may end while its members stay available to gather.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I010",
+      "R6I016"
+    ],
+    "route_ids": [
+      "R029",
+      "R036",
+      "R042"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A037",
+    "word": "remains",
+    "title": "A secondary reward",
+    "meaning": "The survivor need not have been part of the original body.",
+    "group_id": "literal",
+    "interpretation_ids": [
+      "R6I012",
+      "R6I019"
+    ],
+    "route_ids": [
+      "R023",
+      "R031",
+      "R090",
+      "R103"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A038",
+    "word": "assemble",
+    "title": "Craft, forge or trade",
+    "meaning": "Making something is not the same test as dropping a finished one.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I014"
+    ],
+    "route_ids": [
+      "R018",
+      "R044",
+      "R052",
+      "R084",
+      "R094"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A039",
+    "word": "assemble",
+    "title": "Gather players",
+    "meaning": "A group could be the assembled thing. A head count still needs evidence.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I016"
+    ],
+    "route_ids": [
+      "R027",
+      "R029",
+      "R036",
+      "R042"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A040",
+    "word": "assemble",
+    "title": "Deposit or fill",
+    "meaning": "Chum and containers offer a real collecting action.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I014"
+    ],
+    "route_ids": [
+      "R058"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A041",
+    "word": "assemble",
+    "title": "Fuse, capture or combine",
+    "meaning": "Check which input is consumed and what output appears.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I012",
+      "R6I014"
+    ],
+    "route_ids": [
+      "R061",
+      "R064",
+      "R065",
+      "R066",
+      "R067"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A042",
+    "word": "assemble",
+    "title": "Arrange in the world",
+    "meaning": "Maybe the result is a structure, pattern or display.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I015"
+    ],
+    "route_ids": [
+      "R021",
+      "R083",
+      "R095",
+      "R096"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A043",
+    "word": "assemble",
+    "title": "Reconstruct information",
+    "meaning": "Use one consistent extraction rule, with a clear input and endpoint.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I008",
+      "R6I013"
+    ],
+    "route_ids": [
+      "R002",
+      "R003",
+      "R097",
+      "R098"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A044",
+    "word": "assemble",
+    "title": "Play an ordered sequence",
+    "meaning": "Music is a possible operation, but note names alone do not select playback.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I024",
+      "R6I025"
+    ],
+    "route_ids": [
+      "R003"
+    ],
+    "theory_ids": [
+      "T004",
+      "T006"
+    ]
+  },
+  {
+    "id": "A045",
+    "word": "assemble",
+    "title": "Complete several events",
+    "meaning": "A sequence could build state even if nothing physical is crafted.",
+    "group_id": "assembly",
+    "interpretation_ids": [
+      "R6I014",
+      "R6I017"
+    ],
+    "route_ids": [
+      "R005",
+      "R007",
+      "R038",
+      "R104"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A046",
+    "word": "not enough",
+    "title": "One part is missing",
+    "meaning": "Maybe a body and a separate survivor are both needed.",
+    "group_id": "grammar",
+    "interpretation_ids": [
+      "R6I004",
+      "R6I019"
+    ],
+    "route_ids": [
+      "R009",
+      "R022",
+      "R104"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A047",
+    "word": "not enough",
+    "title": "Object plus condition",
+    "meaning": "The item may need a particular action or existing state.",
+    "group_id": "grammar",
+    "interpretation_ids": [
+      "R6I019"
+    ],
+    "route_ids": [
+      "R009",
+      "R038",
+      "R094"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A048",
+    "word": "which comes next",
+    "title": "Next Journal step",
+    "meaning": "The plain quest-progression reading needs no extra cipher.",
+    "group_id": "grammar",
+    "interpretation_ids": [
+      "R6I018"
+    ],
+    "route_ids": [
+      "R001",
+      "R004"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A049",
+    "word": "which comes next",
+    "title": "Next member of a pattern",
+    "meaning": "Initials or lengths might predict a later answer, conditionally.",
+    "group_id": "grammar",
+    "interpretation_ids": [
+      "R6I024",
+      "R6I026"
+    ],
+    "route_ids": [
+      "R003",
+      "R097",
+      "R098"
+    ],
+    "theory_ids": []
+  },
+  {
+    "id": "A050",
+    "word": "which comes next",
+    "title": "Next event in a story",
+    "meaning": "A narrative could tell us what to reconstruct. Keep sources consistent.",
+    "group_id": "grammar",
+    "interpretation_ids": [
+      "R6I019",
+      "R6I021",
+      "R6I022",
+      "R6I023"
+    ],
+    "route_ids": [
+      "R025",
+      "R051",
+      "R053",
+      "R100",
+      "R101"
+    ],
+    "theory_ids": []
+  }
+]

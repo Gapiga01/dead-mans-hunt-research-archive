@@ -1,0 +1,167 @@
+[
+  {
+    "id": "O001",
+    "label": "Confirmed",
+    "text": "R1 consumes a Chestplate and exposes an already-whole Journal.",
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "limitation": "Confirms the earlier step, not a second assembly action at R6.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O002",
+    "label": "Reported",
+    "text": "In an R4 report, two normal Callings remained while the recombobulated third Calling disappeared.",
+    "source_ids": [
+      "S012"
+    ],
+    "limitation": "The report concerns R4. Disappearance does not establish an R6 response.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O003",
+    "label": "Reported",
+    "text": "An R5 player reports Feather-first failure, followed by success after another Feather.",
+    "source_ids": [
+      "S011"
+    ],
+    "limitation": "No controlled recording or pickup history. The last arrival may matter.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O004",
+    "label": "Observed",
+    "text": "The known answer initials are D E F A G; their letter counts are 18,18,15,15,14.",
+    "source_ids": [
+      "S001",
+      "S026"
+    ],
+    "limitation": "A reproducible count is not an instruction to use a melody or continue pairs.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O005",
+    "label": "Confirmed",
+    "text": "The documented Melody’s Hair range is 24 chromatic pitches over two octaves.",
+    "source_ids": [
+      "S005"
+    ],
+    "limitation": "This is game documentation. No Hunt response to the pitches is established.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O006",
+    "label": "Observed",
+    "text": "Better Together’s ending text describes cooperative spirit surviving the festival.",
+    "source_ids": [
+      "S006"
+    ],
+    "limitation": "This is announcement text. It does not establish a retained buff or quest flag.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O007",
+    "label": "Confirmed",
+    "text": "Better Together counts players in the same zone, replacing the earlier block-distance rule.",
+    "source_ids": [
+      "S007"
+    ],
+    "limitation": "The update does not identify an R6 group size or a Hunt detection radius.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O008",
+    "label": "Reported",
+    "text": "Gapiga reports burps at R1/R2, and page turns without burps at R3–R5.",
+    "source_ids": [
+      "S009"
+    ],
+    "limitation": "Sound origin, distance, settings and unrelated effects can confound the comparison.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O009",
+    "label": "Observed",
+    "text": "Dulin’s opening talks about what remains and later directs the player to assemble a Railroad Pass.",
+    "source_ids": [
+      "S018"
+    ],
+    "limitation": "These words belong to ordinary progression dialogue; a Hunt link is not established.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O010",
+    "label": "Observed",
+    "text": "Ovid VIII places Icarus’s fall, Daedalus’s calls and feathers on the water in one passage.",
+    "source_ids": [
+      "S014"
+    ],
+    "limitation": "This establishes the literary sequence, not the designer’s use of it.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O011",
+    "label": "Observed",
+    "text": "The Kalevala describes a lost pike-bone harp; Ovid XI describes Orpheus’s lyre surviving with his head.",
+    "source_ids": [
+      "S019",
+      "S020"
+    ],
+    "limitation": "These are different stories, not interchangeable recipe instructions.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O012",
+    "label": "Reported",
+    "text": "Ruby later identified Personal Deletor as the explanation for the unusual Fairy Armor item loss.",
+    "source_ids": [
+      "S021",
+      "S022"
+    ],
+    "limitation": "An author correction; not a recorded server-side explanation of every disappearance.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O013",
+    "label": "Confirmed",
+    "text": "Chum gathering and bucket filling are real fishing interactions introduced by the Moby update.",
+    "source_ids": [
+      "S023"
+    ],
+    "limitation": "A native mechanic is not automatically a Hunt mechanic.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O014",
+    "label": "Reported",
+    "text": "Snowfake reports filling a bucket beside the lake and another on the ice before offering them.",
+    "source_ids": [
+      "S024",
+      "S025"
+    ],
+    "limitation": "Exact deposit sequence, stage capture and separate Journal outcome are missing.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O015",
+    "label": "Reported",
+    "text": "Collin reports obtaining a Crystal through Shaggy inside the lake while wearing an 8/8 Arachne set, then offering it.",
+    "source_ids": [
+      "S010"
+    ],
+    "limitation": "The message does not provide independent stage verification or a separate result.",
+    "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O016",
+    "label": "Reported",
+    "text": "The route archive records fossil offerings and physical fossil-pattern reconstruction beneath the lake.",
+    "source_ids": [
+      "S001"
+    ],
+    "limitation": "This is archive-level coverage, not a newly inspected original recording.",
+    "last_reviewed": "2026-11-13"
+  }
+]

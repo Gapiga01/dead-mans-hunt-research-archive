@@ -1,0 +1,296 @@
+[
+  {
+    "id": "E001",
+    "title": "Chestplate reveals the Journal",
+    "route_ids": [
+      "R001"
+    ],
+    "source_ids": [
+      "S001",
+      "S003"
+    ],
+    "stage": "R1",
+    "procedure": "Offer the Dead Man’s Chestplate to Great Glacite Lake.",
+    "conditions": "Earlier-step procedure documented by the route archive and Hunt guide.",
+    "result": "Journal revealed; earlier R1 completion.",
+    "testing_label": "Verified positive result",
+    "evidence_label": "Confirmed",
+    "date": null,
+    "author": null,
+    "limitations": "An established earlier step. Not a positive R6 result."
+  },
+  {
+    "id": "E002",
+    "title": "R5: Feather first, then another Feather",
+    "route_ids": [
+      "R004"
+    ],
+    "source_ids": [
+      "S011"
+    ],
+    "stage": "R5",
+    "procedure": "Offer Feather before three Callings; after failure, add another Feather.",
+    "conditions": "Reported order. Ground-item and pickup history are incomplete.",
+    "result": "Firsthand report: initial failure, then success after another Feather.",
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-19",
+    "author": "arua_a",
+    "limitations": "This supports an order distinction without independently verifying it. It does not test R6."
+  },
+  {
+    "id": "E003",
+    "title": "R4: two normal Callings and a recombobulated third",
+    "route_ids": [
+      "R043",
+      "R004"
+    ],
+    "source_ids": [
+      "S012"
+    ],
+    "stage": "R4",
+    "procedure": "Release two normal Callings, followed by the recombobulated Calling.",
+    "conditions": "Recombobulated item last; earlier-stage context.",
+    "result": "Player reports only the recombobulated item was consumed.",
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-20",
+    "author": "Starphi",
+    "limitations": "Consumption report does not establish whether untouched survivors can serve a later stage."
+  },
+  {
+    "id": "E004",
+    "title": "Wait for Callings and Feather to despawn",
+    "route_ids": [
+      "R008"
+    ],
+    "source_ids": [
+      "S013"
+    ],
+    "stage": null,
+    "procedure": "Wait for Callings and Feather to despawn before adding further offerings.",
+    "conditions": null,
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-23",
+    "author": "Arbor²",
+    "limitations": "Original message records a procedure without an explicit Journal result. The active stage is not independently shown."
+  },
+  {
+    "id": "E005",
+    "title": "Play DEFAG with Melody’s Hair",
+    "route_ids": [
+      "R003"
+    ],
+    "source_ids": [
+      "S008"
+    ],
+    "stage": null,
+    "procedure": "Play D, E, F, A, G in order using Melody’s Hair.",
+    "conditions": null,
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-11",
+    "author": "exomechs",
+    "limitations": "The report does not specify register, tempo, place, event state, active stage or a separate outcome."
+  },
+  {
+    "id": "E006",
+    "title": "Shaggy conversion inside the lake",
+    "route_ids": [
+      "R044",
+      "R069"
+    ],
+    "source_ids": [
+      "S010"
+    ],
+    "stage": null,
+    "procedure": "Call Shaggy with Crystal materials while in the lake, obtain the Crystal, then offer it.",
+    "conditions": "Reported 8/8 Arachne loadout.",
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-21",
+    "author": "Collin",
+    "limitations": "An actual acquisition/conversion procedure is described. No independent R6-stage capture or separate outcome."
+  },
+  {
+    "id": "E007",
+    "title": "Offer freshly obtained Arachne loot",
+    "route_ids": [
+      "R045"
+    ],
+    "source_ids": [
+      "S027"
+    ],
+    "stage": null,
+    "procedure": "Kill Arachne and offer the exact loot obtained.",
+    "conditions": null,
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-08",
+    "author": "Qualia",
+    "limitations": "Exact loot, quantities and Journal result are not supplied."
+  },
+  {
+    "id": "E008",
+    "title": "Campfire, flower and Spirit Stone",
+    "route_ids": [
+      "R051",
+      "R053"
+    ],
+    "source_ids": [
+      "S016"
+    ],
+    "stage": null,
+    "procedure": "Place Portable Campfire and offer Oxeye Daisy, Spirit Stone, and both.",
+    "conditions": null,
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-16",
+    "author": "Qualia",
+    "limitations": "A specific literary implementation was attempted. It does not test every narrative interpretation."
+  },
+  {
+    "id": "E009",
+    "title": "Urn followed by ashes and dust",
+    "route_ids": [
+      "R101"
+    ],
+    "source_ids": [
+      "S017"
+    ],
+    "stage": null,
+    "procedure": "Offer a Cretan Urn first, followed by the listed ash and dust materials.",
+    "conditions": "Urn first. No native filling interaction stated.",
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-11-10",
+    "author": "Carrot",
+    "limitations": "No explicit outcome. This is not the same ordering as ashes-first / urn-last."
+  },
+  {
+    "id": "E010",
+    "title": "Fairy Armor item-loss report and correction",
+    "route_ids": [],
+    "source_ids": [
+      "S021",
+      "S022"
+    ],
+    "stage": null,
+    "procedure": "Player reports Fairy Armor item loss, then corrects the interpretation after finding Personal Deletor involved.",
+    "conditions": null,
+    "result": "Original interpretation retracted by its author.",
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-11",
+    "author": "Ruby",
+    "limitations": "A feedback claim was corrected; no R6 completion or controlled negative is established."
+  },
+  {
+    "id": "E011",
+    "title": "Fill Chum beside the lake",
+    "route_ids": [
+      "R058"
+    ],
+    "source_ids": [
+      "S024"
+    ],
+    "stage": null,
+    "procedure": "Fill a bucket beside the lake, then throw it in.",
+    "conditions": "Beside the lake, not on the ice.",
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-10",
+    "author": "Snowfake",
+    "limitations": "No full deposit log, stage screenshot or explicit Journal outcome."
+  },
+  {
+    "id": "E012",
+    "title": "Fill Chum on the ice",
+    "route_ids": [
+      "R058"
+    ],
+    "source_ids": [
+      "S025"
+    ],
+    "stage": null,
+    "procedure": "Fill on the ice, offer the bucket, then try breaking the ice beneath it.",
+    "conditions": "On lake ice; exact object in the final ice-breaking clause is ambiguous.",
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-10-10",
+    "author": "Snowfake",
+    "limitations": "This covers native filling better than a finished-bucket drop. It does not prove a full R6-active sequence failed."
+  },
+  {
+    "id": "E013",
+    "title": "Fossil pattern and matching offerings",
+    "route_ids": [
+      "R021",
+      "R095"
+    ],
+    "source_ids": [
+      "S001"
+    ],
+    "stage": null,
+    "procedure": "Archive summary describes physical fossil-pattern construction beneath the lake and corresponding item offerings.",
+    "conditions": null,
+    "result": "Archive classifies the described setups as reported negatives.",
+    "testing_label": "Tested negative under specified conditions",
+    "evidence_label": "Reported",
+    "date": null,
+    "author": null,
+    "limitations": "Secondary archive summary only in this stage. Do not infer exact geometry, date, quantity or independent stage verification."
+  },
+  {
+    "id": "E014",
+    "title": "Music and item drops during active Better Together",
+    "route_ids": [
+      "R003",
+      "R036",
+      "N009",
+      "N011"
+    ],
+    "source_ids": [
+      "S028"
+    ],
+    "stage": null,
+    "procedure": "Play notes with Melody’s Hair, then drop head/helmet and harp items; also use a tuning fork for DEFAG and drop items.",
+    "conditions": "Reported active Better Together, invisibility, no equipment/pet, Frozen power, small Glacite spike above the lake, with no armor or the Dead Man’s Chestplate. Melody’s Hair pitches were uncertain.",
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-11-13",
+    "author": "amotorem",
+    "limitations": "Mixed inputs. No explicit Journal outcome, independently shown R6 stage or event-ending checkpoint. DEFAG is not the proposed six-note DEFAGB sequence."
+  },
+  {
+    "id": "E015",
+    "title": "Four items and tuning-fork playback",
+    "route_ids": [
+      "R003",
+      "N009",
+      "N011"
+    ],
+    "source_ids": [
+      "S029"
+    ],
+    "stage": null,
+    "procedure": "Drop four items and play tunes with a tuning fork that displayed the selected notes.",
+    "conditions": null,
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-11-12",
+    "author": "Carrot",
+    "limitations": "Forwarded text leaves the items, exact notes, active stage, event state and Journal outcome unspecified."
+  }
+]

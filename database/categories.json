@@ -1,0 +1,42 @@
+[
+  {
+    "id": "progression",
+    "name": "Confirmed progression",
+    "description": "Known steps, the Journal and reliable feedback."
+  },
+  {
+    "id": "identity",
+    "name": "The Dead Man",
+    "description": "Identity, Dwarven history and the lost kingdom."
+  },
+  {
+    "id": "mechanics",
+    "name": "How the Hunt works",
+    "description": "Arrival, consumption, state and timing."
+  },
+  {
+    "id": "patterns",
+    "name": "Patterns & messages",
+    "description": "Letters, layout, music and sound comparisons."
+  },
+  {
+    "id": "literature",
+    "name": "Stories & mythology",
+    "description": "Connections worth reading without assuming designer intent."
+  },
+  {
+    "id": "events",
+    "name": "Events & groups",
+    "description": "Cooperation, rituals and endings."
+  },
+  {
+    "id": "r6",
+    "name": "Reading R6",
+    "description": "Ways to understand the whole clue and its operation."
+  },
+  {
+    "id": "whole-hunt",
+    "name": "Beyond R6",
+    "description": "Questions that may matter later in the Hunt."
+  }
+]

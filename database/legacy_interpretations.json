@@ -1,0 +1,247 @@
+[
+  {
+    "id": "I001",
+    "title": "What survives is information",
+    "summary": "The body could be the Chestplate or an earlier offering. What survives is the Journal and the information it records.",
+    "chain": {
+      "body": "The Chestplate, or the physical offerings recorded by the Journal.",
+      "gone": "The Chestplate is consumed at R1; other offerings are used for earlier steps.",
+      "remains": "The intact Journal and the recorded answers.",
+      "assemble": "Reconstruct a message or instruction from authentic entries. No consistent extraction rule has been established.",
+      "signal": "A unique instruction followed by a Journal advance; neither has been demonstrated at R6."
+    },
+    "theory_ids": [
+      "T001",
+      "T003",
+      "T004"
+    ],
+    "observation_ids": [
+      "O001",
+      "O004"
+    ],
+    "experiment_ids": [
+      "E001",
+      "E005"
+    ],
+    "question_ids": [
+      "Q001",
+      "Q002"
+    ],
+    "against": [
+      "R1 reveals a whole book, not loose pages to assemble.",
+      "DEFAG and the letter counts do not by themselves select a decoding rule."
+    ],
+    "missing": "An extraction rule supported by the text, which gives one actionable result without rearranging letters to fit.",
+    "last_reviewed": "2026-11-13",
+    "successor_ids": [
+      "R6I006",
+      "R6I008",
+      "R6I013",
+      "R6I024",
+      "R6I026"
+    ]
+  },
+  {
+    "id": "I002",
+    "title": "The event ends; the group remains",
+    "summary": "Better Together has an ending message about cooperative spirit surviving. Maybe the assembly is people coming together after the festival.",
+    "chain": {
+      "body": "The festival as a temporary event. This meaning of body is still an interpretation.",
+      "gone": "Better Together ends.",
+      "remains": "Its ending message describes cooperative spirit surviving; a lasting mechanic has not been shown.",
+      "assemble": "Players stay or gather together. Where, how many, and whether music matters are not established.",
+      "signal": "A Journal advance associated with a recorded event transition and group action."
+    },
+    "theory_ids": [
+      "T005",
+      "T006"
+    ],
+    "observation_ids": [
+      "O006",
+      "O007"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q003"
+    ],
+    "against": [
+      "Announcement wording is not proof of a retained buff or quest flag.",
+      "The clue does not independently specify an event, group size or musical performance."
+    ],
+    "missing": "A clear result for the ending itself, with before/after Journal checks and the actual group action recorded.",
+    "last_reviewed": "2026-11-13",
+    "successor_ids": [
+      "R6I010",
+      "R6I016",
+      "R6I025"
+    ]
+  },
+  {
+    "id": "I003",
+    "title": "Rebuild a physical object from the aftermath",
+    "summary": "A creature or object disappears and leaves materials. Assembly would be a real gathering, conversion or reconstruction interaction.",
+    "chain": {
+      "body": "A creature or physical object selected by more than a matching name.",
+      "gone": "Death, destruction or use of that object.",
+      "remains": "Identifiable drops or consequences, possibly created by a secondary event.",
+      "assemble": "Use a documented native interaction to gather or reconstruct them. Chum filling and fossil reconstruction are existing examples, not new discoveries.",
+      "signal": "A Journal advance at a documented assembly action or final hand-in."
+    },
+    "theory_ids": [
+      "T009",
+      "T014",
+      "T015"
+    ],
+    "observation_ids": [
+      "O013",
+      "O014",
+      "O015",
+      "O016"
+    ],
+    "experiment_ids": [
+      "E006",
+      "E007",
+      "E011",
+      "E012",
+      "E013"
+    ],
+    "question_ids": [
+      "Q004"
+    ],
+    "against": [
+      "Several versions already have reported attempts, including actual acquisition and filling.",
+      "A fitting reconstruction mechanic does not tell us which object the clue selects."
+    ],
+    "missing": "A source that selects one particular body and remnant, plus evidence distinguishing its native interaction from recorded attempts.",
+    "last_reviewed": "2026-11-13",
+    "successor_ids": [
+      "R6I001",
+      "R6I003",
+      "R6I004",
+      "R6I007",
+      "R6I012",
+      "R6I014",
+      "R6I015"
+    ]
+  },
+  {
+    "id": "I004",
+    "title": "A body is gone, but something nonphysical survives",
+    "summary": "Spirit, identity, memory or knowledge might be the remainder. This reading needs an actual collection or assembly action before it becomes a solution.",
+    "chain": {
+      "body": "A person or creature, possibly the owner of the Chestplate.",
+      "gone": "Death or loss of physical form.",
+      "remains": "A spirit, identity, memory or knowledge. None is uniquely selected.",
+      "assemble": "Unknown. Offering an item named Spirit does not establish an assembly operation.",
+      "signal": "Unknown until a specific mechanic and completion action can be identified."
+    },
+    "theory_ids": [
+      "T007",
+      "T008",
+      "T010"
+    ],
+    "observation_ids": [
+      "O009",
+      "O010"
+    ],
+    "experiment_ids": [
+      "E008",
+      "E009"
+    ],
+    "question_ids": [
+      "Q005"
+    ],
+    "against": [
+      "The Dead Man, Chestplate owner and Journal author have not been shown to be the same person.",
+      "Literary connections and spirit-named items do not supply the missing operation."
+    ],
+    "missing": "A direct textual or gameplay link identifying what survives and how players can assemble it.",
+    "last_reviewed": "2026-11-13",
+    "successor_ids": [
+      "R6I002",
+      "R6I003",
+      "R6I021"
+    ]
+  },
+  {
+    "id": "I005",
+    "title": "Reconstruct an instrument or its music",
+    "summary": "The instrument stories offer another way to connect a lost physical form with something players can rebuild or play.",
+    "chain": {
+      "body": "An instrument, or the creature from which an instrument is made, depending on the story.",
+      "gone": "Loss in water or destruction. These are different narratives, not one combined event.",
+      "remains": "Materials, a surviving instrument or music; the stories do not select one shared remainder.",
+      "assemble": "Rebuild or play something. No SkyBlock operation is yet selected by the literary parallel.",
+      "signal": "A Journal advance after the selected reconstruction or performance, once a procedure is justified."
+    },
+    "theory_ids": [
+      "T012",
+      "T004"
+    ],
+    "observation_ids": [
+      "O005",
+      "O011"
+    ],
+    "experiment_ids": [
+      "E005"
+    ],
+    "question_ids": [
+      "Q002",
+      "Q005"
+    ],
+    "against": [
+      "Kalevala and Orpheus describe different events; blending them can create a connection neither source makes.",
+      "Melody’s Hair playing pitches is real, but its R6 role is not established."
+    ],
+    "missing": "An independent connection from the story to a particular in-game action, rather than a chosen tune or recipe.",
+    "last_reviewed": "2026-11-13",
+    "successor_ids": [
+      "R6I004",
+      "R6I011",
+      "R6I022",
+      "R6I023",
+      "R6I024"
+    ]
+  },
+  {
+    "id": "I006",
+    "title": "Change the state of earlier offerings",
+    "summary": "R6 might ask for a change in what is present rather than a new object. This follows the known distinction between R4 and R5 conditions, but the assembly step is still missing.",
+    "chain": {
+      "body": "An existing object or group of offerings.",
+      "gone": "Consumption, pickup or despawn. These events must be kept separate.",
+      "remains": "Surviving objects or information about earlier actions.",
+      "assemble": "Unknown. Repeating an offering sequence is not automatically assembly.",
+      "signal": "A Journal advance tied to a recorded change in state, not just a disappearance."
+    },
+    "theory_ids": [
+      "T002",
+      "T011"
+    ],
+    "observation_ids": [
+      "O002",
+      "O003",
+      "O008"
+    ],
+    "experiment_ids": [
+      "E002",
+      "E003",
+      "E004"
+    ],
+    "question_ids": [
+      "Q006"
+    ],
+    "against": [
+      "Different earlier-step rules do not force R6 to use absence.",
+      "The despawn procedure lacks an explicit outcome; sound differences are not a validated progress meter."
+    ],
+    "missing": "A concrete assembly operation and an observation separating new arrivals from unchanged survivors.",
+    "last_reviewed": "2026-11-13",
+    "successor_ids": [
+      "R6I015",
+      "R6I017",
+      "R6I018",
+      "R6I019"
+    ]
+  }
+]

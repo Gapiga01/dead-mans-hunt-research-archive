@@ -1,0 +1,94 @@
+[
+  {
+    "theory_id": "T001",
+    "experiment_id": "E001"
+  },
+  {
+    "theory_id": "T002",
+    "experiment_id": "E002"
+  },
+  {
+    "theory_id": "T002",
+    "experiment_id": "E003"
+  },
+  {
+    "theory_id": "T002",
+    "experiment_id": "E004"
+  },
+  {
+    "theory_id": "T003",
+    "experiment_id": "E005"
+  },
+  {
+    "theory_id": "T004",
+    "experiment_id": "E005"
+  },
+  {
+    "theory_id": "T006",
+    "experiment_id": "E005"
+  },
+  {
+    "theory_id": "T009",
+    "experiment_id": "E003"
+  },
+  {
+    "theory_id": "T009",
+    "experiment_id": "E006"
+  },
+  {
+    "theory_id": "T009",
+    "experiment_id": "E007"
+  },
+  {
+    "theory_id": "T010",
+    "experiment_id": "E008"
+  },
+  {
+    "theory_id": "T010",
+    "experiment_id": "E009"
+  },
+  {
+    "theory_id": "T012",
+    "experiment_id": "E005"
+  },
+  {
+    "theory_id": "T013",
+    "experiment_id": "E010"
+  },
+  {
+    "theory_id": "T014",
+    "experiment_id": "E013"
+  },
+  {
+    "theory_id": "T015",
+    "experiment_id": "E011"
+  },
+  {
+    "theory_id": "T015",
+    "experiment_id": "E012"
+  },
+  {
+    "theory_id": "T004",
+    "experiment_id": "E014"
+  },
+  {
+    "theory_id": "T004",
+    "experiment_id": "E015"
+  },
+  {
+    "theory_id": "T006",
+    "experiment_id": "E014"
+  },
+  {
+    "theory_id": "T006",
+    "experiment_id": "E015"
+  },
+  {
+    "theory_id": "T012",
+    "experiment_id": "E014"
+  },
+  {
+    "theory_id": "T012",
+    "experiment_id": "E015"
+  }
+]

@@ -1,0 +1,292 @@
+[
+  {
+    "id": "S001",
+    "title": "Complete Route Archive",
+    "url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit",
+    "kind": "Archive",
+    "author": "Gapiga / archive compilation",
+    "date": "2026-11-13",
+    "limitation": "Updated source notes: 115 routes and 26 interpretations. This summarizes research; it does not independently verify every historical test.",
+    "visibility": "public"
+  },
+  {
+    "id": "S003",
+    "title": "Dead Man’s Hunt guide",
+    "url": "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+    "kind": "Community game documentation",
+    "author": null,
+    "date": null,
+    "limitation": "Linked background retained from the archive. Not a fresh replay of the solved steps.",
+    "visibility": "public"
+  },
+  {
+    "id": "S004",
+    "title": "Original forum guide",
+    "url": "https://hypixel.net/threads/the-dead-mans-hunt.6160407/",
+    "kind": "Player guide",
+    "author": "Double2",
+    "date": "2026-10-06",
+    "limitation": "Background guide retained from the archive.",
+    "visibility": "public"
+  },
+  {
+    "id": "S005",
+    "title": "Melody’s Hair: usage and pitch range",
+    "url": "https://hypixelskyblock.minecraft.wiki/w/Melody%27s_Hair",
+    "kind": "Community game documentation",
+    "author": null,
+    "date": null,
+    "limitation": "Usage section read this stage. Community transcription, not server implementation.",
+    "visibility": "public"
+  },
+  {
+    "id": "S006",
+    "title": "Better Together: mechanics and ending text",
+    "url": "https://hypixelskyblock.minecraft.wiki/w/Better_Together",
+    "kind": "Community game documentation",
+    "author": null,
+    "date": null,
+    "limitation": "Mechanics and ending announcement read this stage.",
+    "visibility": "public"
+  },
+  {
+    "id": "S007",
+    "title": "0.23.1: Better Together zone change",
+    "url": "https://hypixel.net/threads/hypixel-skyblock-0-23-1-hinas-chapters-pet-crafting-changes-and-more.5947293/",
+    "kind": "Developer update",
+    "author": "Hypixel Team",
+    "date": "2025-07-08",
+    "limitation": "Original developer update read this stage. An ordinary mechanic, not an R6 hint.",
+    "visibility": "public"
+  },
+  {
+    "id": "S008",
+    "title": "DEFAG playback attempt",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1558610148862337176",
+    "kind": "Firsthand player report",
+    "author": "exomechs / current display 206",
+    "date": "2026-10-11",
+    "limitation": "The linked report leaves the setup and outcome incomplete. It has not been checked again for this version.",
+    "visibility": "public"
+  },
+  {
+    "id": "S009",
+    "title": "Burp / page-turn observation",
+    "url": "https://discord.com/channels/996884296860172469/1560338241696301076/1569060223748931767",
+    "kind": "Firsthand player observation",
+    "author": "Gapiga",
+    "date": "2026-11-08",
+    "limitation": "A player’s sound comparison. The exact in-game sound source has not been confirmed.",
+    "visibility": "public"
+  },
+  {
+    "id": "S010",
+    "title": "Shaggy conversion inside the lake",
+    "url": "https://discord.com/channels/996884296860172469/1557053759740448909/1562578913811505323",
+    "kind": "Firsthand player report",
+    "author": "Collin",
+    "date": "2026-10-21",
+    "limitation": "Original report inspected previously. No separate stage or Journal capture in this message.",
+    "visibility": "public"
+  },
+  {
+    "id": "S011",
+    "title": "R5 Feather-first then another Feather",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1561851878181044295",
+    "kind": "Firsthand player report",
+    "author": "arua_a",
+    "date": "2026-10-19",
+    "limitation": "A reported failure followed by success. Item pickup history and a controlled comparison are missing.",
+    "visibility": "public"
+  },
+  {
+    "id": "S012",
+    "title": "R4 selective consumption",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1561888377715032086",
+    "kind": "Firsthand player report",
+    "author": "Starphi",
+    "date": "2026-10-20",
+    "limitation": "A report about R4, not a result for R6.",
+    "visibility": "public"
+  },
+  {
+    "id": "S013",
+    "title": "Wait for Callings and Feather to despawn",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1563254308093431939",
+    "kind": "Firsthand player report",
+    "author": "Arbor²",
+    "date": "2026-10-23",
+    "limitation": "The player describes a procedure but gives no explicit Journal result.",
+    "visibility": "public"
+  },
+  {
+    "id": "S014",
+    "title": "Ovid VIII: Icarus, calls and feathers",
+    "url": "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php",
+    "kind": "Primary literary text",
+    "author": "Ovid; translation A. S. Kline",
+    "date": null,
+    "limitation": "Relevant Icarus passage read this stage. Textual resemblance is not developer intent.",
+    "visibility": "public"
+  },
+  {
+    "id": "S015",
+    "title": "Qualia’s Ovid correspondence",
+    "url": "https://discord.com/channels/996884296860172469/1557053759740448909/1560189860914925579",
+    "kind": "Player interpretation",
+    "author": "Qualia",
+    "date": "2026-10-15",
+    "limitation": "The proposal was written after the earlier solutions were already known.",
+    "visibility": "public"
+  },
+  {
+    "id": "S016",
+    "title": "Campfire, flower and Spirit Stone attempt",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1560504814784225311",
+    "kind": "Firsthand player report",
+    "author": "Qualia",
+    "date": "2026-10-16",
+    "limitation": "The report does not separately show the active riddle or Journal outcome.",
+    "visibility": "public"
+  },
+  {
+    "id": "S017",
+    "title": "Urn first, then ashes / dust",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1569727656100896830",
+    "kind": "Firsthand player report",
+    "author": "Carrot",
+    "date": "2026-11-10",
+    "limitation": "Original post inspected previously. No explicit outcome in the message.",
+    "visibility": "public"
+  },
+  {
+    "id": "S018",
+    "title": "Dulin dialogue",
+    "url": "https://hypixelskyblock.minecraft.wiki/w/Dulin#Dialogue",
+    "kind": "Community dialogue transcription",
+    "author": null,
+    "date": null,
+    "limitation": "Initial dialogue and Railroad Pass instruction read this stage.",
+    "visibility": "public"
+  },
+  {
+    "id": "S019",
+    "title": "Kalevala, Volume II: the lost pike-bone harp",
+    "url": "https://www.gutenberg.org/cache/epub/33089/pg33089-images.html",
+    "kind": "Primary literary text",
+    "author": "Elias Lönnrot; translation W. F. Kirby",
+    "date": null,
+    "limitation": "The lost pike-bone harp passage in Rune XLIV was checked this stage.",
+    "visibility": "public"
+  },
+  {
+    "id": "S020",
+    "title": "Ovid XI: Orpheus’s head and lyre",
+    "url": "https://www.poetryintranslation.com/PITBR/Latin/Metamorph11.php",
+    "kind": "Primary literary text",
+    "author": "Ovid; translation A. S. Kline",
+    "date": null,
+    "limitation": "Orpheus aftermath passage read this stage. It does not provide a SkyBlock tune.",
+    "visibility": "public"
+  },
+  {
+    "id": "S021",
+    "title": "Fairy Armor disappearance report",
+    "url": "https://discord.com/channels/996884296860172469/1557053759740448909/1558602194792484925",
+    "kind": "Firsthand player report",
+    "author": "Ruby",
+    "date": "2026-10-11",
+    "limitation": "Read alongside the same player’s later correction.",
+    "visibility": "public"
+  },
+  {
+    "id": "S022",
+    "title": "Fairy Armor report retracted",
+    "url": "https://discord.com/channels/996884296860172469/1557053759740448909/1558602667738271755",
+    "kind": "Author correction",
+    "author": "Ruby",
+    "date": "2026-10-11",
+    "limitation": "Author identifies Personal Deletor as the explanation. No server-side pickup trace is available.",
+    "visibility": "public"
+  },
+  {
+    "id": "S023",
+    "title": "Moby’s Fishing Speed Chumpdate",
+    "url": "https://hypixel.net/threads/september-6-mobys-fishing-speed-chumpdate.5103151/",
+    "kind": "Developer update",
+    "author": "Minikloon",
+    "date": "2022-09-06",
+    "limitation": "Original update read this stage. Establishes collaborative Chum gathering, not an R6 selector.",
+    "visibility": "public"
+  },
+  {
+    "id": "S024",
+    "title": "Filled a bucket beside the lake",
+    "url": "https://discord.com/channels/996884296860172469/1557053759740448909/1558592787262349384",
+    "kind": "Firsthand player report",
+    "author": "Snowfake",
+    "date": "2026-10-10",
+    "limitation": "The player describes filling a bucket, not only dropping one that was already full.",
+    "visibility": "public"
+  },
+  {
+    "id": "S025",
+    "title": "Filled a bucket on ice, then offered it",
+    "url": "https://discord.com/channels/996884296860172469/1557053759740448909/1558593150950445127",
+    "kind": "Firsthand player report",
+    "author": "Snowfake",
+    "date": "2026-10-10",
+    "limitation": "The filling procedure is described, but there is no full deposit log or Journal screenshot.",
+    "visibility": "public"
+  },
+  {
+    "id": "S026",
+    "title": "Better Together + Melody proposal",
+    "url": "https://discord.com/channels/996884296860172469/1560338241696301076/1569786121712312451",
+    "kind": "Player proposal",
+    "author": "Gapiga",
+    "date": "2026-11-10",
+    "limitation": "A proposed combined procedure. No result is recorded by this source.",
+    "visibility": "public"
+  },
+  {
+    "id": "S027",
+    "title": "Fresh Arachne loot offered",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1557563223882989599",
+    "kind": "Firsthand player report",
+    "author": "Qualia",
+    "date": "2026-10-08",
+    "limitation": "Original report inspected previously. Loot and result are not enumerated.",
+    "visibility": "public"
+  },
+  {
+    "id": "S028",
+    "title": "Music and head-item tests during Better Together",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1570599492351303732",
+    "kind": "Firsthand player report",
+    "author": "amotorem",
+    "date": "2026-11-13",
+    "limitation": "Original post inspected during the November 13 discussion check. The player describes uncertain Melody’s Hair notes and a tuning-fork DEFAG attempt during an active event. No explicit Journal outcome or event-ending checkpoint.",
+    "visibility": "public"
+  },
+  {
+    "id": "S029",
+    "title": "Tuning-fork playback with four item drops",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1570556194643513385",
+    "kind": "Forwarded firsthand report",
+    "author": "Carrot",
+    "date": "2026-11-12",
+    "limitation": "The inspected forwarded text does not identify the four items, exact sequence, event state or Journal result. It is not a verified negative.",
+    "visibility": "public"
+  },
+  {
+    "id": "S030",
+    "title": "Braided Griffin Feather mechanics — corrected reference",
+    "url": "https://hypixelskyblock.minecraft.wiki/w/Braided_Griffin_Feather",
+    "kind": "Community game documentation",
+    "author": null,
+    "date": null,
+    "limitation": "Page availability checked for the release review. Corrects the website reference for R046; it is not evidence of an R6 test.",
+    "visibility": "public"
+  }
+]

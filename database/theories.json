@@ -1,0 +1,694 @@
+[
+  {
+    "id": "T001",
+    "title": "What R1 actually leaves behind",
+    "status": "Resolved",
+    "categories": [
+      "progression",
+      "mechanics",
+      "whole-hunt"
+    ],
+    "scope": "Hunt-wide",
+    "summary": "The Chestplate reveals an intact Journal. That earlier transformation is established; what it means for later riddles is a separate question.",
+    "origin": "R1 combines an initial-letter instruction with the lake hand-in. The item that disappears is not simply replaced by generic corpse loot: a record hidden inside it becomes available.",
+    "supports": [
+      {
+        "observation_id": "O001",
+        "why": "This supplies a real example of a physical offering exposing surviving information."
+      }
+    ],
+    "against": [
+      "The Journal appears whole. Nothing in this step demonstrates rebuilding pages, assembling a book or repeating the transformation at R6.",
+      "Resolving the R1 mechanic does not identify the Dead Man, the writer or the eventual reward."
+    ],
+    "assessment": "I treat the Chestplate-to-Journal event as settled context. I keep its possible metapuzzle meaning in T003 so that a confirmed earlier event cannot silently become a confirmed R6 answer.",
+    "change_my_mind": "An authentic later entry explicitly referring back to something hidden inside, recovered from, or written by the owner would connect the observation to a new question.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S004"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Verified positive result",
+    "next_experiment": null,
+    "parking": null,
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T002",
+    "title": "Arrival, presence, then absence?",
+    "status": "Active",
+    "categories": [
+      "mechanics",
+      "r6"
+    ],
+    "scope": "R6",
+    "summary": "R4 and R5 use different recorded conditions. R6 might care about a state change too, but no rule forces the next state to be absence.",
+    "origin": "R4 asks for repeat Calling drops within a time window. R5 asks for a Feather while three Calling units are present. R6 then contrasts a body with something that remains after it is gone.",
+    "supports": [
+      {
+        "observation_id": "O002",
+        "why": "R4 consumption is selective in the attributed report."
+      },
+      {
+        "observation_id": "O003",
+        "why": "A fresh final Feather is reported to change an R5 outcome."
+      }
+    ],
+    "against": [
+      "R5 also contains an arrival, and R1 already contains disappearance. The proposed progression is not a clean exclusive sequence.",
+      "A wait-for-despawn procedure exists. Its missing outcome does not make despawn a new, selected solution."
+    ],
+    "assessment": "I’m keeping the distinction between an object being present and a new arrival active as a research question. I’m parking any R6 recipe built from it until a source selects an object and an actual assembly action.",
+    "change_my_mind": "A controlled comparison using the same chosen objects, changing just the independently motivated event, with R6 shown before and after.",
+    "source_ids": [
+      "S001",
+      "S011",
+      "S012",
+      "S013"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Partially tested",
+    "next_experiment": null,
+    "parking": null,
+    "featured": true,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T003",
+    "title": "The Journal as surviving information",
+    "status": "Watchlist",
+    "categories": [
+      "patterns",
+      "r6",
+      "whole-hunt"
+    ],
+    "scope": "Hunt-wide",
+    "summary": "Maybe the offerings are gone but their recorded names and rules are the material we are meant to assemble. Initials, lengths and layout are clues to compare, not an established decoder.",
+    "origin": "R1 really uses a first-letter extraction. Completed entries retain information about earlier steps. The first five answer initials and the seven-wide layout invite a second text-based reading.",
+    "supports": [
+      {
+        "observation_id": "O001",
+        "why": "There is a genuine surviving record."
+      },
+      {
+        "observation_id": "O004",
+        "why": "The initials and counts are reproducible observations, not invented item names."
+      }
+    ],
+    "against": [
+      "No independently chosen input, extraction rule and endpoint have produced a unique action.",
+      "Only two completed equal-length pairs are known. Reordering letters, ignoring F or adding a guessed answer can manufacture a desired result."
+    ],
+    "assessment": "I think information assembly deserves a place in the hub. I don’t think DEFAG, the length pairs and the GUI are three independent proofs of one solution. T004 deals with playback; T006 deals with the added event condition.",
+    "change_my_mind": "One consistent rule, selected by authentic text or formatting, that yields a checkable instruction without rearranging its output.",
+    "source_ids": [
+      "S001",
+      "S003",
+      "S026"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Partially tested",
+    "next_experiment": null,
+    "parking": null,
+    "featured": true,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T004",
+    "title": "Playing the initials with Melody’s Hair",
+    "status": "Needs verification",
+    "categories": [
+      "patterns",
+      "mechanics",
+      "r6"
+    ],
+    "scope": "R6",
+    "summary": "Turning D E F A G into a played sequence is a different hypothesis from merely using those initials to identify an answer. A playback attempt was reported, but its setup is incomplete.",
+    "origin": "Melody’s Hair can tune and play pitches. The October 11 report explicitly describes playing the five initials in order, so this is not just a history of people throwing the accessory in.",
+    "supports": [
+      {
+        "observation_id": "O004",
+        "why": "The answer order supplies one reproducible note-letter sequence."
+      },
+      {
+        "observation_id": "O005",
+        "why": "There is an actual playable instrument-like accessory."
+      }
+    ],
+    "against": [
+      "The original attempt has no separate result, octave, location, active-stage capture or event state.",
+      "The letters alone do not choose rhythm, register, instrument or playback as the required operation. The documented instrument has 24 chromatic pitches, not fourteen."
+    ],
+    "assessment": "I want the incomplete old report represented accurately. I would not buy anything or keep trying registers because the old setup is missing. Better evidence needs to select musical input rather than merely leave it possible.",
+    "change_my_mind": "An authentic Hunt cue selecting performance, or a fully documented comparison producing a Journal change.",
+    "source_ids": [
+      "S005",
+      "S008",
+      "S026",
+      "S028",
+      "S029"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Inconclusive",
+    "next_experiment": null,
+    "parking": null,
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T005",
+    "title": "Better Together: stay after the ending",
+    "status": "Active",
+    "categories": [
+      "events",
+      "r6"
+    ],
+    "scope": "R6",
+    "summary": "The festival ends while its cooperative spirit is described as surviving. Staying together could be an assembly action, but no persistent game state or Hunt trigger has been demonstrated.",
+    "origin": "The event’s ending announcement makes the surviving-spirit connection concrete. The modern bonus counts people in the same zone; old block-radius instructions are not interchangeable with this mechanic.",
+    "supports": [
+      {
+        "observation_id": "O006",
+        "why": "The survival wording is real game-text transcription."
+      },
+      {
+        "observation_id": "O007",
+        "why": "A group condition is documented independently of R6."
+      }
+    ],
+    "against": [
+      "The phrase can be ordinary flavor text. No retained Spirit resource or post-event buff is established.",
+      "The body is still unidentified. The clue does not specify a group size, equipment, music or a precise number of seconds."
+    ],
+    "assessment": "I’d give this one clean opportunity when the event naturally occurs. I would keep the plain event-ending observation separate from music and expensive loadouts so that any change can be attributed to the right action.",
+    "change_my_mind": "A Journal change at the natural ending, followed by a comparison between remaining together and assembling afterward.",
+    "source_ids": [
+      "S006",
+      "S007",
+      "S026"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Inconclusive",
+    "next_experiment": {
+      "cost": "No coins if a suitable event occurs naturally.",
+      "purpose": "Check whether the natural ending alone changes an R6 Journal before any extra input.",
+      "steps": [
+        "Show active R6 and record the zone and group present.",
+        "Remain in the same place through the actual ending announcement.",
+        "Check the Journal immediately after the ending, before notes or offerings."
+      ],
+      "confirm": "A visible R6-to-R7 Journal advance at that checkpoint.",
+      "negative": "No change is a negative for the recorded group and location, not proof against every event theory.",
+      "stop": "One documented opportunity. Do not add an arbitrary head count, armor or timer to rescue a negative."
+    },
+    "parking": null,
+    "featured": true,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T006",
+    "title": "Better Together + Melody: the combined proposal",
+    "status": "Watchlist",
+    "categories": [
+      "events",
+      "patterns",
+      "r6"
+    ],
+    "scope": "R6",
+    "summary": "Maybe a musical sequence only counts around the festival ending. This combines two separate ideas; the combination itself has not gained a positive result in the reviewed records.",
+    "origin": "Better Together begins with B and has fourteen letters, matching two proposed filters. Adding B to DEFAG and playing it is a further chosen procedure, not a decoded imperative.",
+    "supports": [
+      {
+        "observation_id": "O004",
+        "why": "The name can be compared with the observed initials and lengths."
+      },
+      {
+        "observation_id": "O006",
+        "why": "The event has a genuine ending reference to survival."
+      }
+    ],
+    "against": [
+      "The additional music requirement is not independently selected. B/C only follow if all seven note names are intended, and their order is still unknown.",
+      "An active-event performance might itself prime a later result. An A-then-B test would establish that sequence, not isolate post-event playback alone."
+    ],
+    "assessment": "I’m keeping this separate so a failure of one performance does not erase the event idea, and an event-only success does not get credited to music. I don’t consider the coincidences a reason to buy equipment.",
+    "change_my_mind": "A recorded checkpoint where the Journal stays unchanged at the ending and changes after the specified notes, followed by a meaningful comparator.",
+    "source_ids": [
+      "S008",
+      "S026",
+      "S028",
+      "S029"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Inconclusive",
+    "next_experiment": null,
+    "parking": null,
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T007",
+    "title": "Who is the Dead Man?",
+    "status": "Watchlist",
+    "categories": [
+      "identity",
+      "whole-hunt"
+    ],
+    "scope": "Hunt-wide",
+    "summary": "The corpse, Chestplate owner and Journal author might be the same person, or three different roles. Divan is one candidate, not the established identity.",
+    "origin": "The Hunt begins with corpse-associated armor, while the local setting contains Dwarven history and missing rulers. That gives us a reason to read local lore before expanding to unrelated names.",
+    "supports": [
+      {
+        "observation_id": "O001",
+        "why": "The Journal’s hiding place is a specific physical connection."
+      },
+      {
+        "observation_id": "O009",
+        "why": "Local dialogue supplies real history to compare."
+      }
+    ],
+    "against": [
+      "The setting alone cannot identify the owner or writer.",
+      "A completed ordinary quest, shared word or corpse-related perk is not a direct link to this particular Journal."
+    ],
+    "assessment": "I’d keep this as a Hunt-wide question even if it produces no R6 experiment. A clear identity clue could make a later entry intelligible, but I don’t want to declare every Divan item relevant in advance.",
+    "change_my_mind": "A named inscription, original item description, NPC line or later Journal entry connecting the owner or writer to a specific character.",
+    "source_ids": [
+      "S001",
+      "S018"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Inconclusive",
+    "next_experiment": null,
+    "parking": null,
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T008",
+    "title": "Dulin, Sor’Hen and the lost kingdom",
+    "status": "Parked",
+    "categories": [
+      "identity",
+      "whole-hunt"
+    ],
+    "scope": "Hunt-wide",
+    "summary": "The Railroad Pass story contains remains, recovery and assembly language. The overlap is real; a shared Hunt mechanism has not been shown.",
+    "origin": "Dulin opens with remains language, identifies himself through Divan’s lineage and tells the player to put a Pass together in the Forge. This is ordinary progression dialogue that can be compared with the Hunt.",
+    "supports": [
+      {
+        "observation_id": "O009",
+        "why": "Several relevant concepts occur in one actual dialogue chain."
+      }
+    ],
+    "against": [
+      "The dialogue already has a complete explanation in the Railroad Pass quest.",
+      "The archive’s four-player Dulin/Grandpa conversations do not establish a Better Together ending or a hidden Journal update."
+    ],
+    "assessment": "I’ve parked this as an R6 solution route. It is useful background, but repeated conversations and a matching word are not a reason to assemble another group or Forge item.",
+    "change_my_mind": "A new line or interaction that explicitly connects the Journal or its owner to this quest.",
+    "source_ids": [
+      "S001",
+      "S018"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Inconclusive",
+    "next_experiment": null,
+    "parking": {
+      "reason": "No direct Hunt connection",
+      "investigated": "Local progression dialogue and the archive’s group-conversation reports.",
+      "unresolved": "Whether the stories share an owner, event or later clue.",
+      "reopen": "A direct Journal reference or a Hunt-specific dialogue change."
+    },
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T009",
+    "title": "Arachne and Griffin: one chain or two clues?",
+    "status": "Parked",
+    "categories": [
+      "mechanics",
+      "r6"
+    ],
+    "scope": "R6",
+    "summary": "R4 and R5 use spider and Griffin materials. A broader page should connect their related routes without pretending Crystal conversion, boss aftermath and braiding are the same experiment.",
+    "origin": "Shaggy conversion and Braided Griffin Feather look like natural assembly steps after earlier offerings. Cocooning, fresh loot and item presence are distinct mechanisms within the same family.",
+    "supports": [
+      {
+        "observation_id": "O015",
+        "why": "At least one report covers the actual Shaggy conversion inside the lake, not only a purchased output."
+      },
+      {
+        "observation_id": "O002",
+        "why": "The earlier Calling behavior is specific enough to investigate as mechanics."
+      }
+    ],
+    "against": [
+      "Many nearby recipes fit the theme, so the family does not select one operation.",
+      "The Crystal trade has an attributed procedure but incomplete stage/result proof. The original BGF archive cell links to a Crystal page; a corrected mechanics reference is supplied here, without changing that source record."
+    ],
+    "assessment": "I’ve parked new purchases in this family. I want the native-operation reports preserved, because calling them mere item throws would incorrectly reopen old work.",
+    "change_my_mind": "A source selecting a precise operation and condition that the existing linked procedures did not exercise.",
+    "source_ids": [
+      "S001",
+      "S010",
+      "S012",
+      "S027",
+      "S030"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Partially tested",
+    "next_experiment": null,
+    "parking": {
+      "reason": "Prior coverage; missing selector",
+      "investigated": "Calling behavior, fresh Arachne loot and a Shaggy trade; other subroutes remain individually qualified.",
+      "unresolved": "Which operation, if any, is selected by the R6 wording.",
+      "reopen": "A new primary clue or a documented difference from an existing exact procedure."
+    },
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T010",
+    "title": "Icarus, Daedalus and what comes afterward",
+    "status": "Parked",
+    "categories": [
+      "literature",
+      "r6"
+    ],
+    "scope": "R6",
+    "summary": "A continuous fall–calls–feathers passage is a stronger literary comparison than assigning an unrelated myth to every item. It still does not pick a SkyBlock completion action.",
+    "origin": "Ovid VIII puts the three motifs together. The following burial and other transformation stories supply possible readings of a body and its aftermath.",
+    "supports": [
+      {
+        "observation_id": "O010",
+        "why": "The passage really contains the ordered motifs being compared."
+      }
+    ],
+    "against": [
+      "The correspondence was proposed after the solved steps were known, so it is not an independent prediction.",
+      "Calling three times does not uniquely select Arachne’s Calling, and feathers do not uniquely select Griffin Feather. Other game conditions remain unexplained.",
+      "Campfire/flower and urn/ash procedures have reports. Their missing details are not positive evidence for a different expensive symbolic offering."
+    ],
+    "assessment": "I like the textual connection more than most loose death-item associations. I’ve parked its gameplay implementation because the story-to-game bridge is still missing.",
+    "change_my_mind": "A distinctive game text or mechanic selecting the survivor and assembly action, without mixing supplies or events from different works.",
+    "source_ids": [
+      "S014",
+      "S015",
+      "S016",
+      "S017"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Partially tested",
+    "next_experiment": null,
+    "parking": {
+      "reason": "No selected game operation",
+      "investigated": "Original Icarus passage, retrospective correspondence and specific symbolic offerings.",
+      "unresolved": "Which actual survivor and action would complete the Hunt.",
+      "reopen": "A unique in-game link to a specific passage or operation."
+    },
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T011",
+    "title": "Why does the burping seem to stop?",
+    "status": "Needs verification",
+    "categories": [
+      "patterns",
+      "mechanics",
+      "whole-hunt"
+    ],
+    "scope": "Hunt-wide",
+    "summary": "The reported sound split is an observation worth preserving. Its meaning is not known, and the noises are not a validated hidden progress meter.",
+    "origin": "The public comparison says R1 has a burp and another sound, R2 a burp and page turn, then R3–R5 page turns without burps. Later successful offerings are also consumed.",
+    "supports": [
+      {
+        "observation_id": "O008",
+        "why": "There is an attributed comparison of existing recordings rather than a new item-name resemblance."
+      }
+    ],
+    "against": [
+      "Distance, sound settings and unrelated effects can change what is heard.",
+      "A book-like waveform can be used for more than one game event. Neither musical pitch nor quest-specific sound IDs are authenticated by the report."
+    ],
+    "assessment": "I’d preserve this as an unresolved feedback question. I would compare the recordings we already have, but I wouldn’t ask players to restart profiles or repeatedly feed the lake on that basis.",
+    "change_my_mind": "A same-settings comparison or an independently attributable game event that explains the split.",
+    "source_ids": [
+      "S009"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Inconclusive",
+    "next_experiment": null,
+    "parking": null,
+    "featured": true,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T012",
+    "title": "An instrument survives: Kalevala and Orpheus",
+    "status": "Watchlist",
+    "categories": [
+      "literature",
+      "patterns",
+      "whole-hunt"
+    ],
+    "scope": "Hunt-wide",
+    "summary": "Several stories put an instrument beside a lost body or a body of water. They are useful comparisons, but they should stay separate rather than become one blended legend.",
+    "origin": "The checked Kalevala passage searches for a lost pike-bone harp. Ovid XI describes Orpheus’s head and lyre carried downriver and to the sea. The research notes compare these with Melody and the R6 body/remains wording.",
+    "supports": [
+      {
+        "observation_id": "O011",
+        "why": "Surviving or missing instruments are genuinely present in the texts."
+      },
+      {
+        "observation_id": "O005",
+        "why": "SkyBlock has a real way to play selected notes."
+      }
+    ],
+    "against": [
+      "The lost harp is not a recipe for its recovered fragments. Orpheus’s lyre surviving does not specify a tune or an assembly operation.",
+      "No checked game line names these stories. DEFAG has not been shown to be a melody from either text."
+    ],
+    "assessment": "I’m keeping these as separate literary comparisons under one instrument question. I would not pick hair, bones or a register merely because several stories contain them.",
+    "change_my_mind": "An actual game reference or clue that selects one story and a reproducible operation.",
+    "source_ids": [
+      "S019",
+      "S020",
+      "S005",
+      "S008",
+      "S028",
+      "S029"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Partially tested",
+    "next_experiment": null,
+    "parking": null,
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T013",
+    "title": "Fairy Armor vanishing meant the lake accepted it",
+    "status": "Retired",
+    "categories": [
+      "mechanics",
+      "whole-hunt"
+    ],
+    "scope": "Hunt-wide",
+    "summary": "This specific acceptance claim was retracted by the player who made it. Keeping the correction visible is more useful than leaving an unexplained “secret consumption” rumor.",
+    "origin": "Ruby reported unusual loss of Fairy Armor except its boots, then identified Personal Deletor as the explanation. The surviving boot was not evidence of a clue-selected remainder.",
+    "supports": [
+      {
+        "observation_id": "O012",
+        "why": "The original report has an attributable author correction."
+      }
+    ],
+    "against": [
+      "A raw disappearance is not sufficient Hunt feedback.",
+      "The correction does not establish how every other item-loss report happened, or prove all armor theories false."
+    ],
+    "assessment": "I’ve retired the claim that this particular disappearance showed lake acceptance. I have not retired body/armor interpretations as a whole. The lesson is to follow the original thread through its correction.",
+    "change_my_mind": "A different, independently recorded event with inventory controls and an actual Journal advance would be new evidence, not a rescue of this retracted report.",
+    "source_ids": [
+      "S021",
+      "S022"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Inconclusive",
+    "next_experiment": null,
+    "parking": null,
+    "featured": false,
+    "retirement_reason": "The original author withdrew the acceptance interpretation and identified a non-Hunt explanation.",
+    "publication_state": "developed"
+  },
+  {
+    "id": "T014",
+    "title": "Fossils: reconstructing is not the same as offering",
+    "status": "Parked",
+    "categories": [
+      "mechanics",
+      "r6"
+    ],
+    "scope": "R6",
+    "summary": "A fossil suggests a vanished body and reconstruction, but excavation, item crafting and building a shape in the lake are different operations. The records should not collapse them.",
+    "origin": "This was an early literal reading of remains. The archive includes fossil offerings and physically constructed patterns, so a generic call to “try assembling a fossil” would repeat existing work.",
+    "supports": [
+      {
+        "observation_id": "O016",
+        "why": "The archive preserves actual physical-construction coverage as well as item names."
+      }
+    ],
+    "against": [
+      "The current summary does not identify a source-selected fossil or a unique final action.",
+      "A physical pattern report cannot prove every native excavation or donation route failed. Conversely, that distinction alone is not a reason to buy a fossil."
+    ],
+    "assessment": "I’ve parked this broad route because it has substantial adjacent coverage and no new selector. A narrow future mechanic can reopen it, but the old attempts should come with it.",
+    "change_my_mind": "An original interaction or text selecting a particular reconstruction action not covered by a located procedure.",
+    "source_ids": [
+      "S001"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Partially tested",
+    "next_experiment": null,
+    "parking": {
+      "reason": "Prior coverage; missing selector",
+      "investigated": "Offerings and physical fossil-pattern reconstruction summarized in the archive.",
+      "unresolved": "Exact original recordings and whether a specific native operation is selected.",
+      "reopen": "A source-selected mechanism and an original procedure showing what remains untested."
+    },
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T015",
+    "title": "Chum: gathering the consequences of a kill",
+    "status": "Parked",
+    "categories": [
+      "mechanics",
+      "r6"
+    ],
+    "scope": "R6",
+    "summary": "A sea-creature death produces something players deposit into a bucket. This is a functional assembly chain, not only a name match, but native filling was already reported at the lake.",
+    "origin": "The developer update introduces cooperative Chum collection. R6 can be read as assembling what remains after a creature disappears; the bucket changes state through deposits.",
+    "supports": [
+      {
+        "observation_id": "O013",
+        "why": "Death-related collection and filling are real game actions."
+      },
+      {
+        "observation_id": "O014",
+        "why": "The older test coverage includes filling beside the lake and on the ice."
+      }
+    ],
+    "against": [
+      "The old posts do not establish a controlled R6 result, but they do defeat the claim that nobody tried the relevant action.",
+      "Fresh-kill history, clothing and a special bucket would be extra conditions without an independent selector."
+    ],
+    "assessment": "I’ve parked this instead of endlessly adding conditions. It was a worthwhile mechanism to inspect, and the native filling report is exactly the kind of test history a short item list can hide.",
+    "change_my_mind": "A specific source or observation distinguishing a new operation from the already reported fill-and-offer attempts.",
+    "source_ids": [
+      "S023",
+      "S024",
+      "S025"
+    ],
+    "last_reviewed": "2026-11-13",
+    "testing_label": "Partially tested",
+    "next_experiment": null,
+    "parking": {
+      "reason": "Native action already covered",
+      "investigated": "Bucket filling beside the lake and on its ice, followed by offerings.",
+      "unresolved": "Full deposit logs, quest-stage captures and separate outcomes.",
+      "reopen": "An independently selected condition that the original reports demonstrably did not exercise."
+    },
+    "featured": false,
+    "publication_state": "developed"
+  },
+  {
+    "id": "T016",
+    "title": "Lake feeding / passive taming",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T017",
+    "title": "Corpse loot and recovered artifacts",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T018",
+    "title": "Native crafting, forging and machines",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T019",
+    "title": "Secondary consequences and conversion chains",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T020",
+    "title": "Lake environment and geometry",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T021",
+    "title": "Cult, stars and collective rituals",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T022",
+    "title": "Souls, spirits and dungeon states",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T023",
+    "title": "Replacement and the Ship of Theseus",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T024",
+    "title": "Water creatures and boss aftermath",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T025",
+    "title": "Shards, runes and descriptive lore",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T026",
+    "title": "Unverified reward interpretations",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T027",
+    "title": "Hints, promotional text and feedback claims",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T028",
+    "title": "Echo: surviving voice and repetition",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  },
+  {
+    "id": "T029",
+    "title": "Instrument repair and Melody’s The Rebuild",
+    "status": "Watchlist",
+    "publication_state": "planned"
+  }
+]
