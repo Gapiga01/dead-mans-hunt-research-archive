@@ -2,7 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {ROOT} from './data.mjs';
 import {escapeHtml as h} from '../web/core.js';
-import {setBasePath,routeUrl,rewriteLinks} from '../web/urls.js';
+import {setBasePath,routeUrl,rewriteLinks,primarySection} from '../web/urls.js';
 import {renderPage} from '../web/views.js';
 import {fillReadingViews} from '../web/readings.js';
 export const SITE_NAME="Dead Man's Hunt Research Archive";
@@ -21,31 +21,35 @@ export async function loadSite(env=process.env,{production=false}={}){
  return {...config,name:SITE_NAME,url:u.href,basePath:u.pathname,local,verification,google_form_url:form};
 }
 const descriptions={
- home:"Explore Hypixel SkyBlock Dead Man's Hunt theories, 26 Riddle 6 interpretations, reported tests and sources across 104 original routes and 11 later additions.",
- interpretations:'Compare 26 readings of Dead Man’s Hunt Riddle 6, grouped by literal meanings, body, disappearance, assembly, grammar and literature. Read pros, cons and assessments.',
+ home:"Explore Hypixel SkyBlock Dead Man's Hunt research, solved R1–R5 mechanics, R6 interpretations, attributed reports and historical routes.",
+ guide:'Start Dead Man’s Hunt with the original R1–R5 clues, documented solutions, item and timing conditions, sources and the limits of their connection to Riddle 6.',
+ explore:'Explore the unsolved Dead Man’s Hunt Riddle 6 through interpretations, developed investigations, test coverage, source evidence and open questions.',
+ search:'Search reviewed public Dead Man’s Hunt research by theory, item, mechanic, NPC, route ID, test or attributed contributor.',
+ interpretations:'Compare 27 readings of Dead Man’s Hunt Riddle 6, grouped by literal meanings, body, disappearance, assembly, grammar, literature and environmental conditions.',
  theories:'Browse Hypixel SkyBlock Dead Man’s Hunt theories, their evidence, reported tests, weaknesses and personal assessments. Speculation stays separate from confirmed mechanics.',
  questions:'Find specific unanswered Dead Man’s Hunt research questions, why they matter and the evidence that would help answer them.',
  tests:'Read attributed Dead Man’s Hunt test reports and observations, with procedures, conditions, results and verification limits.',
- archive:'Browse 115 Dead Man’s Hunt research routes: 104 original records and 11 later additions, with original descriptions, sources and testing qualifications.',
+ archive:'Browse 116 Dead Man’s Hunt research routes: 104 original records and 12 later additions, with detailed readings, historical descriptions and qualified testing coverage.',
  parking:'Read parked and retired Dead Man’s Hunt ideas, why they were set aside and what evidence could reopen them.',
  categories:'Explore Dead Man’s Hunt research by progression, identity, mechanics, hidden messages, literature and group events.',
- evaluate:'How this Dead Man’s Hunt archive separates confirmed mechanics, player reports and speculation, with editorial status definitions and an AI-assistance disclosure.',
+ evaluate:'About the Dead Man’s Hunt research archive, contributor credits, ChatGPT and Sol assistance, editorial priorities, corrections and submission availability.',
  sources:'Follow original Dead Man’s Hunt player reports, game documentation, developer notes and literary sources, with contributor credit and verification limits.',
- contribute:'Submission availability for the Dead Man’s Hunt Research Archive. A Google Form can be connected; local draft downloads do not send a submission.'
+ contribute:'Submission availability for the Dead Man’s Hunt Research Archive. Submissions are closed until a Google Form is connected and tested.'
 };
-const names={home:SITE_NAME,interpretations:'Ways to read R6',theories:'Dead Man’s Hunt theories',questions:'Open research questions',tests:'Tests and observations',archive:'115 research routes',parking:'Parked and retired ideas',categories:'Research categories',evaluate:'About the research',sources:'Sources and contributor credits',contribute:'Contribute'};
+const names={home:SITE_NAME,guide:'Start Here — R1–R5',explore:'Explore R6',search:'Search the archive',interpretations:'Ways to read R6',theories:'Dead Man’s Hunt theories',questions:'Open research questions',tests:'Tests and observations',archive:'Research Archive',parking:'Parked and retired ideas',categories:'Research categories',evaluate:'About, credits & corrections',sources:'Sources and contributor credits',contribute:'Contributions & corrections'};
 export function pagesFor(db,site){
  setBasePath(site.basePath);
- const pages=Object.keys(names).map(route=>({route,id:null,filters:{},index:route!=='contribute'}));
+ const pages=Object.keys(names).map(route=>({route,id:null,filters:{},index:!['contribute','search'].includes(route)}));
  for(let n=2;n<=Math.ceil(db.routes.length/20);n++)pages.push({route:'archive',id:null,filters:{page:String(n)},index:true});
  for(const t of [...db.theories,...db.groups.filter(g=>g.publication_state==='planned')])pages.push({route:'theory',id:t.id,filters:{},index:t.publication_state!=='planned'});
  for(const i of db.interpretations)pages.push({route:'interpretation',id:i.id,filters:{},index:true});
  for(const i of db.legacy_interpretations)pages.push({route:'interpretation',id:i.id,filters:{},index:false});
  for(const e of db.experiments)pages.push({route:'experiment',id:e.id,filters:{},index:true});
+ for(const r of db.routes)pages.push({route:'route',id:r.id,filters:{},index:db.breakdowns.some(b=>b.subject_id===r.id)});
  return pages.map(p=>{
-  const record=p.route==='theory'?(db.theories.find(t=>t.id===p.id)||db.groups.find(t=>t.id===p.id)):p.route==='interpretation'?(db.interpretations.find(i=>i.id===p.id)||db.legacy_interpretations.find(i=>i.id===p.id)):p.route==='experiment'?db.experiments.find(e=>e.id===p.id):null;
-  const title=record?.title||names[p.route]+(p.filters.page?' — page '+p.filters.page:'');
-  let description=record?(record.summary||record.meaning||record.procedure||'Original research routes grouped for future investigation; this is not a finished theory page.'):descriptions[p.route];
+  const record=p.route==='theory'?(db.theories.find(t=>t.id===p.id)||db.groups.find(t=>t.id===p.id)):p.route==='interpretation'?(db.interpretations.find(i=>i.id===p.id)||db.legacy_interpretations.find(i=>i.id===p.id)):p.route==='experiment'?db.experiments.find(e=>e.id===p.id):p.route==='route'?db.routes.find(r=>r.id===p.id):null;
+  const title=(record?.title||names[p.route]+(p.filters.page?' — page '+p.filters.page:''))+(p.route==='route'?' · '+p.id:'');
+  let description=record?(record.summary||record.meaning||record.procedure||record.description||'Original research routes grouped for future investigation; this is not a finished theory page.'):descriptions[p.route];
   if(p.filters.page)description=`Routes ${(Number(p.filters.page)-1)*20+1}–${Math.min(Number(p.filters.page)*20,db.routes.length)} of the Dead Man’s Hunt research archive. Read the original descriptions, testing qualifications and source links.`;
   description=description.replace(/\s+/g,' ').trim();if(description.length>190)description=description.slice(0,187).replace(/\s+\S*$/,'')+'…';
   const pathname=routeUrl(p.route,p.id,p.filters);
@@ -62,10 +66,12 @@ export function documentFor(page,db,site,shell){
  const graph=[{'@type':'WebPage','@id':page.url+'#page',url:page.url,name:page.title,description:page.description,inLanguage:'en',isPartOf:{'@id':site.url+'#website'},about:{'@type':'VideoGame',name:'Hypixel SkyBlock'},dateModified:page.lastmod},{'@type':'BreadcrumbList',itemListElement:crumbs}];
  if(page.route==='home')graph.unshift({'@type':'WebSite','@id':site.url+'#website',url:site.url,name:SITE_NAME,description:descriptions.home,inLanguage:'en'});
  const robots=site.local||!page.index?'noindex,follow':'index,follow';
- const head=`<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${h(title)}</title><meta name="description" content="${h(page.description)}"><meta name="robots" content="${robots}"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'"><link rel="canonical" href="${h(page.url)}"><meta property="og:type" content="website"><meta property="og:site_name" content="${h(SITE_NAME)}"><meta property="og:title" content="${h(title)}"><meta property="og:description" content="${h(page.description)}"><meta property="og:url" content="${h(page.url)}"><meta property="og:image" content="${h(image)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Dead Man's Hunt Research Archive — theories, interpretations and test reports"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${h(title)}"><meta name="twitter:description" content="${h(page.description)}"><meta name="twitter:image" content="${h(image)}">${site.verification?`<meta name="google-site-verification" content="${h(site.verification)}">`:''}<script type="application/ld+json">${jsonScript({'@context':'https://schema.org','@graph':graph})}</script><link rel="icon" href="${site.basePath}mark.svg" type="image/svg+xml"><link rel="stylesheet" href="${site.basePath}styles.css"><script type="module" src="${site.basePath}app.js"></script>`;
+ const head=`<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${h(title)}</title><meta name="description" content="${h(page.description)}"><meta name="robots" content="${robots}"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'"><link rel="canonical" href="${h(page.url)}"><meta property="og:type" content="website"><meta property="og:site_name" content="${h(SITE_NAME)}"><meta property="og:title" content="${h(title)}"><meta property="og:description" content="${h(page.description)}"><meta property="og:url" content="${h(page.url)}"><meta property="og:image" content="${h(image)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Dead Man's Hunt Research Archive — theories, interpretations and test reports"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${h(title)}"><meta name="twitter:description" content="${h(page.description)}"><meta name="twitter:image" content="${h(image)}">${site.verification?`<meta name="google-site-verification" content="${h(site.verification)}">`:''}<script type="application/ld+json">${jsonScript({'@context':'https://schema.org','@graph':graph})}</script><link rel="icon" href="${site.basePath}mark.svg" type="image/svg+xml"><link rel="stylesheet" href="${site.basePath}styles.css"><script type="module" src="${site.basePath}app.js"></script>`;
  let html=shell.replace(/<head>[\s\S]*?<\/head>/,()=>'<head>'+head+'</head>').replace(/<main id="main"[^>]*>[\s\S]*?<\/main>/,()=>`<main id="main" tabindex="-1">${content}</main>`).replace(/<noscript>[\s\S]*?<\/noscript>/,'<noscript>Search filters need JavaScript. All research pages and links remain readable without it.</noscript>');
  html=html.replace('STAGE 1–3 · LOCAL PROTOTYPE',site.local?'REVIEW COPY · NOT PUBLISHED':'COMMUNITY RESEARCH');
- html=html.replace(/(<a data-nav="([^"]+)"[^>]*)(>)/g,(_,start,nav,end)=>start+(nav===(page.route==='theory'?'theories':page.route==='interpretation'?'interpretations':page.route==='experiment'?'tests':page.route)?' class="active" aria-current="page"':'')+end);
+ html=html.replace('__ABOUT_METHOD__',routeUrl('evaluate')+'#methodology');
+ const logical=page.route==='theory'?'theories':page.route==='interpretation'?'interpretations':page.route==='experiment'?'tests':page.route;
+ html=html.replace(/(<a data-nav="([^"]+)"[^>]*)(>)/g,(_,start,nav,end)=>start+([logical,primarySection(page.route)].includes(nav)?' class="active" aria-current="'+(nav===logical?'page':'location')+'"':'')+end);
  return rewriteLinks(html);
 }
 export function sitemapFor(pages){return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'+pages.filter(p=>p.index).map(p=>`  <url><loc>${h(p.url)}</loc><lastmod>${p.lastmod}</lastmod></url>`).join('\n')+'\n</urlset>\n';}

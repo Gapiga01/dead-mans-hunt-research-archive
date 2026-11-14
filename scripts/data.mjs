@@ -1,12 +1,12 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 export const ROOT=path.resolve(import.meta.dirname,'..');
-export const tables=['config','categories','theories','routes','observations','experiments','sources','theory_routes','theory_experiments','interpretations','questions','interpretation_groups','interpretation_angles','legacy_interpretations'];
+export const tables=['config','categories','theories','routes','observations','experiments','sources','theory_routes','theory_experiments','interpretations','questions','interpretation_groups','interpretation_angles','legacy_interpretations','breakdowns','riddles'];
 export async function readDatabase(root=ROOT){return Object.fromEntries(await Promise.all(tables.map(async name=>[name,JSON.parse(await fs.readFile(path.join(root,'database',name+'.json'),'utf8'))])));}
 export function safeUrl(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol);}catch{return false;}}
 export function validate(db){
  const errors=[];const assert=(ok,msg)=>{if(!ok)errors.push(msg);};
- const maps={};for(const table of ['categories','theories','routes','observations','experiments','sources','interpretations','questions','interpretation_groups','interpretation_angles','legacy_interpretations']){maps[table]=new Map();for(const row of db[table]){assert(typeof row.id==='string'&&!maps[table].has(row.id),`Duplicate/missing ID in ${table}: ${row.id}`);maps[table].set(row.id,row);}}
+ const maps={};for(const table of ['categories','theories','routes','observations','experiments','sources','interpretations','questions','interpretation_groups','interpretation_angles','legacy_interpretations','breakdowns','riddles']){maps[table]=new Map();for(const row of db[table]){assert(typeof row.id==='string'&&!maps[table].has(row.id),`Duplicate/missing ID in ${table}: ${row.id}`);maps[table].set(row.id,row);}}
  const refs=(ids,table,where)=>{for(const id of ids||[])assert(maps[table].has(id),`${where}: missing ${table} ${id}`);};
  for(const s of db.sources)assert(safeUrl(s.url),`Unsafe source URL ${s.id}`);
  for(const r of db.routes){assert(/^(R\d{3}|N\d{3})$/.test(r.id),`Invalid legacy route ID ${r.id}`);assert(safeUrl(r.source_url),`Unsafe archive URL ${r.id}`);}
@@ -51,12 +51,21 @@ export function validate(db){
  for(const m of db.theory_experiments){refs([m.theory_id],'theories','Test join');refs([m.experiment_id],'experiments','Test join');}
  for(const r of db.routes)assert(db.theory_routes.some(m=>m.route_id===r.id),`Unmapped route ${r.id}`);
  assert(new Set(db.theory_routes.map(m=>m.theory_id+':'+m.route_id)).size===db.theory_routes.length,'Duplicate route join');
+ for(const b of db.breakdowns){
+  assert(/^(I|R|N)\d{3}$/.test(b.id),`Invalid breakdown ${b.id}`);
+  const kind=b.kind==='interpretation'?'interpretations':'routes';refs([b.subject_id],kind,b.id);refs(b.route_ids,'routes',b.id);
+  for(const key of ['title','proposal','support','weakness','test_coverage','verify_next','assessment'])assert(typeof b[key]==='string'&&b[key].length>8,`Missing breakdown field ${b.id}.${key}`);
+  assert(db.config.statuses.includes(b.status),`Invalid breakdown priority ${b.id}`);
+  assert(safeUrl(b.source_url),`Unsafe breakdown source ${b.id}`);for(const url of b.background_urls)assert(safeUrl(url),`Unsafe background URL ${b.id}`);
+ }
+ for(const r of db.routes){for(const url of r.background_urls||[])assert(safeUrl(url),`Unsafe route reference ${r.id}`);}
+ for(const r of db.riddles){assert(/^R[1-5]$/.test(r.id),`Invalid solved riddle ${r.id}`);for(const key of ['clue','solution','action','mechanic','interpretation','r6_limit'])assert(r[key]?.length>8,`Missing guide field ${r.id}.${key}`);refs(r.source_ids,'sources',r.id);}
  if(errors.length)throw Error(errors.join('\n'));return true;
 }
 export function publicData(db){
  validate(db);
  const sources=db.sources.filter(s=>s.visibility==='public');const allowed=new Set(sources.map(s=>s.id));
- for(const record of [...db.questions,...db.observations,...db.experiments,...db.theories.filter(t=>t.publication_state==='developed')])for(const id of record.source_ids||[])if(!allowed.has(id))throw Error('Private source reference in public record: '+id);
+ for(const record of [...db.questions,...db.observations,...db.experiments,...db.riddles,...db.theories.filter(t=>t.publication_state==='developed')])for(const id of record.source_ids||[])if(!allowed.has(id))throw Error('Private source reference in public record: '+id);
  return {...db,theories:db.theories.filter(t=>t.publication_state==='developed'),groups:db.theories.map(({id,title,publication_state})=>({id,title,publication_state})),sources};
 }
 export function csv(rows){if(!rows.length)return '';const keys=[...new Set(rows.flatMap(r=>Object.keys(r)))];const q=x=>'"'+String(x??'').replaceAll('"','""')+'"';return [keys.map(q).join(','),...rows.map(r=>keys.map(k=>q(typeof r[k]==='object'&&r[k]!==null?JSON.stringify(r[k]):r[k])).join(','))].join('\r\n')+'\r\n';}
