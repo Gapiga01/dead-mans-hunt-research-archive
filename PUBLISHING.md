@@ -4,7 +4,7 @@ Nothing is published by editing this folder. The GitHub workflow is manual.
 
 ## GitHub Pages
 
-1. Extract the **PUBLIC_SOURCE** ZIP and upload its contents into a new GitHub repository. `package.json`, `site.config.json`, `web/`, `database/` and `.github/` must be at the repository root. Do not upload the parent research folder or the owner review bundle.
+1. After reviewing and approving the release, extract the **PUBLIC_SOURCE** ZIP and update the existing archive repository. `package.json`, `site.config.json`, `web/`, `database/` and `.github/` stay at its root. Preserve the existing repository variables, especially `GOOGLE_SITE_VERIFICATION`. Do not upload the parent research folder or the owner review bundle.
 2. In **Settings → Pages**, set the build source to **GitHub Actions**. For a free account, use a public repository.
 3. Open **Actions → Publish reviewed research hub → Run workflow**. Checks run before deployment. The workflow obtains the actual Pages URL, including a repository subdirectory or configured custom domain, and builds the correct asset paths, canonical URLs, sitemap and preview metadata automatically.
 4. Open the deployment URL. In Pages settings enable **Enforce HTTPS** when available. Check the homepage, one theory, one interpretation, `sitemap.xml` and the social-preview PNG at that URL.
@@ -38,9 +38,9 @@ Every HTML page includes its own Open Graph title, description, canonical URL an
 
 ## Google Form
 
-No Google Form has been created or connected. The website says submissions are not open and labels the existing button **Download review draft**. It does not send data.
+No Google Form has been created or connected. The website says submissions are closed and disables the **Submission form unavailable** button. It does not send or save data.
 
-When ready, create a Google Form with a title, category, explanation, original source link, known tests, optional proposed test and optional credit name. Keep responses private, avoid unnecessary email collection and do not enable public response summaries. Add its public responder link as the `GOOGLE_FORM_URL` GitHub repository variable (or `google_form_url` in site.config.json), then redeploy. The contribution page will link to that Form instead of the local draft. Test the responder link while signed out; an edit link is not suitable.
+When ready, create a Google Form with the page or record ID, correction or explanation, optional original source link and optional Discord username or preferred contact. Test reports should also describe the active stage, procedure and outcome. Keep responses private, avoid unnecessary email collection and do not enable public response summaries. Add its public responder link as the `GOOGLE_FORM_URL` GitHub repository variable (or `google_form_url` in site.config.json), then redeploy. The contribution page will link to that Form. Test the responder link while signed out; an edit link is not suitable.
 
 ## Manual builds and review
 

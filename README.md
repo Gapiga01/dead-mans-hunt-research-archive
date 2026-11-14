@@ -1,6 +1,6 @@
 # Dead Man's Hunt Research Archive
 
-A community notebook for Hypixel SkyBlock's Dead Man's Hunt: 115 routes (104 original records and 11 later additions), 26 grouped interpretations, developed theory pages, attributed tests, and open questions. Confirmed mechanics, player reports and speculation keep separate labels.
+A community notebook for Hypixel SkyBlock's Dead Man's Hunt: 116 routes (104 original records and 12 later additions), 27 grouped interpretations and 90 detailed breakdowns, developed theory pages, attributed tests, and open questions. Confirmed mechanics, player reports and speculation keep separate labels.
 
 The existing dark layout, expandable cards, search, filters and parking lot are preserved. Research pages are generated as ordinary HTML with stable URLs; JavaScript adds filtering but is not required to read the content. AI assistance is disclosed on the site. Original reports and sources retain contributor credit.
 
@@ -32,4 +32,4 @@ Use the PUBLIC_SOURCE bundle for a new repository. Owner working notes, pending 
 - test/ checks data fidelity, URL routing, no-JavaScript content, metadata and input escaping.
 - npm run audit checks the selected source files and generated site's internal links, asset paths, metadata, external active assets and obvious credential patterns.
 
-Research updates are not automatic. Rebuild and review after edits. The Google Form is not connected; the draft-download page makes that explicit. Keep any real form responses private and review them before adding public records.
+Research updates are not automatic. Rebuild and review after edits. The Google Form is not connected; submissions are visibly closed. Keep any real form responses private and review them before adding public records.
