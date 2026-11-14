@@ -234,8 +234,7 @@
     "id": "E013",
     "title": "Fossil pattern and matching offerings",
     "route_ids": [
-      "R021",
-      "R095"
+      "R021"
     ],
     "source_ids": [
       "S001"
@@ -248,7 +247,12 @@
     "evidence_label": "Reported",
     "date": null,
     "author": null,
-    "limitations": "Secondary archive summary only in this stage. Do not infer exact geometry, date, quantity or independent stage verification."
+    "limitations": "Secondary archive summary only in this stage. Do not infer exact geometry, date, quantity or independent stage verification.",
+    "previous_route_ids": [
+      "R021",
+      "R095"
+    ],
+    "mapping_note": "Mapping correction: an earlier website association with R095 was incorrect. This report describes fossil patterns (R021), not the eight-Remnant-of-the-Eye proposal in R095."
   },
   {
     "id": "E014",

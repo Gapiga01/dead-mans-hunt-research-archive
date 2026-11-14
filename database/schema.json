@@ -17,7 +17,9 @@
     "questions",
     "interpretation_groups",
     "interpretation_angles",
-    "legacy_interpretations"
+    "legacy_interpretations",
+    "breakdowns",
+    "riddles"
   ],
   "additionalProperties": false,
   "properties": {
@@ -101,6 +103,18 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/legacy_interpretations"
+      }
+    },
+    "breakdowns": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/breakdowns"
+      }
+    },
+    "riddles": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/riddles"
       }
     }
   },
@@ -217,6 +231,15 @@
         },
         "limitations": {
           "type": "string"
+        },
+        "previous_route_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "mapping_note": {
+          "type": "string"
         }
       },
       "additionalProperties": false
@@ -321,6 +344,37 @@
         "website_source_url": {
           "type": "string",
           "format": "uri"
+        },
+        "description": {
+          "type": "string"
+        },
+        "evidence_label": {
+          "type": "string"
+        },
+        "testing_label": {
+          "type": "string"
+        },
+        "gap": {
+          "type": "string"
+        },
+        "group_hint": {
+          "type": "string"
+        },
+        "last_reviewed": {
+          "type": "string"
+        },
+        "mapping_note": {
+          "type": "string"
+        },
+        "background_urls": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          }
+        },
+        "previously_published": {
+          "type": "boolean"
         }
       },
       "additionalProperties": false
@@ -402,7 +456,8 @@
             "Needs verification",
             "Retired",
             "Resolved",
-            "Merged / Superseded"
+            "Merged / Superseded",
+            "Reference only"
           ]
         },
         "categories": {
@@ -857,6 +912,154 @@
           "items": {
             "type": "string"
           }
+        }
+      },
+      "additionalProperties": false
+    },
+    "breakdowns": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "subject_id",
+        "title",
+        "proposal",
+        "support",
+        "weakness",
+        "test_coverage",
+        "verify_next",
+        "route_ids",
+        "status",
+        "assessment",
+        "category",
+        "background_urls",
+        "source_url",
+        "source_row",
+        "last_reviewed",
+        "coverage_kind"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "subject_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "proposal": {
+          "type": "string"
+        },
+        "support": {
+          "type": "string"
+        },
+        "weakness": {
+          "type": "string"
+        },
+        "test_coverage": {
+          "type": "string"
+        },
+        "verify_next": {
+          "type": "string"
+        },
+        "route_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "status": {
+          "type": "string"
+        },
+        "assessment": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "background_urls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_url": {
+          "type": "string"
+        },
+        "source_row": {
+          "type": "number"
+        },
+        "last_reviewed": {
+          "type": "string"
+        },
+        "coverage_kind": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "riddles": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "clue",
+        "completed_text",
+        "solution",
+        "action",
+        "mechanic",
+        "interpretation",
+        "r6_limit",
+        "limitations",
+        "source_ids",
+        "last_reviewed"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "clue": {
+          "type": "string"
+        },
+        "completed_text": {
+          "type": "string"
+        },
+        "solution": {
+          "type": "string"
+        },
+        "action": {
+          "type": "string"
+        },
+        "mechanic": {
+          "type": "string"
+        },
+        "interpretation": {
+          "type": "string"
+        },
+        "r6_limit": {
+          "type": "string"
+        },
+        "limitations": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "last_reviewed": {
+          "type": "string"
         }
       },
       "additionalProperties": false

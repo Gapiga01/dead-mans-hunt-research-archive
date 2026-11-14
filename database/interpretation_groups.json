@@ -28,5 +28,10 @@
     "id": "literary",
     "name": "Literary connections",
     "description": "Story comparisons, with their gameplay gaps kept visible."
+  },
+  {
+    "id": "environment",
+    "name": "Environmental conditions",
+    "description": "Visible effects, actual light levels and changes in the lake environment."
   }
 ]

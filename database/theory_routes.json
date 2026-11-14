@@ -618,5 +618,10 @@
     "route_id": "N011",
     "theory_id": "T006",
     "relation": "Source archive addition; grouped without creating a finished theory page"
+  },
+  {
+    "route_id": "N012",
+    "theory_id": "T020",
+    "relation": "Environmental condition; 14 November editorial source"
   }
 ]

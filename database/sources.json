@@ -5,8 +5,8 @@
     "url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit",
     "kind": "Archive",
     "author": "Gapiga / archive compilation",
-    "date": "2026-11-13",
-    "limitation": "Updated source notes: 115 routes and 26 interpretations. This summarizes research; it does not independently verify every historical test.",
+    "date": "2026-11-14",
+    "limitation": "116 routes and 27 interpretations, editorially reviewed on 14 November. Background references explain mechanics; historical summaries do not independently verify every test.",
     "visibility": "public"
   },
   {
@@ -287,6 +287,86 @@
     "author": null,
     "date": null,
     "limitation": "Page availability checked for the release review. Corrects the website reference for R046; it is not evidence of an R6 test.",
+    "visibility": "public"
+  },
+  {
+    "id": "S031",
+    "title": "Detailed research breakdowns — 14 November editorial update",
+    "url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115",
+    "kind": "Editorial research compilation",
+    "author": "Gapiga / archive compilation",
+    "date": "2026-11-14",
+    "limitation": "90 explanations, including historical testing summaries and personal priorities. No new authenticated R6 completion is established; background links are not proof of tests.",
+    "visibility": "public"
+  },
+  {
+    "url": "https://hypixel.net/attachments/2026-10-06_18-18-53-png.3620980/",
+    "title": "R1 completed Journal screenshot",
+    "author": null,
+    "date": "2026-10-06",
+    "limitation": "Primary in-game text; filename dated October 6. Shared in Double2's guide, with individual screenshot creator unconfirmed.",
+    "id": "S032",
+    "kind": "Primary in-game Journal text",
+    "visibility": "public"
+  },
+  {
+    "url": "https://hypixel.net/attachments/2026-10-06_18-22-17-png.3620981/",
+    "title": "R2 completed Journal screenshot",
+    "author": null,
+    "date": "2026-10-06",
+    "limitation": "Primary in-game clue and exact-center solution; filename dated October 6. Shared in Double2's guide, individual screenshot creator unconfirmed.",
+    "id": "S033",
+    "kind": "Primary in-game Journal text",
+    "visibility": "public"
+  },
+  {
+    "url": "https://hypixel.net/attachments/2026-10-07_17-53-47-png.3621205/",
+    "title": "R3 completed Journal screenshot",
+    "author": null,
+    "date": "2026-10-07",
+    "limitation": "Primary in-game wording, including 50+ blocks at water contact. Filename dated October 7; shared in Double2's guide, individual image creator unconfirmed.",
+    "id": "S034",
+    "kind": "Primary in-game Journal text",
+    "visibility": "public"
+  },
+  {
+    "url": "https://hypixel.net/attachments/2026-10-07_17-54-43-png.3621207/",
+    "title": "R4 completed Journal screenshot",
+    "author": null,
+    "date": "2026-10-07",
+    "limitation": "Primary in-game clue and explicit 3-times-within-10s solution. Shared in Double2's guide, individual screenshot creator unconfirmed.",
+    "id": "S035",
+    "kind": "Primary in-game Journal text",
+    "visibility": "public"
+  },
+  {
+    "url": "https://discord.com/channels/996884296860172469/1560338241696301076/1562214267766181891",
+    "title": "Gapiga's Alpha R4/R5 procedure report",
+    "author": "Gapiga",
+    "date": "2026-10-20",
+    "limitation": "Firsthand report, corroborated in the prior recording audit. Its suggested merging explanation is a hypothesis, not disclosed implementation.",
+    "id": "S036",
+    "kind": "Firsthand player report",
+    "visibility": "public"
+  },
+  {
+    "url": "https://discord.com/channels/996884296860172469/1560338241696301076/1562214734953054221",
+    "title": "R4 stack failure followed by separate-drop success",
+    "author": "majod99",
+    "date": "2026-10-20",
+    "limitation": "Firsthand main-server comparison; no full recording or merge/timing trace was supplied in the inspected original report.",
+    "id": "S037",
+    "kind": "Firsthand player report",
+    "visibility": "public"
+  },
+  {
+    "url": "https://hypixel.net/attachments/2026-10-07_17-55-27-png.3621209/",
+    "title": "R5 completed Journal screenshot",
+    "author": null,
+    "date": "2026-10-07",
+    "limitation": "Primary in-game clue and pre-existing-three-Callings solution. Shared in Double2's guide, individual screenshot creator unconfirmed.",
+    "id": "S038",
+    "kind": "Primary in-game Journal text",
     "visibility": "public"
   }
 ]

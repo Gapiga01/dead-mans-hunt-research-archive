@@ -866,5 +866,35 @@
       "Q001",
       "Q002"
     ]
+  },
+  {
+    "id": "R6I027",
+    "source_id": "I027",
+    "group_id": "environment",
+    "theory_ids": [
+      "T020"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q005"
+    ],
+    "source_group": "Environmental condition",
+    "source_row": 28,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A28:L28",
+    "title": "Visible shadow versus actual light level",
+    "meaning": "A reported lake silhouette could point to a vanished body or location; separately, a precise real light-level state or transition might be an R6 condition.",
+    "pros": "Community shadow observation and darker footage are suggestive visuals; Crystal Armor genuinely changes with light levels 0–15.",
+    "cons": "Night Vision changes visual brightness, not the block-light value; screenshots alone do not verify a special shadow or Hunt mechanic.",
+    "check": "First locate the original image and reproduce a consistent shadow, then compare actual in-game light data or Crystal Armor response at fixed lake positions while controlling client lighting settings and Journal state.",
+    "route_ids": [
+      "N012",
+      "R024",
+      "R041",
+      "R009"
+    ],
+    "evidence_type": "Reported visual / confirmed ordinary light mechanic",
+    "status": "Watchlist",
+    "assessment": "I want to distinguish a graphic effect from a reproducible light-level state before requesting another item test.",
+    "last_reviewed": "2026-11-14"
   }
 ]

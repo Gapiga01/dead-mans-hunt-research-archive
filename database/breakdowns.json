@@ -1,0 +1,2400 @@
+[
+  {
+    "id": "I001",
+    "kind": "interpretation",
+    "subject_id": "R6I001",
+    "title": "Corpse or creature",
+    "proposal": "The 'body' could be a corpse, boss or creature. 'What remains' would be physical remains, loot or fragments after its death. Assembly would use a named surviving drop or set.",
+    "support": "The hunt starts with Frozen Corpse loot, and many creatures leave recoverable drops. This is the literal reading of body/remains.",
+    "weakness": "Almost every mob fits. No named creature or recipe is identified.",
+    "test_coverage": "R011: Not tested | R014: Partially tested | R021: Tested negative under specified conditions | R040: Tested negative under specified conditions",
+    "verify_next": "Find a clue selecting one entity and a distinct remaining drop.",
+    "route_ids": [
+      "R011",
+      "R014",
+      "R021",
+      "R040",
+      "R045"
+    ],
+    "status": "Watchlist",
+    "assessment": "I think it's a sensible literal reading, but too broad for another random drop test.",
+    "category": "Literal body",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixelskyblock.minecraft.wiki/w/Frozen_Corpses",
+      "https://hypixelskyblock.minecraft.wiki/w/Will-o%27-wisp",
+      "https://hypixelskyblock.minecraft.wiki/w/The_Forge"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A2:L2",
+    "source_row": 2,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I002",
+    "kind": "interpretation",
+    "subject_id": "R6I002",
+    "title": "Soul, ghost or surviving effect",
+    "proposal": "The physical creature disappears, but a soul, spirit, buff or temporary effect remains.",
+    "support": "'Body is not enough' contrasts physical and intangible survival.",
+    "weakness": "Most soul-related items have broad negative tests; no assembly target.",
+    "test_coverage": "R037: Partially tested | R062: Partially tested | R072: Tested negative under specified conditions | R075: Tested negative under specified conditions",
+    "verify_next": "Identify one named effect surviving a specific disappearance.",
+    "route_ids": [
+      "R037",
+      "R062",
+      "R072",
+      "R075",
+      "R079"
+    ],
+    "status": "Parked",
+    "assessment": "I would reopen this only if we find an actual survivor and how to combine it.",
+    "category": "Literal body",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Hollow_Armor",
+      "https://hypixel-skyblock.fandom.com/wiki/Hollow_Wand",
+      "https://hypixelskyblock.minecraft.wiki/w/Sorrow_Armor"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A3:L3",
+    "source_row": 3,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I003",
+    "kind": "interpretation",
+    "subject_id": "R6I003",
+    "title": "Corpse possessions and recovered loot",
+    "proposal": "What remains is the dead person's belongings, not their body.",
+    "support": "R1's chestplate and journal are found through Frozen Corpse progression.",
+    "weakness": "The dead person's identity and possessions aren't uniquely established.",
+    "test_coverage": "R001: Confirmed result | R011: Not tested | R012: Partially tested | R014: Partially tested",
+    "verify_next": "Check primary game lore for a named owner or reconstructable possession.",
+    "route_ids": [
+      "R001",
+      "R011",
+      "R012",
+      "R014"
+    ],
+    "status": "Watchlist",
+    "assessment": "I like the direct Hunt connection, but we still need a specific object.",
+    "category": "Literal body",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A4:L4",
+    "source_row": 4,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I004",
+    "kind": "interpretation",
+    "subject_id": "R6I004",
+    "title": "Incomplete item body / base",
+    "proposal": "The body is an item's shell, frame or base and needs components, upgrades or strings.",
+    "support": "'Not enough' naturally implies missing parts; crafting and reforging exist.",
+    "weakness": "No single base item is selected. Many native-assembly tests were negative.",
+    "test_coverage": "R018: Tested negative under specified conditions | R022: Partially tested | R085: Partially tested | N010: Partially tested",
+    "verify_next": "Find explicit item lore naming a body, missing parts and a recipe.",
+    "route_ids": [
+      "R018",
+      "R022",
+      "R085",
+      "N010"
+    ],
+    "status": "Watchlist",
+    "assessment": "I see this as plausible wording, not a reason to test every craft.",
+    "category": "Object or structure",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Precursor_Apparatus",
+      "https://hypixelskyblock.minecraft.wiki/w/Changelog/2024/August_20",
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A5:L5",
+    "source_row": 5,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I005",
+    "kind": "interpretation",
+    "subject_id": "R6I005",
+    "title": "Armor torso absent, other pieces remain",
+    "proposal": "The chestplate is the 'body' armor. The helmet, leggings and boots are what remain of a set.",
+    "support": "The Hunt begins with a Dead Man's Chestplate; armor sets have other slots.",
+    "weakness": "No confirmed Dead Man armor set. Other armor pieces have been thrown already.",
+    "test_coverage": "R001: Confirmed result | R020: Tested negative under specified conditions | R022: Partially tested | R040: Tested negative under specified conditions",
+    "verify_next": "Look for a real set or a clue selecting three specific armor pieces.",
+    "route_ids": [
+      "R001",
+      "R020",
+      "R022",
+      "R040"
+    ],
+    "status": "Parked",
+    "assessment": "Without a named set, I don't think we should keep guessing armor.",
+    "category": "Object or structure",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A6:L6",
+    "source_row": 6,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I006",
+    "kind": "interpretation",
+    "subject_id": "R6I006",
+    "title": "Container disappears, contents revealed",
+    "proposal": "An outer container is destroyed or consumed but an item concealed inside remains. R6 may repeat R1's Chestplate-to-Journal relationship with a different container or hidden object.",
+    "support": "R1 genuinely removes the Chestplate and reveals a Journal that was already inside it; this is a verified Hunt mechanic rather than a literary coincidence.",
+    "weakness": "The Journal emerged whole, not as fragments. No second container or assembly method is identified.",
+    "test_coverage": "R001: Confirmed result | R010: Partially tested | R104: Partially tested",
+    "verify_next": "Find another explicit 'inside' or concealed-item source and a checkable action.",
+    "route_ids": [
+      "R001",
+      "R010",
+      "R104"
+    ],
+    "status": "Watchlist",
+    "assessment": "This is the cleanest proven model of disappearance and survival so far.",
+    "category": "Object or structure",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A7:L7",
+    "source_row": 7,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I007",
+    "kind": "interpretation",
+    "subject_id": "R6I007",
+    "title": "Destroyed item leaves salvage or essence",
+    "proposal": "Gone means broken/consumed; remains means usable scrap, essence or residue.",
+    "support": "Salvaging and dismantling are real game processes.",
+    "weakness": "Direct Chestplate salvage refused; no chosen salvage chain.",
+    "test_coverage": "R080: Tested negative under specified conditions | R085: Partially tested | R086: Tested negative under specified conditions",
+    "verify_next": "Identify a specific destruction output that itself has an assembly recipe.",
+    "route_ids": [
+      "R080",
+      "R085",
+      "R086"
+    ],
+    "status": "Parked",
+    "assessment": "I don't want to repeat salvage without an item-specific reason.",
+    "category": "Object or structure",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/The_Forge"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A8:L8",
+    "source_row": 8,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I008",
+    "kind": "interpretation",
+    "subject_id": "R6I008",
+    "title": "Body of text",
+    "proposal": "The 'body' is a body of writing, such as Journal text. The pieces left after extracting or removing its main wording might be letters, acrostics or anagrams that must be assembled.",
+    "support": "R1 uses a real THROWINLAKE acrostic, so textual encoding is established once in the Hunt.",
+    "weakness": "Many arbitrary letter rearrangements fit. A valid decoder must specify its input, method and useful output without hindsight.",
+    "test_coverage": "R002: Partially tested | R003: Inconclusive | R097: Inconclusive | R098: Partially tested",
+    "verify_next": "Require one deterministic rule, applied consistently to the known lines.",
+    "route_ids": [
+      "R002",
+      "R003",
+      "R097",
+      "R098"
+    ],
+    "status": "Watchlist",
+    "assessment": "I think this deserves space in the hub, separate from music.",
+    "category": "Meaning of body",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixelskyblock.minecraft.wiki/w/Melody%27s_Hair"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A9:L9",
+    "source_row": 9,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I009",
+    "kind": "interpretation",
+    "subject_id": "R6I009",
+    "title": "Body of water",
+    "proposal": "Body means the Great Glacite Lake or another water body; absence implies freeze, drainage or a vanished object within it.",
+    "support": "The lake is central to every confirmed offering.",
+    "weakness": "The lake has not been observed disappearing, and almost any ice clue fits.",
+    "test_coverage": "R024: Partially tested | R041: Partially tested",
+    "verify_next": "Identify a real change to a named water body and a surviving item.",
+    "route_ids": [
+      "R024",
+      "R041"
+    ],
+    "status": "Parked",
+    "assessment": "The location connection is obvious but the proposed disappearance isn't.",
+    "category": "Meaning of body",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Great_Glacite_Lake"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A10:L10",
+    "source_row": 10,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I010",
+    "kind": "interpretation",
+    "subject_id": "R6I010",
+    "title": "Collective body or group",
+    "proposal": "Body means a group, cult or team, and 'assemble' means gather members.",
+    "support": "Better Together, Cult and multi-player mechanics exist.",
+    "weakness": "No specific group or number is selected by R6 wording.",
+    "test_coverage": "R026: Partially tested | R027: Partially tested | R029: Inconclusive | R036: Inconclusive",
+    "verify_next": "Look for NPC dialogue directly describing a dissolved group or surviving members.",
+    "route_ids": [
+      "R026",
+      "R027",
+      "R029",
+      "R036",
+      "R042"
+    ],
+    "status": "Watchlist",
+    "assessment": "I prefer this as a group-mechanic branch rather than a generic four-player test.",
+    "category": "Meaning of body",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Cult_of_the_Fallen_Star"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A11:L11",
+    "source_row": 11,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I011",
+    "kind": "interpretation",
+    "subject_id": "R6I011",
+    "title": "Main part versus supporting components",
+    "proposal": "Body may mean the main portion of a device or organism, while smaller non-body pieces survive.",
+    "support": "Some native items have a frame, pegs, strings, plates or replaceable modules.",
+    "weakness": "No named device, component list or causal 'gone' event.",
+    "test_coverage": "R018: Tested negative under specified conditions | R054: Not tested | R085: Partially tested | N010: Partially tested",
+    "verify_next": "Find a preexisting base-and-pieces mechanic that uses the wording.",
+    "route_ids": [
+      "R018",
+      "R054",
+      "R085",
+      "N010"
+    ],
+    "status": "Watchlist",
+    "assessment": "This is broader than the harp analogy and should appear before it.",
+    "category": "Meaning of body",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Precursor_Apparatus",
+      "https://hypixelskyblock.minecraft.wiki/w/Changelog/2024/August_20",
+      "https://hypixel-skyblock.fandom.com/wiki/Melody",
+      "https://en.wikisource.org/wiki/Kalevala_(Kirby_1907)/Runo_40",
+      "https://en.wikisource.org/wiki/Kalevala_(Kirby_1907)/Runo_44"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A12:L12",
+    "source_row": 12,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I012",
+    "kind": "interpretation",
+    "subject_id": "R6I012",
+    "title": "Pieces, fragments or drops",
+    "proposal": "'Remains' denotes tangible leftovers that must become one constructed item.",
+    "support": "Fossil, shard and fragment reconstruction all exist.",
+    "weakness": "This expands into too many candidates with no selector.",
+    "test_coverage": "R014: Partially tested | R018: Tested negative under specified conditions | R021: Tested negative under specified conditions | R070: Partially tested",
+    "verify_next": "Require a known fragment set and native result.",
+    "route_ids": [
+      "R014",
+      "R018",
+      "R021",
+      "R070",
+      "N005"
+    ],
+    "status": "Watchlist",
+    "assessment": "I think assembly needs an actual resulting object to be persuasive.",
+    "category": "Meaning of remains",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Frozen_Corpses",
+      "https://hypixelskyblock.minecraft.wiki/w/Will-o%27-wisp",
+      "https://hypixelskyblock.minecraft.wiki/w/The_Forge",
+      "https://hypixelskyblock.minecraft.wiki/w/Precursor_Apparatus",
+      "https://hypixelskyblock.minecraft.wiki/w/Changelog/2024/August_20"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A13:L13",
+    "source_row": 13,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I013",
+    "kind": "interpretation",
+    "subject_id": "R6I013",
+    "title": "Information, memory or recorded name",
+    "proposal": "When physical offerings vanish, their names, sequence or Journal entries remain.",
+    "support": "The Journal records riddle progress and the R1 acrostic is established.",
+    "weakness": "The puzzle text doesn't supply a unique operation or letter rule.",
+    "test_coverage": "R002: Partially tested | R003: Inconclusive | R025: Not tested | R077: Tested negative under specified conditions",
+    "verify_next": "Test a consistent rule on known answers with an independently meaningful output.",
+    "route_ids": [
+      "R002",
+      "R003",
+      "R025",
+      "R077",
+      "R097"
+    ],
+    "status": "Watchlist",
+    "assessment": "I don't want to confuse a neat word pattern with a verified decoder.",
+    "category": "Meaning of remains",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixelskyblock.minecraft.wiki/w/Melody%27s_Hair"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A14:L14",
+    "source_row": 14,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I014",
+    "kind": "interpretation",
+    "subject_id": "R6I014",
+    "title": "Craft or forge the survivor",
+    "proposal": "Assemble may refer to a native recipe, forging, shard fusion or item combination, with the resulting object offered to the lake or created while another offering remains.",
+    "support": "R4 and R5 already require multi-item states. Minecraft/SkyBlock supports native combinations, and 'assemble' is an action verb.",
+    "weakness": "Earlier steps do not demonstrate that the lake listens for crafting. Many speculative craft attempts were reported; an actual selected recipe remains missing.",
+    "test_coverage": "R018: Tested negative under specified conditions | R038: Inconclusive | R044: Tested negative under specified conditions | R046: Tested negative under specified conditions",
+    "verify_next": "Find a selected recipe and separate crafting from item-offering tests.",
+    "route_ids": [
+      "R018",
+      "R038",
+      "R044",
+      "R046",
+      "R080",
+      "R084"
+    ],
+    "status": "Watchlist",
+    "assessment": "A concrete recipe would matter much more than the word 'craft' alone.",
+    "category": "Meaning of assemble",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Precursor_Apparatus",
+      "https://hypixelskyblock.minecraft.wiki/w/Changelog/2024/August_20",
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A15:L15",
+    "source_row": 15,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I015",
+    "kind": "interpretation",
+    "subject_id": "R6I015",
+    "title": "Arrange or co-locate several entities",
+    "proposal": "'Assemble' may mean bring several independent item entities together at the lake, with order, quantity and timing mattering instead of crafting them.",
+    "support": "R5 uses three pre-existing Calling units followed by a Griffin Feather. That is a directly documented presence-plus-arrival condition.",
+    "weakness": "R5 demonstrates its own solution only. It doesn't establish that R6 uses four items, new arrival order or the same item family.",
+    "test_coverage": "R004: Confirmed result | R008: Partially tested | R009: Partially tested | R043: Confirmed result",
+    "verify_next": "Find a specific set and test arrival order versus simultaneous presence.",
+    "route_ids": [
+      "R004",
+      "R008",
+      "R009",
+      "R043",
+      "R050"
+    ],
+    "status": "Watchlist",
+    "assessment": "This has a real earlier-step precedent, but needs an identified set.",
+    "category": "Meaning of assemble",
+    "background_urls": [
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A16:L16",
+    "source_row": 16,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I016",
+    "kind": "interpretation",
+    "subject_id": "R6I016",
+    "title": "Gather players in one area",
+    "proposal": "Assemble means bringing people together, perhaps at event end.",
+    "support": "Better Together is a real same-zone multiplayer event.",
+    "weakness": "No evidence that the hunt uses player count or event timing.",
+    "test_coverage": "R027: Partially tested | R036: Inconclusive | R039: Partially tested | R042: Partially tested",
+    "verify_next": "Record exact player count, same-zone state and Journal before/after.",
+    "route_ids": [
+      "R027",
+      "R036",
+      "R039",
+      "R042"
+    ],
+    "status": "Parked",
+    "assessment": "Without a selected trigger, I'd avoid asking for a large group.",
+    "category": "Meaning of assemble",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Cult_of_the_Fallen_Star",
+      "https://hypixelskyblock.minecraft.wiki/w/Better_Together"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A17:L17",
+    "source_row": 17,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I017",
+    "kind": "interpretation",
+    "subject_id": "R6I017",
+    "title": "Absence after an item despawns",
+    "proposal": "The clue may require waiting until a particular body or offering disappears, then performing a second action while its leftovers remain.",
+    "support": "R3 through R5 demonstrate that arrival, distance, timing and item presence influence progress.",
+    "weakness": "Natural despawn, inventory pickup and quest consumption are different states. Existing reports don't establish a selected R6 object or timestamp.",
+    "test_coverage": "R004: Confirmed result | R008: Partially tested | R038: Inconclusive | R104: Partially tested",
+    "verify_next": "Compare a precise disappearance event against a controlled remaining item.",
+    "route_ids": [
+      "R004",
+      "R008",
+      "R038",
+      "R104"
+    ],
+    "status": "Watchlist",
+    "assessment": "This is still worth a controlled test, but only with a named item.",
+    "category": "Meaning of gone",
+    "background_urls": [
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A18:L18",
+    "source_row": 18,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I018",
+    "kind": "interpretation",
+    "subject_id": "R6I018",
+    "title": "Quest consumption rather than natural expiry",
+    "proposal": "'Gone' refers to a successfully consumed puzzle offering, not ordinary disappearance.",
+    "support": "R1 and R5 show offerings consumed by the lake as the Journal advances.",
+    "weakness": "No proof R6 builds on earlier consumed offerings or checks history.",
+    "test_coverage": "R001: Confirmed result | R004: Confirmed result | R050: Confirmed result | R099: Confirmed result",
+    "verify_next": "Look for a reproducible Journal-state or consumption-dependent reaction.",
+    "route_ids": [
+      "R001",
+      "R004",
+      "R050",
+      "R099"
+    ],
+    "status": "Watchlist",
+    "assessment": "I think this distinction is important for interpreting old failed tests.",
+    "category": "Meaning of gone",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A19:L19",
+    "source_row": 19,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I019",
+    "kind": "interpretation",
+    "subject_id": "R6I019",
+    "title": "Two clauses, possibly separate tasks",
+    "proposal": "'The body is not enough' specifies a condition; 'assemble ...' specifies another action.",
+    "support": "The clue has two sentences with different grammatical roles.",
+    "weakness": "Most natural 'it' still refers to body, and two steps aren't established.",
+    "test_coverage": "R009: Partially tested | R022: Partially tested | R023: Not tested",
+    "verify_next": "A candidate must explain both requirements without extra assumptions.",
+    "route_ids": [
+      "R009",
+      "R022",
+      "R023"
+    ],
+    "status": "Watchlist",
+    "assessment": "I want to keep this grammatical reading open rather than force one story.",
+    "category": "Grammar",
+    "background_urls": [
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/",
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A20:L20",
+    "source_row": 20,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I020",
+    "kind": "interpretation",
+    "subject_id": "R6I020",
+    "title": "'It' refers to something else",
+    "proposal": "The pronoun may refer to a different object, event or group instead of 'the body'.",
+    "support": "Riddle language sometimes hides the relevant object.",
+    "weakness": "English grammar more naturally links 'it' to body; search space grows quickly.",
+    "test_coverage": "R023: Not tested | R038: Inconclusive",
+    "verify_next": "Find a second named referent from an earlier clue or game dialogue.",
+    "route_ids": [
+      "R023",
+      "R038"
+    ],
+    "status": "Parked",
+    "assessment": "This is possible but too unconstrained until another source narrows it.",
+    "category": "Grammar",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A21:L21",
+    "source_row": 21,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I021",
+    "kind": "interpretation",
+    "subject_id": "R6I021",
+    "title": "Echo: voice remains after body disappears",
+    "proposal": "Echo's body fades in Ovid's Metamorphoses III, her bones become stone, and only her repeating voice remains. This could point to a sound, text or call-and-response condition.",
+    "support": "The story explicitly juxtaposes a vanished body with something surviving, which matches R6's words more closely than a generic body myth.",
+    "weakness": "Ovid never instructs anyone to assemble Echo's voice and bones. No identified game entity, required phrase or R6 sound mechanic exists.",
+    "test_coverage": "N007: Not tested | N008: Not tested | R053: Not tested",
+    "verify_next": "Look for an independently selected Echo-type action, not arbitrary chat spam.",
+    "route_ids": [
+      "N007",
+      "N008",
+      "R053"
+    ],
+    "status": "Watchlist",
+    "assessment": "The wording is strong, but I still can't map 'assemble' to gameplay.",
+    "category": "Story examples",
+    "background_urls": [
+      "https://www.yorku.ca/pswarney/Texts/ovid-met-3.htm"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A22:L22",
+    "source_row": 22,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I022",
+    "kind": "interpretation",
+    "subject_id": "R6I022",
+    "title": "Orpheus: lyre and voice surviving death",
+    "proposal": "Orpheus's head and lyre survive his death and continue sounding while carried downriver. A music or instrument action might reflect a remaining voice after a body is gone.",
+    "support": "The original myth combines a dead body, a surviving musical object, continuing sound and water.",
+    "weakness": "DEFAG is not a known Orpheus melody, and the tested in-game item combinations did not isolate this specific story.",
+    "test_coverage": "N009: Partially tested | R051: Not tested | R055: Inconclusive",
+    "verify_next": "Verify source quotations and distinguish myth from item/music tests.",
+    "route_ids": [
+      "N009",
+      "R051",
+      "R055"
+    ],
+    "status": "Parked",
+    "assessment": "I don't think the lyre alone selects a R6 item.",
+    "category": "Story examples",
+    "background_urls": [
+      "https://www.yorku.ca/pswarney/Texts/ovid-met-11.htm",
+      "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A23:L23",
+    "source_row": 23,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I023",
+    "kind": "interpretation",
+    "subject_id": "R6I023",
+    "title": "Kalevala's fish-bone kantele and lost harp",
+    "proposal": "Runo 40 builds a kantele from pike jawbones/teeth and horsehair; in Runo 44 a kantele is lost in a lake and a different one is rebuilt. Hunters linked this to Melody's damaged harp.",
+    "support": "One story explicitly assembles music from an animal's remains; another has an instrument lost in water.",
+    "weakness": "They are distinct stories and instruments, not a found Hunt recipe. Melody's separate quest does not establish a lake trigger.",
+    "test_coverage": "R055: Inconclusive | N010: Partially tested",
+    "verify_next": "Find game lore tying Melody's harp reconstruction to lake mechanics.",
+    "route_ids": [
+      "R055",
+      "N010"
+    ],
+    "status": "Watchlist",
+    "assessment": "I enjoy the parallel, but I won't elevate it above literal readings.",
+    "category": "Story examples",
+    "background_urls": [
+      "https://en.wikisource.org/wiki/Kalevala_(Kirby_1907)/Runo_40",
+      "https://en.wikisource.org/wiki/Kalevala_(Kirby_1907)/Runo_44",
+      "https://hypixelskyblock.minecraft.wiki/w/Melody",
+      "https://hypixel-skyblock.fandom.com/wiki/Melody"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A24:L24",
+    "source_row": 24,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I024",
+    "kind": "interpretation",
+    "subject_id": "R6I024",
+    "title": "Five initials as D E F A G",
+    "proposal": "The initials of R1–R5 answer items read D E F A G, all natural musical notes. One possibility is an encoded note sequence, not necessarily a melody.",
+    "support": "All five letters really are note names, and the sequence can be tested against future answers.",
+    "weakness": "Five item initials are not evidence of intended music. No reason is established for a precise performance or item choice.",
+    "test_coverage": "R003: Inconclusive | R097: Inconclusive",
+    "verify_next": "Judge whether R6 and R7 initials complete B/C as predicted.",
+    "route_ids": [
+      "R003",
+      "R097"
+    ],
+    "status": "Watchlist",
+    "assessment": "It's a falsifiable prediction, not proof of a melody.",
+    "category": "Music / patterns",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixelskyblock.minecraft.wiki/w/Melody%27s_Hair"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A25:L25",
+    "source_row": 25,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I025",
+    "kind": "interpretation",
+    "subject_id": "R6I025",
+    "title": "Better Together supplies B / play DEFAGB",
+    "proposal": "Better Together might supply a B after DEFAG, yielding DEFAGB. The event may also provide a special active or ending condition for music or an offering.",
+    "support": "Better Together has 14 letters, and its ending announcement says the cooperative spirit never dies.",
+    "weakness": "Multiple independent coincidences are being combined. DEFAG during an active event was attempted, but not the exact six-note/ending setup.",
+    "test_coverage": "R036: Inconclusive | R097: Inconclusive | N011: Partially tested",
+    "verify_next": "Only consider a controlled DEFAGB/event-end test with a fixed item/action and Journal check.",
+    "route_ids": [
+      "R036",
+      "R097",
+      "N011"
+    ],
+    "status": "Watchlist",
+    "assessment": "I would not call the earlier mixed music test a full negative here.",
+    "category": "Music / patterns",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Better_Together",
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixelskyblock.minecraft.wiki/w/Melody%27s_Hair"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A26:L26",
+    "source_row": 26,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I026",
+    "kind": "interpretation",
+    "subject_id": "R6I026",
+    "title": "Seven known answers eventually give seven notes",
+    "proposal": "The first seven answer initials may exhaust the seven natural notes C D E F G A B, with R6 and R7 completing the missing B and C. This predicts answers rather than an action now.",
+    "support": "The Journal has 14 slots arranged as two rows of seven. The first five answer initials are distinct natural notes.",
+    "weakness": "The seven-column grid may simply be a GUI layout. We cannot test R6/R7 initials until their solutions are verified.",
+    "test_coverage": "R003: Inconclusive | R097: Inconclusive",
+    "verify_next": "Compare initials after genuinely verified R6 and R7 solves.",
+    "route_ids": [
+      "R003",
+      "R097"
+    ],
+    "status": "Watchlist",
+    "assessment": "This prediction needs no extra coins and might be wrong later.",
+    "category": "Music / patterns",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixelskyblock.minecraft.wiki/w/Melody%27s_Hair"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A27:L27",
+    "source_row": 27,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "I027",
+    "kind": "interpretation",
+    "subject_id": "R6I027",
+    "title": "Visible shadow versus actual light level",
+    "proposal": "Two related but different hypotheses: a reported large shadow over Great Glacite Lake is a clue to a 'body', or actual local light level / light-state transition is a hidden R6 condition. Shadow appearance and numeric light level must not be treated as equivalent.",
+    "support": "Amotorem reported the silhouette with Night Vision disabled, while some players noticed darker promotional footage. Crystal Armor's Refraction genuinely varies with light levels 0–15.",
+    "weakness": "No original image is linked here or reproduced under controlled conditions. Night Vision affects rendering rather than actual light level, and no R6 response to light was reported.",
+    "test_coverage": "N012: Partially tested | R024: Partially tested | R041: Partially tested | R009: Partially tested",
+    "verify_next": "Recover the original screenshot; repeat from a fixed camera position with and without Night Vision. Independently measure actual block light at chosen locations and compare Journal status; don't spend items without a selected second action.",
+    "route_ids": [
+      "N012",
+      "R024",
+      "R041",
+      "R009"
+    ],
+    "status": "Watchlist",
+    "assessment": "I want to distinguish a graphic effect from a reproducible light-level state before requesting another item test.",
+    "category": "Environmental condition",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Crystal_Armor",
+      "https://minecraft.wiki/w/Light",
+      "https://minecraft.wiki/w/Night_Vision",
+      "https://hypixelskyblock.minecraft.wiki/w/Great_Glacite_Lake"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A28:L28",
+    "source_row": 28,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R001",
+    "kind": "route",
+    "subject_id": "R001",
+    "title": "R1 Chestplate disappears and reveals the Journal",
+    "proposal": "The first Hunt step consumes the Dead Man's Chestplate in Great Glacite Lake and exposes the hidden Journal. R6 might echo this container-and-survivor relationship: when one 'body' vanishes, another object is revealed.",
+    "support": "R1 establishes an actual Hunt interaction in which an outer item disappears and a concealed item survives. This is directly relevant to interpreting 'body' and 'remains', unlike a loose item-name match.",
+    "weakness": "The Journal emerges already complete, not assembled from parts. R1's positive result does not prove another R6 container, crafting requirement, or hidden object exists.",
+    "test_coverage": "The R1 sequence was recorded succeeding; later Chestplate/Journal offerings were reported without a new advancement. Those later offerings are narrower than any newly identified R6 container hypothesis.",
+    "verify_next": "Identify a second explicitly concealed or composite object in current lore before suggesting a new offering; treat the earlier R1 demonstration as precedent rather than solution evidence.",
+    "route_ids": [
+      "R001",
+      "R002",
+      "R010"
+    ],
+    "status": "Reference only",
+    "assessment": "Confirmed R1; R6 continuation unverified",
+    "category": "Confirmed Hunt mechanic / interpretation",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A29:L29",
+    "source_row": 29,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R002",
+    "kind": "route",
+    "subject_id": "R002",
+    "title": "Journal text and the confirmed R1 acrostic",
+    "proposal": "R6's 'body' might mean a body of text; the remaining letters, words, initials or Journal entries would be assembled into a new instruction. The hypothesis takes its cue from the confirmed first-riddle acrostic.",
+    "support": "R1 genuinely uses THROWINLAKE as an acrostic, demonstrating that the Hunt's written clues can hide an instruction. The Journal also preserves information from earlier steps.",
+    "weakness": "A real acrostic in R1 does not establish a second decoder. Arbitrary rearrangements and cherry-picked letters produce many results, and no reproducible rule yet picks an R6 action.",
+    "test_coverage": "Hunters have explored several letter extractions, acrostic rearrangements and physical Journal arrangements; the archive does not authenticate a full reproducible R6-stage procedure for each.",
+    "verify_next": "Require an exact input text, extraction order and meaningful output fixed before seeing the result. Compare with the original Journal wording and don't treat anagram coincidences as proof.",
+    "route_ids": [
+      "R002",
+      "R003",
+      "R097",
+      "R098"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist; decoder not established",
+    "category": "Text / cryptography",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A30:L30",
+    "source_row": 30,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R018",
+    "kind": "route",
+    "subject_id": "R018",
+    "title": "Precursor Apparatus from six Automaton parts",
+    "proposal": "R6 may require assembling a body-like machine from the six ordinary Automaton parts, potentially while near the lake.",
+    "support": "The six-part Precursor Apparatus is a real recipe, making 'assemble' literal.",
+    "weakness": "Reports already cover in-lake assembly and offering, but controls were incomplete. No clue selects this item.",
+    "test_coverage": "October underwater assembly and later Apparatus-last arrangement were reported.",
+    "verify_next": "Seek complete R6-stage procedure, exact order and Journal capture before repeating.",
+    "route_ids": [
+      "R018"
+    ],
+    "status": "Needs verification",
+    "assessment": "Needs stronger source",
+    "category": "Concrete game recipe",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Precursor_Apparatus",
+      "https://hypixelskyblock.minecraft.wiki/w/Changelog/2024/August_20"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A31:L31",
+    "source_row": 31,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R026",
+    "kind": "route",
+    "subject_id": "R026",
+    "title": "Cult reward and four-helmet gathering",
+    "proposal": "Use the Cult meeting, 200-Starfall reward or a group in Fallen Star Helmets as a simultaneous body/assembly condition.",
+    "support": "The Cult has a genuine recurring meeting and tangible Starfall rewards; group mechanics are real.",
+    "weakness": "No connection to the lake is selected. Earlier meetings and mixed group offerings do not prove success.",
+    "test_coverage": "Reports describe four helmets and a 200-Starfall action at an active meeting.",
+    "verify_next": "Separate ordinary Cult completion, lake offering and Journal reaction.",
+    "route_ids": [
+      "R026",
+      "R027",
+      "R029"
+    ],
+    "status": "Watchlist",
+    "assessment": "No connection to the lake is selected. Earlier meetings and mixed group offerings do not prove success.",
+    "category": "Group / event",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Cult_of_the_Fallen_Star"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A32:L32",
+    "source_row": 32,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R031",
+    "kind": "route",
+    "subject_id": "R031",
+    "title": "Fallen Star aftermath",
+    "proposal": "A crash leaves Star Sentries, Starfall or shards, which could be the remains to assemble.",
+    "support": "A real event produces a sequence of mob and resource consequences.",
+    "weakness": "The original star does not map uniquely to 'body', and none of the fragments is selected.",
+    "test_coverage": "A November shard-offering report said nothing happened under its recorded conditions.",
+    "verify_next": "Find a clue picking one specific drop and post-crash action.",
+    "route_ids": [
+      "R031",
+      "R032",
+      "R033"
+    ],
+    "status": "Parked",
+    "assessment": "The original star does not map uniquely to 'body', and none of the fragments is selected.",
+    "category": "Environmental event",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Fallen_Stars",
+      "https://hypixelskyblock.minecraft.wiki/w/Star_Sentry",
+      "https://hypixelskyblock.minecraft.wiki/w/Beacon"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A33:L33",
+    "source_row": 33,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R043",
+    "kind": "route",
+    "subject_id": "R043",
+    "title": "Arachne Calling as a summoning action",
+    "proposal": "R4/R5's Callings might encode a ritual or summon, rather than merely being item offerings.",
+    "support": "Arachne's ordinary altar ritual requires four Callings, while R4 and R5 each use three in special conditions.",
+    "weakness": "The lake's confirmed requirements differ from the altar; a combined four-call ritual is not shown.",
+    "test_coverage": "Recorded R4 and R5 completions confirm their separate item behavior; boss-related trials exist.",
+    "verify_next": "Only reopen with an actual R6-specific summoning clue.",
+    "route_ids": [
+      "R043",
+      "R044",
+      "R045",
+      "R050"
+    ],
+    "status": "Watchlist",
+    "assessment": "The lake's confirmed requirements differ from the altar; a combined four-call ritual is not shown.",
+    "category": "Summoning",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Arachne",
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/",
+      "https://hypixelskyblock.minecraft.wiki/w/Arachne_Crystal",
+      "https://hypixelskyblock.minecraft.wiki/w/Shaggy"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A34:L34",
+    "source_row": 34,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R046",
+    "kind": "route",
+    "subject_id": "R046",
+    "title": "Braided Griffin Feather assembly",
+    "proposal": "The two earlier item families, Arachne's Soul String and Griffin Feathers, could be joined into a Braided Griffin Feather and offered at the lake.",
+    "support": "A real craft explicitly combines materials associated with R4 and R5.",
+    "weakness": "Specific in-lake crafting and offering attempts were reported unsuccessful; shared item themes do not select the recipe.",
+    "test_coverage": "October 12 and 18 crafting/offer tests are reported, with incomplete stage controls.",
+    "verify_next": "Recover precise before/after test details rather than repeat the recipe.",
+    "route_ids": [
+      "R046",
+      "R043",
+      "R048"
+    ],
+    "status": "Parked",
+    "assessment": "Specific in-lake crafting and offering attempts were reported unsuccessful; shared item themes do not select the recipe.",
+    "category": "Crafting",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Griffin_Feather",
+      "https://hypixelskyblock.minecraft.wiki/w/Braided_Griffin_Feather",
+      "https://hypixelskyblock.minecraft.wiki/w/Arachne",
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A35:L35",
+    "source_row": 35,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R061",
+    "kind": "route",
+    "subject_id": "R061",
+    "title": "Sea-creature capture, Drowned fusion and Cocooning",
+    "proposal": "R6 might require a sea creature to disappear through capture or death, then combine the surviving shard or use Cocooning to recover a second form. This differs from throwing a pre-made shard into the lake.",
+    "support": "R6 mentions a body becoming absent and remaining material being assembled. SkyBlock has actual Hunting capture and shard fusion mechanics.",
+    "weakness": "No particular species, input pair or surviving item is selected. Cocooning, capturing and fusing are different interactions and shouldn't be merged into one negative test.",
+    "test_coverage": "An October 30 report describes fresh Sea Witch/Hydra captures and a Drowned fusion near the lake. A complete Journal-stage recording was not established.",
+    "verify_next": "Recover the input/output, location and Journal before/after for the reported fusion. Reopen only if a clue specifies the creature or a transformation.",
+    "route_ids": [
+      "R061",
+      "R049",
+      "R057",
+      "R060"
+    ],
+    "status": "Needs verification",
+    "assessment": "Needs original report",
+    "category": "Creature / fusion",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Shards"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A36:L36",
+    "source_row": 36,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R062",
+    "kind": "route",
+    "subject_id": "R062",
+    "title": "Corruption Totem expires while affected mobs remain",
+    "proposal": "The placed Totem of Corruption disappears after its duration while creatures affected by it remain. R6 might refer to gathering something from those surviving mobs after the totem is gone.",
+    "support": "This is a causal absence → survivor sequence, not a word association. Corruption affects sea creatures in the game.",
+    "weakness": "Totem expiry alone does not assemble anything. Corrupted mobs don't establish a special R6 state, and no ingredient is selected.",
+    "test_coverage": "An October 10 report said the totem expired while corrupted mobs remained alive; no complete later assembly and Journal outcome is documented.",
+    "verify_next": "Locate original report and separate the totem expiry, surviving mob death, dropped fragments and any follow-up craft.",
+    "route_ids": [
+      "R062",
+      "R061"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist, weak selector",
+    "category": "Timed disappearance",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Corrupted_Mobs"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A37:L37",
+    "source_row": 37,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R063",
+    "kind": "route",
+    "subject_id": "R063",
+    "title": "Experience after a creature dies; bottled XP",
+    "proposal": "The body vanishes on death while experience orbs remain. The suggested assembly is collecting XP, converting it into bottles or performing a related action at the lake.",
+    "support": "Experience orbs are a literal non-body remainder after a mob dies. XP-bottle creation is a separate game mechanic.",
+    "weakness": "XP isn't a unique object selected by R6, and ordinary bottle crafting is not the same as a killed mob leaving XP.",
+    "test_coverage": "An October 31 report crafted several XP bottles underwater and saw no Journal update in its reported conditions. That is not a full test of the death → XP chain.",
+    "verify_next": "Recover which XP items and crafting actions were used; distinguish an orb pickup from making or breaking a bottle.",
+    "route_ids": [
+      "R063",
+      "R040",
+      "R038"
+    ],
+    "status": "Parked",
+    "assessment": "Parked pending selector",
+    "category": "Experience / death",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Experience"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A38:L38",
+    "source_row": 38,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R064",
+    "kind": "route",
+    "subject_id": "R064",
+    "title": "Ghost Crab shard: fusion direction",
+    "proposal": "A ghost- or spirit-themed shard might be the remnant, with R6 requiring a specific fusion either producing Ghost Crab or consuming it as an ingredient.",
+    "support": "Ghost Crab is a real shard obtainable by fusing Blue Crab with an eligible Poltergeist-family shard. This gives a native assembly action.",
+    "weakness": "Making Ghost Crab and consuming Ghost Crab for another output are distinct recipes. The proposed 5+5 → 2 Aero combination is not independently verified as an R6 action.",
+    "test_coverage": "An October 31 proposal mentioned Ghost/Ghost Crab into Aero. The exact fusion preview, completed output and Journal result were not recovered.",
+    "verify_next": "Validate the two proposed fusion directions in current game documentation or a recorded preview before any repeat test.",
+    "route_ids": [
+      "R064",
+      "R070"
+    ],
+    "status": "Needs verification",
+    "assessment": "Needs source/recipe confirmation",
+    "category": "Shard fusion",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Shards"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A39:L39",
+    "source_row": 39,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R065",
+    "kind": "route",
+    "subject_id": "R065",
+    "title": "Folf: Soul of the Alpha fusion versus offering",
+    "proposal": "R6 might require the actual conversion of a Soul of the Alpha shard into a Folf shard, instead of throwing a finished Folf item.",
+    "support": "Folf is an actual shard made by fusing Soul of the Alpha with an Epic-or-higher shard. It converts a wolf-themed 'soul' into a new object.",
+    "weakness": "The name and recipe have no selected tie to the lake. A finished-shard offer doesn't test the fusion action itself.",
+    "test_coverage": "An October 31 report offered Folf with Bloody/Itchy power setups. No complete R6-stage native-fusion proof is recorded here.",
+    "verify_next": "Locate the original Folf offering report and separately document any real fusion, exact inputs and Journal reaction.",
+    "route_ids": [
+      "R065",
+      "R073",
+      "R070"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist, mechanism known",
+    "category": "Shard fusion",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Changelog/2026/October_6",
+      "https://hypixelskyblock.minecraft.wiki/w/Shards"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A40:L40",
+    "source_row": 40,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R066",
+    "kind": "route",
+    "subject_id": "R066",
+    "title": "Glacite Walker shard used in fusion",
+    "proposal": "A creature associated with Glacite may leave a shard that must be combined with another shard at the lake, rather than simply being thrown into the water.",
+    "support": "Glacite Walker shards genuinely exist. The creature and its glacial setting connect more directly to the Hunt's location than generic spirit items.",
+    "weakness": "The standard documented acquisition is capturing or charming Glacite Walkers, not a unique recipe that creates their shard. Old 'fusion' reports may mean using that shard as input.",
+    "test_coverage": "An October 7 fusion/offer was reported before R6 was public. An October 13 underwater fusion mentioned Grove and Bolt materials; exact lineage and Journal evidence are incomplete.",
+    "verify_next": "Determine whether Glacite Walker was an input or output in each historical procedure. Do not treat the early test as a controlled R6 negative.",
+    "route_ids": [
+      "R066",
+      "R017",
+      "R070"
+    ],
+    "status": "Needs verification",
+    "assessment": "Needs original report",
+    "category": "Shard fusion / glacite",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Glacite_Walker",
+      "https://hypixelskyblock.minecraft.wiki/w/Shards"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A41:L41",
+    "source_row": 41,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R067",
+    "kind": "route",
+    "subject_id": "R067",
+    "title": "Runic mob drop followed by rune fusion",
+    "proposal": "A Runic mob dies and leaves a rune. The player then combines runes, potentially assembling what survived the body's disappearance.",
+    "support": "Runes genuinely drop from Runic mobs and the game supports rune fusion; it provides a recognizable death → material → assembly pattern.",
+    "weakness": "There are many rune types and levels. R6 gives no rune name, number, tier or required location.",
+    "test_coverage": "Earlier reports discuss rune offerings and some actual rune operations, but no single exact rune/fusion/Journal outcome is established.",
+    "verify_next": "Find an R6 textual or game-lore clue selecting one rune; then distinguish obtain, fuse, apply and offer in the test record.",
+    "route_ids": [
+      "R067",
+      "R071",
+      "R094"
+    ],
+    "status": "Parked",
+    "assessment": "Parked pending specific rune",
+    "category": "Runes / crafting",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Runes"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A42:L42",
+    "source_row": 42,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R068",
+    "kind": "route",
+    "subject_id": "R068",
+    "title": "Nine Dark Orbs unlock Shaded accessory power",
+    "proposal": "The 'remains' might be a set of nine Dark Orbs combined into the Shaded accessory power, with the applied power itself a hidden condition on the offering.",
+    "support": "Nine Dark Orbs at Maxwell genuinely unlock Shaded; this distinguishes owning the items from having the resulting power active.",
+    "weakness": "Power unlock and power selection are different states. Neither a death/remnant nor an R6-specific object is selected by the clue.",
+    "test_coverage": "October 29 report described nine Dark Orbs plus Shaded/Frozen accessory-power and armor states, but no independently filmed Journal result was recovered.",
+    "verify_next": "Recover whether the tester unlocked Shaded, equipped it, carried spare orbs, or did several of these. Avoid declaring the route untouched.",
+    "route_ids": [
+      "R068",
+      "R009"
+    ],
+    "status": "Needs verification",
+    "assessment": "Partially tested, needs evidence",
+    "category": "Accessory power",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dark_Orb"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A43:L43",
+    "source_row": 43,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R069",
+    "kind": "route",
+    "subject_id": "R069",
+    "title": "Shaggy exchange versus removed Arachne recipes",
+    "proposal": "The required 'assembly' might be trading Arachne Fragments and ingredients for an Arachne Crystal at Shaggy, rather than using an old removed recipe or dropping a finished Crystal.",
+    "support": "A real NPC conversion exists and the Arachne/Griffin line is relevant to R4–R5, making this a concrete candidate action.",
+    "weakness": "The current NPC trade is not a crafting-grid recipe. Earlier reports already performed related exchanges without verified progress; no R6 clue chooses Shaggy.",
+    "test_coverage": "October reports include attempts to obtain/offer a Crystal in connection with the lake. Full R6 stage and Journal controls remain incomplete.",
+    "verify_next": "Verify the actual NPC exchange version and cite the historical trade test; don't present a retired recipe as executable.",
+    "route_ids": [
+      "R069",
+      "R044",
+      "R043"
+    ],
+    "status": "Parked",
+    "assessment": "Parked, previously attempted",
+    "category": "NPC exchange",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Arachne_Crystal"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A44:L44",
+    "source_row": 44,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R070",
+    "kind": "route",
+    "subject_id": "R070",
+    "title": "Shard families, fusion or Hunting overflow",
+    "proposal": "The solution might depend on a property of shards or Hunting progress rather than a single named item: combine remains from a creature family, transform a shard or trigger a progress state.",
+    "support": "SkyBlock has native shard-family categories, upgrades and fusions. This makes 'assemble' a real possible action, unlike free-form item lore.",
+    "weakness": "The family and transformation are unspecified. Hundreds of possible variants make random testing uninformative; reaching overflow does not by itself imply an offering.",
+    "test_coverage": "Multiple shards, mob states and equipment combinations have been reported. That breadth is not one controlled universal negative.",
+    "verify_next": "Extract a specific clue that predicts one family, input and output before adding another test.",
+    "route_ids": [
+      "R070",
+      "R064",
+      "R065",
+      "R066",
+      "N005"
+    ],
+    "status": "Parked",
+    "assessment": "Parked, overbroad",
+    "category": "Hunting / shards",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Shards"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A45:L45",
+    "source_row": 45,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R071",
+    "kind": "route",
+    "subject_id": "R071",
+    "title": "Seven Heart Runes arranged in a sequence",
+    "proposal": "The number seven and Hearts Runes might be an encoded instruction: bring several runes together, arrange them in a special order or fuse them.",
+    "support": "The Journal has two rows of seven, and runes have a native combination system. It would make 'assemble' literal.",
+    "weakness": "The Journal layout might be ordinary UI. Nothing selects Hearts Runes or an ordering rule, and a display arrangement differs from a native rune fusion.",
+    "test_coverage": "Older research mentions counts and ordering, but no verified exact seven-rune sequence with Journal footage appears in the tracker.",
+    "verify_next": "Identify the exact rune, sequence and in-game action from a source before performing a costly multirune test.",
+    "route_ids": [
+      "R071",
+      "R067",
+      "R097"
+    ],
+    "status": "Parked",
+    "assessment": "Parked, no selector",
+    "category": "Runes / numeric pattern",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Runes"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A46:L46",
+    "source_row": 46,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R072",
+    "kind": "route",
+    "subject_id": "R072",
+    "title": "Spirit Bone and Spirit Wing assembled into gear",
+    "proposal": "A creature's 'spirit' remains as material after death; Spirit Bone or Spirit Wing might be combined into a larger item or be offered with special equipment.",
+    "support": "Spirit Bone and Spirit Wing are named dungeon materials tied thematically to a nonphysical survivor and item recipes.",
+    "weakness": "Thematic item names alone are weak. Broad item/equipment throws don't identify one exact assembly action.",
+    "test_coverage": "Late October/early November combinations with spirit materials, pets, armor and powers were reported negative under specific setups.",
+    "verify_next": "Recover the exact documented recipes and test conditions before proposing another material combination.",
+    "route_ids": [
+      "R072",
+      "R075",
+      "R079"
+    ],
+    "status": "Parked",
+    "assessment": "Parked after reported negatives",
+    "category": "Spirit materials",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Spirit_Bone",
+      "https://hypixelskyblock.minecraft.wiki/w/Spirit_Wing"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A47:L47",
+    "source_row": 47,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R073",
+    "kind": "route",
+    "subject_id": "R073",
+    "title": "Soul of the Alpha and spirit wolf remains",
+    "proposal": "The disappearing 'body' might be a wolf or spirit wolf, and its surviving Soul of the Alpha shard could be offered or fused into a new shard such as Folf.",
+    "support": "Soul of the Alpha is a real shard; Folf supplies a concrete native fusion that the generic wolf idea otherwise lacks.",
+    "weakness": "The wolf isn't identified by R6. The finished shard offer, killing a wolf and native fusion are different operations.",
+    "test_coverage": "November 1 reports combined Wolf, Howling and Soul of the Alpha shards with claws/bones and gear. Their full controls vary.",
+    "verify_next": "Separate Folf fusion from wolf-themed item drops and identify which exact material survived which disappearance.",
+    "route_ids": [
+      "R073",
+      "R065"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist only for native fusion",
+    "category": "Wolves / souls",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Shards"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A48:L48",
+    "source_row": 48,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R074",
+    "kind": "route",
+    "subject_id": "R074",
+    "title": "Three skulls combine into a Skeletor",
+    "proposal": "When three skeleton mobs die in the Catacombs, their skulls merge into a Skeletor. R6 might use the same mechanic: bodies disappear, remains assemble into another creature.",
+    "support": "This is unusually close to the literal wording of R6. Skeletor spawning is a real three-remains-to-one-entity event, unlike a thematic rune pattern.",
+    "weakness": "It happens in Catacombs, not at Great Glacite Lake. A real spawn doesn't demonstrate a Hunt reaction; unverified historical footage can't be treated as current proof.",
+    "test_coverage": "The historical handoff reports a three-skull merge during R6 with unchanged Journal. That footage was not accessible in the later audit. Separately, summoned skeletons were drowned/expired.",
+    "verify_next": "Locate the original native merge recording and confirm whether R6 was active and the Journal unchanged. Do not conflate summoned skeleton expiry with native skull merge.",
+    "route_ids": [
+      "R074",
+      "R021"
+    ],
+    "status": "Reference only",
+    "assessment": "Ordinary mechanic confirmed; reported R6 negative unverified",
+    "category": "Dungeon mob assembly",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Skeletor",
+      "https://hypixelskyblock.minecraft.wiki/w/Skeleton_Soldier"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A49:L49",
+    "source_row": 49,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R075",
+    "kind": "route",
+    "subject_id": "R075",
+    "title": "Necromancy stores a dead creature's soul",
+    "proposal": "With necromancy, a mob's body dies and its soul may be retained in an item, later summoned. R6 might need the survivor's soul collected or assembled with something else.",
+    "support": "Necromancy explicitly lets players absorb a slain mob's soul and summon it. This matches the body/survival distinction.",
+    "weakness": "The soul is stored and summoned, not normally crafted into a new object. There is no chosen mob or R6-specific summon.",
+    "test_coverage": "Numerous combinations with necromancy gear and summoned souls were reported without a Hunt advance. Precise stages and summoning conditions differ.",
+    "verify_next": "Select a particular mob/soul and record killing, capture, storage, summon and Journal status as separate steps.",
+    "route_ids": [
+      "R075",
+      "R072",
+      "R078"
+    ],
+    "status": "Parked",
+    "assessment": "Parked, broad negatives",
+    "category": "Necromancy",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Necromancy"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A50:L50",
+    "source_row": 50,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R076",
+    "kind": "route",
+    "subject_id": "R076",
+    "title": "Ghost drops: Sorrow, Plasma and Volta",
+    "proposal": "A Ghost's physical body disappears and leaves tangible drops. Players might have to gather those remnants or use ghost-themed equipment during the lake offering.",
+    "support": "Ghosts really drop Sorrow and other materials; several are usable in crafting or gear. This provides a tangible remnant family.",
+    "weakness": "It is a broad name/theme match, not a recipe selected by R6. Many items were tried with no special response.",
+    "test_coverage": "Historical October/November tests include Sorrow, Plasma, Volta and armor combinations. The negatives apply only to their specified setups.",
+    "verify_next": "Find a source selecting one exact ghost drop and what to assemble from it; don't retest the broad family.",
+    "route_ids": [
+      "R076",
+      "R075",
+      "R080"
+    ],
+    "status": "Parked",
+    "assessment": "Parked, many reported trials",
+    "category": "Ghost loot",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Ghost",
+      "https://hypixelskyblock.minecraft.wiki/w/Sorrow_Armor"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A51:L51",
+    "source_row": 51,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R077",
+    "kind": "route",
+    "subject_id": "R077",
+    "title": "Dungeon Journal 'Uncanny Remains' and Memories",
+    "proposal": "The 'body' might be a body of text: dungeon journals survive beside fallen bodies, and collected entries or a decoded phrase might be the required assembly.",
+    "support": "Dungeon journals are found on floors near corpses; 'Uncanny Remains' and 'Memories' are real journal titles. Hunt R1 already involved a hidden Journal.",
+    "weakness": "Dungeon Journals are a different system from the Dead Man's Journal. Gathering or dropping pages doesn't establish a shared decoder or trigger.",
+    "test_coverage": "October experiments offered Uncanny Remains and other journal pages; some gathering attempts were reported with no established Hunt completion.",
+    "verify_next": "Recover collection-vs-offering procedures and look for a consistent extraction rule that uses actual published entries.",
+    "route_ids": [
+      "R077",
+      "R002",
+      "R025"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist for textual reading",
+    "category": "Dungeon journals",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dungeon_Journals"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A52:L52",
+    "source_row": 52,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R078",
+    "kind": "route",
+    "subject_id": "R078",
+    "title": "Abilities after becoming a dungeon ghost",
+    "proposal": "A player dying in a Dungeon acquires a ghost state and ghost-mode abilities. Perhaps R6 requires a post-death ability rather than an item offering.",
+    "support": "The player's body is gone while an interactive state persists, matching the absence/survival structure.",
+    "weakness": "Dungeon ghost mode occurs in a different instance from Great Glacite Lake. Without a clue selecting a mode or transition, the mechanic doesn't suggest an R6 assembly.",
+    "test_coverage": "A November 2 report says some spirit/ghost-mode abilities were tried without an R6 advance; exact modes and abilities aren't fully recorded.",
+    "verify_next": "Determine whether any ability can affect the lake or another relevant Hunt state, before requesting another test.",
+    "route_ids": [
+      "R078",
+      "R074",
+      "R075"
+    ],
+    "status": "Parked",
+    "assessment": "Parked, location mismatch",
+    "category": "Dungeon ghost state",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dungeons"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A53:L53",
+    "source_row": 53,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R079",
+    "kind": "route",
+    "subject_id": "R079",
+    "title": "Phoenix, Reaper and revival",
+    "proposal": "An entity is lost or appears to die while a revival mechanic preserves an ability, pet effect or companion item. R6 might depend on what persists through the revival.",
+    "support": "SkyBlock has revival and death-prevention mechanics, so a 'body gone, something remains' story has a game-system analogue.",
+    "weakness": "Most revival effects prevent or reverse death rather than leave an independent assembled object. No specific survivor is named.",
+    "test_coverage": "Phoenix, Reaper and other revival gear were reported in tests with slayer drops and equipment. No single fully controlled survival-to-assembly chain is documented.",
+    "verify_next": "Choose one mechanic with a concrete surviving object, and separate preventing death from resurrecting afterward.",
+    "route_ids": [
+      "R079",
+      "R040",
+      "R075"
+    ],
+    "status": "Parked",
+    "assessment": "Parked, no survivor selected",
+    "category": "Revival mechanics",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Phoenix_Pet"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A54:L54",
+    "source_row": 54,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R080",
+    "kind": "route",
+    "subject_id": "R080",
+    "title": "Salvage item, obtain essence and rebuild",
+    "proposal": "Destroy an eligible item through the salvage system, keep the Essence it produces, then use that essence to upgrade or craft something else. This is a literal disappear → remain → assemble model.",
+    "support": "SkyBlock's salvage system consumes items and grants Essence, while Essence has later uses. It provides a complete mechanical chain.",
+    "weakness": "The Dead Man's Chestplate itself was refused by salvage. Other salvageable inputs are numerous and the riddle doesn't identify which one.",
+    "test_coverage": "An October 9 report tried to salvage the Chestplate and was refused. That establishes this item is ineligible, not that every salvage-based route was tested.",
+    "verify_next": "Find a specific eligible item whose upgrade or output is independently indicated by R6 before any additional attempt.",
+    "route_ids": [
+      "R080",
+      "R085",
+      "R086",
+      "R001"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist, specific input missing",
+    "category": "Salvage / Essence",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Salvaging",
+      "https://hypixelskyblock.minecraft.wiki/w/Malik"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A55:L55",
+    "source_row": 55,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R081",
+    "kind": "route",
+    "subject_id": "R081",
+    "title": "Organic Matter and Compost from consumed crops",
+    "proposal": "Crops are consumed by the Garden Composter and converted into Organic Matter, which, with Fuel, produces Compost. R6 might require an object to be destroyed and its remaining value turned into a new item.",
+    "support": "The Composter provides a documented consume → intermediate resource → crafted output chain, which fits the imperative 'assemble' more directly than a generic item name.",
+    "weakness": "The conversion is on the Garden, not the lake; Compost is routine farming material. R6 specifies no crop, machine, or amount.",
+    "test_coverage": "The tracker records Compost offering attempts. It does not document a controlled R6-stage input, processing, output-collection, then Journal comparison.",
+    "verify_next": "Locate the original Compost test; separate putting materials in, completing a cycle, collecting Compost and offering it.",
+    "route_ids": [
+      "R081"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; no selected input",
+    "category": "Garden / conversion",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Composter"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A56:L56",
+    "source_row": 56,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R082",
+    "kind": "route",
+    "subject_id": "R082",
+    "title": "Zombud harvest transforms Dead Plants into Zombuddies",
+    "proposal": "Harvesting a mature Zombud can transform adjacent Dead Plants into Zombuddies. The original plant changes or disappears while another creature appears; this might be the 'remains' referred to by R6.",
+    "support": "This is a concrete causal transformation. Zombud grows from specific nearby Greenhouse crops, and its harvest has a distinct effect on Dead Plants.",
+    "weakness": "Witherbloom is a separate mutation using four Dead Plants near Soul Sand. Zombud requires four Dead Plants plus two Cindershades and two Fleshtraps. Neither mutation is connected to the lake.",
+    "test_coverage": "A reported October 22 Jake-analyzer attempt had no success. Analyzer use is not equivalent to growing Zombud, harvesting it or defeating Zombuddies.",
+    "verify_next": "Preserve the five actions separately: growth, harvest, mutation, enemy defeat, and offering. Seek an original stage/Journal record before testing.",
+    "route_ids": [
+      "R082"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist only with exact transformation",
+    "category": "Greenhouse / mutation",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Zombud",
+      "https://hypixelskyblock.minecraft.wiki/w/Witherbloom"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A57:L57",
+    "source_row": 57,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R083",
+    "kind": "route",
+    "subject_id": "R083",
+    "title": "Ditto Blob turns an item appearance into decoration",
+    "proposal": "The 'body' could be an item's usable version, while its visual representation survives as a Ditto decoration. One reading proposes assembling a displayed remnant rather than dropping a normal item.",
+    "support": "Ditto Blob genuinely copies a skinned skull's appearance when combined in an Anvil and makes the result placeable on a Private Island.",
+    "weakness": "It preserves a cosmetic appearance, not a verified soul, hidden contents or gameplay object. The target item and arrangement are unspecified.",
+    "test_coverage": "No controlled R6-stage Ditto transform-plus-offering is established in the route. Older generic display attempts do not necessarily cover this action.",
+    "verify_next": "Find a source identifying a particular skull or placement. Don't count visually copied objects as verified Hunt ingredients.",
+    "route_ids": [
+      "R083"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; decorative analogy",
+    "category": "Cosmetic / item transformation",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Ditto_Blob"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A58:L58",
+    "source_row": 58,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R084",
+    "kind": "route",
+    "subject_id": "R084",
+    "title": "Claim a finished Forge item while underwater",
+    "proposal": "R6 could check the act of receiving a forged product when its inputs have been consumed, rather than throwing the result. A claimed Forge output is a different event from completing the job.",
+    "support": "The Forge consumes materials and produces finished items after a processing period; the instant of claiming is a discrete player action.",
+    "weakness": "The Forge is ordinarily elsewhere and no item is selected. A claim action, timer completion and a dropped entity are not interchangeable.",
+    "test_coverage": "November 1–3 player reports described claiming ready outputs through Fred while underwater. Named metals and materials were included, but stage/Journal controls vary.",
+    "verify_next": "Recover one named output and its precise claim location, then distinguish the Forge finishing from claim/pickup and offering.",
+    "route_ids": [
+      "R084",
+      "R094"
+    ],
+    "status": "Needs verification",
+    "assessment": "Partially tested; needs exact reports",
+    "category": "Forge / timing",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/The_Forge"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A59:L59",
+    "source_row": 59,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R085",
+    "kind": "route",
+    "subject_id": "R085",
+    "title": "Precursor Drone Mods rather than reconstructing its body",
+    "proposal": "A modular Precursor Drone might be altered by attaching a part after some earlier state or component is replaced. The speculative R6 action is applying a Drone Mod, not crafting a Drone from a corpse.",
+    "support": "The September 30 / October 6 update introduced three documented Drone Mods: Grungle, Contraband and Mining off Camera, each granting pet customization. A real assembly or attachment action exists.",
+    "weakness": "The game doesn't establish the Drone is destroyed or leaves remains. The available attachment action alone doesn't choose R6, and the Pet and the Precursor Apparatus are unrelated systems.",
+    "test_coverage": "An October 27 historical list reports testing three Drone modifications. The exact stage, mod names, setup and Journal response were not independently recovered.",
+    "verify_next": "Check the three modification reports against the official mod list and the original Journal states before repeating any mod application.",
+    "route_ids": [
+      "R085",
+      "R018"
+    ],
+    "status": "Needs verification",
+    "assessment": "Needs source-level audit",
+    "category": "Modular pet / assembly",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Changelog/2026/October_6"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A60:L60",
+    "source_row": 60,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R086",
+    "kind": "route",
+    "subject_id": "R086",
+    "title": "Piggy Bank cracking, breaking and repairing",
+    "proposal": "A Piggy Bank changes to Cracked and later Broken after qualifying deaths, then may be repaired with enchanted pork. R6 might require the break → survivor → repair chain.",
+    "support": "The three distinct accessory states make disappearance and reconstruction concrete, with an actual repair recipe.",
+    "weakness": "The accessory's body isn't fully gone: the broken item persists. Qualifying death conditions matter, and R6 does not select Piggy Bank or its repair materials.",
+    "test_coverage": "An October research audit cites Piggy Bank break/repair tests, but complete original stage, damage threshold and Journal verification remain unavailable.",
+    "verify_next": "Separate first qualifying death, second death, broken-state inventory, repair craft and a final offering when reviewing any reported test.",
+    "route_ids": [
+      "R086",
+      "R040"
+    ],
+    "status": "Needs verification",
+    "assessment": "Reported negative; evidence incomplete",
+    "category": "Death / repair",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Piggy_Bank"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A61:L61",
+    "source_row": 61,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R087",
+    "kind": "route",
+    "subject_id": "R087",
+    "title": "Soulweaver Gloves produce orbiting Haunted Skulls",
+    "proposal": "The body might be a defeated mob while its skull-like remnants orbit the wearer. An R6 variation might require multiple skulls present simultaneously.",
+    "support": "Soulweaver Gloves have a real Catacombs-only ability creating orbiting Haunted Skulls every 15 seconds or after melee kills.",
+    "weakness": "Timed generation means the skulls are not exclusively death remnants; they are ability effects, not collected components. There is no selected skull count or lake operation.",
+    "test_coverage": "The historical archive mentions skull/bone research but lacks one verified R6 test isolating the Gloves ability.",
+    "verify_next": "Check whether the intended claim needs a melee kill or a timed skull. Don't assume an ordinary skull effect persists outside the Catacombs.",
+    "route_ids": [
+      "R087",
+      "R074",
+      "R075"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; location/ability mismatch",
+    "category": "Dungeon equipment",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Soulweaver_Gloves"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A62:L62",
+    "source_row": 62,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R088",
+    "kind": "route",
+    "subject_id": "R088",
+    "title": "Vanquisher death and subsequent remains",
+    "proposal": "A Vanquisher spawned from previous kills might die and leave Nether Stars or another resource that is assembled later; a separate theory imagined a corruption/eruption chain.",
+    "support": "Vanquishers are real Crimson Isle mobs with identifiable drops, including three Nether Stars, and their appearance follows mob-kill mechanics.",
+    "weakness": "The proposed Vanquisher death → eruption step is not in the documented mechanic; neither Nether Star identity nor a recipe is selected by R6.",
+    "test_coverage": "The archive mentions previous Nether item offerings, without isolating a complete Vanquisher-specific death-and-craft sequence.",
+    "verify_next": "Remove unsupported eruption claims; require an exact surviving drop and assembly recipe before another test.",
+    "route_ids": [
+      "R088",
+      "R076"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; causal chain unsupported",
+    "category": "Crimson Isle / loot",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Vanquisher"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A63:L63",
+    "source_row": 63,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R089",
+    "kind": "route",
+    "subject_id": "R089",
+    "title": "Bal disappears and the Topaz Crystal appears",
+    "proposal": "When Bal is defeated in Khazad-dûm, it shrinks away and a Topaz Crystal appears. A candidate R6 interpretation is that an entity must vanish before its surviving reward is gathered or processed.",
+    "support": "The boss's disappearance and later appearance of the crystal are documented, making this one of the clearest literal 'gone → something remains' examples.",
+    "weakness": "A Topaz Crystal is a Crystal Hollows progression objective, not the same object as a Topaz Gemstone. The idea also requires extra unsupported steps to turn the crystal into an 'assembled' object.",
+    "test_coverage": "Earlier research examined Bal and later gemstone processing, but no complete Hunt-specific sequence or Journal advance is established.",
+    "verify_next": "Do not conflate collecting the Topaz Crystal with refining Perfect Topaz gems. Identify any actual post-disappearance assembly action before proposing a test.",
+    "route_ids": [
+      "R089",
+      "R018"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist; compelling disappearance, missing assembly",
+    "category": "Boss / crystal",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Bal",
+      "https://hypixelskyblock.minecraft.wiki/w/Gemstone_Crystals"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A64:L64",
+    "source_row": 64,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R090",
+    "kind": "route",
+    "subject_id": "R090",
+    "title": "Tree Gifts awarded after a tree is fully removed",
+    "proposal": "After chopping a tree completely on Galatea, the tree is gone and a Tree Gift is awarded. Perhaps the reward or a related craft is the remnant to assemble.",
+    "support": "The triggering condition is explicit: full-tree completion is necessary, and Tree Gifts have defined rewards including Deep Root for certain tree types.",
+    "weakness": "The Tree Gift is a loot event rather than an item left physically in the removed trunk. R6 provides no specific tree, gift or recipe, and Foraging happens away from the lake.",
+    "test_coverage": "An October 18 report included Deep Root and completed-tree actions, excluding some enchanted variants, but the exact Journal and step sequence are not independently verified.",
+    "verify_next": "Find the original full-tree test report and distinguish earning a gift from offering Deep Root or crafting its later use.",
+    "route_ids": [
+      "R090",
+      "N005"
+    ],
+    "status": "Needs verification",
+    "assessment": "Partially tested; source missing",
+    "category": "Foraging / persistence",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Tree_Gifts"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A65:L65",
+    "source_row": 65,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R091",
+    "kind": "route",
+    "subject_id": "R091",
+    "title": "Royal Resident extended dialogue and surviving clues",
+    "proposal": "The Royal Resident's unusually long interaction might reveal text about a vanished entity or surviving state, which could then be interpreted as the material to assemble.",
+    "support": "The NPC is a documented unusual dialogue interaction, giving an actual text source to inspect rather than only a matching item name.",
+    "weakness": "No precise line has been identified that references R6's body, loss or assembly, and the ordinary interaction is not a known Hunt mechanic.",
+    "test_coverage": "A reported October 25 player tried the relevant conversation/wait without progress. The exact dialogue transcript and Journal controls were not recovered.",
+    "verify_next": "Look for a specific quoted line and its timing. If none is relevant, keep the route parked.",
+    "route_ids": [
+      "R091",
+      "R013"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; no identifying dialogue",
+    "category": "NPC / text",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Royal_Resident"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A66:L66",
+    "source_row": 66,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R092",
+    "kind": "route",
+    "subject_id": "R092",
+    "title": "Eternal Crystal as discontinued accessory or reward hint",
+    "proposal": "An obsolete recipe combined Day and Night Crystals into an Eternal Crystal. Its appearance in Alpha menus or textures was interpreted as a deliberate clue or a possible Hunt reward.",
+    "support": "The item genuinely existed historically, and a later visual appearance naturally draws attention during a secret hunt.",
+    "weakness": "A circulated 'no xp' comment attributed to TimeDeo challenges some reward interpretations but is not a complete authenticated developer statement. Neither its XP type nor any present recipe is established.",
+    "test_coverage": "The archive has historical texture/Alpha discussion but no documented R6 reaction, verified reward or current crafting method.",
+    "verify_next": "Authenticate the image/menu context and original developer reply before stating the Hunt reward excludes an accessory.",
+    "route_ids": [
+      "R092"
+    ],
+    "status": "Needs verification",
+    "assessment": "Needs independent primary evidence",
+    "category": "Reward / discontinued item",
+    "background_urls": [
+      "https://hypixel-skyblock.fandom.com/wiki/Eternal_Crystal",
+      "https://hypixelskyblock.minecraft.wiki/w/Accessory_Power"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A67:L67",
+    "source_row": 67,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R093",
+    "kind": "route",
+    "subject_id": "R093",
+    "title": "Promotional anti-hint text and Journal wording",
+    "proposal": "A promotional short reportedly contained hidden 'no hint' wording. Some hunters compared its text with Journal screenshots, suspecting omitted words or altered phrasing might encode a clue.",
+    "support": "Textual extraction has an actual precedent in R1's THROWINLAKE acrostic; comparing two independently dated originals could expose deliberate changes.",
+    "weakness": "A promotional asset may be noncanonical or shortened for presentation. The archive has not independently linked and authenticated the exact original frame and transcript.",
+    "test_coverage": "Archived discussion described decoding promotional anti-hint text, but not a verified extraction rule that predicts R6.",
+    "verify_next": "Recover the official original promo clip/frame and authoritative Journal screenshot before analyzing tiny wording differences.",
+    "route_ids": [
+      "R093",
+      "R002",
+      "R097"
+    ],
+    "status": "Needs verification",
+    "assessment": "Needs primary captures",
+    "category": "Text / promotional",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A68:L68",
+    "source_row": 68,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R094",
+    "kind": "route",
+    "subject_id": "R094",
+    "title": "Crafting event versus claiming, fusing or offering",
+    "proposal": "R6 might require the act of assembling an item rather than merely owning or dropping a finished item. Different processes have different triggers: craft, forge completion, claim, fusion and offering.",
+    "support": "R4/R5 establish that the Hunt responds to item presence and arrival conditions, so a non-obvious event could plausibly matter. Existing SkyBlock systems give distinct actions to compare.",
+    "weakness": "Nothing shows the Hunt checks generic crafting events. Treating an old item-drop test as proof of a creation event would be methodologically wrong.",
+    "test_coverage": "The archive reports actual Precursor Apparatus, Daedalus' Notes, XP-bottle, shard, rune and underwater Forge operations. Each tested only its recorded action.",
+    "verify_next": "Create a test matrix for a single clue-selected item: input, completion, claim, offer, before/after Journal. Do not declare an action 'untried' when reports already cover it.",
+    "route_ids": [
+      "R094",
+      "R018",
+      "R052",
+      "R063",
+      "R084"
+    ],
+    "status": "Active",
+    "assessment": "Active research-method rule",
+    "category": "Testing methodology",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/The_Forge",
+      "https://hypixelskyblock.minecraft.wiki/w/Shards"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A69:L69",
+    "source_row": 69,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R095",
+    "kind": "route",
+    "subject_id": "R095",
+    "title": "Remnant of the Eye and altar-style arrangement",
+    "proposal": "A named 'Remnant' item might refer to something that survived a creature's destruction. One proposal involved arranging eight such items around an altar in analogy with dragon summoning.",
+    "support": "The word 'Remnant' offers an unusually direct lexical connection, and SkyBlock does contain altar interactions requiring multiple items.",
+    "weakness": "The archive does not establish an eight-Remnant native recipe, a lost body associated with this item, or a specific lake-compatible altar.",
+    "test_coverage": "Older physical fossil and equipment arrangements are separate from an untested eight-remnant arrangement; no R6 Journal result establishes the proposal.",
+    "verify_next": "Verify the actual item's mechanic and any altar procedure before asking for an eight-item test.",
+    "route_ids": [
+      "R095",
+      "R023",
+      "R021"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; imagined recipe unverified",
+    "category": "Named remnant / altar",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A70:L70",
+    "source_row": 70,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R096",
+    "kind": "route",
+    "subject_id": "R096",
+    "title": "Builder's Ruler and an apparent underground structure",
+    "proposal": "'Assemble' might mean placing physical blocks in a shape. Players also reported a suspicious façade under blue ice, with pillars and an arch, as a possible setting for a build-based puzzle.",
+    "support": "A visible structure is a more specific geographical clue than arbitrary item combinations, and Builder's Ruler exists as a block-placement tool.",
+    "weakness": "A reported inventory glitch is not Journal feedback. The façade's block identity, location, accessible construction permissions and puzzle relevance remain unverified.",
+    "test_coverage": "A Builder's Ruler/Hearthstone action reportedly caused inventory display anomalies. A separate image showed an Onyx-like façade but no recorded secret interaction.",
+    "verify_next": "Recover the original screenshot, coords and reproducible interaction before trying to build a structure or altering the lake.",
+    "route_ids": [
+      "R096",
+      "R024"
+    ],
+    "status": "Needs verification",
+    "assessment": "Needs image and reproducibility",
+    "category": "World structure / placement",
+    "background_urls": [],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A71:L71",
+    "source_row": 71,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R097",
+    "kind": "route",
+    "subject_id": "R097",
+    "title": "Two-row Journal and seven-note completion",
+    "proposal": "R1–R5 answer initials are D E F A G. One interpretation predicts that R6/R7 should supply B and C, completing seven natural notes across a row of seven riddles.",
+    "support": "The five observed initials are all distinct natural musical notes, and the Journal displays fourteen entries in two rows of seven.",
+    "weakness": "The layout may simply be GUI design. The pattern predicts answer initials but doesn't select a playable tune or an R6 item.",
+    "test_coverage": "Older Melody's Hair/DEFAG attempts are reported with incomplete controls, and neither R6 nor R7 answer is authenticated.",
+    "verify_next": "Treat B/C as a falsifiable prediction only after verified later answers; separate a predicted letter from an active musical performance.",
+    "route_ids": [
+      "R097",
+      "R003",
+      "N011"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist; weak structural pattern",
+    "category": "Music / text",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://hypixelskyblock.minecraft.wiki/w/Melody%27s_Hair"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A72:L72",
+    "source_row": 72,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R098",
+    "kind": "route",
+    "subject_id": "R098",
+    "title": "Pairs of answer-name lengths",
+    "proposal": "The first five solution item names have letters-only lengths 18,18,15,15,14. If successive equal pairs continue, R6's answer might have 14 letters.",
+    "support": "Two adjacent equal-length pairs exist under the stated count rule, so the prediction is checkable without changing game state.",
+    "weakness": "Only two pairs exist, and many candidate strings would fit. It cannot identify an object or test condition without an independent clue.",
+    "test_coverage": "Players also reported separate physical Journal/Chestplate arrangement attempts. Those do not test the numerical pattern itself.",
+    "verify_next": "When R6 is verified, count its canonical answer name using the same rule and record whether the 14 prediction failed.",
+    "route_ids": [
+      "R098",
+      "R097"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist; retrospective prediction",
+    "category": "Letters / patterns",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A73:L73",
+    "source_row": 73,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R099",
+    "kind": "route",
+    "subject_id": "R099",
+    "title": "R1–R5 burp samples versus page-turn audio",
+    "proposal": "The puzzle success sounds may change across R1–R5. An inherited audio comparison found a burp-like match for R1/R2 and page-turning sounds for later progress, suggesting a possible staged feedback pattern.",
+    "support": "The original audit compared recordings instead of relying only on memory, potentially distinguishing generic client sounds from special Hunt feedback.",
+    "weakness": "Audio matching does not prove a unique server-side sound ID or encode an R6 solution. Other sound sources, distance and client volume settings can interfere.",
+    "test_coverage": "The archived audit reported the above sample comparisons; the raw clips were not independently reopened during this editorial batch.",
+    "verify_next": "Retain the qualified comparison and locate the original recordings if using audio as an evidence-led R6 test.",
+    "route_ids": [
+      "R099",
+      "R001",
+      "R004"
+    ],
+    "status": "Reference only",
+    "assessment": "Observed audio comparison, not solution",
+    "category": "Puzzle feedback / audio",
+    "background_urls": [
+      "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A74:L74",
+    "source_row": 74,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R100",
+    "kind": "route",
+    "subject_id": "R100",
+    "title": "Dante's Old Man of Crete and frozen Cocytus",
+    "proposal": "In Dante's Inferno the Old Man of Crete sheds tears that contribute to infernal rivers flowing toward Cocytus. Hunters linked a body-like statue and frozen lake to R6's wording, then considered game memorial/statue parallels.",
+    "support": "The literary source really connects a composite statue, liquid remnants, and a frozen lower region. It is a more structured narrative than a random item-name match.",
+    "weakness": "The statue remains in Mount Ida and does not vanish into Cocytus; the book is not a verified Hypixel Hunt reference. In-game Dante memorial guesses are separate from this text.",
+    "test_coverage": "Earlier discussion compared the poem with in-game memorial and armor ideas. No R6-specific successful assembly is documented.",
+    "verify_next": "Keep Dante's text separate from any in-game statue. Require an exact shared image, phrase or game location before testing a construction.",
+    "route_ids": [
+      "R100",
+      "R101"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; literary analogy",
+    "category": "Literature / frozen lake",
+    "background_urls": [
+      "https://www.ccel.org/d/dante/inferno/infer16.htm"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A75:L75",
+    "source_row": 75,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R101",
+    "kind": "route",
+    "subject_id": "R101",
+    "title": "Ovid's ashes, Cretan Bull urn and bone offerings",
+    "proposal": "The 'remains' might be ashes, bones or another residue gathered into a vessel. One literary branch invokes Ovid's Meleager and Narcissus; a separate in-game branch uses the Cretan Bull urn and offerings of bones. These are comparisons, not one verified recipe.",
+    "support": "Ovid contains stories in which a person dies and material or a memorial survives. In SkyBlock, the urn and Hephaestus-related materials supplied specific objects to test, unlike a purely abstract poem.",
+    "weakness": "The literary episodes are not a continuous instruction; no native action for filling this urn with ashes has been demonstrated. The surviving material and its assembly method remain unselected.",
+    "test_coverage": "Campfire and flower offerings were reported. November 11 tests paired an urn with 206 Bones or 206 Enchanted Bones, plus other materials; their R6 stage, arrival order and before/after Journal evidence are incomplete.",
+    "verify_next": "Recover the exact urn item, its ordinary in-game function and original test logs. Keep Meleager, Narcissus, the Cretan Bull, Homer and Apuleius as separate possible parallels.",
+    "route_ids": [
+      "R101",
+      "R047",
+      "R055"
+    ],
+    "status": "Needs verification",
+    "assessment": "Partially tested; mixed source branches",
+    "category": "Ashes / urn / mythology",
+    "background_urls": [
+      "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A76:L76",
+    "source_row": 76,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R102",
+    "kind": "route",
+    "subject_id": "R102",
+    "title": "Fire goes out but a product survives",
+    "proposal": "R6 might refer to a fire, spell or fuel source disappearing while an effect or transformed material remains. The discussion compared Velyna's rekindling dialogue, Portable Campfire, Everburning Flame and the reported Hypergolic Fuel / Ionized Ceramics chain.",
+    "support": "Expiration and residual fuel or materials are realistic process types; the theory attempts to connect 'gone' with something left to assemble.",
+    "weakness": "The compared items operate differently. A portable campfire has no documented collectible ashes, the Everburning Flame is not a normal expiring flame, and the connection to Velyna's dialogue is not established.",
+    "test_coverage": "Earlier research reportedly tried related fuel, fire and ceramic materials. No single controlled event → survivor → craft → R6 Journal result has been authenticated.",
+    "verify_next": "Check exact Velyna dialogue and current fuel outputs from a first-party game source; separate extinguishing, collecting, crafting and offering before any new test.",
+    "route_ids": [
+      "R102",
+      "R080"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; no selected fire process",
+    "category": "Fire / fuel / conversion",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/The_Forge"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A77:L77",
+    "source_row": 77,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R103",
+    "kind": "route",
+    "subject_id": "R103",
+    "title": "Fossil Muncher to Suspicious Scrap via Fossil Essence",
+    "proposal": "The Fossil Muncher consumes one requested fossil and rewards 100 Fossil Essence. Researcher Beryl sells Suspicious Scrap for 100 Fossil Essence; the Scrap can then be used for excavation. R6 might require this multi-stage conversion from an animal remnant.",
+    "support": "The exact reward and cost are documented, producing a concrete fossil → currency → item chain in the Glacite Tunnels.",
+    "weakness": "Exchanging a fossil for currency and spending currency is not automatically the type of 'assembly' the riddle requests. No clue selects Fossil Muncher, Researcher Beryl or a specific fossil.",
+    "test_coverage": "November reports include interacting with Fossil Muncher. A complete requested-fossil → claim reward → purchase Scrap → relevant offering with intermediate Journal checks was not recovered.",
+    "verify_next": "Confirm the fossil requested on the test day, each NPC interaction, item possession and Journal state; distinguish buying Scrap from excavating with Scrap.",
+    "route_ids": [
+      "R103",
+      "R014"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist; real chain, missing Hunt link",
+    "category": "Fossil / NPC chain",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Fossil_Muncher",
+      "https://hypixelskyblock.minecraft.wiki/w/Suspicious_Scrap"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A78:L78",
+    "source_row": 78,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "R104",
+    "kind": "route",
+    "subject_id": "R104",
+    "title": "A held survivor while another item disappears",
+    "proposal": "The 'body' could be the dropped object consumed by the lake, but the required remnant might remain in the player's hand, inventory or equipped slot. The proposed solution is a two-object state, not necessarily another item throw.",
+    "support": "R3–R5 demonstrate hidden state requirements such as distance, time, order and simultaneous presence. A held-state precedent from other gameplay makes the idea mechanically conceivable.",
+    "weakness": "Earlier Hunt steps have not established a rule checking a held companion item. Hand, armor, inventory and item-entity states are not interchangeable, and the proposed object pair is unknown.",
+    "test_coverage": "An October 24 report held a second Journal while offering Chestplate/Journal/book items. Another November 3 report held or wore a Star Sentry Shard during offerings; complete controls vary.",
+    "verify_next": "Choose an independently justified body/remnant pair first. Record one changed state at a time and exact before/after Journal progress rather than rethrowing arbitrary pairs.",
+    "route_ids": [
+      "R104",
+      "R004",
+      "R009"
+    ],
+    "status": "Needs verification",
+    "assessment": "Partially tested; item pair unknown",
+    "category": "Held item / condition",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A79:L79",
+    "source_row": 79,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N001",
+    "kind": "route",
+    "subject_id": "N001",
+    "title": "Four Scavenged Divan tools and the Jade Crystal",
+    "proposal": "Four distinct Scavenged Items are restored to the Keepers of Divan, yielding a Jade Crystal. An R6 variant proposes placing or arranging the same four tools at the lake, or using their return as the assembly condition.",
+    "support": "The game actually uses four different recovered artifacts in a fixed NPC progression. These are items once lost and then gathered, giving a concrete 'assemble what remains' interpretation.",
+    "weakness": "The normal mechanic returns items to their separate Keepers at Mines of Divan; no lake detector or hidden fifth tool is established. The Jade Crystal is ordinary Crystal Hollows progression.",
+    "test_coverage": "November 10–11 reports describe four-tool arrangements, anvil locations, Sorrow/Spirit-pet conditions and other combinations, but complete original Journal outcomes weren't independently recorded.",
+    "verify_next": "Obtain original four-tool test messages and distinguish equipped, dropped, arranged and NPC-return states. Do not describe this route as untried.",
+    "route_ids": [
+      "N001",
+      "R012",
+      "R019"
+    ],
+    "status": "Needs verification",
+    "assessment": "Partially tested; need primary reports",
+    "category": "Divan / collected objects",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Keepers_of_Divan"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A80:L80",
+    "source_row": 80,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N002",
+    "kind": "route",
+    "subject_id": "N002",
+    "title": "Mysterious Meat's expiring effect",
+    "proposal": "Mysterious Meat was proposed as an item whose effect ends while a usable state or companion effect might survive. The exact R6 idea included an attempted consumption at Great Glacite Lake and a possible Spirit-pet combination.",
+    "support": "A consumable with an expiring effect supplies a potential disappearance time, unlike a generic word match.",
+    "weakness": "An expired buff isn't an assembled object. The meat's actual in-game use and whether the proposed lake condition is achievable need original confirmation; it is not Mysterious Crop.",
+    "test_coverage": "November 11 players reported they couldn't consume Mysterious Meat at the lake and that the effect ended after warping. No complete pet-combination result is documented.",
+    "verify_next": "Recover the original reported action and conditions before claiming an actual expiry-and-assembly experiment occurred.",
+    "route_ids": [
+      "N002",
+      "R037",
+      "R038"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; action viability unclear",
+    "category": "Consumable / effect",
+    "background_urls": [],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A81:L81",
+    "source_row": 81,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N003",
+    "kind": "route",
+    "subject_id": "N003",
+    "title": "A hidden or secret crafting recipe",
+    "proposal": "Perhaps R6 requires combining items through an undiscovered recipe, rather than offering a known product. The player would need to identify both ingredients and a means of assembling them.",
+    "support": "The word 'assemble' is imperative and can naturally refer to crafting or combining. Earlier steps have non-obvious interaction conditions.",
+    "weakness": "No ingredients, recipe output, crafting station, or independent selector has been identified. An unspecified secret recipe is not a testable hypothesis.",
+    "test_coverage": "November 11 discussions proposed the general idea. No concrete recipe execution or R6 result is recorded for this proposal.",
+    "verify_next": "Park until a specific lore line, actual recipe placeholder, item API change or verified anomalous interaction selects a combination.",
+    "route_ids": [
+      "N003",
+      "R094",
+      "R014"
+    ],
+    "status": "Parked",
+    "assessment": "Parked; no defined experiment",
+    "category": "Undiscovered recipe",
+    "background_urls": [],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A82:L82",
+    "source_row": 82,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N004",
+    "kind": "route",
+    "subject_id": "N004",
+    "title": "Unverified GIVE. COME. END. hint",
+    "proposal": "A secondhand phrase 'GIVE. COME. END.' was interpreted as three actions or a sequence of game stages: provide something, let something arrive, and act when it ends.",
+    "support": "It loosely resembles earlier offering-arrival mechanics and the concept of a disappearing state.",
+    "weakness": "No authenticated developer source, original text, date or context exists in the reviewed record. The phrase is broad enough to fit numerous unrelated activities.",
+    "test_coverage": "The archive retains the circulated claim, not a demonstrated experiment derived from an authenticated clue.",
+    "verify_next": "Locate the original dated message and verify attribution first; do not treat the phrase as an official hint or prioritize tests based only on it.",
+    "route_ids": [
+      "N004",
+      "R004",
+      "R042"
+    ],
+    "status": "Parked",
+    "assessment": "Unverified claim; parked",
+    "category": "Rumored hint",
+    "background_urls": [],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A83:L83",
+    "source_row": 83,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N005",
+    "kind": "route",
+    "subject_id": "N005",
+    "title": "Dodo extinction lore and surviving shards",
+    "proposal": "An extinct Dodo creature might leave an obtainable shard, so fusion or another Hunting process could represent 'assembling what remains when the body is gone'. The older audit transcribed Dodo lore in support of this idea.",
+    "support": "Extinction fits disappearance of an entire species, while shard fusion is a genuine Hunting mechanic that combines representations of creatures.",
+    "weakness": "Extinction-themed lore doesn't identify a unique pair of shards or prove a Hunt trigger. Fusion, syphoning, obtaining and offering are different actions; current public item pages do not substitute for the archived lore screenshot.",
+    "test_coverage": "A November 10 audit recorded the lore. An October 8 Dodo/Condor item mention lacks a completed action or Journal result; no authenticated R6-stage Dodo fusion result was found.",
+    "verify_next": "Recover the exact lore text and screenshot/patch context, then seek one source-backed fusion input/output before testing.",
+    "route_ids": [
+      "N005",
+      "R070",
+      "R066"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist only with selected fusion",
+    "category": "Shard lore / extinction",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Attributes"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A84:L84",
+    "source_row": 84,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N006",
+    "kind": "route",
+    "subject_id": "N006",
+    "title": "Stored-shard text differs from carried-item description",
+    "proposal": "The relevant observation is a data-format difference: a shard shown inside Hunting storage may include descriptive lore missing from a carried-item representation. This could hide useful textual clues, but it doesn't identify an R6 procedure.",
+    "support": "A prior archival comparison found a concrete Flora shard wording mismatch. That justifies careful preservation of the native stored-shard wording when searching lore.",
+    "weakness": "A difference in display surfaces is not evidence of intentional puzzle text. The historical count of 325 IDs / 324 descriptions was a dated coverage snapshot, not a current live census or missing shard IDs.",
+    "test_coverage": "The November 10 audit compared the displayed text and index. Jake's analysis was separately reported unsuccessful; no R6 anomaly or completed solution was documented.",
+    "verify_next": "Retain screenshot provenance for each lore quote and rerun coverage only if needed, with a dated version rather than presenting old counts as timeless.",
+    "route_ids": [
+      "N006",
+      "N005",
+      "R070"
+    ],
+    "status": "Reference only",
+    "assessment": "Observed data difference; no Hunt connection",
+    "category": "Shard display / source fidelity",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Attributes"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A85:L85",
+    "source_row": 85,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N007",
+    "kind": "route",
+    "subject_id": "N007",
+    "title": "Echo's body disappears while voice and bones remain",
+    "proposal": "In Ovid's Metamorphoses III, Echo's form fades, her bones turn to stone and her voice persists. R6 could be an allusion to an entity whose physical body is gone but whose nonphysical or stony remains must be considered.",
+    "support": "The literary parallel contains the same core ideas as the clue: body, disappearance and survival of what remains. This is more specific than a generic death metaphor.",
+    "weakness": "Echo's story does not contain instructions to assemble her voice or stones, and it names no SkyBlock item, place or game action. Literary resemblance doesn't prove developer intent.",
+    "test_coverage": "A November 13 community post suggested Echo. No authenticated R6-stage test of an Echo-specific item or interaction is documented.",
+    "verify_next": "Search for an independent in-game reference selecting an Echo-like mechanism before proposing a physical offering or changing a status.",
+    "route_ids": [
+      "N007",
+      "N008",
+      "R053"
+    ],
+    "status": "Watchlist",
+    "assessment": "Literary parallel; no selected game action",
+    "category": "Ovid / voice and bones",
+    "background_urls": [
+      "https://ovid.lib.virginia.edu/trans/Metamorph3.htm"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A86:L86",
+    "source_row": 86,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N008",
+    "kind": "route",
+    "subject_id": "N008",
+    "title": "Echo-style repetition in chat or call-and-response",
+    "proposal": "Because Ovid's Echo repeats the ends of others' words, one proposed R6 action is to repeat another player's chat message, use a call-and-response or reconstruct text from repeated endings.",
+    "support": "Echo's constrained speech is an actual feature of the myth, and a repeated-phrase rule would be a concrete variation of a 'surviving voice' reading.",
+    "weakness": "No in-game hint gives a required phrase or number of speakers. The Hunt has not shown that it parses player chat for R6, and repeating arbitrary lines has no evidentiary basis.",
+    "test_coverage": "The original literary branch was discussed in November. Item and Melody tests do not count as tests of a precise chat procedure.",
+    "verify_next": "Only design a controlled chat experiment after an independent phrase or chat-response trigger is found; avoid broad spam or false negative claims.",
+    "route_ids": [
+      "N008",
+      "N007",
+      "R002"
+    ],
+    "status": "Parked",
+    "assessment": "Speculative; no defined phrase",
+    "category": "Echo / communication",
+    "background_urls": [
+      "https://ovid.lib.virginia.edu/trans/Metamorph3.htm"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A87:L87",
+    "source_row": 87,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N009",
+    "kind": "route",
+    "subject_id": "N009",
+    "title": "Orpheus's head and lyre survive in the river",
+    "proposal": "In Ovid's Metamorphoses XI, Orpheus's remains are scattered, but his head and lyre travel downstream while sound continues. R6 might concern a surviving instrument, voice or object in water.",
+    "support": "The original text really links a vanished body, surviving musical object, sound and a river. These overlap with other theories about lake offerings and Melody's Harp.",
+    "weakness": "The myth does not supply DEFAG or a game-specific tune, and an instrument surviving death is not the same as assembling it. No in-game Orpheus reference selects the proposed item.",
+    "test_coverage": "November 13 tests combined Melody's Hair, Personal Harp, Tuning Fork, various helmets and Better Together; the reported notes and conditions were mixed, not a controlled Orpheus test.",
+    "verify_next": "Separate the primary literary claim from Melody and music tests, and require one game-linked object plus isolated Journal checks before interpreting a negative.",
+    "route_ids": [
+      "N009",
+      "R055",
+      "N010",
+      "N011"
+    ],
+    "status": "Watchlist",
+    "assessment": "Literary parallel; tests mixed",
+    "category": "Orpheus / music / water",
+    "background_urls": [
+      "https://ovid.lib.virginia.edu/trans/Metamorph11.htm",
+      "https://discord.com/channels/996884296860172469/1557376084121616476/1570599492351303732"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A88:L88",
+    "source_row": 88,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N010",
+    "kind": "route",
+    "subject_id": "N010",
+    "title": "Melody's storm-damaged harp and rebuilding its frame",
+    "proposal": "Melody says a storm damaged her harp. The Rebuild quest requests 512 Acacia Logs so she can restore it, while a separate literary comparison invokes the rebuilt kantele in Kalevala Runo 44. R6 might refer to recreating an instrument after its earlier form is lost.",
+    "support": "Melody's repair is a genuine SkyBlock rebuilding quest, and the earlier fish-bone/lost-kantele stories explain why researchers considered musical remains.",
+    "weakness": "Melody's quest is a one-time Park progression task rather than a documented R6 mechanic. Existing string is not proven to be salvage from the storm, and two Kalevala episodes should not be conflated.",
+    "test_coverage": "Community tests played uncertain Melody's Hair notes and dropped harp/head objects under event conditions, but did not document doing the original rebuild as a controlled R6-stage action.",
+    "verify_next": "Confirm Melody dialogue and quest availability before planning any reconstruction test; don't describe the older mixed-item failures as full coverage of rebuilding.",
+    "route_ids": [
+      "N010",
+      "R055",
+      "N009"
+    ],
+    "status": "Watchlist",
+    "assessment": "Real repair quest; no Hunt link",
+    "category": "Melody / reconstruction",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/The_Park",
+      "https://en.wikisource.org/wiki/Kalevala_(Kirby_1907)/Runo_44"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A89:L89",
+    "source_row": 89,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N011",
+    "kind": "route",
+    "subject_id": "N011",
+    "title": "DEFAGB combined with Better Together timing",
+    "proposal": "The first five answer initials read D E F A G. One speculative branch adds B from Better Together, suggesting a six-note sequence played while the event is active or just after it ends.",
+    "support": "The event name begins with B and has 14 letters without spaces; its ending text mentions cooperative spirit. Earlier answer initials are all distinct musical notes.",
+    "weakness": "The pattern requires stacking several independent assumptions. Better Together's duration and ending are not evidence of a persistent Hunt state, nor is a note sequence a documented R6 trigger.",
+    "test_coverage": "November 13 reported DEFAG tuning-fork use and uncertain Melody notes during the active event alongside item drops. Neither a verified DEFAGB sequence nor a separated post-ending checkpoint is documented.",
+    "verify_next": "If reopened, choose a single explicit prediction: exact notes, tool, timing window and Journal before/after. Avoid treating active-event trials as ending-condition negatives.",
+    "route_ids": [
+      "N011",
+      "R003",
+      "R036",
+      "R097"
+    ],
+    "status": "Watchlist",
+    "assessment": "Watchlist; combined assumptions",
+    "category": "Patterns / event / music",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Better_Together",
+      "https://discord.com/channels/996884296860172469/1557376084121616476/1570599492351303732"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A90:L90",
+    "source_row": 90,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  },
+  {
+    "id": "N012",
+    "kind": "route",
+    "subject_id": "N012",
+    "title": "Visible shadow at lake versus actual numeric light level",
+    "proposal": "A reported large shadow across Great Glacite Lake inspired two separate ideas: the visible dark outline depicts a missing body or place, or a specific block-light level/change is an R6 condition.",
+    "support": "Amotorem's observation and darker promotional images motivated comparison. Crystal Armor's Refraction has a normal response to actual light levels, offering a potential independent indicator.",
+    "weakness": "Client rendering, shaders and Night Vision change what appears dark without necessarily altering block light. The original images and a reproducible numeric condition have not been authenticated as Hunt evidence.",
+    "test_coverage": "An October 28 Crystal Armor trial and later shadow discussions were reported, but neither isolated the actual light-level variable while checking a R6-specific Journal result.",
+    "verify_next": "Recover source screenshots and camera position first. Compare the same location with consistent graphics settings and separate any measurable game-light condition from an ordinary visual effect.",
+    "route_ids": [
+      "N012",
+      "R024",
+      "R041",
+      "R009"
+    ],
+    "status": "Needs verification",
+    "assessment": "Reported shadow; unverified condition",
+    "category": "Environment / visual versus light",
+    "background_urls": [
+      "https://hypixelskyblock.minecraft.wiki/w/Crystal_Armor",
+      "https://minecraft.wiki/w/Light"
+    ],
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115&range=A91:L91",
+    "source_row": 91,
+    "last_reviewed": "2026-11-14",
+    "coverage_kind": "Historical testing summary"
+  }
+]

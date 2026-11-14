@@ -1,0 +1,114 @@
+[
+  {
+    "id": "R1",
+    "title": "Reveal the Journal",
+    "clue": "That horribly rigid, overfrozen\nwater in nearby lake almost kills\neverything.",
+    "completed_text": "Throw the Dead Man's Chestplate into the Great Glacite Lake.",
+    "solution": "Dead Man's Chestplate → Dead Man's Journal",
+    "action": "Throw the Dead Man's Chestplate into Great Glacite Lake. The successful interaction consumes the Chestplate and reveals the Journal.",
+    "mechanic": "A particular offered object is consumed and a Journal is revealed, starting the recorded riddle progression.",
+    "interpretation": "The first letter of each word spells T H R O W I N L A K E. This is a word-initial instruction; the displayed line breaks are not the extraction rule.",
+    "r6_limit": "The Hunt already contains an object disappearing while a written record survives. That is a precedent, not proof that R6 asks for a text extraction or identifies the Dead Man.",
+    "limitations": [
+      "The completed screenshot colors word initials red. Do not imply this completed-entry highlighting was necessarily visible before solving.",
+      "The original screenshot supplies an eleven-word word-initial instruction. The line breaks are preserved for reading, not used to select letters.",
+      "Revealing a Journal does not establish who owned or wrote it, or that the lake created it.",
+      "The source guide credits images to its author or the Official Hunters Discord collectively; the individual maker of this screenshot is not identified."
+    ],
+    "source_ids": [
+      "S032",
+      "S004"
+    ],
+    "last_reviewed": "2026-11-14"
+  },
+  {
+    "id": "R2",
+    "title": "The heart of still waters",
+    "clue": "To find which comes next, look to the\nheart of still waters. Only what is\nwinter, pressed beyond winter, may\nwake it.",
+    "completed_text": "Throw an Enchanted Packed Ice into the exact center of the Great Glacite Lake.",
+    "solution": "Enchanted Packed Ice at the lake's exact center",
+    "action": "While on R2, throw Enchanted Packed Ice into the exact center of Great Glacite Lake, as the completed Journal entry specifies.",
+    "mechanic": "The offering's identity and its location both matter. A different location is not the documented successful procedure.",
+    "interpretation": "'Heart' suggests the center, while 'winter, pressed beyond winter' suggests compacted or packed ice. These are plausible clue readings; the wording does not mathematically select every part of the item's name.",
+    "r6_limit": "A failed item offering at an unsuitable location cannot settle every possible condition. R2 does not establish that R6 must use the same center or any particular detection radius.",
+    "limitations": [
+      "The exact-center condition is authentic completed Journal wording; no numeric center coordinates or detection radius are specified by this screenshot.",
+      "The guide prose paraphrases the clue with different punctuation. Use the screenshot's sentence break after 'waters'."
+    ],
+    "source_ids": [
+      "S033",
+      "S004"
+    ],
+    "last_reviewed": "2026-11-14"
+  },
+  {
+    "id": "R3",
+    "title": "Let it fall from afar",
+    "clue": "To find which comes next, drift, not\nland. Let it fall from afar.",
+    "completed_text": "Throw a Feather Talisman into the Great Glacite Lake and be 50+ blocks away when it hits the water.",
+    "solution": "Feather Talisman, with the thrower 50+ blocks away at water contact",
+    "action": "Release the Feather Talisman toward Great Glacite Lake and get 50+ blocks away before it hits the water. The completed Journal specifies the player's distance at water contact, rather than just at release.",
+    "mechanic": "An offering can depend on a player condition at the moment it reaches the water, after it was released.",
+    "interpretation": "A feather can suggest drifting, and 'from afar' suggests distance. That makes the object/action relationship understandable without establishing that every word uniquely selects the exact accessory variant.",
+    "r6_limit": "For R6, the player's state at an interaction might be relevant. R3 supplies no evidence for a particular R6 distance, equipment requirement or server-check implementation.",
+    "limitations": [
+      "The original Journal screenshot says 'To find which comes next'. The guide's prose and a quoted early forum comment say 'what'; keep the screenshot wording in the original-clue field.",
+      "50+ is explicitly printed in the completed Journal entry. Do not replace it with an invented Euclidean/horizontal measurement algorithm, exact boundary behavior or a detection sphere.",
+      "The guide mentions dropping from above and using /warp mines as a practical example. The Journal states the contact-time distance condition; it does not mandate a particular warp command."
+    ],
+    "source_ids": [
+      "S034",
+      "S004"
+    ],
+    "last_reviewed": "2026-11-14"
+  },
+  {
+    "id": "R4",
+    "title": "Not the first call, nor the second",
+    "clue": "That which comes next does not heed\nthe first call, nor the second.",
+    "completed_text": "Throw an Arachne's Calling into the Great Glacite Lake 3 times within 10s.",
+    "solution": "Three individual Arachne's Calling drops within 10 seconds",
+    "action": "On R4, release Arachne's Callings one at a time into Great Glacite Lake, three times within 10 seconds. Keep three individual drops distinct from a single release of a three-unit stack.",
+    "mechanic": "Repeated offerings within a time window can matter. The completed entry explicitly specifies three throws within 10s; the observed successful procedure uses separate drops.",
+    "interpretation": "'Call' points toward Arachne's Calling, and passing the first and second suggests a third attempt. The ten-second limit is documented by the solved entry rather than explicitly stated in the unsolved clue.",
+    "r6_limit": "One stack containing several units and several separate arrivals need not test the same operation. This does not tell us which object or assembly action R6 selects.",
+    "limitations": [
+      "Do not state that all three Callings are always consumed. Gapiga's Alpha test and Starphi's report distinguish two ordinary Callings from a recombobulated final one; only the final item disappeared in those procedures.",
+      "The normal+normal+recombobulated procedure demonstrates successful asymmetric consumption. Recombobulation is not a required solve condition.",
+      "Majod99 reports that one stack of three failed on the main server and separate drops worked. The report is not a filmed server trace or a proof of implementation.",
+      "The claim that one Calling can be picked up and rethrown three times lacks controlled isolation of other lake items. Do not present that as the beginner procedure.",
+      "Neither the Journal nor the recordings disclose private server code, merge timing, a radius or a requirement for three simultaneous unmerged item entities."
+    ],
+    "source_ids": [
+      "S035",
+      "S036",
+      "S012",
+      "S037"
+    ],
+    "last_reviewed": "2026-11-14"
+  },
+  {
+    "id": "R5",
+    "title": "Past offerings that still linger",
+    "clue": "To find what comes next, look to past\nofferings that still linger.",
+    "completed_text": "Throw a Griffin Feather into the Great Glacite Lake while there are already 3 Arachne's Calling in it.",
+    "solution": "Griffin Feather arriving while three Calling units are already in the lake",
+    "action": "On R5, put three Arachne's Calling units in Great Glacite Lake, then release the Griffin Feather. Gapiga's Alpha success used one dropped stack of three Callings followed by the Feather.",
+    "mechanic": "A new offering can depend on a pre-existing quantity of another item. R5 accepts a three-unit Calling stack in the documented Alpha success, unlike substituting a single stack release for R4's repeated-drop procedure.",
+    "interpretation": "'Past offerings that still linger' points back to existing offerings and suggests persistence. The available evidence does not show that the clue uniquely identifies Griffin Feather or that mythology was the discovery method.",
+    "r6_limit": "A test should record what was already present when its final action occurred. R5 does not establish that R6 repeats the same state check, or that R4 survivors automatically satisfy the next stage.",
+    "limitations": [
+      "Arua reports Feather-first failure and success after another Feather. This supports order sensitivity in that procedure but changes more than arrival order if the first Feather remained.",
+      "The R4 and R5 Alpha recordings are separate clips. They do not demonstrate whether two untouched R4 ground drops plus a new Calling would satisfy R5.",
+      "The positive R5 clip is clustered near one lake opening. No lake-wide-versus-local-distance comparison or numeric radius is established.",
+      "The Journal says already 3 Callings. It does not settle exact-versus-at-least quantity handling, other players' ownership, merge history or timer-versus-event server implementation.",
+      "A fresh release is not evidence that a newly purchased or previously unused inventory item is required. Do not invent item-history restrictions."
+    ],
+    "source_ids": [
+      "S038",
+      "S036",
+      "S011"
+    ],
+    "last_reviewed": "2026-11-14"
+  }
+]
