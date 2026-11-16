@@ -1,0 +1,303 @@
+[
+  {
+    "id": "L001",
+    "date": "2026-11-14",
+    "topic": "Journal patterns",
+    "title": "DEFAG and the possible 14-letter answer",
+    "hypothesis": "The earlier offering names might preserve a musical sequence or a paired name-length pattern.",
+    "status": "Parked",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I compared the five offering names in riddle order, the Journal layout and the earlier DEFAG playback report.",
+    "why": "R1 already uses word initials. The five offering initials give DEFAG, and their letter-only lengths are 18, 18, 15, 15 and 14.",
+    "evidence": [
+      {
+        "label": "Observed",
+        "text": "The initials and lengths are reproducible observations about the named offerings. They are separate patterns, not independent proof of one decoder."
+      },
+      {
+        "label": "Reported",
+        "text": "exomechs already reported playing D E F A G with Melody’s Hair. The report does not supply a complete per-action outcome, register or stage record."
+      }
+    ],
+    "against": [
+      "Neither pattern identifies what to assemble or why the body must be gone.",
+      "A 14-letter sixth answer is a prediction from two earlier pairs. It is not a discovered answer or a reason to shop for matching items."
+    ],
+    "assessment": "I’m keeping the observations, but I’ve parked new playback and letter-count guesses until a source selects an operation.",
+    "next_evidence": "An authentic Journal feature or game instruction selecting which information to combine would change this.",
+    "theory_ids": [
+      "T003",
+      "T004"
+    ],
+    "route_ids": [
+      "R002",
+      "R097",
+      "R098"
+    ],
+    "interpretation_ids": [
+      "R6I008",
+      "R6I013"
+    ],
+    "source_ids": [
+      "S008",
+      "S032",
+      "S033",
+      "S034",
+      "S035",
+      "S038"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L002",
+    "date": "2026-11-15",
+    "topic": "Riddle structure",
+    "title": "One chain, three pairs, or both?",
+    "hypothesis": "Earlier steps might form pairs while still passing information or conditions into later riddles.",
+    "status": "Watchlist",
+    "featured": true,
+    "publication_state": "approved",
+    "investigated": "I compared the chain and pair readings against the documented R4/R5 relationship and the offering-name lengths.",
+    "why": "R5 explicitly refers to past offerings, while the first four answer-name lengths form two equal adjacent pairs.",
+    "evidence": [
+      {
+        "label": "Confirmed",
+        "text": "The completed R5 entry requires three Callings already in the lake when the Griffin Feather arrives."
+      },
+      {
+        "label": "Interpretation",
+        "text": "A pairing scheme and a chain can coexist. Neither model follows automatically from the other."
+      }
+    ],
+    "against": [
+      "The use of Callings in both steps does not prove that untouched R4 item entities must carry over into R5.",
+      "Only the R4-to-R5 back-reference is directly established here. Extending it across every riddle is an extra assumption."
+    ],
+    "assessment": "I’m keeping these models separate. I want a specific predicted relationship, not a structure that can fit any later answer.",
+    "next_evidence": "A documented dependency between another pair of steps would help distinguish a general structure from one local back-reference.",
+    "theory_ids": [
+      "T002",
+      "T003",
+      "T009"
+    ],
+    "route_ids": [
+      "R097",
+      "R098"
+    ],
+    "interpretation_ids": [],
+    "source_ids": [
+      "S035",
+      "S036",
+      "S038",
+      "S011"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L003",
+    "date": "2026-11-15",
+    "topic": "Patch history",
+    "title": "Could earlier patches have prepared mechanics for the Dead Man’s Hunt?",
+    "hypothesis": "Some mechanics may have been introduced or refined between the December 2025 election and the October 2026 launch, mixed into ordinary updates.",
+    "status": "Needs verification",
+    "featured": true,
+    "publication_state": "approved",
+    "investigated": "I checked original developer announcements for changes to Frozen Corpse loot, Wisp progression, Shaggy and the Arachne Crystal, salvage and Reforge Stones.",
+    "why": "The working chronology places Dra2oon’s election in December 2025 and the Hunt launch on 6 October 2026: roughly ten months. That allows a preparation window, but does not establish when R6 was designed.",
+    "evidence": [
+      {
+        "label": "Reported",
+        "text": "December 2025 is the working election month. This check did not locate an original developer record independently pinning down that date; the approximately ten-month interval remains qualified context."
+      },
+      {
+        "label": "Confirmed",
+        "text": "18 February 2026 — the Alpha release candidate adds Caged Wisp to Frozen Corpse loot and documents the lantern-to-Will-o-wisp progression. This announcement date is not proof of the first live release date."
+      },
+      {
+        "label": "Confirmed",
+        "text": "31 March 2026 — the live update adds Shaggy’s Abiphone contact, increases Crystal rarity and removes the rare-relic quest. The exact revised exchange quantities are documented separately on the Crystal reference page."
+      },
+      {
+        "label": "Confirmed",
+        "text": "28 April 2026 — Caged Wisp becomes salvageable for 500 Fossil Essence. This is salvage output, not its shop price."
+      },
+      {
+        "label": "Confirmed",
+        "text": "25 August 2026 — the original Alpha announcement already lists Hunt (Dra2oon), with its details redacted. It does not disclose when individual riddles were developed."
+      },
+      {
+        "label": "Confirmed",
+        "text": "6 October 2026 — the Minister Update accompanies the Hunt and includes broad Reforge Stone changes: stats menus, textures, costs and rewritten bonus descriptions. Its full announcement was recovered for this review."
+      }
+    ],
+    "against": [
+      "Progression, accessibility, salvage and clearer descriptions are independent reasons for these updates. Documented changes are not confirmed R6 clues.",
+      "The election-to-launch interval does not prove continuous R6 development, early implementation or a hidden purpose for any particular item.",
+      "No item-specific before-and-after exception has been established here that selects a completion action."
+    ],
+    "assessment": "I’m keeping the preparation question open, with Needs verification status. The timeline is worth checking, but it does not justify reopening an old recipe or buying materials.",
+    "next_evidence": "An original election-date record and a targeted, dated mechanic or text diff beyond the broad updates would help. More coinciding dates alone would not.",
+    "theory_ids": [],
+    "route_ids": [
+      "R014"
+    ],
+    "interpretation_ids": [],
+    "source_ids": [
+      "S039",
+      "S042",
+      "S040",
+      "S046",
+      "S041",
+      "S045"
+    ],
+    "updates": null,
+    "revisions": [
+      {
+        "date": "2026-11-15",
+        "title": "Were older mechanics refined for the Hunt?",
+        "hypothesis": "A targeted pre-Hunt change could help identify the intended mechanic, if it differs from ordinary system-wide maintenance.",
+        "assessment": "I’m keeping one narrow question open: is there a targeted exception to the broad updates? I haven’t found one that earns a gameplay test.",
+        "note": "Earlier wording retained when this timeline was expanded. Both reviews were documented on 15 November; no exact times are recorded."
+      }
+    ]
+  },
+  {
+    "id": "L004",
+    "date": "2026-11-15",
+    "topic": "Body and insufficiency",
+    "title": "What does “the body is not enough” actually require?",
+    "hypothesis": "The clue may describe an incomplete object, an incomplete process or information the body cannot supply.",
+    "status": "Active",
+    "featured": true,
+    "publication_state": "approved",
+    "investigated": "I separated three readings of insufficiency and checked whether the wording requires us to make a body disappear during the experiment.",
+    "why": "A remains-based item can fit the last sentence while leaving the first sentence unexplained.",
+    "evidence": [
+      {
+        "label": "Confirmed",
+        "text": "R1 leaves a Journal after the Chestplate is consumed. The recovered Journal is already intact; this does not establish a Journal assembly recipe."
+      },
+      {
+        "label": "Interpretation",
+        "text": "“Not enough” denies sufficiency. It does not prove the body is a required ingredient. “When it is gone” can also describe an already absent body."
+      }
+    ],
+    "against": [
+      "The grammatical possibilities do not select one object or native operation.",
+      "R4 specifies an insufficient first and second call. R6 supplies no equivalent explicit count, so adding one needs separate evidence."
+    ],
+    "assessment": "I’m prioritizing source text that explains the missing relationship. I haven’t selected another item offering from this wording alone.",
+    "next_evidence": "A native instruction explaining why an original object is insufficient and what surviving material or information completes it would be the useful connection.",
+    "theory_ids": [
+      "T001",
+      "T003"
+    ],
+    "route_ids": [
+      "R001",
+      "R002"
+    ],
+    "interpretation_ids": [
+      "R6I004",
+      "R6I008",
+      "R6I013"
+    ],
+    "source_ids": [
+      "S003",
+      "S004",
+      "S032",
+      "S035"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L005",
+    "date": "2026-11-15",
+    "topic": "Arachne reconstruction",
+    "title": "Checking Arachne’s native assembly chain",
+    "hypothesis": "Arachne’s drops can fund a manufactured Crystal, giving a concrete process beyond simply offering a body-related item.",
+    "status": "Needs verification",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I selected a bounded source check of the boss-drop-to-Crystal interpretation and its existing exchange reports.",
+    "why": "R4 and R5 already use Arachne’s Callings, and Shaggy’s exchange is an actual assembly-like interaction.",
+    "evidence": [
+      {
+        "label": "Confirmed",
+        "text": "The documented exchange uses two Arachne Fragments, sixteen Enchanted Spider Eyes and sixteen Enchanted String."
+      },
+      {
+        "label": "Reported",
+        "text": "Collin already reported a remote Shaggy exchange in the lake followed by offering the Crystal. This is more than a finished-item throw."
+      }
+    ],
+    "against": [
+      "The exchange report lacks an independent before-and-after Journal capture.",
+      "The clue never names Arachne, and having a recipe does not establish that the Hunt detects that exchange."
+    ],
+    "assessment": "I thought this deserved a focused source check before any further gameplay. I did not treat it as a new discovery or an untested procedure.",
+    "next_evidence": "Check whether the actual lore selects a materially different operation from the reported exchange and offering.",
+    "theory_ids": [
+      "T009"
+    ],
+    "route_ids": [
+      "R044",
+      "R069"
+    ],
+    "interpretation_ids": [],
+    "source_ids": [
+      "S010",
+      "S044",
+      "S045"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L006",
+    "date": "2026-11-15",
+    "topic": "Arachne reconstruction",
+    "title": "Arachne: no new operation selected",
+    "hypothesis": "The Crystal interpretation needs evidence distinguishing it from ordinary boss progression and the exchange procedure already reported.",
+    "status": "Parked",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I checked the Fragment and Crystal descriptions, Shaggy’s transcribed dialogue and the existing exchange-then-offer report.",
+    "why": "The earlier review left open whether native text supplied a missing relationship between the body, surviving power and assembly.",
+    "evidence": [
+      {
+        "label": "Confirmed",
+        "text": "Callings summon Arachne; boss-dropped Fragments are different items used in the Crystal exchange. Two surviving Callings are not the recipe’s two Fragments."
+      },
+      {
+        "label": "Observed",
+        "text": "Fragment lore describes Arachne’s power, while the Crystal summons her true strength. The inspected text does not describe rebuilding her corpse."
+      },
+      {
+        "label": "Reported",
+        "text": "Collin’s report covers a lake exchange while wearing 8/8 Arachne gear, then offering the Crystal. It still lacks independent stage and Journal proof."
+      }
+    ],
+    "against": [
+      "One ordinary drop being too few for a recipe does not independently select two fresh kills as an R6 condition.",
+      "Shaggy’s dialogue transcription retains old costs, while the item pages document revised costs. That inconsistency does not establish another usable recipe."
+    ],
+    "assessment": "I’ve parked this route. Its connection to earlier steps is real, but I found no source-based reason to add fresh-kill history, timing or another offering.",
+    "next_evidence": "Reopen only for authentic text or an unexplained observation selecting a different action, or a correction that materially changes the existing report’s coverage.",
+    "theory_ids": [
+      "T009"
+    ],
+    "route_ids": [
+      "R044",
+      "R069"
+    ],
+    "interpretation_ids": [],
+    "source_ids": [
+      "S010",
+      "S042",
+      "S043",
+      "S044",
+      "S045"
+    ],
+    "updates": "L005"
+  }
+]

@@ -1,12 +1,12 @@
 [
   {
     "id": "S001",
-    "title": "Complete Route Archive",
+    "title": "Original Research Spreadsheet (Detailed Source Data)",
     "url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit",
     "kind": "Archive",
     "author": "Gapiga / archive compilation",
     "date": "2026-11-14",
-    "limitation": "116 routes and 27 interpretations, editorially reviewed on 14 November. Background references explain mechanics; historical summaries do not independently verify every test.",
+    "limitation": "Underlying records for 116 routes and 27 interpretations, editorially reviewed on 14 November. The website provides easier navigation and detailed explanations; visitors do not need the spreadsheet to follow a theory. Historical summaries do not independently verify every test.",
     "visibility": "public"
   },
   {
@@ -367,6 +367,86 @@
     "limitation": "Primary in-game clue and pre-existing-three-Callings solution. Shared in Double2's guide, individual screenshot creator unconfirmed.",
     "id": "S038",
     "kind": "Primary in-game Journal text",
+    "visibility": "public"
+  },
+  {
+    "id": "S039",
+    "title": "0.24.2 Alpha: lantern and Caged Wisp progression",
+    "url": "https://hypixel.net/threads/february-18-skyblock-0-24-2-release-candidate.6062413/",
+    "kind": "Developer Alpha announcement",
+    "author": "Hypixel Team",
+    "date": "2026-02-18",
+    "limitation": "Alpha announcement, not an independently established first live release date or an R6 hint.",
+    "visibility": "public"
+  },
+  {
+    "id": "S040",
+    "title": "0.24.4: Fossil Essence salvage",
+    "url": "https://hypixel.net/threads/hypixel-skyblock-0-24-4-harvest-feast-event-fossil-essence-shop-and-more.6089392/",
+    "kind": "Developer update",
+    "author": "Hypixel Team",
+    "date": "2026-04-28",
+    "limitation": "Caged Wisp yields 500 Fossil Essence when salvaged. This is output, not a purchase price or a selected R6 operation.",
+    "visibility": "public"
+  },
+  {
+    "id": "S041",
+    "title": "0.27.2: Reforge Stone QOL",
+    "url": "https://hypixel.net/threads/hypixel-skyblock-0-27-2-the-minister-update-greenhouse-qol-and-more.6159904/",
+    "kind": "Developer update",
+    "author": "Hypixel Team",
+    "date": "2026-10-06",
+    "limitation": "Full original developer announcement recovered for the final November 15 review. Its broad Reforge Stone changes do not identify an R6-specific exception.",
+    "visibility": "public"
+  },
+  {
+    "id": "S042",
+    "title": "0.24.3: Shaggy contact and Crystal changes",
+    "url": "https://hypixel.net/threads/hypixel-skyblock-0-24-3-abiphone-contact-bonanza-littlefoots-den-and-more.6080630/",
+    "kind": "Developer update",
+    "author": "Hypixel Team",
+    "date": "2026-03-31",
+    "limitation": "Broad Abiphone rollout and Crystal changes. The announcement does not establish a hidden Hunt purpose or state the exact revised material quantities.",
+    "visibility": "public"
+  },
+  {
+    "id": "S043",
+    "title": "Shaggy dialogue and exchange",
+    "url": "https://hypixelskyblock.minecraft.wiki/w/Shaggy",
+    "kind": "Community transcription",
+    "author": null,
+    "date": null,
+    "limitation": "Community transcription, not a new in-game recording. Some dialogue still lists the old exchange costs.",
+    "visibility": "public"
+  },
+  {
+    "id": "S044",
+    "title": "Arachne Fragment: lore and use",
+    "url": "https://hypixelskyblock.minecraft.wiki/w/Arachne_Fragment",
+    "kind": "Game reference",
+    "author": null,
+    "date": null,
+    "limitation": "Ordinary item acquisition and exchange reference; not evidence that R6 checks fresh kills or ingredient history.",
+    "visibility": "public"
+  },
+  {
+    "id": "S045",
+    "title": "Arachne Crystal: exchange and history",
+    "url": "https://hypixelskyblock.minecraft.wiki/w/Arachne_Crystal",
+    "kind": "Game reference",
+    "author": null,
+    "date": null,
+    "limitation": "Documents the revised two-Fragment exchange. A real recipe does not confirm an R6 trigger.",
+    "visibility": "public"
+  },
+  {
+    "id": "S046",
+    "title": "August 25 Alpha: Hunt (Dra2oon) listed with redacted details",
+    "url": "https://hypixel.net/threads/august-25th-the-minister-update-alpha-testing.6079356/",
+    "kind": "Developer Alpha announcement",
+    "author": "Hypixel Team",
+    "date": "2026-08-25",
+    "limitation": "Original announcement recovered. It associates the Hunt with Dra2oon but does not independently establish his exact election date or the development dates of individual riddles.",
     "visibility": "public"
   }
 ]

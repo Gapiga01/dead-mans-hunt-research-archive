@@ -1297,7 +1297,7 @@
     "proposal": "When three skeleton mobs die in the Catacombs, their skulls merge into a Skeletor. R6 might use the same mechanic: bodies disappear, remains assemble into another creature.",
     "support": "This is unusually close to the literal wording of R6. Skeletor spawning is a real three-remains-to-one-entity event, unlike a thematic rune pattern.",
     "weakness": "It happens in Catacombs, not at Great Glacite Lake. A real spawn doesn't demonstrate a Hunt reaction; unverified historical footage can't be treated as current proof.",
-    "test_coverage": "The historical handoff reports a three-skull merge during R6 with unchanged Journal. That footage was not accessible in the later audit. Separately, summoned skeletons were drowned/expired.",
+    "test_coverage": "An earlier research summary reports a three-skull merge during R6 with unchanged Journal. That footage was not accessible in the later audit. Separately, summoned skeletons were drowned/expired.",
     "verify_next": "Locate the original native merge recording and confirm whether R6 was active and the Journal unchanged. Do not conflate summoned skeleton expiry with native skull merge.",
     "route_ids": [
       "R074",
@@ -1938,7 +1938,7 @@
     "proposal": "The puzzle success sounds may change across R1–R5. An inherited audio comparison found a burp-like match for R1/R2 and page-turning sounds for later progress, suggesting a possible staged feedback pattern.",
     "support": "The original audit compared recordings instead of relying only on memory, potentially distinguishing generic client sounds from special Hunt feedback.",
     "weakness": "Audio matching does not prove a unique server-side sound ID or encode an R6 solution. Other sound sources, distance and client volume settings can interfere.",
-    "test_coverage": "The archived audit reported the above sample comparisons; the raw clips were not independently reopened during this editorial batch.",
+    "test_coverage": "An earlier recording comparison reported these sample matches. The source recordings were not independently rechecked for this summary.",
     "verify_next": "Retain the qualified comparison and locate the original recordings if using audio as an evidence-led R6 test.",
     "route_ids": [
       "R099",

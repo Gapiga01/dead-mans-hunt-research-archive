@@ -19,7 +19,8 @@
     "interpretation_angles",
     "legacy_interpretations",
     "breakdowns",
-    "riddles"
+    "riddles",
+    "investigations"
   ],
   "additionalProperties": false,
   "properties": {
@@ -115,6 +116,12 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/riddles"
+      }
+    },
+    "investigations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/investigations"
       }
     }
   },
@@ -1060,6 +1067,197 @@
         },
         "last_reviewed": {
           "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "investigations": {
+      "type": "object",
+      "required": [
+        "id",
+        "date",
+        "topic",
+        "title",
+        "hypothesis",
+        "status",
+        "publication_state",
+        "investigated",
+        "why",
+        "assessment",
+        "next_evidence",
+        "featured",
+        "against",
+        "theory_ids",
+        "route_ids",
+        "interpretation_ids",
+        "source_ids",
+        "evidence",
+        "updates"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^L[0-9]{3}$"
+        },
+        "date": {
+          "type": "string",
+          "minLength": 1,
+          "format": "date"
+        },
+        "topic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "hypothesis": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "Active",
+            "Watchlist",
+            "Parked",
+            "Needs verification",
+            "Retired",
+            "Resolved",
+            "Merged / Superseded",
+            "Reference only"
+          ]
+        },
+        "publication_state": {
+          "type": "string",
+          "minLength": 1,
+          "enum": [
+            "draft",
+            "approved"
+          ],
+          "default": "draft"
+        },
+        "investigated": {
+          "type": "string",
+          "minLength": 1
+        },
+        "why": {
+          "type": "string",
+          "minLength": 1
+        },
+        "assessment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "next_evidence": {
+          "type": "string",
+          "minLength": 1
+        },
+        "featured": {
+          "type": "boolean"
+        },
+        "against": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "theory_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "route_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "interpretation_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "source_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+        "evidence": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label",
+              "text"
+            ],
+            "properties": {
+              "label": {
+                "enum": [
+                  "Confirmed",
+                  "Observed",
+                  "Reported",
+                  "Interpretation",
+                  "Unverified"
+                ]
+              },
+              "text": {
+                "type": "string",
+                "minLength": 10
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "updates": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^L[0-9]{3}$"
+        },
+        "revisions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "date",
+              "title",
+              "hypothesis",
+              "assessment",
+              "note"
+            ],
+            "properties": {
+              "date": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "hypothesis": {
+                "type": "string"
+              },
+              "assessment": {
+                "type": "string"
+              },
+              "note": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
         }
       },
       "additionalProperties": false
