@@ -3,6 +3,7 @@ import {bindReadingViews,fillReadingViews} from './readings.js';
 import {escapeHtml as h,matchesTheory,makeSubmission} from './core.js';
 import {setBasePath,parseLocation,routeUrl,hashUrl,rewriteLinks,primarySection} from './urls.js';
 import {searchResults} from './search.js';
+import {bindInvestigations} from './investigations.js';
 const rootUrl=new URL('./',import.meta.url);setBasePath(rootUrl.pathname);
 const main=document.querySelector('main');let db;
 document.querySelector('.skip').addEventListener('click',event=>{event.preventDefault();main.focus();main.scrollIntoView();});
@@ -20,7 +21,7 @@ function render(){
  const {path,id,filters:f}=parseLocation(location.pathname,location.search);
  main.innerHTML=rewriteLinks(fillReadingViews(renderPage(db,path,f,id),db,path,f));
  const logical=path==='interpretation'?'interpretations':path==='theory'?'theories':path==='experiment'?'tests':path;document.querySelectorAll('[data-nav]').forEach(a=>{const active=[logical,primarySection(path)].includes(a.dataset.nav);a.classList.toggle('active',active);if(active)a.setAttribute('aria-current',a.dataset.nav===logical?'page':'location');else a.removeAttribute('aria-current');});
- bind(path,f);bindReadingViews(db,path,f);
+ bind(path,f);bindReadingViews(db,path,f);bindInvestigations(db,path);
 }
 function legacy(){if(location.hash.startsWith('#/')){location.replace(hashUrl(location.hash));return true;}return false;}
 if(!legacy())try{const response=await fetch(new URL('./data/hub.json',rootUrl));if(!response.ok)throw Error('Research data could not be loaded.');db=await response.json();if(parseLocation(location.pathname,location.search).path==='search'){const index=await fetch(new URL('./data/search-index.json',rootUrl));if(!index.ok)throw Error('Search index could not be loaded.');db.search_index=await index.json();}render();window.addEventListener('hashchange',legacy);}catch(error){const note=document.createElement('p');note.className='notice';note.textContent='Interactive search is unavailable. The research content and links below are still readable.';main.prepend(note);}

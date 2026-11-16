@@ -14,6 +14,7 @@ export function buildSearchIndex(db){
  for(const s of db.sources)add('Source',s.id,s.title,s.limitation,s.kind,'sources',null,s,s.id);
  for(const q of db.questions)add('Open question',q.id,q.title,q.why,q.state,'questions',null,q,q.id);
  for(const r of db.riddles)add('Solved riddle',r.id,r.title,r.solution,'R1–R5 context','guide',null,[r,sourcesFor(r.source_ids)],r.id);
+ for(const e of (db.investigations||[]).filter(e=>e.publication_state==='approved'||db.investigations_review))add('Investigation update',e.id,e.title,e.hypothesis,e.status,'investigations',null,[e,sourcesFor(e.source_ids)],e.id);
  for(const i of db.legacy_interpretations)add('Earlier summary','Legacy '+i.id,i.title,i.summary,'Preserved earlier reading','interpretation',i.id,i);
  return index;
 }
