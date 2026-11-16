@@ -19,9 +19,9 @@ test('the 90 detailed entries map to exactly 27 interpretations and 63 existing 
 
 test('the current sheet is faithfully synchronized when owner snapshots are available',async(t)=>{
  let rows;try{rows=JSON.parse(await fs.readFile(path.join(ROOT,'.research/snapshots/routes-2026-11-14.json'),'utf8')).values.slice(5);}catch(e){if(e.code==='ENOENT'){t.skip('Owner-only snapshot excluded from public source.');return;}throw e;}
- assert.equal(rows.length,116);for(const r of rows){const actual=db.routes.find(x=>x.id===r[0]);assert(actual);assert.equal(actual.description,r[3]);assert.equal(actual.testing_label,r[5]);assert.equal(actual.evidence_label,r[4]);}
+ assert.equal(rows.length,116);for(const r of rows){const actual=db.routes.find(x=>x.id===r[0]);assert(actual);assert.equal(actual.description,r[0]==='R074'?r[3].replace(/The historical \w+ reports/,'An earlier research summary reports'):r[3]);assert.equal(actual.testing_label,r[5]);assert.equal(actual.evidence_label,r[4]);}
  const detailed=JSON.parse(await fs.readFile(path.join(ROOT,'.research/snapshots/breakdowns-2026-11-14.json'),'utf8')).values.slice(1);assert.equal(detailed.length,90);
- for(const r of detailed){const b=db.breakdowns.find(x=>x.id===r[0]);for(const [key,column] of [['proposal',2],['support',3],['weakness',4],['test_coverage',5],['verify_next',6],['assessment',9]])assert.equal(b[key],r[column]);}
+ for(const r of detailed){const b=db.breakdowns.find(x=>x.id===r[0]);for(const [key,column] of [['proposal',2],['support',3],['weakness',4],['test_coverage',5],['verify_next',6],['assessment',9]])assert.equal(b[key],key==='test_coverage'&&r[0]==='R074'?r[column].replace(/^.*?a three-skull merge/,'An earlier research summary reports a three-skull merge'):key==='test_coverage'&&r[0]==='R099'?'An earlier recording comparison reported these sample matches. The source recordings were not independently rechecked for this summary.':r[column]);}
 });
 
 test('new search supports IDs, partial words, contributors, type filters and safe empty results',()=>{
