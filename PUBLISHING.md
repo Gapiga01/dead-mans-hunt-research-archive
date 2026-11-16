@@ -2,6 +2,12 @@
 
 Nothing is published by editing this folder. The GitHub workflow is manual.
 
+## Investigation entries need owner review
+
+Review `database/investigations.json` in the local preview before release. Draft entries appear only in local builds. After explicit owner approval, change the selected entries' `publication_state` to `approved`; approve any earlier entry referenced by `updates` as well. Keep earlier assessments and their dates. No audit, chat or external service imports or publishes entries automatically.
+
+Until entries are approved, a production build omits their homepage cards, content and search records, and keeps the empty log out of the sitemap. Draft wording remains in the local source JSON, so review that file before approving any public source-package upload too. The manual Actions workflow below is unchanged.
+
 ## GitHub Pages
 
 1. After reviewing and approving the release, extract the **PUBLIC_SOURCE** ZIP and update the existing archive repository. `package.json`, `site.config.json`, `web/`, `database/` and `.github/` stay at its root. Preserve the existing repository variables, especially `GOOGLE_SITE_VERIFICATION`. Do not upload the parent research folder or the owner review bundle.

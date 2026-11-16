@@ -21,7 +21,7 @@ Open the local URL printed by the server. On Windows, Start-Hub.cmd can use an i
 
 Follow [PUBLISHING.md](PUBLISHING.md). The manual GitHub Pages workflow validates and builds with the real HTTPS Pages URL. It publishes only the generated dist folder. No push trigger is enabled.
 
-Use the PUBLIC_SOURCE bundle for a new repository. Owner working notes, pending contributions and historical source snapshots are excluded from that bundle and the website. Never upload a parent research workspace wholesale. The public build and source package use explicit file allowlists.
+Use the reviewed PUBLIC_SOURCE bundle to update the repository. It contains only the selected website source files. The public build and source package use explicit file allowlists.
 
 ## Maintain
 
@@ -33,3 +33,11 @@ Use the PUBLIC_SOURCE bundle for a new repository. Owner working notes, pending 
 - npm run audit checks the selected source files and generated site's internal links, asset paths, metadata, external active assets and obvious credential patterns.
 
 Research updates are not automatic. Rebuild and review after edits. The Google Form is not connected; submissions are visibly closed. Keep any real form responses private and review them before adding public records.
+
+## Investigation Log
+
+`database/investigations.json` holds dated editorial follow-ups, separate from theory, interpretation and test records. Each entry has a stable `L###` ID, topic, evidence labels, personal assessment and links to existing IDs. The `/investigation-log/` page offers expandable entries and topic/status filters; up to three `featured` entries appear on the homepage.
+
+New entries start as `publication_state: "draft"`. Local noindex previews include them; public builds and public search exclude them. Only change an entry to `"approved"` after the owner approves its wording and sources. This does not publish anything: the existing manual workflow still requires a separate approved release.
+
+Dates are documentation dates, not original discovery or test dates. For a changed assessment, append a new entry with `updates` pointing to the old ID, keep the earlier entry, and remove any old `featured` flag. Approved updates must retain an approved earlier entry. Reuse public source IDs and contributor credits. Only reviewed, publication-ready content belongs in public records.
