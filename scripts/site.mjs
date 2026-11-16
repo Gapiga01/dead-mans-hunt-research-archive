@@ -25,6 +25,7 @@ const descriptions={
  guide:'Start Dead Man’s Hunt with the original R1–R5 clues, documented solutions, item and timing conditions, sources and the limits of their connection to Riddle 6.',
  explore:'Explore the unsolved Dead Man’s Hunt Riddle 6 through interpretations, developed investigations, test coverage, source evidence and open questions.',
  search:'Search reviewed public Dead Man’s Hunt research by theory, item, mechanic, NPC, route ID, test or attributed contributor.',
+ investigations:'Follow the Dead Man’s Hunt investigation history: dated source checks, changing interpretations, contradictory evidence and personal research priorities.',
  interpretations:'Compare 27 readings of Dead Man’s Hunt Riddle 6, grouped by literal meanings, body, disappearance, assembly, grammar, literature and environmental conditions.',
  theories:'Browse Hypixel SkyBlock Dead Man’s Hunt theories, their evidence, reported tests, weaknesses and personal assessments. Speculation stays separate from confirmed mechanics.',
  questions:'Find specific unanswered Dead Man’s Hunt research questions, why they matter and the evidence that would help answer them.',
@@ -36,10 +37,10 @@ const descriptions={
  sources:'Follow original Dead Man’s Hunt player reports, game documentation, developer notes and literary sources, with contributor credit and verification limits.',
  contribute:'Submission availability for the Dead Man’s Hunt Research Archive. Submissions are closed until a Google Form is connected and tested.'
 };
-const names={home:SITE_NAME,guide:'Start Here — R1–R5',explore:'Explore R6',search:'Search the archive',interpretations:'Ways to read R6',theories:'Dead Man’s Hunt theories',questions:'Open research questions',tests:'Tests and observations',archive:'Research Archive',parking:'Parked and retired ideas',categories:'Research categories',evaluate:'About, credits & corrections',sources:'Sources and contributor credits',contribute:'Contributions & corrections'};
+const names={home:SITE_NAME,guide:'Start Here — R1–R5',explore:'Explore R6',search:'Search the archive',investigations:'Investigation Log',interpretations:'Ways to read R6',theories:'Dead Man’s Hunt theories',questions:'Open research questions',tests:'Tests and observations',archive:'Research Archive',parking:'Parked and retired ideas',categories:'Research categories',evaluate:'About, credits & corrections',sources:'Sources and contributor credits',contribute:'Contributions & corrections'};
 export function pagesFor(db,site){
  setBasePath(site.basePath);
- const pages=Object.keys(names).map(route=>({route,id:null,filters:{},index:!['contribute','search'].includes(route)}));
+ const pages=Object.keys(names).map(route=>({route,id:null,filters:{},index:!['contribute','search'].includes(route)&&(route!=='investigations'||db.investigations.length>0)}));
  for(let n=2;n<=Math.ceil(db.routes.length/20);n++)pages.push({route:'archive',id:null,filters:{page:String(n)},index:true});
  for(const t of [...db.theories,...db.groups.filter(g=>g.publication_state==='planned')])pages.push({route:'theory',id:t.id,filters:{},index:t.publication_state!=='planned'});
  for(const i of db.interpretations)pages.push({route:'interpretation',id:i.id,filters:{},index:true});
@@ -53,7 +54,7 @@ export function pagesFor(db,site){
   if(p.filters.page)description=`Routes ${(Number(p.filters.page)-1)*20+1}–${Math.min(Number(p.filters.page)*20,db.routes.length)} of the Dead Man’s Hunt research archive. Read the original descriptions, testing qualifications and source links.`;
   description=description.replace(/\s+/g,' ').trim();if(description.length>190)description=description.slice(0,187).replace(/\s+\S*$/,'')+'…';
   const pathname=routeUrl(p.route,p.id,p.filters);
-  return {...p,title,description,pathname,url:new URL(pathname,site.url).href,lastmod:record?.last_reviewed||db.config.reviewed_at};
+  return {...p,title,description,pathname,url:new URL(pathname,site.url).href,lastmod:p.route==='investigations'&&db.investigations.length?db.investigations.map(e=>e.date).sort().at(-1):record?.last_reviewed||db.config.reviewed_at};
  });
 }
 const jsonScript=value=>JSON.stringify(value).replaceAll('<','\\u003c').replaceAll('>','\\u003e').replaceAll('&','\\u0026');

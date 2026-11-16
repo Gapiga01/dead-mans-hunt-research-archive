@@ -4,7 +4,7 @@ import {ROOT,readDatabase,publicData,csv} from './data.mjs';
 import {loadSite,pagesFor,documentFor,sitemapFor,robotsFor} from './site.mjs';
 import {webAssets} from './public-files.mjs';
 import {buildSearchIndex} from '../web/search.js';
-const db=await readDatabase();const data=publicData(db);const site=await loadSite(process.env,{production:process.argv.includes('--production')});
+const db=await readDatabase();const site=await loadSite(process.env,{production:process.argv.includes('--production')});const data=publicData(db,{includeDraftInvestigations:site.local});
 data.site={name:site.name,google_form_url:site.google_form_url};
 const dist=path.join(ROOT,'dist');
 // Rebuild only this generated child folder, so stale files cannot be published.
