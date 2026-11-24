@@ -1,17 +1,18 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 export const ROOT=path.resolve(import.meta.dirname,'..');
-export const tables=['config','categories','theories','routes','observations','experiments','sources','theory_routes','theory_experiments','interpretations','questions','interpretation_groups','interpretation_angles','legacy_interpretations','breakdowns','riddles','investigations'];
+export const tables=['config','categories','theories','routes','observations','experiments','sources','theory_routes','theory_experiments','interpretations','questions','interpretation_groups','interpretation_angles','legacy_interpretations','breakdowns','riddles','investigations','patterns'];
 export async function readDatabase(root=ROOT){return Object.fromEntries(await Promise.all(tables.map(async name=>[name,JSON.parse(await fs.readFile(path.join(root,'database',name+'.json'),'utf8'))])));}
 export function safeUrl(value){try{const u=new URL(value);return ['https:','http:'].includes(u.protocol);}catch{return false;}}
 export function validate(db){
  const errors=[];const assert=(ok,msg)=>{if(!ok)errors.push(msg);};
- const maps={};for(const table of ['categories','theories','routes','observations','experiments','sources','interpretations','questions','interpretation_groups','interpretation_angles','legacy_interpretations','breakdowns','riddles','investigations']){maps[table]=new Map();for(const row of db[table]){assert(typeof row.id==='string'&&!maps[table].has(row.id),`Duplicate/missing ID in ${table}: ${row.id}`);maps[table].set(row.id,row);}}
+ const maps={};for(const table of ['categories','theories','routes','observations','experiments','sources','interpretations','questions','interpretation_groups','interpretation_angles','legacy_interpretations','breakdowns','riddles','investigations','patterns']){maps[table]=new Map();for(const row of db[table]){assert(typeof row.id==='string'&&!maps[table].has(row.id),`Duplicate/missing ID in ${table}: ${row.id}`);maps[table].set(row.id,row);}}
  const refs=(ids,table,where)=>{for(const id of ids||[])assert(maps[table].has(id),`${where}: missing ${table} ${id}`);};
  for(const s of db.sources)assert(safeUrl(s.url),`Unsafe source URL ${s.id}`);
  for(const r of db.routes){assert(/^(R\d{3}|N\d{3})$/.test(r.id),`Invalid legacy route ID ${r.id}`);assert(safeUrl(r.source_url),`Unsafe archive URL ${r.id}`);}
  for(const t of db.theories){
   assert(/^T\d{3}$/.test(t.id),`Invalid theory ID ${t.id}`);assert(db.config.statuses.includes(t.status),`Invalid status ${t.id}`);
+  assert(typeof t.title==='string'&&t.title.trim().length>0,`Missing theory or route group title: ${t.id}`);
   if(t.publication_state==='planned')continue;
   for(const key of ['title','summary','origin','assessment','change_my_mind','last_reviewed'])assert(typeof t[key]==='string'&&t[key].length>8,`Missing developed field ${t.id}.${key}`);
   assert(/^(I |I’m|I’d|I’ve|I think|I like)/.test(t.assessment),`Assessment must be personal: ${t.id}`);
@@ -47,6 +48,7 @@ export function validate(db){
   for(const key of ['why','known','answer_needed','how','would_change'])assert(q[key]?.length>15,`Missing question field ${q.id}.${key}`);
   refs(q.interpretation_ids,'interpretations',q.id);refs(q.theory_ids,'theories',q.id);refs(q.source_ids,'sources',q.id);
  }
+ refs(db.config.current_focus_question_ids,'questions','Current research focus');
  for(const m of db.theory_routes){refs([m.theory_id],'theories','Route join');refs([m.route_id],'routes','Route join');}
  for(const m of db.theory_experiments){refs([m.theory_id],'theories','Test join');refs([m.experiment_id],'experiments','Test join');}
  for(const r of db.routes)assert(db.theory_routes.some(m=>m.route_id===r.id),`Unmapped route ${r.id}`);
@@ -60,6 +62,7 @@ export function validate(db){
  }
  for(const r of db.routes){for(const url of r.background_urls||[])assert(safeUrl(url),`Unsafe route reference ${r.id}`);}
  for(const r of db.riddles){assert(/^R[1-5]$/.test(r.id),`Invalid solved riddle ${r.id}`);for(const key of ['clue','solution','action','mechanic','interpretation','r6_limit'])assert(r[key]?.length>8,`Missing guide field ${r.id}.${key}`);refs(r.source_ids,'sources',r.id);}
+ for(const p of db.patterns){assert(/^P\d{3}$/.test(p.id),`Invalid pattern ${p.id}`);for(const key of ['title','established','why','weakness','strengthen','falsify'])assert(typeof p[key]==='string'&&p[key].length>8,`Missing pattern field ${p.id}.${key}`);refs(p.route_ids,'routes',p.id);assert(p.route_ids.length>0,`Pattern needs a detailed route ${p.id}`);for(const id of p.route_ids)assert(db.breakdowns.some(b=>b.subject_id===id),`Pattern route needs a detailed entry ${id}`);}
  const investigationFields=['id','date','topic','title','hypothesis','status','featured','publication_state','investigated','why','evidence','against','assessment','next_evidence','theory_ids','route_ids','interpretation_ids','source_ids','updates'];
  const featuredTopics=new Set();
  for(const e of db.investigations){

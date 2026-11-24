@@ -22,15 +22,15 @@ export async function loadSite(env=process.env,{production=false}={}){
 }
 const descriptions={
  home:"Explore Hypixel SkyBlock Dead Man's Hunt research, solved R1–R5 mechanics, R6 interpretations, attributed reports and historical routes.",
- guide:'Start Dead Man’s Hunt with the original R1–R5 clues, documented solutions, item and timing conditions, sources and the limits of their connection to Riddle 6.',
- explore:'Explore the unsolved Dead Man’s Hunt Riddle 6 through interpretations, developed investigations, test coverage, source evidence and open questions.',
+ guide:'Read the solved Dead Man’s Hunt R1–R5 steps, compare original Journal fields and recordings, and reproduce the first- and last-letter check.',
+ explore:'Explore the unsolved Dead Man’s Hunt Riddle 6 and the evidence for how a player might discover and perform its next action.',
  search:'Search reviewed public Dead Man’s Hunt research by theory, item, mechanic, NPC, route ID, test or attributed contributor.',
  investigations:'Follow the Dead Man’s Hunt investigation history: dated source checks, changing interpretations, contradictory evidence and personal research priorities.',
- interpretations:'Compare 27 readings of Dead Man’s Hunt Riddle 6, grouped by literal meanings, body, disappearance, assembly, grammar, literature and environmental conditions.',
+ interpretations:'Compare readings of Dead Man’s Hunt Riddle 6, grouped by literal meanings, body, disappearance, assembly, grammar, literature and environmental conditions.',
  theories:'Browse Hypixel SkyBlock Dead Man’s Hunt theories, their evidence, reported tests, weaknesses and personal assessments. Speculation stays separate from confirmed mechanics.',
  questions:'Find specific unanswered Dead Man’s Hunt research questions, why they matter and the evidence that would help answer them.',
  tests:'Read attributed Dead Man’s Hunt test reports and observations, with procedures, conditions, results and verification limits.',
- archive:'Browse 116 Dead Man’s Hunt research routes: 104 original records and 12 later additions, with detailed readings, historical descriptions and qualified testing coverage.',
+ archive:'Browse Dead Man’s Hunt research routes, with detailed readings, historical descriptions and qualified testing coverage.',
  parking:'Read parked and retired Dead Man’s Hunt ideas, why they were set aside and what evidence could reopen them.',
  categories:'Explore Dead Man’s Hunt research by progression, identity, mechanics, hidden messages, literature and group events.',
  evaluate:'About the Dead Man’s Hunt research archive, contributor credits, ChatGPT and Sol assistance, editorial priorities, corrections and submission availability.',
@@ -70,6 +70,9 @@ export function documentFor(page,db,site,shell){
  const head=`<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${h(title)}</title><meta name="description" content="${h(page.description)}"><meta name="robots" content="${robots}"><meta name="referrer" content="no-referrer"><meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'"><link rel="canonical" href="${h(page.url)}"><meta property="og:type" content="website"><meta property="og:site_name" content="${h(SITE_NAME)}"><meta property="og:title" content="${h(title)}"><meta property="og:description" content="${h(page.description)}"><meta property="og:url" content="${h(page.url)}"><meta property="og:image" content="${h(image)}"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Dead Man's Hunt Research Archive — theories, interpretations and test reports"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="${h(title)}"><meta name="twitter:description" content="${h(page.description)}"><meta name="twitter:image" content="${h(image)}">${site.verification?`<meta name="google-site-verification" content="${h(site.verification)}">`:''}<script type="application/ld+json">${jsonScript({'@context':'https://schema.org','@graph':graph})}</script><link rel="icon" href="${site.basePath}mark.svg" type="image/svg+xml"><link rel="stylesheet" href="${site.basePath}styles.css"><script type="module" src="${site.basePath}app.js"></script>`;
  let html=shell.replace(/<head>[\s\S]*?<\/head>/,()=>'<head>'+head+'</head>').replace(/<main id="main"[^>]*>[\s\S]*?<\/main>/,()=>`<main id="main" tabindex="-1">${content}</main>`).replace(/<noscript>[\s\S]*?<\/noscript>/,'<noscript>Search filters need JavaScript. All research pages and links remain readable without it.</noscript>');
  html=html.replace('STAGE 1–3 · LOCAL PROTOTYPE',site.local?'REVIEW COPY · NOT PUBLISHED':'COMMUNITY RESEARCH');
+ const reviewed = new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'}).format(new Date(db.config.reviewed_at));
+ html=html.replace(/(<span class="review-date">)[^<]*/,'$1Research update · '+h(reviewed));
+ html=html.replace(/Community research · Beta v[^<]+/,'Community research · Beta v'+h(db.config.version));
  html=html.replace('__ABOUT_METHOD__',routeUrl('evaluate')+'#methodology');
  const logical=page.route==='theory'?'theories':page.route==='interpretation'?'interpretations':page.route==='experiment'?'tests':page.route;
  html=html.replace(/(<a data-nav="([^"]+)"[^>]*)(>)/g,(_,start,nav,end)=>start+([logical,primarySection(page.route)].includes(nav)?' class="active" aria-current="'+(nav===logical?'page':'location')+'"':'')+end);

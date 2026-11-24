@@ -12,11 +12,13 @@ export function inspectText(text,label){
 }
 async function walk(dir){const out=[];for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isSymbolicLink())throw Error('Linked build file refused');if(e.isDirectory())out.push(...await walk(p));else out.push(p);}return out;}
 export async function auditBuild(dir=path.join(ROOT,'dist')){
- const files=await walk(dir);const manifest=JSON.parse(await fs.readFile(path.join(dir,'build-manifest.json'),'utf8'));const base=new URL(manifest.site_url);const errors=[];let links=0;const external=new Set();
+ const files=await walk(dir);const manifest=JSON.parse(await fs.readFile(path.join(dir,'build-manifest.json'),'utf8'));const base=new URL(manifest.site_url);const errors=[];let links=0,anchors=0;const external=new Set();const htmlCache=new Map();
+ for(const file of files.filter(f=>f.endsWith('.html')))htmlCache.set(file,await fs.readFile(file,'utf8'));
  const decode=s=>s.replaceAll('&amp;','&').replaceAll('&#39;',"'").replaceAll('&quot;','"').replaceAll('&lt;','<').replaceAll('&gt;','>');
  for(const file of files){const relative=path.relative(dir,file).replaceAll(path.sep,'/');if(/(^|\/)(\.research|\.private|node_modules|docs|\.git)(\/|$)|\.(zip|docx|mp4|wav|env|pem)$/i.test(relative))throw Error('Non-public file in build: '+relative);
   if(path.extname(file)==='.png')continue;const text=await fs.readFile(file,'utf8');inspectText(text,relative);
   if(path.extname(file)!=='.html')continue;
+  if(/\b(?:[TRNLSE]\d{3}|R6I\d{3})\s*·\s*undefined\b|>\s*undefined\s*</.test(text))errors.push('Undefined record text in '+relative);
   const pageUrl=new URL(relative.replace(/index\.html$/,''),base);
   if(!/<title>[^<]+<\/title>/.test(text)||!text.includes('name="description"')||!text.includes('rel="canonical"'))errors.push('Missing metadata '+relative);
   for(const m of text.matchAll(/<(a|link|script|img)\b[^>]*?\b(href|src)="([^"]*)"/g)){
@@ -28,7 +30,7 @@ export async function auditBuild(dir=path.join(ROOT,'dist')){
    if(!u.pathname.startsWith(base.pathname)){errors.push('Link escapes site base: '+u.pathname);continue;}
    let target=decodeURIComponent(u.pathname.slice(base.pathname.length));target=target.endsWith('/')?target+'index.html':target||'index.html';const resolved=path.resolve(dir,target);
    if(!resolved.startsWith(path.resolve(dir)+path.sep)){errors.push('Link escapes build');continue;}
-   try{await fs.access(resolved);}catch{errors.push('Missing target '+target+' from '+relative);}
+   try{await fs.access(resolved);if(u.hash&&htmlCache.has(resolved)){anchors++;const fragment=decodeURIComponent(u.hash.slice(1));const targetText=htmlCache.get(resolved);const ids=[...targetText.matchAll(/\b(?:id|name)="([^"]*)"/g)].map(m=>decode(m[1]));if(!ids.includes(fragment))errors.push('Missing anchor '+fragment+' in '+target+' linked from '+relative);}}catch{errors.push('Missing target '+target+' from '+relative);}
   }
   for(const m of text.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)){if(m[1].includes('application/ld+json'))JSON.parse(m[2]);else if(!m[1].includes('src='))errors.push('Inline executable script '+relative);}
  }
@@ -36,7 +38,7 @@ export async function auditBuild(dir=path.join(ROOT,'dist')){
  if(new Set(locs).size!==locs.length)errors.push('Duplicate sitemap URL');
  for(const u of locs)if(u.includes('#')||!manifest.pages.some(p=>p.url===u&&p.index))errors.push('Invalid sitemap entry');
  if(errors.length)throw Error([...new Set(errors)].join('\n'));
- return {html_pages:files.filter(f=>f.endsWith('.html')).length,internal_and_external_references:links,sitemap_entries:locs.length,external_source_urls:[...external],mode:manifest.mode,site_url:manifest.site_url};
+ return {html_pages:files.filter(f=>f.endsWith('.html')).length,internal_and_external_references:links,internal_fragment_references:anchors,sitemap_entries:locs.length,external_source_urls:[...external],mode:manifest.mode,site_url:manifest.site_url};
 }
 export async function auditSource(){const db=await readDatabase();publicData(db);if(db.sources.some(s=>s.visibility!=='public'))throw Error('Non-public source metadata must not enter a public source package.');const list=[...sourceFiles,...databaseFiles];for(const name of list){const p=path.join(ROOT,name);if((await fs.lstat(p)).isSymbolicLink())throw Error('Linked source '+name);if(!name.endsWith('.png'))inspectText(await fs.readFile(p,'utf8'),name);}const pkg=JSON.parse(await fs.readFile(path.join(ROOT,'package.json'),'utf8'));if(Object.keys(pkg.dependencies||{}).length||Object.keys(pkg.devDependencies||{}).length)throw Error('Dependency list changed; review before release.');return {checked_source_files:list.length,third_party_npm_dependencies:0,public_assets:webAssets.length};}
 if(process.argv[1]&&path.resolve(process.argv[1])===path.resolve(import.meta.filename)){console.log(JSON.stringify({source:await auditSource(),build:await auditBuild()},null,2));}
