@@ -12,12 +12,12 @@ import {loadSite,pagesFor,documentFor,sitemapFor} from '../scripts/site.mjs';
 const raw=await readDatabase(),preview=publicData(raw,{includeDraftInvestigations:true});
 
 test('investigation drafts are visible locally and excluded from the public payload and search',()=>{
- assert.equal(preview.investigations.length,6);
+ assert.equal(preview.investigations.length,15);
  const draft=structuredClone(raw);draft.investigations.forEach(e=>e.publication_state='draft');
  const approvedOnly=publicData(draft);assert.equal(approvedOnly.investigations.length,0);
  assert(!buildSearchIndex(approvedOnly).some(r=>r.type==='Investigation update'));
  const index=buildSearchIndex(preview);assert.equal(searchRecords(index,'L006','Investigation update')[0].anchor,'L006');
- const approved=structuredClone(raw);approved.investigations.forEach(e=>e.publication_state='approved');assert.equal(publicData(approved).investigations.length,6);
+ const approved=structuredClone(raw);approved.investigations.forEach(e=>e.publication_state='approved');assert.equal(publicData(approved).investigations.length,15);
 });
 
 test('invalid IDs, dates, source references, private fields and broken correction chains fail review',()=>{
@@ -26,7 +26,7 @@ test('invalid IDs, dates, source references, private fields and broken correctio
 });
 
 test('topic, status and search intersect while chronological older entries remain accessible',()=>{
- assert.equal(orderedInvestigations(preview)[0].id,'L006');assert.equal(orderedInvestigations(preview).at(-1).id,'L001');
+ assert.equal(orderedInvestigations(preview)[0].id,'L015');assert.equal(orderedInvestigations(preview).at(-1).id,'L001');
  assert.deepEqual(matchingInvestigations(preview,{topic:'Arachne reconstruction'}).map(e=>e.id),['L006','L005']);
  assert.deepEqual(matchingInvestigations(preview,{topic:'Arachne reconstruction',status:'Parked',q:'Fragments'}).map(e=>e.id),['L006']);
  assert.equal(matchingInvestigations(preview,{topic:'Arachne reconstruction',status:'Active'}).length,0);
@@ -35,7 +35,7 @@ test('topic, status and search intersect while chronological older entries remai
 });
 
 test('homepage highlights at most three current topics and keeps all existing destinations',()=>{
- const home=renderPage(preview,'home');assert.equal((home.match(/class="current-investigation"/g)||[]).length,3);
+ const home=renderPage(preview,'home');assert.equal((home.match(/class="current-investigation"/g)||[]).length,1);
  for(const route of ['guide','explore','archive','evaluate'])assert(home.includes(routeUrl(route)));
  const broken=structuredClone(raw);broken.investigations[0].featured=true;assert.throws(()=>validate(broken),/Inactive investigation featured|At most three/);
 });
@@ -49,7 +49,7 @@ test('theory history links resolve both earlier and revised assessments without 
 
 test('log has one physical indexable URL, sitemap entry, metadata and stable entry anchors under a Pages prefix',async()=>{
  const site=await loadSite({SITE_URL:'https://example.test/hunt/'},{production:true});const pages=pagesFor(preview,site),p=pages.find(p=>p.route==='investigations');
- assert.equal(p.pathname,'/hunt/investigation-log/');assert.equal(p.lastmod,'2026-11-15');assert(sitemapFor(pages).includes('https://example.test/hunt/investigation-log/'));
+ assert.equal(p.pathname,'/hunt/investigation-log/');assert.equal(p.lastmod,'2026-11-24');assert(sitemapFor(pages).includes('https://example.test/hunt/investigation-log/'));
  const html=documentFor(p,preview,site,await fs.readFile(path.join(ROOT,'web/index.html'),'utf8'));
  assert(html.includes('id="L001"'));assert(html.includes('og:title'));assert(html.includes('rel="canonical" href="https://example.test/hunt/investigation-log/"'));
  assert(!html.includes('href="#/'));assert.equal(parseLocation('/hunt/investigation-log/').path,'investigations');setBasePath('/');
@@ -62,7 +62,7 @@ test('investigation rendering escapes content and filter text rather than execut
  const html=renderPage(db,'investigations',{q:'"><script>alert(1)</script>'});assert(!html.includes('<script>'));assert(html.includes('&lt;script&gt;'));
 });
 
-test('the six phrase choices link to existing records and keep all 27 full interpretations',()=>{
+test('the six phrase choices link to existing records and keep all 29 full interpretations',()=>{
  assert.equal(phraseReadings.length,6);assert.equal(new Set(phraseReadings.map(p=>p.id)).size,6);
  for(const p of phraseReadings){for(const [,ids] of p.meanings)for(const id of ids)assert(preview.interpretations.some(i=>i.id===id),id);assert(p.examples.length>=1&&p.examples.length<=2);for(const [kind,id] of p.examples)assert(preview[kind==='theory'?'theories':kind==='interpretation'?'interpretations':'routes'].some(x=>x.id===id),id);}
  const html=renderPage(preview,'interpretations');assert.equal((html.match(/type="radio"/g)||[]).length,6);assert.equal((html.match(/class="phrase-panel"/g)||[]).length,6);assert.equal((html.match(/ checked/g)||[]).length,1);
@@ -72,7 +72,7 @@ test('the six phrase choices link to existing records and keep all 27 full inter
 test('essential phrase meanings and comparison are server-rendered without script-dependent controls',async()=>{
  const site=await loadSite({}),p=pagesFor(preview,site).find(p=>p.route==='interpretations');const html=documentFor(p,preview,site,await fs.readFile(path.join(ROOT,'web/index.html'),'utf8'));
  for(const phrase of phraseReadings){assert(html.includes('id="phrase-'+phrase.id+'"'));assert(html.includes('for="phrase-'+phrase.id+'"'));assert(html.includes('id="panel-'+phrase.id+'"'));}
- assert.equal((html.match(/class="interpretation-card"/g)||[]).length,27);assert(html.includes('A · Complement'));assert(html.includes('B · Substitution'));
+ assert.equal((html.match(/class="interpretation-card"/g)||[]).length,29);assert(html.includes('A · Complement'));assert(html.includes('B · Substitution'));
  const css=await fs.readFile(path.join(ROOT,'web/styles.css'),'utf8');for(const p of phraseReadings)assert(css.includes('#phrase-'+p.id+':checked~.phrase-panels #panel-'+p.id));
  const escaped=structuredClone(preview);escaped.config.riddle='<img src=x onerror=alert(1)>';assert(!phraseExplorer(escaped).includes('<img'));setBasePath('/');
 });
@@ -92,7 +92,7 @@ test('explorer entry links, navigation and labels retain one canonical reading d
  assert.equal((readings.match(/id="clue-explorer"/g)||[]).length,1);
  assert(readings.includes('id="reading-directory"'));assert(readings.includes('id="reading-filters"'));
  assert(readings.includes('role="status" aria-live="polite"'));
- const {fillReadingViews}=await import('../web/readings.js');assert(fillReadingViews(readings,preview,'interpretations',{}).includes('id="reading-count" role="status" aria-live="polite">27 readings'));
+ const {fillReadingViews}=await import('../web/readings.js');assert(fillReadingViews(readings,preview,'interpretations',{}).includes('id="reading-count" role="status" aria-live="polite">29 readings'));
  assert(renderPage(preview,'interpretation',{},'R6I001').includes('Back to the phrase explorer'));
  const about=renderPage(preview,'evaluate');assert(about.includes('Confirmed precedent'));assert(about.includes('Firsthand report'));assert(about.includes('not a verified R6 solution'));
  const group=renderPage(preview,'theory',{},'T016');assert(group.includes('Thematic route group · T016'));assert(group.includes('not one of the 15 developed theory pages'));
@@ -101,10 +101,10 @@ test('explorer entry links, navigation and labels retain one canonical reading d
 });
 
 test('new unapproved follow-ups stay out of public pages and search beside approved history',()=>{
- const draft=structuredClone(raw.investigations[0]);Object.assign(draft,{id:'L007',date:'2026-11-16',title:'UNPUBLISHED-CHECK-ONLY',publication_state:'draft',featured:false,updates:null});
+ const draft=structuredClone(raw.investigations[0]);Object.assign(draft,{id:'L999',date:'2026-11-25',title:'UNPUBLISHED-CHECK-ONLY',publication_state:'draft',featured:false,updates:null});
  const db=structuredClone(raw);db.investigations.push(draft);
  const publicView=publicData(db),reviewView=publicData(db,{includeDraftInvestigations:true});
- assert.equal(publicView.investigations.length,6);assert.equal(reviewView.investigations.length,7);
+ assert.equal(publicView.investigations.length,15);assert.equal(reviewView.investigations.length,16);
  assert(!JSON.stringify(buildSearchIndex(publicView)).includes('UNPUBLISHED-CHECK-ONLY'));
  assert(!renderPage(publicView,'investigations').includes('UNPUBLISHED-CHECK-ONLY'));
  assert(publicView.investigations.some(e=>e.id==='L005'));assert(publicView.investigations.some(e=>e.id==='L006'&&e.updates==='L005'));

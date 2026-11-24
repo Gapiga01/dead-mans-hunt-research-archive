@@ -9,19 +9,19 @@ import {loadSite,pagesFor,documentFor} from '../scripts/site.mjs';
 import {setBasePath,routeUrl,hashUrl} from '../web/urls.js';
 const raw=await readDatabase(),db=publicData(raw),index=buildSearchIndex(db);
 
-test('the 90 detailed entries map to exactly 27 interpretations and 63 existing routes',()=>{
- assert.equal(db.breakdowns.length,90);assert.equal(db.breakdowns.filter(b=>b.kind==='interpretation').length,27);
- assert.equal(db.breakdowns.filter(b=>b.id.startsWith('R')).length,51);assert.equal(db.breakdowns.filter(b=>b.id.startsWith('N')).length,12);
- assert.equal(new Set(db.breakdowns.map(b=>b.subject_id)).size,90);
+test('the 147 detailed entries map to exactly 29 interpretations and all 118 routes',()=>{
+ assert.equal(db.breakdowns.length,147);assert.equal(db.breakdowns.filter(b=>b.kind==='interpretation').length,29);
+ assert.equal(db.breakdowns.filter(b=>b.id.startsWith('R')).length,104);assert.equal(db.breakdowns.filter(b=>b.id.startsWith('N')).length,14);
+ assert.equal(new Set(db.breakdowns.map(b=>b.subject_id)).size,147);
  for(const b of db.breakdowns){const html=renderPage(db,b.kind==='interpretation'?'interpretation':'route',{},b.subject_id);for(const key of ['proposal','support','weakness','test_coverage','assessment'])assert(html.includes(b[key].replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;')),b.id+'.'+key);}
  const broken=structuredClone(raw);broken.breakdowns[0].subject_id='R999';assert.throws(()=>validate(broken),/missing interpretations/);
 });
 
-test('the current sheet is faithfully synchronized when owner snapshots are available',async(t)=>{
+test('the earlier 14 November wording remains preserved when owner snapshots are available',async(t)=>{
  let rows;try{rows=JSON.parse(await fs.readFile(path.join(ROOT,'.research/snapshots/routes-2026-11-14.json'),'utf8')).values.slice(5);}catch(e){if(e.code==='ENOENT'){t.skip('Owner-only snapshot excluded from public source.');return;}throw e;}
- assert.equal(rows.length,116);for(const r of rows){const actual=db.routes.find(x=>x.id===r[0]);assert(actual);assert.equal(actual.description,r[0]==='R074'?r[3].replace(/The historical \w+ reports/,'An earlier research summary reports'):r[3]);assert.equal(actual.testing_label,r[5]);assert.equal(actual.evidence_label,r[4]);}
+ assert.equal(rows.length,116);for(const r of rows){const current=db.routes.find(x=>x.id===r[0]);assert(current);const actual=current.previous_versions?.find(v=>v.version==='0.6.0')||current;assert.equal(actual.description,r[0]==='R074'?r[3].replace(/The historical \w+ reports/,'An earlier research summary reports'):r[3]);assert.equal(actual.testing_label,r[5]);assert.equal(actual.evidence_label,r[4]);}
  const detailed=JSON.parse(await fs.readFile(path.join(ROOT,'.research/snapshots/breakdowns-2026-11-14.json'),'utf8')).values.slice(1);assert.equal(detailed.length,90);
- for(const r of detailed){const b=db.breakdowns.find(x=>x.id===r[0]);for(const [key,column] of [['proposal',2],['support',3],['weakness',4],['test_coverage',5],['verify_next',6],['assessment',9]])assert.equal(b[key],key==='test_coverage'&&r[0]==='R074'?r[column].replace(/^.*?a three-skull merge/,'An earlier research summary reports a three-skull merge'):key==='test_coverage'&&r[0]==='R099'?'An earlier recording comparison reported these sample matches. The source recordings were not independently rechecked for this summary.':r[column]);}
+ for(const r of detailed){const current=db.breakdowns.find(x=>x.id===r[0]);const b=current.previous_versions?.find(v=>v.version==='0.6.0')||current;for(const [key,column] of [['proposal',2],['support',3],['weakness',4],['test_coverage',5],['verify_next',6],['assessment',9]])assert.equal(b[key],key==='test_coverage'&&r[0]==='R074'?r[column].replace(/^.*?a three-skull merge/,'An earlier research summary reports a three-skull merge'):key==='test_coverage'&&r[0]==='R099'?'An earlier recording comparison reported these sample matches. The source recordings were not independently rechecked for this summary.':r[column]);}
 });
 
 test('new search supports IDs, partial words, contributors, type filters and safe empty results',()=>{
@@ -29,7 +29,7 @@ test('new search supports IDs, partial words, contributors, type filters and saf
  assert.equal(searchRecords(index,'R074')[0].id,'R074');const skeletor=searchRecords(index,'Skele','Route theory');assert(skeletor.some(r=>r.id==='R074'&&r.route==='route'));
  assert(searchRecords(index,'Starphi').length);assert(searchRecords(index,'Double2').some(r=>r.type==='Source'));
  assert.equal(searchRecords(index,'N012')[0].id,'N012');assert.equal(searchRecords(index,'I027')[0].id,'I027');
- assert.equal(searchRecords(index,'absolutelynonexistentzz').length,0);assert(searchResults(index,{q:'absolutelynonexistentzz'}).includes('No matching records'));
+ assert.equal(searchRecords(index,'absolutelynonexistentzz').length,0);assert(searchResults(index,{q:'absolutelynonexistentzz'}).includes('No results found'));
  assert(!searchResults(index,{q:'<img src=x onerror=alert(1)>'}).includes('<img'));
  assert.equal(new Set(index.map(r=>r.key)).size,index.length);
 });
@@ -52,7 +52,7 @@ test('guide uses original Journal transcription and keeps behavior separate from
 
 test('new static detail URLs and all legacy canonical URLs survive under a Pages prefix',async()=>{
  const site=await loadSite({SITE_URL:'https://example.test/hunt/',GOOGLE_SITE_VERIFICATION:'public_verification_fixture'},{production:true});const pages=pagesFor(db,site);
- assert.equal(pages.filter(p=>p.route==='route').length,116);assert.equal(pages.filter(p=>p.route==='route'&&p.index).length,63);
+ assert.equal(pages.filter(p=>p.route==='route').length,118);assert.equal(pages.filter(p=>p.route==='route'&&p.index).length,118);
  for(const id of ['T001','T015','R6I001','R6I026','I001','E015'])assert(pages.some(p=>p.id===id));
  assert.equal(routeUrl('route','N012'),'/hunt/routes/N012/');assert.equal(hashUrl('#/theory/T002'),'/hunt/theories/T002/');
  const html=documentFor(pages.find(p=>p.route==='guide'),db,site,await fs.readFile(path.join(ROOT,'web/index.html'),'utf8'));assert(html.includes('public_verification_fixture'));assert(html.includes('form-action \'self\''));assert(!html.includes('__ABOUT_METHOD__'));
