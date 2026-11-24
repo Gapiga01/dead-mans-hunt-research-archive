@@ -163,5 +163,36 @@
     ],
     "limitation": "This is archive-level coverage, not a newly inspected original recording.",
     "last_reviewed": "2026-11-13"
+  },
+  {
+    "id": "O017",
+    "text": "JJSR reported buying a second Dead Man’s Journal from Rusty: its UUID differed from the original, but it showed the same solved riddles.",
+    "label": "Reported",
+    "source_ids": [
+      "S047"
+    ],
+    "limitation": "Firsthand report, not paired-item/menu footage or permanent-loss recovery. It does not select an R6 assembly rule or establish private server implementation."
+  },
+  {
+    "id": "O018",
+    "label": "Observed",
+    "source_ids": [
+      "S052",
+      "S032",
+      "S004"
+    ],
+    "text": "In the reviewed R1 clip, the Chestplate has no singled-out red initials at 6.00 s. The solved R1 Journal entry highlights the acrostic in red at 20.00 s.",
+    "limitation": "Sampled rendered frames only. The wording near “kills” also differs from the usual transcription, and the client is not a vanilla control. The cause of the discrepancy is unknown."
+  },
+  {
+    "id": "O019",
+    "label": "Observed",
+    "source_ids": [
+      "S052",
+      "S036",
+      "S038"
+    ],
+    "text": "In the R5 Alpha clip, neither drop representation is visible in the filmed pool by 3.10 s. At 5.90 s the solved tooltip still records the Griffin Feather and three Callings already present.",
+    "limitation": "Sampled frames do not establish exact entity count, merge history, a pickup or a Main-server return. The clip has no complete inventory checkpoint."
   }
 ]

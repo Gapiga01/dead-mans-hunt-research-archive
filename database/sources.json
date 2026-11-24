@@ -5,8 +5,8 @@
     "url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit",
     "kind": "Archive",
     "author": "Gapiga / archive compilation",
-    "date": "2026-11-14",
-    "limitation": "Underlying records for 116 routes and 27 interpretations, editorially reviewed on 14 November. The website provides easier navigation and detailed explanations; visitors do not need the spreadsheet to follow a theory. Historical summaries do not independently verify every test.",
+    "date": "2026-11-18",
+    "limitation": "Underlying records for 118 routes, 27 interpretations and 145 detailed entries, synchronized on 18 November. The spreadsheet is maintained more frequently than the website and may contain later revisions. Editorial summaries do not independently verify every test.",
     "visibility": "public"
   },
   {
@@ -291,12 +291,12 @@
   },
   {
     "id": "S031",
-    "title": "Detailed research breakdowns — 14 November editorial update",
+    "title": "Detailed research breakdowns — 18 November update",
     "url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261115",
     "kind": "Editorial research compilation",
     "author": "Gapiga / archive compilation",
-    "date": "2026-11-14",
-    "limitation": "90 explanations, including historical testing summaries and personal priorities. No new authenticated R6 completion is established; background links are not proof of tests.",
+    "date": "2026-11-18",
+    "limitation": "145 detailed entries: all 118 routes plus 27 interpretations. Names and source-row links are synchronized. Missing controls and outcomes remain qualified; no R6 completion is established.",
     "visibility": "public"
   },
   {
@@ -448,5 +448,115 @@
     "date": "2026-08-25",
     "limitation": "Original announcement recovered. It associates the Hunt with Dra2oon but does not independently establish his exact election date or the development dates of individual riddles.",
     "visibility": "public"
+  },
+  {
+    "id": "S047",
+    "title": "Second Rusty Journal: different UUID, same solved entries",
+    "url": "https://discord.com/channels/996884296860172469/1557053759740448909/1570632872392527915",
+    "kind": "Player report",
+    "author": "JJSR",
+    "date": "2026-11-13",
+    "limitation": "Firsthand report of a second item retaining solved riddles. No paired-item/menu footage is attached in the inspected context. The original was not reported destroyed; explanations of server storage and polling are inference.",
+    "visibility": "public"
+  },
+  {
+    "id": "S048",
+    "title": "Maxed Dead Man’s Chest perk with Chestplate and five plates",
+    "url": "https://discord.com/channels/996884296860172469/1560338241696301076/1564458292237832264",
+    "kind": "Player report",
+    "author": "epoa (currently turkeypoa); reply credits Hitori’s prefix reading",
+    "date": "2026-10-27",
+    "limitation": "Describes a maxed HOTM perk and actual offered items, not a physical maxed Chest. The surrounding discussion specifies equipment; no R6-before/after recording or explicit outcome is supplied.",
+    "visibility": "public"
+  },
+  {
+    "id": "S049",
+    "title": "Chestplate at the beginning and end of the five plate drops",
+    "url": "https://discord.com/channels/996884296860172469/1560338241696301076/1564466206868635759",
+    "kind": "Player report",
+    "author": "turkeypoa / epoa",
+    "date": "2026-10-27",
+    "limitation": "Firsthand order-variant report in a reply to a purse-amount suggestion. Continued discussion implies no success but is not a recorded R6 result. Do not infer exact timing or stage controls.",
+    "visibility": "public"
+  },
+  {
+    "id": "S050",
+    "title": "0.24.2 release candidate: Dead Man’s Chest HOTM perk",
+    "url": "https://hypixel.net/threads/february-18-skyblock-0-24-2-release-candidate.6062413/",
+    "kind": "Developer notes",
+    "author": "Hypixel SkyBlock team",
+    "date": "",
+    "limitation": "Identifies Dead Man’s Chest as a HOTM perk and changes its percentage. Ordinary patch history does not establish a Hunt connection.",
+    "visibility": "public"
+  },
+  {
+    "id": "S051",
+    "title": "SkyBlock 2024 Recap: planned Great Glacite Lake offerings",
+    "url": "https://hypixel.net/threads/skyblock-2024-recap.5813188/",
+    "kind": "Developer communication",
+    "author": "Jayavarmen / Hypixel",
+    "date": "2024-12-18",
+    "visibility": "public",
+    "limitation": "The development roadmap describes proposed gemstone offerings influencing the next Mineshaft. It explicitly warns that plans may change. It does not establish the shipped Hunt implementation or a living lake."
+  },
+  {
+    "id": "S052",
+    "title": "Journal GUI evidence: R1–R6 fields and transitions",
+    "url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=2026112102",
+    "kind": "Screenshot transcriptions and recording notes",
+    "author": "Gapiga / archive compilation",
+    "date": "2026-11-21",
+    "visibility": "public",
+    "limitation": "The tab transcribes the visible fields and indexes the captures. The November 24 review sampled R1 and R5 footage separately. It did not recover later riddle text or a Main-server R5 aftermath."
+  },
+  {
+    "id": "S053",
+    "title": "Active research: early clues, recognition and source checks",
+    "url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=2026112001",
+    "kind": "Editorial research compilation",
+    "author": "Gapiga / archive compilation",
+    "date": "2026-11-24",
+    "visibility": "public",
+    "limitation": "AR-03 summarizes the solver’s explanation after R5 succeeded. AR-04 compares pre-clear formatting and later patterns. These rows distinguish original evidence, player explanations and hypotheses."
+  },
+  {
+    "id": "S054",
+    "title": "November 24 Hunt discussion",
+    "url": "https://discord.com/channels/996884296860172469/1557053759740448909",
+    "kind": "Public player discussion",
+    "author": "Official Hunters Discord contributors",
+    "date": "2026-11-24",
+    "visibility": "public",
+    "limitation": "The summary covers approximately 12:55–14:15 Budapest time. This is a channel link. Exact post links and the referenced video or attachments were unavailable in that review."
+  },
+  {
+    "id": "S055",
+    "title": "Golden Goblin and Goblin Armor report",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1574078402590146584",
+    "kind": "Firsthand player report",
+    "author": "MarinaMouse",
+    "date": "2026-11-22",
+    "visibility": "public",
+    "limitation": "Reports a specific kill-then-offer procedure with no R6 advancement. Exact position, timing and a before/after Journal capture are unavailable."
+  },
+  {
+    "id": "S056",
+    "title": "Frozen Adventurer and Ice Spray Wand conditions",
+    "url": "https://discord.com/channels/996884296860172469/1557376084121616476/1566962406771662889",
+    "kind": "Firsthand player report",
+    "author": "amotorem",
+    "date": "2026-11-03",
+    "visibility": "public",
+    "limitation": "Records a summon-and-drop setup and a separate submerged craft-and-drop without the summon. The post does not document throwing the summoning item or state an explicit Journal outcome."
+  },
+  {
+    "id": "S057",
+    "title": "AR-07: Better Together regroup after the ending",
+    "url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=2026112001&range=A11:J11",
+    "kind": "Player report summarized in the archive",
+    "author": "Five-region group report, individual names unavailable",
+    "date": "2026-11-19",
+    "visibility": "public",
+    "limitation": "The public research row describes the negative for this regrouping procedure. A continuous recording and full Journal checkpoints were unavailable."
   }
 ]

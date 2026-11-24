@@ -896,5 +896,78 @@
     "status": "Watchlist",
     "assessment": "I want to distinguish a graphic effect from a reproducible light-level state before requesting another item test.",
     "last_reviewed": "2026-11-14"
+  },
+  {
+    "id": "R6I028",
+    "source_id": "I028",
+    "group_id": "grammar",
+    "theory_ids": [
+      "T001",
+      "T002",
+      "T003"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q001",
+      "Q005",
+      "Q009"
+    ],
+    "source_group": "Grammar / transformation",
+    "source_row": 29,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A29:L29",
+    "title": "Assemble the survivor, not the insufficient body",
+    "meaning": "The clause 'the body is not enough' is purpose-relative: not enough TO FIND OUT WHAT COMES NEXT. A body could be complete and useful for its normal function yet fail as a source of the next clue. The riddle does not request repairing or rebuilding it. 'Assemble that which remains when it is gone' may require a new product, a useful subset, information, or other survivors after the body disappears. This includes (unverified) filtering away irrelevant parts, but the wording does not require such filtering.",
+    "pros": "Grammar: 'not enough' is restricted by the explicit goal 'to find out which comes next', not a universal defect in the body. The imperative targets 'that which remains', not reconstruction of the body. 'Remains' means whatever continues to exist, not necessarily body fragments. R1 shows a different object (Journal) appearing when Chestplate vanishes, but the Journal was intact.",
+    "cons": "No chosen body, normal purpose, missing informational function, survivor set, filtering rule, or native assembly action. The clause can also be read as 'body plus other necessary things', rather than exclusion of bodily material. Rebuilding the body could theoretically still be one intermediate step, so it cannot be ruled out by grammar alone.",
+    "check": "For a candidate, specify (1) its normal function, (2) the exact task it is insufficient for, (3) what disappearance does: produce, expose, or merely time the next action, (4) what survives independently, (5) a source-selected assembly, and (6) expected R6 Journal feedback. Reject candidate if the interpretation needs unselected deletions or invented effects. See I029.",
+    "route_ids": [
+      "R001",
+      "R002",
+      "R010",
+      "R014",
+      "R018",
+      "R080",
+      "R085"
+    ],
+    "evidence_type": "New grammatical interpretation; no R6 test",
+    "status": "Watchlist",
+    "assessment": "Most useful constraint: 'not enough' means insufficient for finding the next step, not incomplete overall. I should not assume repairing the body or returning to it is the goal, nor assume parts are removed because they are bad. Next we need evidence of what disappears and what different result is assembled.",
+    "last_reviewed": "2026-11-24"
+  },
+  {
+    "id": "R6I029",
+    "source_id": "I029",
+    "group_id": "gone",
+    "theory_ids": [
+      "T001",
+      "T002",
+      "T003"
+    ],
+    "experiment_ids": [],
+    "question_ids": [
+      "Q005",
+      "Q008"
+    ],
+    "source_group": "Grammar / disappearance",
+    "source_row": 30,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113&range=A30:L30",
+    "title": "Gone as production, revelation or timing",
+    "meaning": "The phrase 'when it is gone' has several possible jobs. Production: disappearance creates fragments. Revelation: removal exposes survivors already present. Timing/state: the body is absent and independent objects or information are available for assembly. Importantly 'when it is gone' need not tell the player to cause or witness disappearance: the body might have been gone before the Hunt began, and the task is to assemble existing traces left behind. The body can be complete for its normal function but insufficient for finding the next clue.",
+    "pros": "R1 proves revelation in the Hunt: the Chestplate is consumed and an intact Journal hidden inside emerges. R5 proves pre-existing items can serve as a state condition. The clue says 'when it is gone', not 'destroy the body' or 'wait for it to disappear'; a past absence is grammatically compatible, though not established as intended.",
+    "cons": "No source yet identifies the body, dates its disappearance, or names an assembly target. A past disappearance, newly created fragments, revealed survivors and after-event conditions are all live alternatives; grammar alone cannot select between them.",
+    "check": "For each source-selected candidate, ask whether the body is already absent before the player acts, or whether its disappearance must be caused. If a fresh event exists, distinguish newly produced drops, revealed existing objects, and a condition change. If the disappearance was historical, identify independently documented survivor objects and a fixed assembly action. Require R6-stage Journal evidence. No random throws.",
+    "route_ids": [
+      "R001",
+      "R004",
+      "R008",
+      "R010",
+      "R017",
+      "R038",
+      "R050"
+    ],
+    "evidence_type": "Grammar-derived causal alternatives; no R6 validation",
+    "status": "Watchlist",
+    "assessment": "Do not assume we have to kill/destroy/vanish anything in the present. An already-gone dead man and surviving records are a coherent literary reading, not yet evidence of the game solution. Seek a specific surviving set and why it reveals the next step.",
+    "last_reviewed": "2026-11-24"
   }
 ]

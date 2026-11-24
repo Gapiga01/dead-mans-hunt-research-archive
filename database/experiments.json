@@ -296,5 +296,86 @@
     "date": "2026-11-12",
     "author": "Carrot",
     "limitations": "Forwarded text leaves the items, exact notes, active stage, event state and Journal outcome unspecified."
+  },
+  {
+    "id": "E016",
+    "title": "Offer 206 enchanted bones across three lakes",
+    "route_ids": [
+      "R024"
+    ],
+    "source_ids": [
+      "S054"
+    ],
+    "stage": null,
+    "procedure": "Mcskye22 reported offering 206 enchanted bones across three lakes at the same time.",
+    "conditions": "Reported at 12:57 Budapest time. Locations, split across lakes and the active Journal stage were not established.",
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-11-24",
+    "author": "Mcskye22",
+    "limitations": "The excerpt did not show a Journal checkpoint or an explicit outcome. This is a report of a procedure within the existing body-of-water route."
+  },
+  {
+    "id": "E017",
+    "title": "Golden Goblin in the lake, then full Goblin Armor",
+    "route_ids": [
+      "R023",
+      "R024"
+    ],
+    "source_ids": [
+      "S055"
+    ],
+    "stage": "R6 (reported)",
+    "procedure": "Kill a Golden Goblin in Great Glacite Lake, then offer a full set of Goblin Armor.",
+    "conditions": "Kill precedes the armor offering. Exact timing and position are unspecified.",
+    "result": "The player reported no R6 advancement.",
+    "testing_label": "Tested negative under specified conditions",
+    "evidence_label": "Reported",
+    "date": "2026-11-22",
+    "author": "MarinaMouse",
+    "limitations": "No before/after Journal capture. The report does not cover Diamond Goblins, other loot, or other orderings."
+  },
+  {
+    "id": "E018",
+    "title": "Summon Frozen Adventurer and offer cold-related items",
+    "route_ids": [
+      "R017",
+      "R075",
+      "R094"
+    ],
+    "source_ids": [
+      "S056"
+    ],
+    "stage": null,
+    "procedure": "Submerge a Frozen Adventurer summon and drop 64 Hunk of Ice, 32 Hunk of Blue Ice, an Ice Spray Wand and eight Winter Fragments. A separate trial crafted and dropped a fragged Ice Spray Wand.",
+    "conditions": "The summon trial used full Ancient Frozen Blaze, invisibility, a nearby Will-o’-Wisp and lake ice underfoot. Frozen and Bloody powers and two legendary pets were named. The craft trial occurred underwater without the summon.",
+    "result": null,
+    "testing_label": "Inconclusive",
+    "evidence_label": "Reported",
+    "date": "2026-11-03",
+    "author": "amotorem",
+    "limitations": "The source does not state an explicit Journal outcome, a throw of the summoning item or a trial combining the summon with the craft."
+  },
+  {
+    "id": "E019",
+    "title": "Five region representatives regroup after Better Together",
+    "route_ids": [
+      "R036",
+      "R039",
+      "R042"
+    ],
+    "source_ids": [
+      "S057"
+    ],
+    "stage": "R6 (reported)",
+    "procedure": "Five Glacite Tunnels region representatives returned to Great Glacite Lake after Better Together ended.",
+    "conditions": "Post-ending return to the lake. Exact timing and pre-ending locations are not documented beyond the five-region setup.",
+    "result": "The group report says R6 did not advance.",
+    "evidence_label": "Reported",
+    "testing_label": "Tested negative under specified conditions",
+    "author": null,
+    "date": "2026-11-19",
+    "limitations": "This covers the reported regrouping. Remaining together through the ending is a different setup. No independently recorded Journal checkpoint."
   }
 ]

@@ -1,0 +1,94 @@
+[
+  {
+    "id": "P001",
+    "title": "R1: THROWINLAKE",
+    "established": "R1 has a genuine word-initial instruction: THROWINLAKE.",
+    "why": "A body of text could preserve instructions that need to be reconstructed.",
+    "weakness": "An intentional R1 acrostic does not establish another decoder for R6.",
+    "strengthen": "R1 is already established. For R6 reuse: an independently justified, fixed rule on authentic text that predicts a specific action, with no rearranging or changed inputs.",
+    "falsify": "The same rule fails on the stated inputs, or only works after selecting letters to fit a desired answer.",
+    "route_ids": [
+      "R002"
+    ],
+    "last_reviewed": "2026-11-18"
+  },
+  {
+    "id": "P002",
+    "title": "Solution initials: D E F A G",
+    "established": "The first five accepted solution item-name initials give DEFAG, in riddle order. All are distinct natural musical notes.",
+    "why": "The initials might be usable notes, or the first part of a longer structured sequence.",
+    "weakness": "The letters alone select no instrument, rhythm, octave or completion condition. Earlier playback reports have incomplete controls.",
+    "strengthen": "A source-selected way to use the notes that predicts reproducible Hunt feedback. Further answers matching a prediction recorded now would corroborate the sequence; they would not alone prove a musical action.",
+    "falsify": "The proposed use needs arbitrary reordering or extra letters, or a properly controlled execution of its exact prediction fails.",
+    "route_ids": [
+      "R003"
+    ],
+    "last_reviewed": "2026-11-18"
+  },
+  {
+    "id": "P003",
+    "title": "Answer lengths: 18,18,15,15,14",
+    "established": "Counting letters only in the first five canonical solution item names gives two equal-length pairs, then 14.",
+    "why": "If equal pairs continue, the next answer name would also have 14 letters.",
+    "weakness": "Only two complete pairs are known. Names, quantities and punctuation must be handled by one rule, fixed in advance.",
+    "strengthen": "Keep the letters-only rule and 14-letter prediction fixed. An independently verified R6 answer can corroborate or reject it. Intentionality needs additional evidence, such as a clue selecting this counting rule.",
+    "falsify": "A canonical R6 answer that is not 14 letters under the unchanged rule. Do not rename the answer or add quantities afterward.",
+    "route_ids": [
+      "R098"
+    ],
+    "last_reviewed": "2026-11-18"
+  },
+  {
+    "id": "P004",
+    "title": "Burp versus page-turn audio",
+    "established": "An inherited recording comparison reports burp-like R1/R2 sounds and page-turn-like sounds later. Exact sound IDs and causes are not independently established here.",
+    "why": "Different feedback might separate stages or different kinds of successful interaction.",
+    "weakness": "Sound resemblance can be affected by other players, ordinary item use, client settings and overlapping audio.",
+    "strengthen": "First establish repeatable, stage-linked sound differences from original evidence with competing sound sources accounted for. An encoding claim then needs a source-supported mapping that predicts an R6 action.",
+    "falsify": "Differences follow client settings or unrelated actions rather than Hunt progress; the proposed sound-to-instruction mapping fails.",
+    "route_ids": [
+      "R099"
+    ],
+    "last_reviewed": "2026-11-18"
+  },
+  {
+    "id": "P005",
+    "title": "Fourteen slots: two rows of seven",
+    "established": "The Journal displays fourteen riddle entries in two rows of seven.",
+    "why": "Seven positions might connect to seven natural notes, or another row-based arrangement.",
+    "weakness": "Two rows of seven may simply be GUI design. A seven-note reading currently predicts letters, not a completion action.",
+    "strengthen": "A clue or observable behavior selecting row/slot position as meaningful. If using the distinct-note prediction, record B/C for R6/R7 now; matching later answers would support that reading without proving it.",
+    "falsify": "A verified later answer breaks the fixed prediction, or the proposed extraction works only by changing slot order or ignoring inconvenient entries.",
+    "route_ids": [
+      "R097"
+    ],
+    "last_reviewed": "2026-11-18"
+  },
+  {
+    "id": "P006",
+    "title": "R4 arrivals → R5 existing items",
+    "established": "R4 checks repeated arrivals. R5 accepts three Calling units already present when a Feather arrives; fresh Callings work.",
+    "why": "R6 might use surviving information or a meaningful state rather than just a new item's identity.",
+    "weakness": "R5 also contains a new arrival, and R1 already contains disappearance. Arrival → presence → absence is not an established law.",
+    "strengthen": "A source-selected body, survivor and assembly operation that predicts one detectable action. A successful controlled result or an explicit developer explanation would support the proposed continuation.",
+    "falsify": "The theory requires the original R4 entities to survive into R5, or it adds timing/remnant conditions only after each failure.",
+    "route_ids": [
+      "R004",
+      "R050"
+    ],
+    "last_reviewed": "2026-11-18"
+  },
+  {
+    "id": "P007",
+    "title": "Journal information across different UUIDs",
+    "established": "JJSR reported that a second Rusty Journal had a different UUID but the same solved riddles.",
+    "why": "Completed information may remain accessible independently of one physical Journal item.",
+    "weakness": "The original was not reported destroyed. This is a firsthand account without attached paired-item/menu footage; it supplies no extraction rule.",
+    "strengthen": "Existing paired-item/menu evidence showing different UUIDs and matching solved entries would strengthen the observation. An R6 information claim still needs a fixed rule predicting a specific action.",
+    "falsify": "Different completed entries under an otherwise equivalent paired-item comparison would weaken the broad persistence claim. Failure to obtain a meaningful output under the proposed fixed extraction would challenge that decoder.",
+    "route_ids": [
+      "R010"
+    ],
+    "last_reviewed": "2026-11-18"
+  }
+]

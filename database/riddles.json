@@ -76,7 +76,7 @@
       "Do not state that all three Callings are always consumed. Gapiga's Alpha test and Starphi's report distinguish two ordinary Callings from a recombobulated final one; only the final item disappeared in those procedures.",
       "The normal+normal+recombobulated procedure demonstrates successful asymmetric consumption. Recombobulation is not a required solve condition.",
       "Majod99 reports that one stack of three failed on the main server and separate drops worked. The report is not a filmed server trace or a proof of implementation.",
-      "The claim that one Calling can be picked up and rethrown three times lacks controlled isolation of other lake items. Do not present that as the beginner procedure.",
+      "The same Calling can reportedly be picked up and rethrown, but the original continuous footage has not been independently verified. Do not present reuse as the beginner procedure.",
       "Neither the Journal nor the recordings disclose private server code, merge timing, a radius or a requirement for three simultaneous unmerged item entities."
     ],
     "source_ids": [
@@ -85,7 +85,7 @@
       "S012",
       "S037"
     ],
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R5",
@@ -102,13 +102,15 @@
       "The R4 and R5 Alpha recordings are separate clips. They do not demonstrate whether two untouched R4 ground drops plus a new Calling would satisfy R5.",
       "The positive R5 clip is clustered near one lake opening. No lake-wide-versus-local-distance comparison or numeric radius is established.",
       "The Journal says already 3 Callings. It does not settle exact-versus-at-least quantity handling, other players' ownership, merge history or timer-versus-event server implementation.",
-      "A fresh release is not evidence that a newly purchased or previously unused inventory item is required. Do not invent item-history restrictions."
+      "A fresh release is not evidence that a newly purchased or previously unused inventory item is required. Do not invent item-history restrictions.",
+      "The recovered October 7 solver explanation comes after success. The associations with past offerings, feathers and item initials are a retrospective account. The intended clue that selects a Griffin Feather is still unestablished."
     ],
     "source_ids": [
       "S038",
       "S036",
-      "S011"
+      "S011",
+      "S053"
     ],
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-24"
   }
 ]

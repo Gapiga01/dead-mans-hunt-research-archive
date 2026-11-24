@@ -20,7 +20,8 @@
     "legacy_interpretations",
     "breakdowns",
     "riddles",
-    "investigations"
+    "investigations",
+    "patterns"
   ],
   "additionalProperties": false,
   "properties": {
@@ -122,6 +123,23 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/investigations"
+      }
+    },
+    "patterns": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "established",
+          "why",
+          "weakness",
+          "strengthen",
+          "falsify",
+          "route_ids",
+          "last_reviewed"
+        ]
       }
     }
   },

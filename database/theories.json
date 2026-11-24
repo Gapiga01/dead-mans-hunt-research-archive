@@ -28,7 +28,7 @@
       "S003",
       "S004"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Verified positive result",
     "next_experiment": null,
     "parking": null,
@@ -68,7 +68,7 @@
       "S012",
       "S013"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Partially tested",
     "next_experiment": null,
     "parking": null,
@@ -95,6 +95,10 @@
       {
         "observation_id": "O004",
         "why": "The initials and counts are reproducible observations, not invented item names."
+      },
+      {
+        "observation_id": "O017",
+        "why": "The report strengthens the possibility that completed information survives an item-identity change. It does not identify a decoding operation."
       }
     ],
     "against": [
@@ -106,9 +110,10 @@
     "source_ids": [
       "S001",
       "S003",
-      "S026"
+      "S026",
+      "S047"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Partially tested",
     "next_experiment": null,
     "parking": null,
@@ -150,7 +155,7 @@
       "S028",
       "S029"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Inconclusive",
     "next_experiment": null,
     "parking": null,
@@ -189,7 +194,7 @@
       "S007",
       "S026"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Inconclusive",
     "next_experiment": {
       "cost": "No coins if a suitable event occurs naturally.",
@@ -241,7 +246,7 @@
       "S028",
       "S029"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Inconclusive",
     "next_experiment": null,
     "parking": null,
@@ -279,7 +284,7 @@
       "S001",
       "S018"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Inconclusive",
     "next_experiment": null,
     "parking": null,
@@ -313,7 +318,7 @@
       "S001",
       "S018"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Inconclusive",
     "next_experiment": null,
     "parking": {
@@ -359,7 +364,7 @@
       "S027",
       "S030"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Partially tested",
     "next_experiment": null,
     "parking": {
@@ -401,7 +406,7 @@
       "S016",
       "S017"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Partially tested",
     "next_experiment": null,
     "parking": {
@@ -440,7 +445,7 @@
     "source_ids": [
       "S009"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Inconclusive",
     "next_experiment": null,
     "parking": null,
@@ -483,7 +488,7 @@
       "S028",
       "S029"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Partially tested",
     "next_experiment": null,
     "parking": null,
@@ -517,7 +522,7 @@
       "S021",
       "S022"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Inconclusive",
     "next_experiment": null,
     "parking": null,
@@ -551,7 +556,7 @@
     "source_ids": [
       "S001"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Partially tested",
     "next_experiment": null,
     "parking": {
@@ -595,7 +600,7 @@
       "S024",
       "S025"
     ],
-    "last_reviewed": "2026-11-13",
+    "last_reviewed": "2026-11-18",
     "testing_label": "Partially tested",
     "next_experiment": null,
     "parking": {

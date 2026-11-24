@@ -1,7 +1,7 @@
 [
   {
     "id": "R001",
-    "title": "R1 Chestplate to hidden Journal",
+    "title": "R1: Chestplate reveals the Journal",
     "category": "Hunt sequence",
     "source_row": 6,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A6:I6",
@@ -20,11 +20,22 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "R1–R5: the confirmed sequence / Journal progress and reliable feedback",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "R1 Chestplate to hidden Journal",
+        "description": "The lake consumes the Chestplate and reveals the Journal already hidden inside. R1 is recorded succeeding. Later Chestplate/Journal offerings were reported without another advance.",
+        "evidence_label": "Confirmed",
+        "testing_label": "Confirmed result",
+        "gap": "The Journal emerges whole. R1 does not establish an R6 assembly recipe."
+      }
+    ]
   },
   {
     "id": "R002",
-    "title": "Journal text reconstruction and acrostic",
+    "title": "Journal text reconstruction and the R1 acrostic",
     "category": "Hunt sequence",
     "source_row": 7,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A7:I7",
@@ -42,11 +53,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "R1's confirmed acrostic / Surviving information and anagrams",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Journal text reconstruction and acrostic",
+        "description": "Use the text that survives earlier offerings as the material to assemble. R1's genuine THROWINLAKE acrostic gives this a precedent. Text extractions and physical Journal arrangements have already been explored.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "No consistent input, reading order, extraction rule or in-game endpoint."
+      }
+    ]
   },
   {
     "id": "R003",
-    "title": "Offering initials DEFAG and AGED",
+    "title": "Offering initials: DEFAG and the AGED rearrangement",
     "category": "Hunt sequence",
     "source_row": 8,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A8:I8",
@@ -65,11 +87,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Melody%27s_Hair"
     ],
     "group_hint": "DEFAG, letter counts and the seven-slot row / Melody's Hair and the playback report",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Offering initials DEFAG and AGED",
+        "description": "The solved item initials read D E F A G. Removing F and rearranging the rest gives AGED, but both choices need justification. DEFAG playback was reported on October 11.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "Playback conditions and Journal outcome are incomplete. The pattern does not select a next item."
+      }
+    ]
   },
   {
     "id": "R004",
-    "title": "R4 arrival, R5 presence, R6 absence",
+    "title": "R4 arrivals, R5 presence and proposed R6 absence",
     "category": "Hunt sequence",
     "source_row": 9,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A9:I9",
@@ -87,11 +120,22 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "Arrival, presence and disappearance / R1–R5: the confirmed sequence",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "R4 arrival, R5 presence, R6 absence",
+        "description": "R4 checks three separate arrivals within roughly ten seconds. R5 succeeds with three Calling units already present, then a Griffin Feather. Their recordings are separate. An R6 absence stage is a further hypothesis.",
+        "evidence_label": "Observed",
+        "testing_label": "Confirmed result",
+        "gap": "R5 also contains an arrival, and R1 already contains disappearance. No progression rule into R6 is proven."
+      }
+    ]
   },
   {
     "id": "R005",
-    "title": "Repeat R1-R5 as reenactment",
+    "title": "Replaying the R1–R5 procedures",
     "category": "Hunt sequence",
     "source_row": 10,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A10:I10",
@@ -109,11 +153,22 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Repeat R1-R5 as reenactment",
+        "description": "Replay R1–R5 with their original conditions. October 7 combination proposals predate the public R6 clue; later mixed repeat tests are not a documented complete reenactment.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "No clue asks for a restart. A stage-perfect replay and its Journal result were not established."
+      }
+    ]
   },
   {
     "id": "R006",
-    "title": "ARK-like taming and unseen entity",
+    "title": "ARK-style taming and an unseen lake creature",
     "category": "Hunt sequence",
     "source_row": 11,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A11:I11",
@@ -131,11 +186,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "A hungry lake or an unseen creature?",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "ARK-like taming and unseen entity",
+        "description": "Read the earlier offerings as gaining an unseen lake creature's trust, sometimes compared with ARK taming. Feeding, distance and repeated calling give it a coherent story.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "No creature, trust counter or distinct R6 prediction has been observed. Discussion alone was not a gameplay test."
+      }
+    ]
   },
   {
     "id": "R007",
-    "title": "Three full call cycles",
+    "title": "Repeated Calling cycles",
     "category": "Hunt sequence",
     "source_row": 12,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A12:I12",
@@ -153,11 +219,22 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Three full call cycles",
+        "description": "Treat the individual Callings as part of larger narrative call cycles, then look for a third cycle. Calling/Crystal repetitions were reported, with uneven outcome records.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "R4 already triggers on the third arrival. No separate cycle counter or chosen next action."
+      }
+    ]
   },
   {
     "id": "R008",
-    "title": "Earlier offerings persist then expire",
+    "title": "Earlier offerings surviving and despawning",
     "category": "Hunt sequence",
     "source_row": 13,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A13:I13",
@@ -175,11 +252,22 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "Arrival, presence and disappearance / Offerings, ice and the nearby Fairy Soul",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Earlier offerings persist then expire",
+        "description": "October 8 reports include letting three Callings despawn while a Feather remains, then offering Stick and Ancient Claw. Other procedures waited for all four offerings to disappear.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "These are performed-procedure reports, not complete Journal negatives. Despawn, pickup and quest consumption differ."
+      }
+    ]
   },
   {
     "id": "R009",
-    "title": "R6 missing condition on correct item",
+    "title": "Correct item with a missing condition",
     "category": "Hunt sequence",
     "source_row": 14,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A14:I14",
@@ -197,11 +285,22 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "An item plus a condition",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "R6 missing condition on correct item",
+        "description": "The correct item might need an extra location, timing, equipment or player state. Earlier steps demonstrate mixed requirements, and many conditional throws have already been reported.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "This is a testing framework. It identifies neither the object nor the extra condition."
+      }
+    ]
   },
   {
     "id": "R010",
-    "title": "Journal possession versus unlocked stage",
+    "title": "Journal possession, replacement and unlocked progress",
     "category": "Hunt sequence",
     "source_row": 15,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A15:I15",
@@ -211,19 +310,31 @@
     "original_gap": "No continuous before/after recording verifies every state. Carrying, holding and unlocking a clue are different.",
     "original_source_text": "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
     "original_group_hint": "An item plus a condition / Previous tests: what a negative means",
-    "description": "Compare the physical Journal with server-side quest progress. An October 24 report held a second Journal while offering Chestplate, Journal and book items.",
+    "description": "Separate the physical Journal from unlocked progress. On November 13 JJSR reported buying a second Journal from Rusty: different UUID, same solved riddles. This is a firsthand report, not footage of losing and replacing the original.",
     "evidence_label": "Reported",
     "testing_label": "Partially tested",
-    "gap": "No continuous before/after recording verifies every state. Carrying, holding and unlocking a clue are different.",
+    "gap": "The report supports progress surviving a Journal UUID change. It does not establish private server implementation, full loss/recovery, an extraction rule or any R6 trigger.",
     "background_urls": [
-      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
+      "https://discord.com/channels/996884296860172469/1557053759740448909/1570632872392527915"
     ],
     "group_hint": "An item plus a condition / Previous tests: what a negative means",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "website_note": "Updated 18 November: JJSR's 13 November second-Journal report supports the same solved entries being visible through an item with a different UUID. It is not filmed permanent-loss/replacement evidence or proof of server implementation.",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Journal possession versus unlocked stage",
+        "description": "Compare the physical Journal with server-side quest progress. An October 24 report held a second Journal while offering Chestplate, Journal and book items.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "No continuous before/after recording verifies every state. Carrying, holding and unlocking a clue are different."
+      }
+    ]
   },
   {
     "id": "R011",
-    "title": "Unidentified Dead Man origin",
+    "title": "The Dead Man's unidentified origin",
     "category": "Body and lore",
     "source_row": 16,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A16:I16",
@@ -241,11 +352,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "The Dead Man and the Divan connection / What could “the body” mean?",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Unidentified Dead Man origin",
+        "description": "The Chestplate owner, looted corpse, Journal writer and person described by the riddles might be different people. R1 confirms the hidden Journal, not a named identity.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "No inscription or dialogue identifies the Dead Man. Lore discussion alone cannot test the identity."
+      }
+    ]
   },
   {
     "id": "R012",
-    "title": "Divan identity and lost kingdom",
+    "title": "Divan's identity and lost kingdom",
     "category": "Body and lore",
     "source_row": 17,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A17:I17",
@@ -264,11 +386,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "The Dead Man and the Divan connection",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Divan identity and lost kingdom",
+        "description": "Dulin calls himself a descendant of Divan and the rightful king; this supplies a real historical/lore connection to the Glacite region, not an identification of the Dead Man. A Divan expedition member or associated dwarf remains a possible Journal owner. Divan-gear and corpse-perk procedures have been reported, but none identifies the writer.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "A player dying with corpse perks is not a Frozen Corpse loot event. No source names Divan as the Journal's owner."
+      }
+    ]
   },
   {
     "id": "R013",
-    "title": "Dulin SorHen and succession",
+    "title": "Dulin, Sor'Hen and succession",
     "category": "Body and lore",
     "source_row": 18,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A18:I18",
@@ -287,11 +420,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Grandpa_Wolf#Dialogue"
     ],
     "group_hint": "The Dead Man and the Divan connection / Frozen Corpses and Grandpa Wolf",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Dulin SorHen and succession",
+        "description": "Dulin and Sor'Hen connect the missing king with surviving artifacts. Dulin's remains/assembly wording belongs to Railroad Pass progression. Four-player Dulin/Grandpa dialogue procedures were reported October 31.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "Ordinary quest wording and a group conversation do not establish a Hunt trigger or an event-ending test."
+      }
+    ]
   },
   {
     "id": "R014",
-    "title": "Frozen Corpse loot reconstructed",
+    "title": "Reconstruction from Frozen Corpse loot",
     "category": "Body and lore",
     "source_row": 19,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A19:I19",
@@ -311,11 +455,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/The_Forge"
     ],
     "group_hint": "Frozen Corpses and Grandpa Wolf / Crafting, forging and leftover materials",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Frozen Corpse loot reconstructed",
+        "description": "Assemble something from Frozen Corpse loot after the body is retrieved. Reports include Tungsten and Lapis conversion chains. Caged Wisp to Will-o-wisp is a real Forge route; direct Chestplate salvage was refused.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "No loot type or recipe is selected. A complete R6-active Wisp chain is not established by generic Forge claims."
+      }
+    ]
   },
   {
     "id": "R015",
-    "title": "Grandpa Wolf recovery and organ talisman",
+    "title": "Grandpa Wolf and Organ Donor rewards",
     "category": "Body and lore",
     "source_row": 20,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A20:I20",
@@ -334,11 +489,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Organ_Donor_Talisman"
     ],
     "group_hint": "Frozen Corpses and Grandpa Wolf",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Grandpa Wolf recovery and organ talisman",
+        "description": "Grandpa Wolf says he retrieves Frozen Corpses after players loot them and tracks corpse milestones. The Organ Donor Talisman line is a real milestone reward: it helps locate unlooted corpses by sound, but it is not a literal organ dropped by a body. Hunters reported dialogue, talisman, bone/spirit and four-person conditions.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "The NPC describes an off-screen retrieval, not a visible disappearance or a recipe made from remains. There is no demonstrated reason to use the talisman at the lake."
+      }
+    ]
   },
   {
     "id": "R016",
-    "title": "Glacite origin and lost village",
+    "title": "Glacite's origin and the lost village",
     "category": "Body and lore",
     "source_row": 21,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A21:I21",
@@ -354,14 +520,27 @@
     "gap": "No shared named event establishes that the two lore mysteries are connected, or that either explains R6.",
     "background_urls": [
       "https://hypixelskyblock.minecraft.wiki/w/Glacite_Tunnels",
-      "https://hypixelskyblock.minecraft.wiki/w/Dulin#Dialogue"
+      "https://hypixelskyblock.minecraft.wiki/w/Dulin#Dialogue",
+      "https://hypixel.net/threads/sneak-peek-the-great-glacite-lake.6084108/"
     ],
     "group_hint": "Glacite origins and the lost settlement",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Glacite origin and lost village",
+        "description": "Glacite's unusual origin and a lost underground settlement could describe a disappearance. Glacite, ice and Amalgamation offerings already have broad coverage.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "No shared named event establishes that the two lore mysteries are connected, or that either explains R6."
+      }
+    ],
+    "website_note": "19 Nov source note. Hypixel’s April 7 sneak peek presents one tunnel gate as planned progression through Dulin’s Chapters toward the Lost Glacite Citadel. The post does not select an active R6 gate interaction or identify a second locked door."
   },
   {
     "id": "R017",
-    "title": "Glacite Walker and Maniac bodies",
+    "title": "Glacite Walkers and Maniacs as bodies",
     "category": "Body and lore",
     "source_row": 22,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A22:I22",
@@ -380,11 +559,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Shards"
     ],
     "group_hint": "Glacite origins and the lost settlement / Shard fusion and the Dodo lead",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Glacite Walker and Maniac bodies",
+        "description": "Glacite Walkers and Maniacs look like bodies enclosed in mineral. Related shards, armor conditions and fusion procedures were reported in late October and early November.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "Appearance does not establish their origin. The exact relevant transformation and Journal result remain unclear."
+      }
+    ]
   },
   {
     "id": "R018",
-    "title": "Precursor Apparatus and six components",
+    "title": "Precursor Apparatus and six Automaton parts",
     "category": "Body and lore",
     "source_row": 23,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A23:I23",
@@ -403,7 +593,18 @@
       "https://hypixelskyblock.minecraft.wiki/w/Changelog/2024/August_20"
     ],
     "group_hint": "Crafting, forging and leftover materials",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Precursor Apparatus and six components",
+        "description": "A Precursor Apparatus is crafted from six different Automaton parts. That makes 'assemble' a real in-game action. October players reported collecting all parts, crafting or offering the Apparatus underwater, and one Apparatus-last arrangement; those reports did not establish an R6 advance.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The recipe and normal Sapphire Crystal use are confirmed, but the Hunt connection is not. Reported negatives cover particular arrangements only; stage and Journal checks vary."
+      }
+    ]
   },
   {
     "id": "R019",
@@ -426,11 +627,11 @@
       "https://hypixelskyblock.minecraft.wiki/w/Pendant_of_Divan"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R020",
-    "title": "Dead Man Chest and armor plates",
+    "title": "Dead Man's Chest perk and the remaining 'plate'",
     "category": "Body and lore",
     "source_row": 25,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A25:I25",
@@ -440,17 +641,33 @@
     "original_gap": "The Chest's name does not establish a Journal connection. The reported setup lacks a complete public recording.",
     "original_source_text": "",
     "original_group_hint": "",
-    "description": "Use armor plates and the Dead Man's Chest to rebuild or upgrade a similarly named object. An October 27 report offered the maxed Chest, Chestplate and plate materials together.",
+    "description": "Dead Man's Chest is a HOTM perk, not a verified physical Chest item. An Oct 26 reading subtracts 'Dead Man’s Chest' from 'Dead Man’s Chestplate' to leave 'plate'. On Oct 27 epoa reported a maxed perk while offering the Chestplate and five kinds of plate.",
     "evidence_label": "Reported",
-    "testing_label": "Tested negative under specified conditions",
-    "gap": "The Chest's name does not establish a Journal connection. The reported setup lacks a complete public recording.",
-    "background_urls": [],
+    "testing_label": "Partially tested",
+    "gap": "The Oct 27 message specifies the setup but no explicit outcome or R6-before/after proof. The word operation does not choose one plate. Older lake HOTM-reset/reconstruction reports already exercise native tree assembly.",
+    "background_urls": [
+      "https://discord.com/channels/996884296860172469/1560338241696301076/1564458292237832264",
+      "https://hypixel.net/threads/february-18-skyblock-0-24-2-release-candidate.6062413/",
+      "https://discord.com/channels/996884296860172469/1560338241696301076/1564466206868635759"
+    ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "website_note": "Correction, 18 November: the earlier record confused the Dead Man's Chest HOTM perk with a physical item and overstated the test outcome. The current entry distinguishes the perk, offered plates and reported order variants. The old wording below is preserved only as a corrected historical record.",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Dead Man Chest and armor plates",
+        "description": "Use armor plates and the Dead Man's Chest to rebuild or upgrade a similarly named object. An October 27 report offered the maxed Chest, Chestplate and plate materials together.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The Chest's name does not establish a Journal connection. The reported setup lacks a complete public recording."
+      }
+    ]
   },
   {
     "id": "R021",
-    "title": "Fossil excavation and skeleton construction",
+    "title": "Fossil excavation and skeleton arrangements",
     "category": "Body and lore",
     "source_row": 26,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A26:I26",
@@ -469,11 +686,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Fossil_Research_Center"
     ],
     "group_hint": "Fossils, bones and Skeletor",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Fossil excavation and skeleton construction",
+        "description": "The Fossil Excavator reveals fossils by excavating Suspicious Scrap with a Chisel; some fossils can then be donated to Dr. Stone. This is a real recovery/collection mechanic, not automatically the reconstruction of a full skeleton. Separately, players reported dropping fossils and building Clubbed/Penguin fossil outlines under the lake with matching items.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "Excavating, donating, placing a fossil-shaped arrangement and offering an item are different actions. The reported negative tests only cover their specified procedures; no fossil or final assembly is selected by R6."
+      }
+    ]
   },
   {
     "id": "R022",
-    "title": "Wardrobe or supporting-system consequences",
+    "title": "Wardrobe and supporting-object interpretations",
     "category": "Body and lore",
     "source_row": 27,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A27:I27",
@@ -491,11 +719,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "What could “assemble the remains” mean? / An item plus a condition",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Wardrobe or supporting-system consequences",
+        "description": "A body could disappear while unrelated objects it supported remain. Holding/wearing a remnant might be a separate condition. Journal and Star Sentry held-item procedures already have reports.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "No body/remnant pair is chosen. Inventory presence, held slot, equipment and dropped entities cannot be treated as interchangeable."
+      }
+    ]
   },
   {
     "id": "R023",
-    "title": "Secondary consequences after a body disappears",
+    "title": "Secondary consequences of disappearance",
     "category": "Body and lore",
     "source_row": 28,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A28:I28",
@@ -513,11 +752,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "What could “the body” mean? / What could “assemble the remains” mean?",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Secondary consequences after a body disappears",
+        "description": "The remains may not be parts of the vanished body at all. A disappearance could trigger a second event that leaves a separate object, reward or state, which players then assemble. Remnant of the Eye was suggested as one named example, but its name is not evidence that it is required.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "The grammatical link between 'body', 'it' and 'remains' is still uncertain. No concrete disappearance → consequence → survivor → assembly chain has been identified or tested."
+      }
+    ]
   },
   {
     "id": "R024",
-    "title": "Body of water and lake ice geometry",
+    "title": "Body of water and lake geometry",
     "category": "Body and lore",
     "source_row": 29,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A29:I29",
@@ -535,11 +785,23 @@
       "https://hypixelskyblock.minecraft.wiki/w/Great_Glacite_Lake"
     ],
     "group_hint": "What could “the body” mean? / Offerings, ice and the nearby Fairy Soul",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Body of water and lake ice geometry",
+        "description": "Treat the lake as a body of water. Lakebed searches, mining and spread experiments were reported. Surface Glacite and Hard Stone offerings also have extensive coverage.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "The lake has not been shown to vanish. Mining anomalies have ordinary pitch/underfoot and visual explanations."
+      }
+    ],
+    "website_note": "19 Nov research note. The removable Glacite surface could expose something, but a broken surface block does not show that the water vanished. A useful observation would isolate the break, ice-absent interval and regrowth against an off-center control with an active R6 Journal."
   },
   {
     "id": "R025",
-    "title": "Reverse narrative investigation",
+    "title": "Reconstructing the story in reverse",
     "category": "Body and lore",
     "source_row": 30,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A30:I30",
@@ -557,11 +819,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Reverse narrative investigation",
+        "description": "Read the Journal as a reconstruction of an earlier disappearance, perhaps in reverse order. This differs from physically repeating the solved offerings.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "No historical chronology or game action follows uniquely from that reading. Earlier discussion is not a completed experiment."
+      }
+    ]
   },
   {
     "id": "R026",
-    "title": "Cult 200 Starfall offering",
+    "title": "Cult meeting and the 200 Starfall reward",
     "category": "Cult and stars",
     "source_row": 31,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A31:I31",
@@ -579,11 +852,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Cult_of_the_Fallen_Star"
     ],
     "group_hint": "Fallen Star and cult meetings",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Cult 200 Starfall offering",
+        "description": "The Cult of the Fallen Star gives a Fallen Star Helmet at the first meeting, then 200 Starfall at later meetings if the player wears the helmet. A November 2 report described four helmets and a 200-Starfall action during an active meeting; it did not establish a Journal advance.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "The 200-Starfall reward is a normal cult mechanic, not proof of an R6 recipe. The report does not clearly establish whether the offerings were per player or total, or supply complete before/after Journal checks."
+      }
+    ]
   },
   {
     "id": "R027",
-    "title": "Cult helmet four-person ritual",
+    "title": "Cult helmets and a four-player gathering",
     "category": "Cult and stars",
     "source_row": 32,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A32:I32",
@@ -601,11 +885,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Cult_of_the_Fallen_Star"
     ],
     "group_hint": "Fallen Star and cult meetings",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Cult helmet four-person ritual",
+        "description": "The Cult meets on scheduled SkyBlock days and grants a helmet; players can normally participate without a four-person ritual. The R6 proposal instead requires four players wearing Fallen Star Helmets or gathering at the meeting. November group attempts reportedly combined helmets, swimming and Starfall offerings.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "No source establishes four people as a requirement for the ordinary cult meeting or the Hunt. Group attempts are not a controlled test of every arrival order, player count or meeting-ending condition."
+      }
+    ]
   },
   {
     "id": "R028",
-    "title": "Cult NPC simulation disappearance",
+    "title": "Cult dialogue about NPCs disappearing",
     "category": "Cult and stars",
     "source_row": 33,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A33:I33",
@@ -623,11 +918,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Cult_of_the_Fallen_Star"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Cult NPC simulation disappearance",
+        "description": "Cult dialogue jokes that NPCs stop existing when players leave. The proposed survivor would be persistent game state after an NPC unloads.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "The dialogue predates the Hunt and identifies neither an assembly nor a surviving item. No R6-grade unload test is established."
+      }
+    ]
   },
   {
     "id": "R029",
-    "title": "Cult as a collective body",
+    "title": "The Cult as a collective body",
     "category": "Cult and stars",
     "source_row": 34,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A34:I34",
@@ -645,11 +951,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Cult_of_the_Fallen_Star"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Cult as a collective body",
+        "description": "Use body to mean the cult as an organization, then assemble its members or surviving parts. Related group configurations have already been reported.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "NPCs do not normally disappear because the organization dissolves. Related group tests do not isolate this reading."
+      }
+    ]
   },
   {
     "id": "R030",
-    "title": "Cult eternal phrase, vanished occupations",
+    "title": "The Cult's eternal identity and changing jobs",
     "category": "Cult and stars",
     "source_row": 35,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A35:I35",
@@ -667,11 +984,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Cult_of_the_Fallen_Star"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Cult eternal phrase, vanished occupations",
+        "description": "The cult's dialogue contrasts changing jobs with an eternal organization. Hunters compared that wording with gone and remains.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "It is ordinary schedule-related dialogue with no selected item or assembly action. No direct R6 test is documented."
+      }
+    ]
   },
   {
     "id": "R031",
-    "title": "Fallen Star crash and Star Sentries",
+    "title": "Fallen Stars, Star Sentries and their drops",
     "category": "Cult and stars",
     "source_row": 36,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A36:I36",
@@ -690,11 +1018,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Star_Sentry"
     ],
     "group_hint": "Fallen Star and cult meetings",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Fallen Star crash and Star Sentries",
+        "description": "A Fallen Star crash spawns Star Sentries. Sentries can yield Starfall on hit rather than only when killed, and separate Hunting capture methods yield Star Sentry Shards. This is a real event → mob → material chain that could be compared with 'remains'. A November 2 shard-offering report said nothing happened.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "A shard throw tests only that reported offering, not a death, hit, capture or timed post-crash assembly. No clue specifically chooses a Star Sentry, Starfall or Star Sentry Shard."
+      }
+    ]
   },
   {
     "id": "R032",
-    "title": "Starfall into Beacon I",
+    "title": "Starfall crafted into Beacon I",
     "category": "Cult and stars",
     "source_row": 37,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A37:I37",
@@ -712,11 +1051,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Beacon"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Starfall into Beacon I",
+        "description": "Beacon I is a real craft requiring 64 Starfall, 192 Enchanted Mithril and 5 Glass. That supplies a concrete way to assemble an object from a Fallen Star-related material. An October 31 report says a Beacon I attempt did not advance R6, but the recorded setup does not establish every possible crafting or offering condition.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "Starfall is only one input, and the Beacon is primarily an island buff item. The normal recipe is verified; a specific R6 connection and complete controls for the reported negative are not."
+      }
+    ]
   },
   {
     "id": "R033",
-    "title": "Starfall and sky-based time window",
+    "title": "Cult schedules versus Fallen Star timing",
     "category": "Cult and stars",
     "source_row": 38,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A38:I38",
@@ -735,11 +1085,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Fallen_Stars"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Starfall and sky-based time window",
+        "description": "Two different timing ideas were discussed: the Cult's scheduled meetings (SkyBlock days 7, 14, 21 and 28, overnight) and random Fallen Star crashes in the Dwarven Mines. Either might suggest a narrow 'gone' or assembly window, but they are separate events with different triggers.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "Neither the riddle nor a documented R6 response chooses one time window. Older timing suggestions and partial attempts should not be treated as a full controlled test of both."
+      }
+    ]
   },
   {
     "id": "R034",
-    "title": "Cult Abiphone and Powder Pie exchange",
+    "title": "Dalir's Abiphone contact and Powder Pie exchange",
     "category": "Cult and stars",
     "source_row": 39,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A39:I39",
@@ -758,11 +1119,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Abiphones"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Cult Abiphone and Powder Pie exchange",
+        "description": "Dalir's ordinary Abiphone unlock requires speaking to him across three cult meetings while wearing the Fallen Star Helmet, followed by a Powder Pie exchange. Calling him later provides information about future meetings, rather than by itself completing a Hunt step. The R6 theory is that the exchange or post-meeting call matters.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "The NPC trade and contact are confirmed game progression, but no R6 text selects Powder Pie, Dalir or an Abiphone call. The older tracker does not establish an R6-active test of the whole contact sequence."
+      }
+    ]
   },
   {
     "id": "R035",
-    "title": "Starborn Shard and celestial-theme fusion",
+    "title": "Starborn Shard and celestial fusion",
     "category": "Cult and stars",
     "source_row": 40,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A40:I40",
@@ -781,11 +1153,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Attribute_Fusion"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Starborn Shard and celestial-theme fusion",
+        "description": "Starborn is an actual Legendary shard created by fusing a Legendary Elemental-family shard with Galaxy Fish Shard. It has an 'Echo of Elemental' effect. The name suggests a star theme, but its real recipe is not assembled from a Fallen Star or the Cult's Starfall. Earlier general shard fusions were discussed; the exact Starborn setup and Journal result are not fully recorded.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "Starborn's name alone does not select an R6 trigger; its confirmed fusion inputs are unrelated to the Cult's Starfall. Do not count generic shard offerings as a controlled negative for this particular fusion."
+      }
+    ]
   },
   {
     "id": "R036",
-    "title": "Better Together event-end group",
+    "title": "Better Together: gathering after the event ends",
     "category": "Groups and timing",
     "source_row": 41,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A41:I41",
@@ -803,7 +1186,18 @@
       "https://hypixelskyblock.minecraft.wiki/w/Better_Together"
     ],
     "group_hint": "Better Together: stay after the ending",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Better Together event-end group",
+        "description": "Better Together is a passive event that lasts 20 minutes and gives Mining buffs based on other players in the same zone (up to five). Its ending announcement says the cooperative spirit never dies. The proposed R6 condition is to remain assembled at the lake after the event ends, not merely to be present while it is active.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "The event ending message is thematic wording, not evidence that the buff or a hidden group state persists. Active-event item/music attempts and older NPC/group tests are not a documented controlled post-ending R6 negative."
+      }
+    ]
   },
   {
     "id": "R037",
@@ -826,11 +1220,11 @@
       "https://hypixel-skyblock.fandom.com/wiki/Hollow_Wand"
     ],
     "group_hint": "Ghosts, spirits and player effects",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R038",
-    "title": "Post-disappearance assembly timing",
+    "title": "Absence versus the moment of disappearance",
     "category": "Groups and timing",
     "source_row": 43,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A43:I43",
@@ -848,11 +1242,22 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "Arrival, presence and disappearance / Other event endings and temporary states",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Post-disappearance assembly timing",
+        "description": "Compare an absent state with the instant of disappearance and the period afterward. Earlier stages show that timing and pre-existing presence can matter.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "No body, remnant, action or R6 window length is selected. Arbitrary timing changes add little evidence."
+      }
+    ]
   },
   {
     "id": "R039",
-    "title": "Players leaving the zone or lobby",
+    "title": "Players leaving a zone or lobby",
     "category": "Groups and timing",
     "source_row": 44,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A44:I44",
@@ -868,11 +1273,22 @@
     "gap": "No specific departing person or assembly is selected. Complete before/after records are uneven.",
     "background_urls": [],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Players leaving the zone or lobby",
+        "description": "Let a player leave the zone, lobby or game, then gather what remains or the remaining players. Leave/death/absence configurations already have reports.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "No specific departing person or assembly is selected. Complete before/after records are uneven."
+      }
+    ]
   },
   {
     "id": "R040",
-    "title": "Freeze, cold, or item drop at death",
+    "title": "Cold, death and surviving player items",
     "category": "Groups and timing",
     "source_row": 45,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A45:I45",
@@ -888,11 +1304,22 @@
     "gap": "The negatives apply to their loadouts and actions. No particular surviving component is selected.",
     "background_urls": [],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Freeze, cold, or item drop at death",
+        "description": "Use cold damage or death at the lake to remove a player body while gear, drops or effects remain. Reports include Glacite/Penguin equipment conditions in October and November.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The negatives apply to their loadouts and actions. No particular surviving component is selected."
+      }
+    ]
   },
   {
     "id": "R041",
-    "title": "Lake Glacite respawn timer",
+    "title": "Lake Glacite respawning after mining",
     "category": "Groups and timing",
     "source_row": 46,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A46:I46",
@@ -910,11 +1337,23 @@
       "https://hypixelskyblock.minecraft.wiki/w/Great_Glacite_Lake"
     ],
     "group_hint": "Offerings, ice and the nearby Fairy Soul",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Lake Glacite respawn timer",
+        "description": "A player measured Great Glacite Lake's mineable Glacite reappearing roughly 5 minutes and 6 seconds after removal (October 11 report). One idea is to act when the temporary opening closes, treating the restored ice as an event boundary. This is a community measurement, not a documented fixed server timer.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "Neither the specific interval nor an R6-stage Journal response was independently reproduced. A reset of mineable ice does not demonstrate the disappearance or assembly demanded by the clue."
+      }
+    ],
+    "website_note": "19 Nov research note. The roughly 5m6s regrowth time remains a single October 11 report. The original recording and an R6 response at removal, absence or regrowth remain unverified."
   },
   {
     "id": "R042",
-    "title": "Collective meeting, ritual, or event after end",
+    "title": "Gathering after a meeting or event ends",
     "category": "Groups and timing",
     "source_row": 47,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A47:I47",
@@ -932,11 +1371,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "Other event endings and temporary states",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Collective meeting, ritual, or event after end",
+        "description": "Act after a meeting, boss or temporary event ends. Keep the selected event independent from other event theories. Earlier group conversations do not establish an ending-window test.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "No event and survivor are uniquely chosen. A related group procedure cannot exclude all event-boundary versions."
+      }
+    ]
   },
   {
     "id": "R043",
-    "title": "Arachne calling vs ritual response",
+    "title": "Arachne's altar versus the Hunt's Calling rules",
     "category": "Arachne and Griffin",
     "source_row": 48,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A48:I48",
@@ -955,11 +1405,22 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "Arachne Crystal and Braided Griffin Feather",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Arachne calling vs ritual response",
+        "description": "In the normal boss system, four Arachne's Callings placed on the altar summon lesser Arachne; one Arachne Crystal summons the stronger version. R4 instead checks three separate Calling arrivals at the lake, and R5 uses three present Callings plus a Griffin Feather. The numerical resemblance prompted a 'summon/response' interpretation, not proof of a hidden boss ritual.",
+        "evidence_label": "Observed",
+        "testing_label": "Confirmed result",
+        "gap": "Arachne's altar checks a different location and four Callings, not three in the lake. The earlier-step recordings do not show any R6 summoning response; four consumed units across two riddles do not form a single ritual."
+      }
+    ]
   },
   {
     "id": "R044",
-    "title": "Arachne Crystal and Shaggy conversion",
+    "title": "Arachne Crystal and the Shaggy exchange",
     "category": "Arachne and Griffin",
     "source_row": 49,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A49:I49",
@@ -978,11 +1439,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Shaggy"
     ],
     "group_hint": "Arachne Crystal and Braided Griffin Feather",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Arachne Crystal and Shaggy conversion",
+        "description": "Shaggy exchanges 2 Arachne Fragments, 16 Enchanted Spider Eyes and 16 Enchanted String for an Arachne Crystal. This is an NPC purchase, not a crafting-grid recipe. October 8/13 players reported attempts to perform the exchange or create/offer the resulting Crystal under lake-related conditions, rather than only dropping a pre-owned Crystal.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The item has a verified exchange and ordinary altar use, but neither is selected by R6. The historical negative reports lack consistent stage and before/after Journal controls; they apply only to the described trade/offer procedures."
+      }
+    ]
   },
   {
     "id": "R045",
-    "title": "Arachne boss defeat and aftermath",
+    "title": "Arachne's Brood phases and final defeat",
     "category": "Arachne and Griffin",
     "source_row": 50,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A50:I50",
@@ -1000,11 +1472,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Arachne"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Arachne boss defeat and aftermath",
+        "description": "Arachne temporarily vanishes into Arachne's Broods at 50% and 20% health, then returns once the Broods are defeated. Her final defeat has a separate loot table, including Soul String and possible armor or shards. Hunters explored boss defeat, Brood phases, fresh loot and equipment/offerings as R6 candidates.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "A temporary Brood phase is not the same as final defeat; the boss and the lake are in different areas. Reported negative trials do not establish a particular recipe from surviving drops or isolate a Hunt-stage reaction."
+      }
+    ]
   },
   {
     "id": "R046",
-    "title": "Braided Griffin Feather recipe",
+    "title": "Braided Griffin Feather assembly",
     "category": "Arachne and Griffin",
     "source_row": 51,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A51:I51",
@@ -1025,7 +1508,18 @@
       "https://hypixelskyblock.minecraft.wiki/w/Braided_Griffin_Feather"
     ],
     "group_hint": "Arachne Crystal and Braided Griffin Feather",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Braided Griffin Feather recipe",
+        "description": "Braided Griffin Feather is a real craft using 160 Griffin Feathers and 256 Soul String. It combines the Griffin material required for R5 with a string dropped by Arachne, so it naturally attracted 'assemble' theories. Players reported actual crafting near/in the lake and later offerings on October 12 and 18, rather than only throwing finished feathers.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The ingredients connect two previously used item families, but no clue selects this recipe or its completion event. The reported negatives cover specific timings and locations; they do not prove every hidden condition false."
+      }
+    ]
   },
   {
     "id": "R047",
@@ -1048,12 +1542,12 @@
       "https://hypixelskyblock.minecraft.wiki/w/Mythological_Ritual"
     ],
     "group_hint": "Griffin Burrows / Diana ritual",
-    "last_reviewed": "2026-11-14",
+    "last_reviewed": "2026-11-18",
     "mapping_note": "The older published R047 body/source cells were misfiled urn and bone research. The current editorial row corrects this. Those older tests must not be treated as Griffin Burrow tests; urn research is preserved separately in R101."
   },
   {
     "id": "R048",
-    "title": "Diana ritual and Griffin Pet",
+    "title": "Griffin Pet and Mythological Ritual conditions",
     "category": "Arachne and Griffin",
     "source_row": 53,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A53:I53",
@@ -1072,11 +1566,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Mythological_Ritual"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Diana ritual and Griffin Pet",
+        "description": "R5 requires a Griffin Feather, normally obtained while Diana's Mythological Ritual perk is active by digging a Griffin Burrow. A separate R6 reading asks whether the offering must be accompanied by an active Griffin Pet, an ongoing burrow chain, or another ritual state. Hunters reported Diana-item and pet-state trials in earlier discussions.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "R5's verified offering doesn't require an established active Mythological Ritual condition. A material's usual origin is not proof that its original event matters for R6; the exact earlier combinations and Journal controls vary."
+      }
+    ]
   },
   {
     "id": "R049",
-    "title": "Arachne Cocooning into multiple forms",
+    "title": "Cocooning and temporary egg sacs",
     "category": "Arachne and Griffin",
     "source_row": 54,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A54:I54",
@@ -1095,11 +1600,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Arachne"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Arachne Cocooning into multiple forms",
+        "description": "Cocooning is a real revival mechanic: when it triggers on a defeated mob, three temporary egg sacs appear, and the mob returns after about six seconds. The wiki explicitly lists Arachne among bosses that can be cocooned. Bloodshot grants a chance on most non-boss mobs; eligibility and other sources of Cocooning must be distinguished from the Arachne boss phases.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "The three egg sacs are temporary effects, not collected craft ingredients. No actual Arachne Cocooning procedure with an R6 Journal check was verified in the archive, and the original boss fight is in Spider's Den rather than the lake."
+      }
+    ]
   },
   {
     "id": "R050",
-    "title": "R4 Callings carried over versus new R5 Callings",
+    "title": "Original R4 entities versus fresh R5 Callings",
     "category": "Arachne and Griffin",
     "source_row": 55,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A55:I55",
@@ -1118,11 +1634,22 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "R1–R5: the confirmed sequence / Journal progress and reliable feedback",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "R4 Callings carried over versus new R5 Callings",
+        "description": "One hypothesis was that the identical Calling item entities from R4 would need to survive into R5 or R6. A separate recorded R5 completion instead uses a new stack of three Calling units already in the water when a Griffin Feather arrives. This disproves a requirement to preserve the exact original R4 entities for R5 only.",
+        "evidence_label": "Observed",
+        "testing_label": "Confirmed result",
+        "gap": "The R5 demonstration says nothing about whether R6 checks inventory, held item, or the age of unrelated dropped entities. A stack of three is a different requirement from three separate R4 arrivals."
+      }
+    ]
   },
   {
     "id": "R051",
-    "title": "Icarus and Daedalus falling into water",
+    "title": "Icarus, Daedalus and the R3–R5 sequence",
     "category": "Mythology and stories",
     "source_row": 56,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A56:I56",
@@ -1132,19 +1659,31 @@
     "original_gap": "The literary parallel does not prove designer intent or choose a game operation for R6.",
     "original_source_text": "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php",
     "original_group_hint": "Ovid: falling, calling and feathers",
-    "description": "Ovid's Icarus passage joins a fall into water, Daedalus calling and feathers on the waves. It gives a contiguous comparison with R3–R5.",
+    "description": "Ovid VIII.183–235 has a fall into the sea, repeated calls, then feathers on water. Qualia developed this R3–R5 comparison in October. Perdix appears at the burial immediately afterward (R053); that narrative order differs from a general Ovid word match.",
     "evidence_label": "Speculative",
     "testing_label": "Not tested",
-    "gap": "The literary parallel does not prove designer intent or choose a game operation for R6.",
+    "gap": "This is a retrospective literary sequence, not proof of developer intent. It selects neither a Griffin Feather nor the exact game conditions; the next passage supplies no native assembly action.",
     "background_urls": [
-      "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php"
+      "https://www.theoi.com/Text/OvidMetamorphoses8.html",
+      "https://www.thelatinlibrary.com/ovid/ovid.met8.shtml"
     ],
     "group_hint": "Ovid: falling, calling and feathers",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Icarus and Daedalus falling into water",
+        "description": "Ovid's Icarus passage joins a fall into water, Daedalus calling and feathers on the waves. It gives a contiguous comparison with R3–R5.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "The literary parallel does not prove designer intent or choose a game operation for R6."
+      }
+    ]
   },
   {
     "id": "R052",
-    "title": "Daedalus Notes crafting",
+    "title": "Daedalus' Notes: crafting and offering",
     "category": "Mythology and stories",
     "source_row": 57,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A57:I57",
@@ -1163,11 +1702,22 @@
       "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php"
     ],
     "group_hint": "Crafting, forging and leftover materials / Ovid: falling, calling and feathers",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Daedalus Notes crafting",
+        "description": "Daedalus' Notes is an actual Legendary Reforge Stone crafted from a Daedalus Stick, Mythos Fragments, Enchanted Ancient Claws, Griffin Feathers and Enchanted Paper. The historical theory treated its name as a surviving written record from Daedalus, but the in-game object primarily applies the Erudite reforge to spades. An October 8 report describes crafting and then offering the Notes.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The name and paper ingredient supply a loose story analogy; the item's game role is a reforge stone, not a deciphered Journal fragment. The reported crafting/offer negative does not establish any other hidden-condition requirement."
+      }
+    ]
   },
   {
     "id": "R053",
-    "title": "Ovid Metamorphoses and Perdix",
+    "title": "Perdix: the partridge and the name that remains",
     "category": "Mythology and stories",
     "source_row": 58,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A58:I58",
@@ -1177,19 +1727,33 @@
     "original_gap": "These are literary readings. Dante, Homer and Apuleius are separate sources, and no game action is selected.",
     "original_source_text": "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php",
     "original_group_hint": "Ovid: falling, calling and feathers",
-    "description": "Compare other transformations in Ovid, including Perdix and the Heracles/Lichas passage. The archived source comparison did not support Arachne receiving three warnings.",
+    "description": "Ovid VIII.236–259: Daedalus's pupil becomes a partridge; his name and traits survive. Carrot forwarded Julan's name/identity reading on November 17 at 22:58–22:59. VIII.255 explicitly says the name remained. This is a transformation of the pupil, not Icarus's corpse becoming a bird.",
     "evidence_label": "Speculative",
     "testing_label": "Not tested",
-    "gap": "These are literary readings. Dante, Homer and Apuleius are separate sources, and no game action is selected.",
+    "gap": "The poem does not instruct assembling three traits or name a game item. 'Exactly three remains' is Julan's grouping, not an explicit Ovid rule. Tools were invented before the fall. The older Heracles/Lichas comparison is retained separately in N014.",
     "background_urls": [
-      "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php"
+      "https://www.thelatinlibrary.com/ovid/ovid.met8.shtml",
+      "https://www.theoi.com/Text/OvidMetamorphoses8.html",
+      "https://discord.com/channels/996884296860172469/1560338241696301076/1572370433066532915",
+      "https://discord.com/channels/996884296860172469/1560338241696301076/1572370577161715845"
     ],
     "group_hint": "Ovid: falling, calling and feathers",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Ovid Metamorphoses and Perdix",
+        "description": "Compare other transformations in Ovid, including Perdix and the Heracles/Lichas passage. The archived source comparison did not support Arachne receiving three warnings.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "These are literary readings. Dante, Homer and Apuleius are separate sources, and no game action is selected."
+      }
+    ]
   },
   {
     "id": "R054",
-    "title": "Theseus ship replacement paradox",
+    "title": "Ship of Theseus: replacement and reconstruction",
     "category": "Mythology and stories",
     "source_row": 59,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A59:I59",
@@ -1205,11 +1769,22 @@
     "gap": "No SkyBlock object or accepted reconstruction operation matches the whole proposal.",
     "background_urls": [],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Theseus ship replacement paradox",
+        "description": "Apply the Ship of Theseus idea: replace every part of a body, or reconstruct it from the discarded originals. The analogy was discussed in October.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "No SkyBlock object or accepted reconstruction operation matches the whole proposal."
+      }
+    ]
   },
   {
     "id": "R055",
-    "title": "Kalevala Kantele bones and hair",
+    "title": "Kalevala: fish-bone and replacement kanteles",
     "category": "Mythology and stories",
     "source_row": 60,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A60:I60",
@@ -1229,11 +1804,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Melody"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Kalevala Kantele bones and hair",
+        "description": "Kalevala Runo 40 describes Väinämöinen building a kantele with the jawbones and teeth of a pike and horsehair strings. Runo 44 describes the first instrument lost in a lake and a new birchwood kantele built afterward. Hunters compared this with R6's incomplete 'body', Melody's ruined/rebuilt harp and Melody's Hair, without claiming a game-mechanical link.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "The two kantele stories concern two instruments and do not instruct a player to recover the lost one. Melody's quest uses Acacia Logs and existing string, but no verified source makes that reconstruction an R6 trigger. Earlier hair/bone/music offerings are narrower than this full interpretation."
+      }
+    ]
   },
   {
     "id": "R056",
-    "title": "Osiris and Isis bodily reconstruction",
+    "title": "Osiris and Isis: gathering a scattered body",
     "category": "Mythology and stories",
     "source_row": 61,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A61:I61",
@@ -1251,11 +1837,22 @@
       "https://fitzmuseum.cam.ac.uk/index.php/explore-our-collection/highlights/context/stories-and-histories/osiris"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Osiris and Isis bodily reconstruction",
+        "description": "In the Osiris myth, Isis gathers Osiris' scattered remains and restores the body. Some versions mention a missing part substituted with a newly made piece. This gives a direct literary meaning to 'assemble what remains', but the story is only one of many historical reconstruction analogies. The old route had also confused the attribution with Anubis.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "Reconstruction is a feature of the myth, not an identified SkyBlock crafting mechanic. No named Egyptian item, location, survivor, or R6-stage action is selected by the Journal. Literary resemblance is not evidence of developer intent."
+      }
+    ]
   },
   {
     "id": "R057",
-    "title": "Water Hydra splitting",
+    "title": "Water Hydra splitting and surviving drops",
     "category": "Water and creatures",
     "source_row": 62,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A62:I62",
@@ -1274,11 +1871,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Water_Hydra_Shard"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Water Hydra splitting",
+        "description": "A Water Hydra normally produces a second Hydra when the original falls to around half health, while the first is still alive; both may drop loot. It can also leave a Water Hydra Head or Water Hydra Shard through normal game mechanics. The R6 theory asks whether this secondary creature or its drops count as remains after a body changes. Related kills, captures and offerings were discussed.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "The key duplication occurs before the original body disappears, which weakens the literal 'when it is gone' reading. Killing, splitting, obtaining a shard and offering are separate events; the archive has no fully controlled R6 result for a specific assembly."
+      }
+    ]
   },
   {
     "id": "R058",
-    "title": "Chum Bucket fill then offer",
+    "title": "Chum Bucket: depositing, filling and offering",
     "category": "Water and creatures",
     "source_row": 63,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A63:I63",
@@ -1297,11 +1905,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Chum"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Chum Bucket fill then offer",
+        "description": "Chum comes from sea creatures near a placed Empty Chum Bucket. Players may deposit up to ten Chum into a placed bucket and collect a Full Chum Bucket; full buckets can also be crafted from an empty bucket and ten Chum. October 10 and 28 reports include actually filling/collecting a bucket near the lake and offering it, rather than only dropping a pre-filled item.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The placement/deposit/pickup sequence and the crafting recipe are separate mechanics. Negative reports cover particular placements and offering orders, not every variant. No R6 clue selects Chum specifically."
+      }
+    ]
   },
   {
     "id": "R059",
-    "title": "Hotspot Sinker and Water Orb",
+    "title": "Water Orbs and Hotspot Sinker recipes",
     "category": "Water and creatures",
     "source_row": 64,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A64:I64",
@@ -1321,11 +1940,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Seared_Escargot"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Hotspot Sinker and Water Orb",
+        "description": "The Water Orb is crafted from several enchanted fishing materials and is a base for multiple themed Water Orbs. Hotspot Water Orb is one downstream craft that includes Seared Escargot; Hotspot Sinker is a separate rod part also using Seared Escargot and Singed Powder. These are parallel fishing conversion routes, not one simple Water Orb → Sinker chain. Prior summaries discussed item crafting and offering.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "The current recipes establish ordinary item assembly only. Earlier reports lack exact R6-stage steps, before/after Journal captures and which product was actually made or offered. Similar watery names are not a clue selecting a recipe."
+      }
+    ]
   },
   {
     "id": "R060",
-    "title": "Sea Witch, Bat and Vampire mask",
+    "title": "Sea Witch, Bat and Vampire Mask claim",
     "category": "Water and creatures",
     "source_row": 65,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A65:I65",
@@ -1344,7 +1974,18 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "Weak leads and unverified hints",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Sea Witch, Bat and Vampire mask",
+        "description": "An anonymous October 29 claim suggested a Sea Witch / Bat / Vampire Mask solution. Sea Witch is a normal sea creature with identifiable drops, including a possible Fairy Armor piece, and its own shard; this doesn't authenticate the claim. Players later explored Sea Witch encounters, Bat-related materials and mask crafts, but no verified R6-to-R7 footage accompanied the rumor.",
+        "evidence_label": "Unverified",
+        "testing_label": "Partially tested",
+        "gap": "Unknown original author, stage, item order and Journal outcome. Ordinary Sea Witch loot and subsequent related experiments do not demonstrate a solved Hunt step. Keep this rumor unverified unless a continuous proof or independently authenticated source appears."
+      }
+    ]
   },
   {
     "id": "R061",
@@ -1366,7 +2007,7 @@
       "https://hypixelskyblock.minecraft.wiki/w/Shards"
     ],
     "group_hint": "Shard fusion and the Dodo lead",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R062",
@@ -1388,11 +2029,11 @@
       "https://hypixelskyblock.minecraft.wiki/w/Corrupted_Mobs"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R063",
-    "title": "Experience remaining after death and XP bottles",
+    "title": "Mob death, experience and XP bottles",
     "category": "Water and creatures",
     "source_row": 68,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A68:I68",
@@ -1408,11 +2049,22 @@
     "gap": "No selected mob, XP type or recipe is identified. Crafting bottles underwater does not test XP dropped by a creature, and the historical report lacks every controlled condition.",
     "background_urls": [],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Experience remaining after death and XP bottles",
+        "description": "Original theory: after a creature's body disappears, experience orbs remain, potentially collected or transformed into bottles. An October 31 player reported crafting several XP bottles underwater without a Journal update. That bottle craft is one variation, not a full death → XP → assembly test.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "No selected mob, XP type or recipe is identified. Crafting bottles underwater does not test XP dropped by a creature, and the historical report lacks every controlled condition."
+      }
+    ]
   },
   {
     "id": "R064",
-    "title": "Ghost Crab special fusion",
+    "title": "Ghost Crab shard fusion",
     "category": "Shards, fusion and runes",
     "source_row": 69,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A69:I69",
@@ -1430,11 +2082,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Shards"
     ],
     "group_hint": "Shard fusion and the Dodo lead",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Ghost Crab special fusion",
+        "description": "Ghost Crab can be produced through Blue Crab plus an eligible Poltergeist-family shard. The R6 proposal concerns a directional fusion: creating Ghost Crab is not equivalent to using Ghost Crab as an input for another output. An October 31 Ghost/Ghost Crab → Aero proposal lacks a verified exact preview or Journal outcome.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "The exact preview/output and a completed matching R6 result were not recovered. Related Drowned fusion was already performed."
+      }
+    ]
   },
   {
     "id": "R065",
-    "title": "Folf Shard special fusion",
+    "title": "Folf shard fusion",
     "category": "Shards, fusion and runes",
     "source_row": 70,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A70:I70",
@@ -1452,7 +2115,18 @@
       "https://hypixelskyblock.minecraft.wiki/w/Changelog/2026/October_6"
     ],
     "group_hint": "Shard fusion and the Dodo lead",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Folf Shard special fusion",
+        "description": "Folf is made through a real Soul of the Alpha + Epic-or-higher shard fusion. R6 might require the fusion event itself rather than offering a finished Folf. An October 31 report describes a Folf offering under Bloody/Itchy power, not a confirmed R6-stage fusion.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "A finished Folf offering does not establish native Folf-fusion coverage. No Hunt-specific selection rule is known."
+      }
+    ]
   },
   {
     "id": "R066",
@@ -1475,11 +2149,11 @@
       "https://hypixelskyblock.minecraft.wiki/w/Shards"
     ],
     "group_hint": "Shard fusion and the Dodo lead",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R067",
-    "title": "Runic Mob rune fusion",
+    "title": "Runic mob drops and rune fusion",
     "category": "Shards, fusion and runes",
     "source_row": 72,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A72:I72",
@@ -1497,11 +2171,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Runes"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Runic Mob rune fusion",
+        "description": "Runic mobs can leave runes; fusion can combine compatible runes into higher-tier runes. This could be a literal 'body dies → rune remains → assemble' chain. Older reports include rune drops, offerings and some actual fusions, but the exact target rune and Journal results remain unclear.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "Runic drops and fusion are separate actions. Without a selected rune, rank, number and location, general rune experiments cannot confirm a specific R6 prediction."
+      }
+    ]
   },
   {
     "id": "R068",
-    "title": "Dark Orbs into Shaded power",
+    "title": "Dark Orbs and the Shaded power",
     "category": "Shards, fusion and runes",
     "source_row": 73,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A73:I73",
@@ -1519,11 +2204,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dark_Orb"
     ],
     "group_hint": "Ghosts, spirits and player effects",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Dark Orbs into Shaded power",
+        "description": "Nine Dark Orbs at Maxwell unlock the Shaded accessory power. One idea is to assemble the nine stones, then keep Shaded active for the R6 offering. An October 29 report included nine Dark Orbs, Shaded/Frozen power and equipment under mixed conditions.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "Owning Dark Orbs, unlocking Shaded and selecting it are different states. The report lacks independent before/after Journal footage, and no clue chooses the Shaded power."
+      }
+    ]
   },
   {
     "id": "R069",
-    "title": "Shaggy Crystal and legacy recipes",
+    "title": "Shaggy exchange versus legacy Arachne recipes",
     "category": "Shards, fusion and runes",
     "source_row": 74,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A74:I74",
@@ -1541,11 +2237,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Arachne_Crystal"
     ],
     "group_hint": "Arachne Crystal and Braided Griffin Feather",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Shaggy Crystal and legacy recipes",
+        "description": "Use Shaggy's exchange rather than a legacy Arachne recipe. In-lake exchange attempts were reported in October.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "Old recipe tables can describe removed mechanics. Reported results apply to the actual exchange used."
+      }
+    ]
   },
   {
     "id": "R070",
-    "title": "Shard families and hunting overflow",
+    "title": "Shard families and Hunting overflow",
     "category": "Shards, fusion and runes",
     "source_row": 75,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A75:I75",
@@ -1563,11 +2270,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Shards"
     ],
     "group_hint": "Shard fusion and the Dodo lead",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Shard families and hunting overflow",
+        "description": "Treat shards as creature remains and fusion as assembly. Numerous shard and matching-mob equipment procedures were reported.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "The search space is huge. No family, input pair or output is chosen by R6."
+      }
+    ]
   },
   {
     "id": "R071",
-    "title": "Seven Hearts Runes and order",
+    "title": "Seven Heart Runes and their order",
     "category": "Shards, fusion and runes",
     "source_row": 76,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A76:I76",
@@ -1585,11 +2303,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Runes"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Seven Hearts Runes and order",
+        "description": "A seven-part ordered set of Hearts Runes could be assembled or fused, motivated partly by the Journal's seven-column layout. Earlier hunters discussed counts and order, but no independently selected rune sequence or verified R6 advance is documented.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "There is no rule selecting Hearts, seven copies, or a particular order. Ordinary runes and Journal UI layout do not jointly prove a hidden recipe."
+      }
+    ]
   },
   {
     "id": "R072",
-    "title": "Spirit Bone and Spirit Wing",
+    "title": "Spirit Bone and Spirit Wing assembly",
     "category": "Spirits and Dungeons",
     "source_row": 77,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A77:I77",
@@ -1607,11 +2336,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Sorrow_Armor"
     ],
     "group_hint": "Ghosts, spirits and player effects",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Spirit Bone and Spirit Wing",
+        "description": "Spirit Bone and Spirit Wing were tested within wider item, pet, armor and power combinations in late October and early November.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The reported negatives are setup-specific. Neither the name nor spirit theme identifies a new assembly action."
+      }
+    ]
   },
   {
     "id": "R073",
-    "title": "Spirit Wolves and Soul of the Alpha",
+    "title": "Spirit wolves and Soul of the Alpha",
     "category": "Spirits and Dungeons",
     "source_row": 78,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A78:I78",
@@ -1629,11 +2369,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Shards"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Spirit Wolves and Soul of the Alpha",
+        "description": "November 1 reports tried Wolf, Howling and Soul of the Alpha shards with related claws, bones and equipment.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "Those mixtures had no reported advance. They do not exclude all wolf-related native actions or transformations."
+      }
+    ]
   },
   {
     "id": "R074",
-    "title": "Skeletor and summoned skeleton deaths",
+    "title": "Skeletor and skeleton deaths",
     "category": "Spirits and Dungeons",
     "source_row": 79,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A79:I79",
@@ -1652,11 +2403,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Skeleton_Soldier"
     ],
     "group_hint": "Fossils, bones and Skeletor",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Skeletor and summoned skeleton deaths",
+        "description": "Three dying dungeon skeletons leave skulls that physically merge into a Skeletor. This is a literal body disappearance followed by assembly of remnants. An earlier research summary reports an R6-stage native merge with unchanged Journal, but the original recording was unavailable during later audits. Separate experiments used summoned skeletons.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "Skeletor's normal merge occurs in the Catacombs, not the lake. A reported R6 negative is not independently authenticated, and summoned skeleton expiry is not a native Skeletor merge."
+      }
+    ]
   },
   {
     "id": "R075",
-    "title": "Necromancy and necromancer souls",
+    "title": "Necromancy and stored souls",
     "category": "Spirits and Dungeons",
     "source_row": 80,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A80:I80",
@@ -1674,11 +2436,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Necromancy"
     ],
     "group_hint": "Ghosts, spirits and player effects",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Necromancy and necromancer souls",
+        "description": "Necromancy offers a direct body/soul contrast: defeated mobs may leave souls captured in necromancy items, then later be summoned. R6 could require collecting, storing or assembling such a survivor. Related summons and equipment combinations were reported unsuccessful under specific conditions.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "Capturing a soul, storing it and summoning it are different mechanics. The riddle names neither a mob nor a new item made from souls."
+      }
+    ]
   },
   {
     "id": "R076",
-    "title": "Ghost Sorrow Plasma Volta",
+    "title": "Ghost drops: Sorrow, Plasma and Volta",
     "category": "Spirits and Dungeons",
     "source_row": 81,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A81:I81",
@@ -1696,11 +2469,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Sorrow_Armor"
     ],
     "group_hint": "Ghosts, spirits and player effects",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Ghost Sorrow Plasma Volta",
+        "description": "Ghost drops such as Sorrow, Plasma and Volta were tried with material and equipment combinations across October and November.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "These are ordinary Ghost mechanics with no selected R6 recipe. Reported failures cover their stated setups."
+      }
+    ]
   },
   {
     "id": "R077",
-    "title": "Dungeon Journal Uncanny Remains",
+    "title": "Dungeon Journals and Uncanny Remains",
     "category": "Spirits and Dungeons",
     "source_row": 82,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A82:I82",
@@ -1718,7 +2502,18 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dungeon_Journals"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Dungeon Journal Uncanny Remains",
+        "description": "Dungeon Journals, including Uncanny Remains and Memories, are normal collectibles found near bodies in dungeon rooms. One interpretation is that textual remnants should be gathered or decoded. October reports offered pages and discussed collection, with no verified R6 completion.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "These are separate from the Dead Man's Journal. A page title matching 'remains' isn't an extraction rule, and dropping pages is not the same as completing a collection."
+      }
+    ]
   },
   {
     "id": "R078",
@@ -1738,7 +2533,7 @@
     "gap": "The instance and exact abilities matter. A ghost-mode cast is not automatically an assembly at the lake.",
     "background_urls": [],
     "group_hint": "Ghosts, spirits and player effects",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R079",
@@ -1758,11 +2553,11 @@
     "gap": "The reports do not choose a surviving component or prove every native revival sequence was completed.",
     "background_urls": [],
     "group_hint": "Ghosts, spirits and player effects",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R080",
-    "title": "Salvage destroys item but produces essence",
+    "title": "Salvage and surviving essence",
     "category": "Crafting and machines",
     "source_row": 85,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A85:I85",
@@ -1781,7 +2576,18 @@
       "https://hypixelskyblock.minecraft.wiki/w/Malik"
     ],
     "group_hint": "Crafting, forging and leftover materials",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Salvage destroys item but produces essence",
+        "description": "Salvaging an eligible item consumes it and produces Essence, which can then be spent on upgrades. This provides a literal 'body gone → remains → assemble' game-mechanic chain. An October 9 test reported that the Dead Man's Chestplate could not be salvaged.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The reported refusal rules out salvaging that Chestplate directly. It does not identify a different valid item or prove the Hunt detects salvage events."
+      }
+    ]
   },
   {
     "id": "R081",
@@ -1803,11 +2609,11 @@
       "https://hypixelskyblock.minecraft.wiki/w/Composter"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R082",
-    "title": "Zombud mutation to Zombuddies",
+    "title": "Zombud and Zombuddy transformations",
     "category": "Crafting and machines",
     "source_row": 87,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A87:I87",
@@ -1826,11 +2632,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Witherbloom"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Zombud mutation to Zombuddies",
+        "description": "Zombud grows in the Greenhouse near four Dead Plants, two Cindershades and two Fleshtraps by Soul Sand. Harvesting a mature Zombud converts adjacent Dead Plants to Zombuddies. Witherbloom is a different mutation that uses four Dead Plants near Soul Sand. A reported October 22 Jake analysis did not advance the Hunt.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "Analyzing an item, growing it, harvesting it and defeating transformed Zombuddies are separate actions. The earlier report doesn't establish an R6-stage transformation test."
+      }
+    ]
   },
   {
     "id": "R083",
-    "title": "Ditto and decorative remnant displays",
+    "title": "Ditto Blob and decorative survivors",
     "category": "Crafting and machines",
     "source_row": 88,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A88:I88",
@@ -1848,11 +2665,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Ditto_Blob"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Ditto and decorative remnant displays",
+        "description": "Ditto Blob captures the appearance of a skinned skull via Anvil and makes it placeable on a Private Island. R6 might instead require a cosmetic remnant left after an item's usable state is removed, or an arrangement of such replicas.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "The saved representation is appearance only, not an ordinary functional item. No object, display arrangement or lake-valid transformation is identified."
+      }
+    ]
   },
   {
     "id": "R084",
-    "title": "Forge completed item while submerged",
+    "title": "Claiming a Forge item while submerged",
     "category": "Crafting and machines",
     "source_row": 89,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A89:I89",
@@ -1870,7 +2698,18 @@
       "https://hypixelskyblock.minecraft.wiki/w/The_Forge"
     ],
     "group_hint": "Crafting, forging and leftover materials",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Forge completed item while submerged",
+        "description": "Multiple November 1–3 reports claimed ready Forge products through Fred while submerged. Named metals, handles, keys and other outputs were covered.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "Claiming an output differs from the Forge completing. Missing one precise output record does not make generic underwater claims new."
+      }
+    ]
   },
   {
     "id": "R085",
@@ -1892,11 +2731,11 @@
       "https://hypixelskyblock.minecraft.wiki/w/Changelog/2026/October_6"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R086",
-    "title": "Piggy Bank rupture and repair",
+    "title": "Piggy Bank damage and repair",
     "category": "Crafting and machines",
     "source_row": 91,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A91:I91",
@@ -1914,11 +2753,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Piggy_Bank"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Piggy Bank rupture and repair",
+        "description": "Piggy Bank breaks in stages after qualifying deaths: normal → Cracked → Broken. The damaged accessory persists and can be repaired with Enchanted Raw Porkchop. R6 might require breaking then reconstructing this survivor. An October report describes break/repair attempts.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The bank's item remains present in damaged form; R6 does not specify it. Original test stage, death conditions, repair action and Journal response were not recovered."
+      }
+    ]
   },
   {
     "id": "R087",
-    "title": "Soulweaver orbiting skulls",
+    "title": "Soulweaver Gloves and Haunted Skulls",
     "category": "Crafting and machines",
     "source_row": 92,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A92:I92",
@@ -1936,11 +2786,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Soulweaver_Gloves"
     ],
     "group_hint": "Ghosts, spirits and player effects",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Soulweaver orbiting skulls",
+        "description": "Soulweaver Gloves summon orbiting Haunted Skulls only while in the Catacombs, either every fifteen seconds or after melee kills. Earlier skull research considered the skulls 'remains' that might be assembled or gathered.",
+        "evidence_label": "Observed",
+        "testing_label": "Partially tested",
+        "gap": "Haunted Skulls are ability effects and can appear without a mob dying. They cannot be assumed to persist at Great Glacite Lake; no complete R6-stage action exists."
+      }
+    ]
   },
   {
     "id": "R088",
-    "title": "Vanquisher corruption and aftermath",
+    "title": "Vanquisher spawning and aftermath",
     "category": "Crafting and machines",
     "source_row": 93,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A93:I93",
@@ -1958,11 +2819,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Vanquisher"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Vanquisher corruption and aftermath",
+        "description": "Vanquishers spawn rarely after Crimson Isle mob kills and drop Nether Stars on defeat. Hunters considered whether a Vanquisher's death or remaining loot triggers an assembly chain. Earlier Nether-drop offerings were reported.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "No documented Vanquisher → eruption chain or selected post-death craft is established. The spawned mob and its drop don't by themselves point to R6."
+      }
+    ]
   },
   {
     "id": "R089",
-    "title": "Bal death and Topaz Crystal",
+    "title": "Bal disappearing and the Topaz Crystal",
     "category": "Crafting and machines",
     "source_row": 94,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A94:I94",
@@ -1981,11 +2853,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Gemstone_Crystals"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Bal death and Topaz Crystal",
+        "description": "Bal shrinks and disappears after defeat, then the Topaz Crystal spawns nearby for participating players. This is a real disappearing body followed by an available objective. Hunters also discussed Topaz Gemstone processing as a separate possible assembly.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "Topaz Crystal and Topaz Gemstone are different systems. No clue selects Bal, and no proven R6 operation connects the boss's disappearance to a subsequent assembled item."
+      }
+    ]
   },
   {
     "id": "R090",
-    "title": "Tree Gifts persist after tree removal",
+    "title": "Tree Gifts after full tree removal",
     "category": "Crafting and machines",
     "source_row": 95,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A95:I95",
@@ -2003,11 +2886,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Tree_Gifts"
     ],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Tree Gifts persist after tree removal",
+        "description": "Tree Gifts are awarded only when a Galatea tree is fully chopped. The vanished tree leaves loot, and some gifts include Deep Root. October 18 reports mention full-tree completion and Deep Root offerings.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "Obtaining Tree Gifts, receiving Deep Root and crafting/throwing an item are different actions. No tree or assembly recipe is selected by R6; original controls are incomplete."
+      }
+    ]
   },
   {
     "id": "R091",
-    "title": "Royal Resident special dialogue",
+    "title": "Royal Resident dialogue",
     "category": "Crafting and machines",
     "source_row": 96,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A96:I96",
@@ -2023,11 +2917,22 @@
     "gap": "The ordinary storyline has no established Hunt connection. The negative applies to the recorded dialogue/wait procedure.",
     "background_urls": [],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Royal Resident special dialogue",
+        "description": "An October 25 report checked Royal Resident dialogue and waited for the relevant interaction without progress.",
+        "evidence_label": "Reported",
+        "testing_label": "Tested negative under specified conditions",
+        "gap": "The ordinary storyline has no established Hunt connection. The negative applies to the recorded dialogue/wait procedure."
+      }
+    ]
   },
   {
     "id": "R092",
-    "title": "Eternal Crystal and historic Day/Night recipe",
+    "title": "Eternal Crystal and the old Day/Night recipe",
     "category": "Crafting and machines",
     "source_row": 97,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A97:I97",
@@ -2047,11 +2952,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "Weak leads and unverified hints",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Eternal Crystal and historic Day/Night recipe",
+        "description": "The discontinued Eternal Crystal combined Day and Night Crystals historically; an Alpha/accessory visual led to possible clue/reward speculation. A circulated 'no xp' screenshot attributed to TimeDeo creates a possible conflict with an ordinary accessory reward but lacks complete independent context.",
+        "evidence_label": "Unverified",
+        "testing_label": "Inconclusive",
+        "gap": "No verified current recipe, Hunt reward or R6 trigger. The screenshot's exact meaning and XP type are unconfirmed, so it cannot rule out every accessory outcome."
+      }
+    ]
   },
   {
     "id": "R093",
-    "title": "Promotional No Hint Here / Nice Try text",
+    "title": "Promotional anti-hint text",
     "category": "Crafting and machines",
     "source_row": 98,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A98:I98",
@@ -2066,14 +2982,27 @@
     "testing_label": "Inconclusive",
     "gap": "The original promo and authoritative Journal frames are not linked here. Truncated promotional wording is not independently proven to encode a clue, and no predictive decoder was authenticated.",
     "background_urls": [
-      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
+      "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt",
+      "https://www.youtube.com/shorts/O1iKvCbcC5g"
     ],
     "group_hint": "Weak leads and unverified hints",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Promotional No Hint Here / Nice Try text",
+        "description": "A promotional short reportedly included encoded anti-hint language. Hunters compared promo wording with original Journal screenshots, asking whether absent words or letter arrangements were deliberate.",
+        "evidence_label": "Observed",
+        "testing_label": "Inconclusive",
+        "gap": "The original promo and authoritative Journal frames are not linked here. Truncated promotional wording is not independently proven to encode a clue, and no predictive decoder was authenticated."
+      }
+    ],
+    "website_note": "19–24 Nov source note. Hunters recalled different promotional colors for OVERFROZEN. The official short is linked below. The specific reported frame, color and timecode have not been matched to an original. Compare its typography against native pre-clear text and solved R1 highlighting."
   },
   {
     "id": "R094",
-    "title": "Rune and recipe action versus dropped result",
+    "title": "Assembly events versus offering finished items",
     "category": "Crafting and machines",
     "source_row": 99,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A99:I99",
@@ -2092,11 +3021,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Shards"
     ],
     "group_hint": "Crafting, forging and leftover materials / Previous tests: what a negative means",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Rune and recipe action versus dropped result",
+        "description": "Track making, claiming, fusing and offering separately. Actual Apparatus, Notes, XP-bottle, shard, rune and Forge operations already have reported coverage.",
+        "evidence_label": "Observed",
+        "testing_label": "Partially tested",
+        "gap": "A missing server trace does not make these operations untried. Record the exact action and Journal response."
+      }
+    ]
   },
   {
     "id": "R095",
-    "title": "Remnant of the Eye and Ender Dragon altar",
+    "title": "Remnant of the Eye and altar arrangements",
     "category": "Crafting and machines",
     "source_row": 100,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A100:I100",
@@ -2114,12 +3054,23 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "What could “the body” mean?",
-    "last_reviewed": "2026-11-14",
-    "mapping_note": "The fossil-pattern summary E013 was linked here incorrectly in an earlier website version. It covers R021, not the eight-Remnant procedure. No direct failed test of that proposal is established by E013."
+    "last_reviewed": "2026-11-18",
+    "mapping_note": "The fossil-pattern summary E013 was linked here incorrectly in an earlier website version. It covers R021, not the eight-Remnant procedure. No direct failed test of that proposal is established by E013.",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Remnant of the Eye and Ender Dragon altar",
+        "description": "Remnant of the Eye was proposed as a literal survivor after a vanished entity. One variation imagined gathering eight Remnants into a Dragon-altar-style arrangement, rather than merely dropping an item.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "No verified eight-Remnant recipe or R6-relevant missing body is identified. Older fossil patterns were different experiments and cannot settle the proposed altar action."
+      }
+    ]
   },
   {
     "id": "R096",
-    "title": "Builder Ruler and structure placement",
+    "title": "Builder's Ruler and structure placement",
     "category": "Crafting and machines",
     "source_row": 101,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A101:I101",
@@ -2135,11 +3086,22 @@
     "gap": "Visual glitches are not Journal feedback. The structure's exact location, identity, construction permissions and relevance are unverified.",
     "background_urls": [],
     "group_hint": "",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Builder Ruler and structure placement",
+        "description": "The Builder's Ruler idea interprets 'assemble' as arranging blocks in the world. A report of inventory display glitches and a separate screenshot of an Onyx-like structure under blue ice motivated an environmental theory.",
+        "evidence_label": "Reported",
+        "testing_label": "Inconclusive",
+        "gap": "Visual glitches are not Journal feedback. The structure's exact location, identity, construction permissions and relevance are unverified."
+      }
+    ]
   },
   {
     "id": "R097",
-    "title": "14-slot Journal and seven-note completion",
+    "title": "Fourteen Journal slots and seven-note patterns",
     "category": "Hunt sequence",
     "source_row": 102,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A102:I102",
@@ -2158,11 +3120,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Melody%27s_Hair"
     ],
     "group_hint": "DEFAG, letter counts and the seven-slot row / Journal progress and reliable feedback / Melody's Hair and the playback report",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "14-slot Journal and seven-note completion",
+        "description": "The Journal has fourteen slots in two rows of seven. If the first row uses each natural note once, DEFAG leaves B/C. Melody's Hair instead has 24 chromatic pitches, and earlier playback was reported.",
+        "evidence_label": "Speculative",
+        "testing_label": "Inconclusive",
+        "gap": "The row rule and note order are assumptions. Ordinary GUI width and incomplete playback controls remain alternatives."
+      }
+    ]
   },
   {
     "id": "R098",
-    "title": "Paired offering-name lengths and surviving rules",
+    "title": "Paired offering-name lengths",
     "category": "Hunt sequence",
     "source_row": 103,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A103:I103",
@@ -2180,7 +3153,18 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "DEFAG, letter counts and the seven-slot row / Surviving information and anagrams",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Paired offering-name lengths and surviving rules",
+        "description": "Letters-only offering lengths are 18,18,15,15,14. Adjacent equal pairs would predict another 14-letter name. Physical Journal/Chestplate arrangements were separately reported October 29.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "Only two completed pairs exist. Counting rules, an R6 offering and an extraction/endpoint are not selected."
+      }
+    ]
   },
   {
     "id": "R099",
@@ -2202,11 +3186,11 @@
       "https://hypixel.net/threads/the-dead-mans-hunt.6160407/"
     ],
     "group_hint": "Burps and page-turning sounds",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "R100",
-    "title": "Cocytus, Old Man of Crete, Daniel statue",
+    "title": "Dante's Old Man of Crete and frozen Cocytus",
     "category": "Mythology and stories",
     "source_row": 105,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A105:I105",
@@ -2224,11 +3208,22 @@
       "https://www.ccel.org/d/dante/inferno/infer16.htm"
     ],
     "group_hint": "Dante, the frozen lake and the urn idea",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Cocytus, Old Man of Crete, Daniel statue",
+        "description": "Dante's Old Man of Crete sheds tears that eventually reach frozen Cocytus. The statue stays inside Mount Ida and does not disappear. Earlier in-game mayor-Dante memorial tests are a separate route.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "Daniel's destroyed statue, Dante's frozen lake and guessed armor substitutions cannot be combined into a sourced game instruction."
+      }
+    ]
   },
   {
     "id": "R101",
-    "title": "Ovid ashes, Cretan Bull urn and bone offerings",
+    "title": "Meleager, Narcissus and separate urn tests",
     "category": "Mythology and stories",
     "source_row": 106,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A106:I106",
@@ -2238,19 +3233,32 @@
     "original_gap": "No native urn-filling or selected ash exists. A reported urn-first procedure does not test the proposed ashes-first order.",
     "original_source_text": "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php\nhttps://www.ccel.org/d/dante/inferno/infer16.htm",
     "original_group_hint": "Ovid: falling, calling and feathers / Dante, the frozen lake and the urn idea",
-    "description": "One branch compares Ovid's stories involving remains or memorials with R6. A separate in-game branch investigates the Cretan Bull's urn and Hephaestus-related materials: November 11 reports offered the urn with 206 Bones or 206 Enchanted Bones. These are different hypotheses, not a demonstrated ashes-assembly recipe.",
+    "description": "Meleager's sisters gather his ashes (Ovid VIII.515–546); Narcissus's missing body is replaced by a flower (III.494–510). Qualia explored these in October. A different branch tried Cretan Bull urns and bones; Homer's mixed funeral bones belong to Odyssey XXIV, not Ovid.",
     "evidence_label": "Speculative",
     "testing_label": "Partially tested",
-    "gap": "No chosen ashes item, native urn-filling action, or exact Journal condition. The mixed bone/urn test reports don't establish a controlled negative for Ovid's story, and the stories don't select a SkyBlock item.",
+    "gap": "No game ash-gathering or urn-filling action is selected. Qualia's October 16 campfire + Oxeye Daisy/Spirit Stone report and November 11 urn + 206-bone reports are narrow negatives, not tests of every literary reading. Perdix and Memnon are separate stories (R053/N013).",
     "background_urls": [
-      "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php"
+      "https://www.poetryintranslation.com/PITBR/Latin/Metamorph8.php",
+      "https://www.theoi.com/Text/OvidMetamorphoses3.html",
+      "https://www.theoi.com/Text/HomerOdyssey24.html"
     ],
     "group_hint": "Ovid: falling, calling and feathers / Dante, the frozen lake and the urn idea",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Ovid ashes, Cretan Bull urn and bone offerings",
+        "description": "One branch compares Ovid's stories involving remains or memorials with R6. A separate in-game branch investigates the Cretan Bull's urn and Hephaestus-related materials: November 11 reports offered the urn with 206 Bones or 206 Enchanted Bones. These are different hypotheses, not a demonstrated ashes-assembly recipe.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "No chosen ashes item, native urn-filling action, or exact Journal condition. The mixed bone/urn test reports don't establish a controlled negative for Ovid's story, and the stories don't select a SkyBlock item."
+      }
+    ]
   },
   {
     "id": "R102",
-    "title": "Velyna extinguished fire and hypergolic ceramics",
+    "title": "Velyna, extinguished fire and Forge byproducts",
     "category": "Mythology and stories",
     "source_row": 107,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A107:I107",
@@ -2268,11 +3276,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/The_Forge"
     ],
     "group_hint": "Crafting, forging and leftover materials",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Velyna extinguished fire and hypergolic ceramics",
+        "description": "Velyna's dialogue about rekindling fire prompted a 'flame gone, residue remains' theory. Players compared Portable Campfire, Everburning Flame and a reported Hypergolic Fuel / Ionized Ceramics production route. These are separate ordinary mechanics, not one known disappearance process.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "No documented collectible ash from Portable Campfire, and Everburning Flame is not an ordinary expiring fire. Original Velyna wording and fuel output need independent rechecking before a named R6 recipe is proposed."
+      }
+    ]
   },
   {
     "id": "R103",
-    "title": "Fossil Muncher donation-to-Suspicious Scrap",
+    "title": "Fossil Muncher and Suspicious Scrap",
     "category": "Body and lore",
     "source_row": 108,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A108:I108",
@@ -2291,11 +3310,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Suspicious_Scrap"
     ],
     "group_hint": "Crafting, forging and leftover materials",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Fossil Muncher donation-to-Suspicious Scrap",
+        "description": "The Fossil Muncher accepts the requested Fossil and gives 100 Fossil Essence. Researcher Beryl sells Suspicious Scrap for 100 Essence; the Scrap can then be consumed in the Excavator. This is a real fossil → currency → item sequence proposed as R6's 'assemble the remains' action. November reports interacted with the Muncher.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "No recovered complete R6-stage feed → reward → purchase → offer sequence with Journal checkpoints. Currency exchange is not automatically the 'assembly' intended by the clue."
+      }
+    ]
   },
   {
     "id": "R104",
-    "title": "Held remainder while separate offering disappears",
+    "title": "Held remnant with a disappearing offering",
     "category": "Hunt sequence",
     "source_row": 109,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A109:I109",
@@ -2313,11 +3343,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Dead_Man%27s_Hunt"
     ],
     "group_hint": "An item plus a condition / Previous tests: what a negative means",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Held remainder while separate offering disappears",
+        "description": "Instead of throwing all ingredients, R6 might require a player to hold, wear or carry one surviving item while a different object is consumed at the lake. October 24 reports held a second Journal during Chestplate/book offerings; November 3 reports used Star Sentry Shard equipment or held-item conditions.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "Holding, wearing and inventory presence are different states. No clue selects the item pair; prior partial trials cannot establish a universal negative for all item-state combinations."
+      }
+    ]
   },
   {
     "id": "N001",
-    "title": "Scavenged Divan's Tools",
+    "title": "Scavenged Divan tools and the Jade Crystal",
     "category": "Later additions",
     "source_row": 110,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A110:I110",
@@ -2335,11 +3376,22 @@
       "https://hypixelskyblock.minecraft.wiki/w/Keepers_of_Divan"
     ],
     "group_hint": "Scavenged Divan's Tools",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Scavenged Divan's Tools",
+        "description": "The Keepers of Divan normally accept four distinct recovered Scavenged Items and then award a Jade Crystal. An R6 hypothesis transfers this assembly concept to the Great Glacite Lake, using a four-tool arrangement or return state. November 10–11 tests reportedly included multiple tool arrangements and anvil locations.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "The authentic four-Keeper progression happens at the Mines of Divan and is not an established Hunt ritual. The older reports don't document uniform R6-stage and Journal results for every setup."
+      }
+    ]
   },
   {
     "id": "N002",
-    "title": "Mysterious Meat and expiring effect",
+    "title": "Mysterious Meat and its expiring effect",
     "category": "Later additions",
     "source_row": 111,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A111:I111",
@@ -2355,7 +3407,18 @@
     "gap": "The main proposed consumption action appears unavailable in the reported location. No authenticated expiry + pet + Journal result is known; this must not be confused with Mysterious Crop.",
     "background_urls": [],
     "group_hint": "Weak leads and unverified hints",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Mysterious Meat and expiring effect",
+        "description": "Mysterious Meat was proposed as a consumable whose effect expires or changes on warping, leaving an effect/state to combine with another action. A November 11 report said it could not be eaten at the lake, and another branch proposed a Spirit-pet condition.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "The main proposed consumption action appears unavailable in the reported location. No authenticated expiry + pet + Journal result is known; this must not be confused with Mysterious Crop."
+      }
+    ]
   },
   {
     "id": "N003",
@@ -2375,11 +3438,11 @@
     "gap": "An unspecified secret recipe has no defined inputs, station or output, so it cannot currently be meaningfully tested or used to exclude older attempts.",
     "background_urls": [],
     "group_hint": "Weak leads and unverified hints",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "N004",
-    "title": "GIVE. COME. END. hint claim",
+    "title": "Cokol's GIVE / COME / END sequence",
     "category": "Later additions",
     "source_row": 113,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A113:I113",
@@ -2389,13 +3452,26 @@
     "original_gap": "No authenticated developer origin, original context or successful prediction was established.",
     "original_source_text": "",
     "original_group_hint": "Weak leads and unverified hints",
-    "description": "A circulated phrase 'GIVE. COME. END.' was suggested as a possible R6 hint, implying offer → arrival → ending. The archive has no authenticated origin or full context for this text.",
-    "evidence_label": "Unverified",
+    "description": "Original posts by cokol0800 were located on October 25 at 18:47 and 22:00. On November 18 at 09:14, Cokol used Sapphire/Amethyst progression as an analogy: give an item, approach a crystal, finish by placing it. This is a player's proposed action pattern.",
+    "evidence_label": "Reported",
     "testing_label": "Not tested",
-    "gap": "Rumor only; the phrase is too broad to select one action. Do not attribute it to the developers or label its implied steps verified without a dated primary source.",
-    "background_urls": [],
+    "gap": "Correction to the earlier unknown-origin label: dated player posts exist. Whether Cokol coined the phrase is unresolved. No developer attribution or R6 trigger is authenticated. The November 18 Sapphire/Nucleus failure is a separate, limited report.",
+    "background_urls": [
+      "https://discord.com/channels/996884296860172469/1557053759740448909/1572525389773799455"
+    ],
     "group_hint": "Weak leads and unverified hints",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "GIVE. COME. END. hint claim",
+        "description": "A circulated phrase 'GIVE. COME. END.' was suggested as a possible R6 hint, implying offer → arrival → ending. The archive has no authenticated origin or full context for this text.",
+        "evidence_label": "Unverified",
+        "testing_label": "Not tested",
+        "gap": "Rumor only; the phrase is too broad to select one action. Do not attribute it to the developers or label its implied steps verified without a dated primary source."
+      }
+    ]
   },
   {
     "id": "N005",
@@ -2417,7 +3493,7 @@
       "https://hypixelskyblock.minecraft.wiki/w/Attributes"
     ],
     "group_hint": "Shard fusion and the Dodo lead",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "N006",
@@ -2439,7 +3515,7 @@
       "https://hypixelskyblock.minecraft.wiki/w/Attributes"
     ],
     "group_hint": "Shard fusion and the Dodo lead",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "N007",
@@ -2461,11 +3537,11 @@
       "https://ovid.lib.virginia.edu/trans/Metamorph3.htm"
     ],
     "group_hint": "Stories & mythology / Echo",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18"
   },
   {
     "id": "N008",
-    "title": "Echo as repeated chat or call-and-response",
+    "title": "Echo: repeated chat or call-and-response",
     "category": "Later additions",
     "source_row": 117,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A117:I117",
@@ -2483,11 +3559,23 @@
       "https://www.yorku.ca/pswarney/Texts/ovid-met-3.htm"
     ],
     "group_hint": "Reading R6 / Voice and communication",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Echo as repeated chat or call-and-response",
+        "description": "An operational branch of N007: Echo repeats the end of someone else's speech. The proposed Hunt action is repeating a player's chat or using a two-person call-and-response at the lake. The historical item/music experiments do not establish this chat procedure.",
+        "evidence_label": "Speculative",
+        "testing_label": "Not tested",
+        "gap": "No exact phrase, required players, chat parsing evidence or verified R6-specific response. Should not be tested at random without a stronger selector."
+      }
+    ],
+    "website_note": "19 Nov research note. The lake-message extension has no identified speaker, listener or fixed phrase. A documented chat trigger in another hunt does not select a phrase or action here."
   },
   {
     "id": "N009",
-    "title": "Orpheus: lyre, surviving song and river",
+    "title": "Orpheus: surviving head, lyre and song",
     "category": "Later additions",
     "source_row": 118,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A118:I118",
@@ -2506,11 +3594,22 @@
       "https://discord.com/channels/996884296860172469/1557376084121616476/1570599492351303732"
     ],
     "group_hint": "Stories & mythology / Orpheus",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Orpheus: lyre, surviving song and river",
+        "description": "Ovid's Orpheus story has his head and lyre carried by a river after his body is lost, while sound continues. November 13 tests used Melody's Hair, Personal Harp, Tuning Fork and helmets during Better Together, but mixed several variables and did not identify an Orpheus-specific R6 trigger.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "Orpheus's lyre is not known to play DEFAG, and survival of an instrument is different from assembling it. The item/music tests are at most related partial trials."
+      }
+    ]
   },
   {
     "id": "N010",
-    "title": "Melody's destroyed harp and The Rebuild",
+    "title": "Melody's damaged harp and The Rebuild",
     "category": "Later additions",
     "source_row": 119,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A119:I119",
@@ -2529,11 +3628,22 @@
       "https://en.wikisource.org/wiki/Kalevala_(Kirby_1907)/Runo_44"
     ],
     "group_hint": "Stories & mythology / Musical instruments",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Melody's destroyed harp and The Rebuild",
+        "description": "Melody's The Rebuild quest requires 512 Acacia Logs to help repair a storm-damaged harp. Researchers compared this actual rebuild with a separate Kalevala story about replacing a lost kantele. Reported Melody's Hair/music tests did not reproduce the one-time repair at R6.",
+        "evidence_label": "Observed",
+        "testing_label": "Partially tested",
+        "gap": "There is no demonstrated lake connection. The quest does not prove its remaining strings are salvage from the storm, and old note/item offerings do not test harp reconstruction."
+      }
+    ]
   },
   {
     "id": "N011",
-    "title": "DEFAGB with Better Together: event and note sequence",
+    "title": "DEFAGB with Better Together timing",
     "category": "Later additions",
     "source_row": 120,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A120:I120",
@@ -2552,7 +3662,18 @@
       "https://discord.com/channels/996884296860172469/1557376084121616476/1570599492351303732"
     ],
     "group_hint": "Patterns & messages / Better Together and notes",
-    "last_reviewed": "2026-11-14"
+    "last_reviewed": "2026-11-18",
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "DEFAGB with Better Together: event and note sequence",
+        "description": "A speculative combination: earlier answer initials form D E F A G, while Better Together provides B, suggesting a DEFAGB note sequence played during the event or after it ends. November 13 reports tried tuning-fork DEFAG and uncertain Melody's Hair notes during an active event with additional item drops.",
+        "evidence_label": "Speculative",
+        "testing_label": "Partially tested",
+        "gap": "No clue proves Better Together should supply B or that the lake recognizes music. The reported mixed active-event experiments were not a controlled DEFAGB plus post-ending check."
+      }
+    ]
   },
   {
     "id": "N012",
@@ -2562,7 +3683,7 @@
     "original_gap": "The original shadow image and a repeatable numeric light-state test are missing. Visual darkness, client rendering and genuine light levels should not be treated as interchangeable. An ordinary Crystal Armor trial did not isolate this condition.",
     "original_source_text": "https://hypixelskyblock.minecraft.wiki/w/Crystal_Armor\nhttps://minecraft.wiki/w/Light",
     "original_group_hint": "Environmental conditions / shadow, lighting and actual light level",
-    "title": "Great Glacite Lake shadow and measured light levels",
+    "title": "Lake shadow versus actual light level",
     "category": "Later additions",
     "source_row": 121,
     "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A121:I121",
@@ -2575,7 +3696,68 @@
       "https://minecraft.wiki/w/Light"
     ],
     "group_hint": "Environmental conditions / shadow, lighting and actual light level",
-    "last_reviewed": "2026-11-14",
-    "previously_published": false
+    "last_reviewed": "2026-11-18",
+    "previously_published": false,
+    "previous_versions": [
+      {
+        "version": "0.6.0",
+        "reviewed_at": "2026-11-14",
+        "title": "Great Glacite Lake shadow and measured light levels",
+        "description": "Amotorem reported a large dark-looking shape over Great Glacite Lake with Night Vision off, and hunters compared darker promotional footage. One theory interprets the visible shadow as a missing body; another proposes a precise actual light-level condition. Crystal Armor responds to in-game lighting, whereas Night Vision affects how bright a scene looks.",
+        "evidence_label": "Reported",
+        "testing_label": "Partially tested",
+        "gap": "The original shadow image and a repeatable numeric light-state test are missing. Visual darkness, client rendering and genuine light levels should not be treated as interchangeable. An ordinary Crystal Armor trial did not isolate this condition."
+      }
+    ]
+  },
+  {
+    "id": "N013",
+    "original_description": "Ovid XIII.576–622: Memnon's pyre collapses, ashes take bird form, and the flock circles three times before dividing on its fourth flight. Amotorem forwarded derfla false's comparison on November 17 at 09:13; it is separate from Perdix.",
+    "original_evidence_label": "Speculative",
+    "original_testing_label": "Inconclusive",
+    "original_gap": "No selected SkyBlock ash-to-bird assembly or R6-stage procedure. Circuits in a poem do not establish a three-drop rule. No matching result located in this focused review does not mean nobody tested it.",
+    "original_source_text": "https://www.theoi.com/Text/OvidMetamorphoses13.html\nhttps://discord.com/channels/996884296860172469/1560338241696301076/1572162655752421430\nhttps://discord.com/channels/996884296860172469/1560338241696301076/1572162717043916862",
+    "original_group_hint": "Stories & mythology / Memnon",
+    "previously_published": false,
+    "title": "Memnon: funeral ashes become a flock of birds",
+    "category": "Later additions",
+    "description": "Ovid XIII.576–622: Memnon's pyre collapses, ashes take bird form, and the flock circles three times before dividing on its fourth flight. Amotorem forwarded derfla false's comparison on November 17 at 09:13; it is separate from Perdix.",
+    "evidence_label": "Speculative",
+    "testing_label": "Inconclusive",
+    "gap": "No selected SkyBlock ash-to-bird assembly or R6-stage procedure. Circuits in a poem do not establish a three-drop rule. No matching result located in this focused review does not mean nobody tested it.",
+    "background_urls": [
+      "https://www.theoi.com/Text/OvidMetamorphoses13.html",
+      "https://discord.com/channels/996884296860172469/1560338241696301076/1572162655752421430",
+      "https://discord.com/channels/996884296860172469/1560338241696301076/1572162717043916862"
+    ],
+    "group_hint": "Stories & mythology / Memnon",
+    "source_row": 122,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A122:I122",
+    "last_reviewed": "2026-11-18"
+  },
+  {
+    "id": "N014",
+    "original_description": "Ovid IX.239–272 contrasts Heracles's burning mortal part with his surviving divine form. The earlier Lichas/hail episode was compared with R1–R2. Derfla false's continuation prompted Amotorem's November 17 snake/star offering tests.",
+    "original_evidence_label": "Speculative",
+    "original_testing_label": "Partially tested",
+    "original_gap": "Apotheosis is not a source instruction to assemble an object. Mixed snake shards/runes, Starfall, Starlight armor/wand and Fallen Star Helmet trials are reported; Titanoboa Shed was explicitly omitted. None selects a new paid test.",
+    "original_source_text": "https://www.theoi.com/Text/OvidMetamorphoses9.html\nhttps://discord.com/channels/996884296860172469/1557376084121616476/1572085180200390776\nhttps://discord.com/channels/996884296860172469/1557376084121616476/1572125179696513075",
+    "original_group_hint": "Stories & mythology / Heracles and Lichas",
+    "previously_published": false,
+    "title": "Heracles: mortal form burns, immortal part survives",
+    "category": "Later additions",
+    "description": "Ovid IX.239–272 contrasts Heracles's burning mortal part with his surviving divine form. The earlier Lichas/hail episode was compared with R1–R2. Derfla false's continuation prompted Amotorem's November 17 snake/star offering tests.",
+    "evidence_label": "Speculative",
+    "testing_label": "Partially tested",
+    "gap": "Apotheosis is not a source instruction to assemble an object. Mixed snake shards/runes, Starfall, Starlight armor/wand and Fallen Star Helmet trials are reported; Titanoboa Shed was explicitly omitted. None selects a new paid test.",
+    "background_urls": [
+      "https://www.theoi.com/Text/OvidMetamorphoses9.html",
+      "https://discord.com/channels/996884296860172469/1557376084121616476/1572085180200390776",
+      "https://discord.com/channels/996884296860172469/1557376084121616476/1572125179696513075"
+    ],
+    "group_hint": "Stories & mythology / Heracles and Lichas",
+    "source_row": 123,
+    "source_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=1865734368&range=A123:I123",
+    "last_reviewed": "2026-11-18"
   }
 ]

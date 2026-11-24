@@ -1,11 +1,11 @@
 {
-  "version": "0.6.0",
-  "reviewed_at": "2026-11-15",
-  "archive_snapshot": "2026-11-14",
+  "version": "0.7.0",
+  "reviewed_at": "2026-11-24",
+  "archive_snapshot": "2026-11-24",
   "riddle": "To find out which comes next, the body is not enough. Assemble that which remains when it is gone.",
   "progress_note": "The linked sources document R1–R5. They do not establish an R6 completion.",
   "archive_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit",
-  "source_scope": "The 14 November editorial update covers 116 route records, 27 interpretations and 90 detailed breakdowns. The sheet preserves historical testing summaries; it is not an independent replay of every player experiment. Individually attributed reports remain separate from summaries and proposals.",
+  "source_scope": "The November 24 release preserves the route inventory and adds I028 and I029 in both the website and public spreadsheet. Earlier review dates, contributor credits, and limits on test outcomes are retained.",
   "statuses": [
     "Active",
     "Watchlist",
@@ -32,5 +32,14 @@
   ],
   "disclosure": "I made this archive to keep our Dead Man’s Hunt research in one place. I used ChatGPT and Sol to help analyze notes, organize findings, review sources and build the site. The assessments are my research priorities; original ideas and tests belong to the hunters credited in their sources.",
   "interpretations_url": "https://docs.google.com/spreadsheets/d/1vBImKo6nHdOYUrOOYPr6iL0utDjZ6KK3E2K1bWv4Lck/edit#gid=20261113",
-  "site_name": "Dead Man's Hunt Research Archive"
+  "site_name": "Dead Man's Hunt Research Archive",
+  "current_focus_route_ids": [
+    "R094"
+  ],
+  "release_name": "The Recognition Problem",
+  "current_focus_question_ids": [
+    "Q007",
+    "Q008",
+    "Q009"
+  ]
 }

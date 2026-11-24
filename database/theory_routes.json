@@ -623,5 +623,15 @@
     "route_id": "N012",
     "theory_id": "T020",
     "relation": "Environmental condition; 14 November editorial source"
+  },
+  {
+    "route_id": "N013",
+    "theory_id": "T010",
+    "relation": "Distinct literary comparison; 18 November source update"
+  },
+  {
+    "route_id": "N014",
+    "theory_id": "T010",
+    "relation": "Distinct literary comparison; 18 November source update"
   }
 ]

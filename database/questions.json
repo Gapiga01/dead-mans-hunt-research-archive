@@ -55,9 +55,9 @@
     "topic": "Event ending",
     "state": "Open",
     "why": "Playing during the active event and assembling after it ends are different procedures.",
-    "known": "The ending message mentions surviving spirit. That does not establish a lasting effect or Hunt condition.",
-    "answer_needed": "A report showing the actual event end, group action and Journal checks immediately before and afterward.",
-    "how": "Look for an existing complete report first. If a free observation is made, log the event transition and separate any later music or item drops.",
+    "known": "The ending message describes surviving spirit. AR-07 reports no R6 advance after five region representatives returned to the lake. It does not establish a lasting effect or document staying together through the ending.",
+    "answer_needed": "A continuous record of a group already at the lake through the ending, with a Journal check on both sides of the transition.",
+    "how": "Look for an existing complete record. Compare staying in place with the reported regrouping, and separate music or item drops from the event transition.",
     "would_change": "A timed advance would select an action to reproduce. No change would cover only the recorded group/location setup.",
     "interpretation_ids": [
       "R6I010",
@@ -70,7 +70,8 @@
     ],
     "source_ids": [
       "S006",
-      "S007"
+      "S007",
+      "S057"
     ],
     "priority": "Start here"
   },
@@ -162,5 +163,82 @@
       "S013"
     ],
     "priority": "Follow up"
+  },
+  {
+    "id": "Q007",
+    "title": "Which tooltip colors were available before a solve?",
+    "topic": "Journal evidence",
+    "state": "Needs source check",
+    "why": "A usable clue must be available when the player is meant to recognize it.",
+    "known": "The R1 recording distinguishes the Chestplate before completion and the highlighted solved Journal. It is not a stock-client comparison. The November 24 video claim remains unverified.",
+    "answer_needed": "The original video and timecodes, plus native pre-clear and solved tooltips for comparison.",
+    "how": "Capture R6 and comparable solved and locked entries on a stock client. Record version, packs, mods and advanced-tooltip setting. Compare native text, solved hints and video overlays separately.",
+    "would_change": "A reproducible pre-clear difference over ordinary Journal formatting could select an input for a fixed rule.",
+    "interpretation_ids": [
+      "R6I008",
+      "R6I013",
+      "R6I028"
+    ],
+    "theory_ids": [
+      "T003"
+    ],
+    "source_ids": [
+      "S052",
+      "S053",
+      "S054"
+    ],
+    "priority": "Start here"
+  },
+  {
+    "id": "Q008",
+    "title": "What survives a first R5 clear on Main?",
+    "topic": "Journal evidence",
+    "state": "Open",
+    "why": "A returned object and a retained Journal instruction would support different follow-up questions.",
+    "known": "The Alpha clip shows the visible drops disappear and the solved condition remain readable. It lacks a full pickup or inventory check.",
+    "answer_needed": "An uncut first clear on Main with the lake surface, inventory, messages and newly opened R6 tooltip.",
+    "how": "Look for an existing original recording. Compare before the Feather arrives through disappearance, any pickup, and the R6 Journal opening.",
+    "would_change": "A documented return would select a physical object to investigate. Its absence in a complete capture would narrow that procedure.",
+    "interpretation_ids": [
+      "R6I013",
+      "R6I029"
+    ],
+    "theory_ids": [
+      "T001",
+      "T002",
+      "T003"
+    ],
+    "source_ids": [
+      "S052",
+      "S036",
+      "S038"
+    ],
+    "priority": "Start here"
+  },
+  {
+    "id": "Q009",
+    "title": "What originally pointed hunters to the R2–R5 actions?",
+    "topic": "Discovery history",
+    "state": "Needs source check",
+    "why": "A known successful action and the evidence that first suggested it answer different questions.",
+    "known": "R1 offers a genuine extraction control. For R5, the available explanation by Jonas / JustCody followed the successful attempt.",
+    "answer_needed": "Dated pre-success messages or recordings identifying the clue or observation that selected the item and conditions.",
+    "how": "Trace each stage separately. Label successful procedure, contemporary reasoning and retrospective explanation in chronological order.",
+    "would_change": "A documented recognition path would tell us which cues are reasonable to investigate for R6.",
+    "interpretation_ids": [
+      "R6I008",
+      "R6I013",
+      "R6I028"
+    ],
+    "theory_ids": [
+      "T002",
+      "T003"
+    ],
+    "source_ids": [
+      "S004",
+      "S052",
+      "S053"
+    ],
+    "priority": "Start here"
   }
 ]

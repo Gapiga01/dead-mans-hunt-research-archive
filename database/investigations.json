@@ -299,5 +299,435 @@
       "S045"
     ],
     "updates": "L005"
+  },
+  {
+    "id": "L007",
+    "date": "2026-11-18",
+    "topic": "Lake narrative",
+    "title": "Personification fits; a living lake is not established",
+    "hypothesis": "Hungry, awakening and calling language might describe a continuous lake story.",
+    "status": "Watchlist",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I compared the R1–R5 narrative with documented offering conditions and the official development roadmap.",
+    "why": "R1 consumption wording, R2 awakening and R4 calling give the reading a direct Hunt basis.",
+    "evidence": [
+      {
+        "label": "Reported",
+        "text": "The owner’s recording comparison reports R1 consumption text describing the lake as still ravenous."
+      },
+      {
+        "label": "Confirmed",
+        "text": "R2 says an offering may wake it; R4 says it does not heed the first two calls."
+      },
+      {
+        "label": "Confirmed",
+        "text": "Jayavarmen’s December 2024 roadmap proposed a lake-offering system. This is historical development context, not proof of its use in the Hunt."
+      }
+    ],
+    "against": [
+      "The lake is already hungry before the supposed awakening. R3 distance does not demonstrate distrust.",
+      "The player supplies the R5 Griffin Feather; the lake is not observed returning it. No specific body, survivor or assembly is selected."
+    ],
+    "assessment": "I retain the narrative reading, but I have not established literal sentience or an R6 action. It does not reopen the separate disappearing-water reading.",
+    "next_evidence": "An original game line or observable interaction identifying the subject, a survivor and a usable operation.",
+    "route_ids": [
+      "R001",
+      "R004",
+      "R050",
+      "R099"
+    ],
+    "theory_ids": [
+      "T001",
+      "T002",
+      "T016"
+    ],
+    "interpretation_ids": [],
+    "source_ids": [
+      "S001",
+      "S009",
+      "S032",
+      "S033",
+      "S051"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L008",
+    "date": "2026-11-18",
+    "topic": "Puzzle audio",
+    "title": "The sound split remains a qualified observation",
+    "hypothesis": "Burp-like R1/R2 audio and book-like R2–R5 audio may serve different feedback purposes.",
+    "status": "Reference only",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I revisited the original November 8 observation and the earlier recording-comparison findings; I did not replay the recordings in this November 18 follow-up.",
+    "why": "The reported disappearance of the burp after R2 could distinguish an awakening story from ordinary offering/Journal feedback.",
+    "evidence": [
+      {
+        "label": "Reported",
+        "text": "The owner reports: R1 burp plus another sound without a page turn; R2 burp and page turn; R3–R5 page turns without a burp."
+      },
+      {
+        "label": "Observed",
+        "text": "The earlier analysis found localized burp-sample matches in R1/R2 and book-sample matches around R2–R5 progression. That strengthens the observation within those clips, not a private server event ID."
+      }
+    ],
+    "against": [
+      "The page-turn and librarian events share samples, so waveform resemblance cannot distinguish their exact event IDs.",
+      "Client settings, sound origin, distance and overlapping sounds remain confounds. No independent recording comparison establishes a universal rule."
+    ],
+    "assessment": "I keep this as reference evidence. Neither awakening nor ordinary feedback currently selects an R6 completion action.",
+    "next_evidence": "Align existing recordings with item arrival/disappearance and Journal notification/advancement, then compare independent clips where available.",
+    "route_ids": [
+      "R099"
+    ],
+    "theory_ids": [
+      "T011"
+    ],
+    "interpretation_ids": [],
+    "source_ids": [
+      "S009",
+      "S001"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L009",
+    "date": "2026-11-18",
+    "topic": "Journal patterns",
+    "title": "Seven observations still yield no fixed R6 instruction",
+    "hypothesis": "Earlier information may be useful, but the patterns do not yet define an extraction or action.",
+    "status": "Watchlist",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I compared the seven evidence summaries, the fixed letter-count and B/C predictions, and the second-Journal report.",
+    "why": "R1 establishes a genuine acrostic, making information reconstruction worth examining without forcing every pattern into one code.",
+    "evidence": [
+      {
+        "label": "Confirmed",
+        "text": "R1 uses THROWINLAKE; R4 repeated arrivals and R5 pre-existing Calling units have documented conditions."
+      },
+      {
+        "label": "Reported",
+        "text": "JJSR reports matching solved entries on a second Journal with a different UUID. Audio identities remain qualified."
+      }
+    ],
+    "against": [
+      "DEFAG, paired lengths and a seven-wide layout are different observations, not independent proofs of one decoder.",
+      "No fixed rule currently combines authentic inputs into a justified R6 action."
+    ],
+    "assessment": "I retain the meta-puzzle on my watchlist. The possible 14-letter answer and B/C continuation stay fixed predictions, not confirmed discoveries.",
+    "next_evidence": "Compare the seven expandable summaries on Explore R6; require a rule selected before its desired output.",
+    "route_ids": [
+      "R002",
+      "R003",
+      "R010",
+      "R097",
+      "R098",
+      "R099"
+    ],
+    "theory_ids": [
+      "T003",
+      "T004"
+    ],
+    "interpretation_ids": [],
+    "source_ids": [
+      "S001",
+      "S031",
+      "S047"
+    ],
+    "updates": "L001"
+  },
+  {
+    "id": "L010",
+    "date": "2026-11-18",
+    "topic": "Assembly operations",
+    "title": "Assembly events and finished offerings are different tests",
+    "hypothesis": "R094 asks whether the assembly event, rather than a finished item, could matter.",
+    "status": "Active",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I separated crafting, completing a Forge process, claiming its output, fusing components and offering a finished object.",
+    "why": "These are distinct player actions; an ordinary finished-item negative need not cover all of them.",
+    "evidence": [
+      {
+        "label": "Observed",
+        "text": "R094 is the sole Active detailed entry in the November 18 spreadsheet snapshot."
+      },
+      {
+        "label": "Interpretation",
+        "text": "An assembly-event check is a research-method priority, not an identified R6 solution."
+      }
+    ],
+    "against": [
+      "No independently selected item and operation emerge merely from distinguishing game events.",
+      "Actual historical assembly attempts exist; incomplete records do not establish that an action is untested."
+    ],
+    "assessment": "I kept R094 as a method question in this review. The current research focus is how to identify a particular assembly action from original evidence.",
+    "next_evidence": "Select a source-supported operation and compare it with the exact historical procedures. See the later solution-discovery entry for current priorities.",
+    "route_ids": [
+      "R094"
+    ],
+    "theory_ids": [
+      "T018"
+    ],
+    "interpretation_ids": [],
+    "source_ids": [
+      "S001",
+      "S031"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L011",
+    "date": "2026-11-18",
+    "topic": "Parking decisions",
+    "title": "Parked action candidates and the Chest-perk correction",
+    "hypothesis": "Keep inactive leads accessible without mistaking a parked decision for a disproven mechanic.",
+    "status": "Parked",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I reviewed hint provenance, missing survivor/assembly conditions and the corrected Dead Man’s Chest reports.",
+    "why": "The log should record meaningful decisions while the Parking Lot and route pages retain the full reasoning.",
+    "evidence": [
+      {
+        "label": "Reported",
+        "text": "N004 remains a player-associated GIVE / COME / END claim; official-hint provenance is unauthenticated."
+      },
+      {
+        "label": "Interpretation",
+        "text": "Disappearing water, surviving immortality, soul effects, incomplete armor and salvage do not currently select a supported R6 operation."
+      },
+      {
+        "label": "Confirmed",
+        "text": "Dead Man’s Chest is a HOTM perk. The related plate procedures and their outcomes remain qualified."
+      }
+    ],
+    "against": [
+      "Parked does not mean Tested negative or Disproven.",
+      "A related narrative or recipe does not automatically address the reason the original approach was parked."
+    ],
+    "assessment": "I keep these action candidates parked and preserve the detailed records. I would reopen one when new evidence addresses its stated missing condition.",
+    "next_evidence": "Use the full Parking Lot and the linked records for each reason and reopening criterion.",
+    "route_ids": [
+      "N004",
+      "N014",
+      "R020"
+    ],
+    "theory_ids": [],
+    "interpretation_ids": [
+      "R6I009",
+      "R6I002",
+      "R6I005",
+      "R6I007"
+    ],
+    "source_ids": [
+      "S001",
+      "S031",
+      "S048",
+      "S049",
+      "S050"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L012",
+    "date": "2026-11-24",
+    "topic": "Journal evidence",
+    "title": "The R1 and R5 clips give two different controls",
+    "hypothesis": "Compare what the player could see before a clear with what the Journal preserves afterward.",
+    "status": "Needs verification",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I compared the November 24 sampled-frame findings with the Journal transcriptions and earlier successful procedures.",
+    "why": "Post-solve highlighting and a retained solution field can look like clues to the next step. Their timing matters.",
+    "evidence": [
+      {
+        "label": "Observed",
+        "text": "R1’s recorded Chestplate lacks the singled-out red initials seen in the solved Journal. R5’s visible drops disappear, while its solved condition is still readable."
+      },
+      {
+        "label": "Observed",
+        "text": "The R4 and R5 solved fields preserve the Calling type and quantity. R4 needs three arrivals, while R5 needs three units already present when the Feather arrives."
+      }
+    ],
+    "against": [
+      "The client has unusual wording and rendering, so these frames are not a stock-client formatting control.",
+      "The R5 footage is from Alpha and lacks a complete pickup and inventory checkpoint."
+    ],
+    "assessment": "I want the native Journal fields and a first clear on Main before treating a color or possible surviving object as a clue.",
+    "next_evidence": "Recover the source video and exact timecodes, a stock-client R6 tooltip and an uncut first R5 clear on Main.",
+    "theory_ids": [
+      "T001",
+      "T002",
+      "T003"
+    ],
+    "route_ids": [
+      "R001",
+      "R002",
+      "R004",
+      "R050"
+    ],
+    "interpretation_ids": [
+      "R6I028",
+      "R6I029"
+    ],
+    "source_ids": [
+      "S052",
+      "S032",
+      "S036",
+      "S038"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L013",
+    "date": "2026-11-24",
+    "topic": "Discovery history",
+    "title": "The Alpha announcement redacted the Hunt details",
+    "hypothesis": "Separate when the Hunt was announced from what anyone documented about R6.",
+    "status": "Reference only",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I compared the existing August Alpha and October release references with the historical source notes and the R5 discovery summary.",
+    "why": "Launch dates, sponsor involvement and statements about a tested solution are different claims.",
+    "evidence": [
+      {
+        "label": "Confirmed",
+        "text": "The August 25 Alpha announcement listed Hunt (Dra2oon) with details redacted. The October 6 release documents the Hunt’s launch."
+      },
+      {
+        "label": "Reported",
+        "text": "AR-03 credits Jonas / JustCody’s October 7 success. The archived association with past offerings, feathers and item initials was explained afterward."
+      }
+    ],
+    "against": [
+      "The listing does not identify the designer or establish the final R6 wording, playability or validator before launch.",
+      "An original dated developer statement establishing successful R6 testing was not recovered in this review. The recap does not establish any R6-specific hotfix."
+    ],
+    "assessment": "I will keep Dragoon’s design involvement and the reported TimeDeo test qualified until original sources establish them.",
+    "next_evidence": "Look for dated pre-success recognition messages and original developer context that separates knowing, testing and designing a solution.",
+    "theory_ids": [
+      "T002",
+      "T003"
+    ],
+    "route_ids": [
+      "R004",
+      "R050",
+      "R093"
+    ],
+    "interpretation_ids": [],
+    "source_ids": [
+      "S046",
+      "S041",
+      "S053"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L014",
+    "date": "2026-11-24",
+    "topic": "Community reports",
+    "title": "Three lakes and video colors need different evidence",
+    "hypothesis": "Several ideas reappeared on November 24. The reports vary in what was actually tried or shown.",
+    "status": "Needs verification",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I grouped the excerpted reports with existing route families and separated procedures from proposals.",
+    "why": "The goal is to retain the new detail without treating a recycled guess or missing outcome as a result.",
+    "evidence": [
+      {
+        "label": "Reported",
+        "text": "12:57: Mcskye22 reported offering 206 enchanted bones across three lakes. The Journal outcome was not visible. See E016 and the existing R024 route."
+      },
+      {
+        "label": "Interpretation",
+        "text": "13:01–13:08: ascari proposed assembling resources from different lakes, revisited Braided Griffin Feather, and floated a HOTM reset and refunded powder. No specific new assembly result was reported."
+      },
+      {
+        "label": "Unverified",
+        "text": "13:04–13:29: Mcskye22, ascari and Carrot discussed possibly colored words and a spectrogram in a video. The original clip, timecodes and native-versus-editor distinction remain unresolved."
+      },
+      {
+        "label": "Reported",
+        "text": "14:15: Run4fight said gemstones had been tried. The exact gemstones, setup and Journal outcome were unspecified."
+      }
+    ],
+    "against": [
+      "This is an excerpt of channel discussion. The attachments and exact original post links were not available in the review."
+    ],
+    "assessment": "I would resolve the original video source first. The reports do not select a new recipe or justify repeating broad offers.",
+    "next_evidence": "Find the exact video and native game frames. Recover a before-and-after Journal check for the three-lake procedure if one exists.",
+    "theory_ids": [
+      "T003",
+      "T009",
+      "T020"
+    ],
+    "route_ids": [
+      "R024",
+      "R046",
+      "R093"
+    ],
+    "interpretation_ids": [
+      "R6I009",
+      "R6I028",
+      "R6I029"
+    ],
+    "source_ids": [
+      "S054",
+      "S052"
+    ],
+    "updates": null
+  },
+  {
+    "id": "L015",
+    "date": "2026-11-24",
+    "topic": "Solution discovery",
+    "title": "Finding the next action and performing it are separate questions",
+    "hypothesis": "R6 could direct players toward the information needed to recognize an action.",
+    "status": "Active",
+    "featured": false,
+    "publication_state": "approved",
+    "investigated": "I compared physical, informational and mixed readings. The direct check took the first or last letter of each word from the same ordered R1–R6 inputs.",
+    "why": "R1 gives a known case where a textual instruction and an in-game action are distinct.",
+    "evidence": [
+      {
+        "label": "Observed",
+        "text": "The direct word-initial rule returns THROWINLAKE for R1. Neither word-edge rule yields a readable R6 instruction."
+      },
+      {
+        "label": "Interpretation",
+        "text": "“Not enough” refers to finding the next step. The body may be complete for its usual function, and the survivors need not be pieces of it."
+      }
+    ],
+    "against": [
+      "Earlier solved instructions stay readable, but no source selects these fields as inputs to R6 or supplies a fixed assembly rule.",
+      "R1’s hidden Journal emerges intact. It demonstrates revelation without establishing an R6 assembly action."
+    ],
+    "assessment": "I am pursuing original evidence for what a player was supposed to notice. A physical assembly or a separate offering remains possible.",
+    "next_evidence": "Identify one source-selected input or survivor and define a rule with a specific predicted action before attempting any gameplay test.",
+    "theory_ids": [
+      "T001",
+      "T002",
+      "T003"
+    ],
+    "route_ids": [
+      "R001",
+      "R002",
+      "R004",
+      "R010",
+      "R094"
+    ],
+    "interpretation_ids": [
+      "R6I028",
+      "R6I029"
+    ],
+    "source_ids": [
+      "S052",
+      "S053",
+      "S004"
+    ],
+    "updates": null
   }
 ]
