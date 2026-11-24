@@ -30,3 +30,51 @@
 
 /* Small navigation aids reuse the existing colors and type. */
 .clue-explorer-link{margin:0 0 15px;font-size:13px}.clue-explorer-link a{display:inline-block;font-weight:600;padding:5px 0}.reading-foot{flex-wrap:wrap}.clue-explorer,#reading-directory,#reading-filters{scroll-margin-top:20px}.interpretation-card>summary:focus-visible,.investigation-entry>summary:focus-visible,.entry-revisions>summary:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+
+/* v0.7: evidence comparisons and search help, using the existing palette. */
+.search-sheet-link{margin:-7px 0 22px;font-size:12px;line-height:1.8}.search-sheet-link a{display:inline-block;padding:6px 0}.search-sheet-link span{display:block;color:var(--muted);font-size:11px}.home-search+.search-sheet-link{margin-top:-14px}.search-empty{padding:26px;max-width:100%}.search-empty h2{font-size:22px;color:var(--text);margin:0 0 12px}.search-empty p{max-width:680px;margin:12px auto;font-size:13px;line-height:1.8}.search-empty .source-note{font-size:11px}.r6-context{margin:28px 0}.r6-context h2,.meta-overview>h2{font-size:25px;margin:0 0 15px}.meta-overview{margin:32px 0 38px;scroll-margin-top:20px}.meta-overview>p{font-size:14px;line-height:1.9;max-width:900px;color:var(--muted)}.pattern-index{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}.pattern-index a{font-size:11px;border:1px solid var(--line);padding:8px 11px}.pattern-cards{display:grid;gap:10px}.pattern-card{background:var(--panel);border:1px solid var(--line);scroll-margin-top:18px;min-width:0}.pattern-card>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;cursor:pointer;list-style:none;padding:18px 21px}.pattern-card>summary::-webkit-details-marker{display:none}.pattern-card>summary strong{display:block;font-size:16px}.pattern-card>summary small{display:block;font-size:12px;color:var(--muted);line-height:1.75;margin-top:7px;max-width:800px}.pattern-card>summary:focus-visible,.pattern-index a:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.pattern-card[open]>summary{border-bottom:1px solid var(--line)}.pattern-card[open] .expand-symbol{transform:rotate(45deg)}.pattern-card dd,.pattern-card dt{font-size:13px;line-height:1.85}.pattern-card dt{color:var(--accent)}.pattern-card .related-links a{overflow-wrap:anywhere}.source-history{margin-top:18px;border-top:1px solid var(--line);padding-top:12px}.source-history>summary{cursor:pointer;color:var(--ice);font-size:12px}.source-history dt{margin-top:10px;color:var(--muted);font-size:11px}.source-history dd{margin:4px 0 10px;font-size:13px;line-height:1.8}.search-empty .button{white-space:normal;max-width:100%}
+@media(max-width:720px){.search-empty{padding:20px 16px}.search-empty .button{width:100%}.pattern-card>summary{padding:16px;gap:12px}.pattern-card>summary strong{font-size:15px}.pattern-card .note-body{padding:16px}.pattern-index a{font-size:12px}.meta-overview>h2,.r6-context h2{font-size:23px}.search-sheet-link{font-size:12px}}
+
+/* Compact outcome log; full route history stays in the archive. */
+.meta-overview{border:1px solid var(--line);background:var(--panel);margin:20px 0}.meta-overview>summary{cursor:pointer;padding:17px 20px;list-style:none}.meta-overview>summary strong{display:block;font-size:21px}.meta-overview>summary span{font-size:12px;color:var(--muted)}.meta-overview>summary:focus-visible,.older-investigations>summary:focus-visible,.recently-parked>summary:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.meta-body{padding:0 20px 20px}.meta-body>p{font-size:13px;line-height:1.8;color:var(--muted)}.r6-context p{margin:10px 0}.current-focus .current-investigation{padding:12px 15px;margin-top:10px}.current-focus .current-investigation h3{margin:7px 0}.current-focus .current-investigation p{margin:0}.older-investigations,.recently-parked{margin:18px 0;border:1px solid var(--line);padding:14px}.older-investigations>summary,.recently-parked>summary{cursor:pointer;color:var(--ice)}.older-investigations .investigation-feed,.recently-parked .investigation-feed{margin-top:12px}.investigation-entry>summary .log-summary{display:none}.investigation-entry>summary{padding:13px 16px}.newest-log-link{font-size:12px;margin:14px 0}.parked-record{border-bottom:1px solid var(--line);padding:10px 0}.parked-record>summary{cursor:pointer;font-size:13px}.parked-records{margin-top:28px}.parked-record .note-body p{font-size:13px;line-height:1.8}@media(max-width:720px){.meta-body{padding:0 16px 16px}.meta-overview>summary{padding:16px}.meta-overview>summary strong{font-size:19px}}
+.home-status {
+  color: var(--muted);
+  font-size: .875rem;
+  margin-top: 16px;
+}
+.home-status strong { color: var(--accent); }
+.journal-evidence { margin: 32px 0; max-width: 1060px; }
+.journal-evidence > p { margin: 10px 0 16px; }
+.recognition-note {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  margin: 12px 0;
+  scroll-margin-top: 16px;
+}
+.recognition-note > summary {
+  color: var(--ice);
+  cursor: pointer;
+  padding: 12px 16px;
+}
+.recognition-body { padding: 0 16px 16px; }
+.recognition-body article { border-top: 1px solid var(--line); padding: 12px 0; }
+.recognition-body h3 { font-size: 1rem; margin: 8px 0; }
+.recognition-body p { margin: 8px 0; }
+.recognition-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 16px;
+  font-size: .875rem;
+  margin: 10px 0;
+}
+ul.recognition-links { list-style: none; padding: 0; }
+.recognition-body ul { padding-left: 20px; }
+.word-edge-table { margin: 14px 0; }
+.word-edge-table th, .word-edge-table td { padding: 8px 10px; }
+.word-edge-table code { overflow-wrap: anywhere; }
+.riddle-comparison { margin: 24px 0; max-width: 1060px; }
+.riddle-comparison h2 { margin-bottom: 10px; }
+.riddle-comparison .table-wrap:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.riddle-comparison table { min-width: 540px; font-size: .875rem; }
+.riddle-comparison td, .riddle-comparison th { padding: 8px 10px; }
+.riddle-comparison th { font-size: .8125rem; }
